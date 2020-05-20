@@ -3,15 +3,34 @@
 # Models
 *.joblib
 
-# Large directories and Indexes
-ASAPPpy/models/*
+# Datasets
 ASAPPpy/datasets/SubtleCorpusPTEN/*
-ASAPPpy/indexers/PyLucene/indexes/*
-ASAPPpy/indexers/Whoosh/indexes/*
+
+# BERT Models
+ASAPPpy/bert_experiments/models/*
 ASAPPpy/dcwr/bert/models/*
 ASAPPpy/dcwr/elmo/models/*
+
+# Indexers
+ASAPPpy/indexers/PyLucene/indexes/*
+ASAPPpy/indexers/Whoosh/indexes/*
+
+# Word Embeddings Models
+ASAPPpy/models/fastText/*
+ASAPPpy/models/glove/*
+ASAPPpy/models/numberbatch/*
+ASAPPpy/models/ontoPT/*
+ASAPPpy/models/word2vec/*
+
+# Word Embeddings Models Exceptions
+!ASAPPpy/models/fastText/*.py
+!ASAPPpy/models/glove/*.py
+!ASAPPpy/models/numberbatch/*.py
+!ASAPPpy/models/ontoPT/*.py
+!ASAPPpy/models/word2vec/*.py
+
+# NLPyPort
 ASAPPpy/NLPyPort/*
-ASAPPpy/bert_experiments/models/*
 
 
 # ------ PYTHON ------
