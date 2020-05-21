@@ -1,0 +1,2416 @@
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O 
+O O O O O O 
+O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O 
+O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O 
+O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O 
+O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O B-VALOR B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O B-TEMPO I-TEMPO I-TEMPO B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O B-TEMPO I-TEMPO B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O 
+O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O B-VALOR B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O B-OBRA O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O 
+O O O O O O 
+O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O 
+O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR I-VALOR O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O 
+O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O 
+O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-VALOR B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O B-VALOR I-VALOR B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O B-TEMPO I-TEMPO I-TEMPO B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O B-TEMPO I-TEMPO B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O 
+O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O 
+O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O B-VALOR B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O O O O O 
+O O O O O 
+O O O O O O O O 
+O O O O O 
+O O O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O 
+O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O B-VALOR I-VALOR O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O B-VALOR I-VALOR O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O B-VALOR I-VALOR O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O B-VALOR I-VALOR O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O B-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O B-TEMPO I-TEMPO O O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O B-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O B-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O 
+O O B-VALOR I-VALOR O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O B-VALOR I-VALOR 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O B-VALOR 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-TEMPO O O O O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O O O O 
+O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O B-TEMPO I-TEMPO I-TEMPO B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O B-TEMPO I-TEMPO I-TEMPO B-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O B-VALOR O 
+O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O B-VALOR O 
+O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O O O O O O O O O O O O O O B-VALOR O O O O O O O O O O O O O O O B-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO I-TEMPO O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O O O O O 

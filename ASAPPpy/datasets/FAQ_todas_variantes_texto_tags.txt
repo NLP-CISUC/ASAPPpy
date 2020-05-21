@@ -1,0 +1,2416 @@
+pron-det n prp n v-fin v-inf v-pcp prp art n n prp art n 
+pron-det n prp n v-fin v-inf v-pcp prp art n n prp art n 
+v-fin n pron-indp adv v-fin v-inf v-pcp prp art n n prp art n 
+v-fin n pron-indp adv v-fin v-inf v-pcp prp art n n prp art n 
+prp pron-det n prp n n prp art n pron-pers v-fin v-inf 
+pron-det n N v-fin v-inf prp n 
+pron-det art n prp art n prp n prp art n 
+pron-det v-fin art n prp art n prp nprop N n 
+prp art n prp art n prp art n v-fin adj art n prp pron-det art n 
+prp art n prp art n prp art n prp n prp pron-det art n v-fin adj 
+v-fin v-inf adv prp prp art n adj prp art n adj prp n pron-indp v-fin prp art pron-det n prp art n 
+v-fin N v-inf prp art n v-pcp prp art n prp n pron-indp v-fin prp pron-det n N N N 
+pron-det art n prp n prp art n prp art n 
+pron-det v-fin art n prp v-inf art n prp art n 
+adv v-fin v-inf art n prp art n adj prp art n prp art n 
+adv v-fin v-inf art n adj prp art n prp art n 
+adv v-fin adj art n prp art n adj prp art n prp art n 
+adv v-fin adj v-inf art n adj prp art n prp n 
+art n prp art n N v-pcp v-fin v-inf prp pron-det n art n adj pron-indp v-fin prp art pron-det n 
+art n prp art n N v-pcp v-fin prp pron-det n art n adj pron-indp v-fin prp pron-det n 
+n prp art v-pcp prp n prp n adj v-fin N pron-pers prp v-inf art pron-det n prp art n 
+pron-pers v-fin art v-pcp adj prp n prp n v-fin N pron-pers prp v-inf pron-det n prp n 
+art n prp art n prp art n prp art n adj conj-c pron-det n adj v-fin v-pcp prp art n prp art n 
+art n v-fin v-pcp prp n n adj conj-c pron-det n adj prp art n prp art n 
+prp n prp art n prp v-pcp prp n v-fin adj v-inf prp art n adj prp art n prp n prp n prp n adj 
+adv n prp art n prp n v-fin adj v-inf prp art n adj prp art n prp n prp n prp n adj 
+v-fin adj v-inf art n prp n prp art n prp art n adv art n v-fin n adj conj-c pron-pers v-fin n adj adj v-fin pron-det n adj 
+v-fin adj v-inf art n prp n prp art n prp art n adv art n v-fin n adj conj-c conj-s pron-pers v-fin n adj adj v-fin pron-det n adj 
+v-fin adj art n adj art n prp art n prp art n prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin adj conj-s n adj v-fin art n prp art n prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin adj art n prp art n adj prp n prp art n prp art n prp art n prp art n 
+art n adj v-fin v-pcp prp art n prp art n prp art n prp art n 
+pron-det art n prp v-inf prp adv art n adj prp n 
+pron-det v-fin art n prp v-inf adj art n 
+pron-det art n v-pcp prp art n prp art N prp art n 
+pron-det v-fin art n v-pcp prp art n prp art N N 
+v-fin adj art n prp art n adj prp n adj conj-c n prp art n prp art n adj prp art n prp art n prp art n 
+art n prp art n adj prp n adj conj-c n v-fin adj prp art n prp art n v-pcp prp art n prp art n 
+pron-det art n adv v-fin v-inf v-pcp art n 
+pron-det v-fin art n adv art n v-fin v-pcp 
+v-fin adj v-inf art n prp N prp art n prp art n adj 
+v-fin adj v-inf art n prp N prp art n adj 
+v-fin adj v-inf pron-det n prp n adj 
+adj v-inf pron-det n adj 
+prp pron-det n v-fin v-inf art n prp N 
+prp conj-s n art n prp n v-fin v-inf 
+v-fin v-inf art n prp art n prp prop 
+v-fin pron-pers v-inf prp art n prp art prop 
+pron-det pron-indp v-fin v-inf prp v-inf art n prp art n prp art prop 
+pron-det pron-indp v-fin v-inf prp v-inf art n prp n prp art prop 
+v-fin v-inf art n prp art n prp n v-pcp 
+v-fin v-inf art n N N N prp art prop prop 
+v-fin v-inf prp art n prp n prp n prp n 
+v-fin v-inf prp art n prp n prp n prp n 
+pron-det pron-indp v-fin art n prp art n 
+pron-det v-fin art n prp art n 
+adv v-fin v-inf art n prp art n 
+adv v-fin v-inf art n prp art n 
+pron-indp v-fin v-inf art n prp art n 
+pron-indp v-fin v-inf art n prp art n 
+pron-det art n prp v-inf art n prp art n conj-c pron-det art n prp n 
+pron-det v-fin v-inf art n prp n conj-c pron-det v-fin art n prp n 
+v-fin adv adj v-inf art n prp art n prp pron-det pron-indp v-inf art n prp art n adj 
+v-fin adv adj v-inf art n prp n prp pron-det pron-indp v-inf art n prp art n adj 
+adv v-fin v-inf art n prp n prp art n 
+adv v-fin v-inf art n v-pcp prp art n 
+pron-det art n prp n conj-c n adj prp art n prp art n prp art n 
+pron-det n prp n conj-c n v-fin adj prp art N N n 
+pron-det art n prp v-inf v-pcp adv pron-det n prp n conj-c n 
+prp pron-indp adv pron-det n prp n conj-c n v-fin v-pcp 
+prp art n prp art n prp n prp art n prp art n prp n prp n prp art n pron-det n v-fin v-pcp prp art n 
+prp art n prp art n prp n prp art n prp art n prp art n prp n prp n pron-det n v-fin v-pcp prp art n 
+pron-det art n prp n pron-indp v-fin adv adj 
+n n v-fin adv adj 
+v-fin v-inf art n prp art n prp v-inf adv art n prp art n conj-c n prop 
+v-fin v-inf art n prp n prp v-inf adv art n prp n conj-c n N N 
+prp conj-s n v-fin v-inf art n prp art n v-pcp prp art n prp art n 
+prp conj-s n prp n v-fin v-inf art n prp art n v-pcp prp art n prp art n 
+v-fin v-inf art n prp art n prp n v-pcp v-ger art n prp art n adj prp art n n pron-indp v-fin v-inf 
+v-fin v-inf art n N n prp art n v-pcp v-ger art n prp art n adj prp art n n pron-indp v-fin v-inf 
+prp art n prp art n prp art n prp n prp art n v-fin v-inf art n prp art n v-ger art n prp art pron-det n 
+prp art n prp art n prp art n prp art n n v-fin v-inf art n prp art n v-ger art n prp art pron-det n 
+pron-det art n adj prp n prp v-inf art n prp art n prp prp art pron-det n prp art n 
+pron-det v-fin art n adj prp art n prp v-inf art n prp art n prp art pron-det n prp art n v-pcp 
+prp pron-det n v-fin v-pcp art n prp art n 
+prp pron-det n art n prp art n v-fin adj 
+pron-det art n prp n prp art n 
+pron-det v-fin art pp prp n prp art n 
+v-fin v-inf art pron-det n prp art n prp n adj conj-c adj 
+v-fin v-inf pron-det n prp art n prp art pp adj conj-c adj 
+pron-det pron-indp v-fin art n prp n 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin art n adj conj-c art n prp n adj 
+pron-det pron-indp v-fin art n adj conj-c art n adj 
+pron-det pron-indp v-fin n adj prp n 
+pron-det pron-indp v-fin n prp art adj n prp n 
+pron-det pron-indp v-fin art n adj prp n v-pcp 
+pron-det pron-indp v-fin art n prp n v-pcp adj 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin n adj 
+pron-det pron-indp v-fin n 
+pron-det pron-indp v-fin n prp n adj 
+pron-det pron-indp v-fin n prp n adj 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin n v-pcp 
+adv v-inf art n adj prp n prp n adj 
+adv v-inf art n prp n adj 
+adv v-fin v-inf art n adj prp art n conj-c prp n adj 
+adv v-fin v-inf art n conj-c n adj 
+art n prp art n conj-c art n prp n adj v-fin v-inf v-pcp 
+art n prp art n conj-c art n adj v-fin v-inf v-pcp 
+art n prp n prp n adj conj-c n v-pcp v-pcp prp art N conj-c prp pron-indp v-fin n v-fin prp v-inf adj 
+art n prp n adj conj-c n adj v-pcp prp art N conj-c prp art pron-det pron-pers v-fin n adv v-fin adj 
+art n adj prp art n conj-c prp n adj v-fin v-inf v-pcp 
+art n conj-c art n adj v-fin v-inf v-pcp 
+pron-det pron-indp v-fin art n prp art n conj-c art n prp n adj 
+pron-det pron-indp v-fin art n prp art n conj-c art n adj 
+pron-det pron-indp v-fin art n adj prp art n conj-c prp n adj 
+pron-det pron-indp v-fin art n conj-c art n adj 
+adv v-fin v-inf art n prp art n conj-c art n prp n adj 
+adv v-fin v-inf art n prp art n conj-c art n adj 
+prp adv v-fin v-pcp art n prp art n conj-c art n prp n adj 
+adv v-fin v-pcp art n prp art n conj-c art n adj 
+v-fin v-inf v-pcp n adj prp art n conj-c prp n adj prp art n n prp n adj prp n prp n adj conj-c n v-pcp v-pcp adv prp art n num num N conj-c n adv art pron-det n 
+art n adj prp art n conj-c adj v-fin v-inf v-pcp prp n n prp art n prp n adj prp art n adj conj-c n adj v-pcp adv prp num prp n prp N conj-c v-pcp adv prp pron-det n 
+pron-det art n prp art n prp art n conj-c art n prp n adj 
+pron-det v-fin art n prp art n prp art n conj-c art n adj 
+pron-det art n prp art n prp art n conj-c prp art n prp n adj 
+pron-det v-fin art n prp art n prp art n conj-c prp art n adj 
+pron-det art n prp art n prp art n conj-c prp art n prp n adj 
+pron-det v-fin art n prp art n prp art n conj-c prp art n adj 
+adv v-fin v-pcp art n prp art n n prp n adj 
+adv v-fin v-pcp art n prp art n n adj 
+art n adv pron-pers v-fin adj conj-s v-fin v-inf 
+art n adv v-fin adj pron-det pron-indp pron-pers v-fin v-inf 
+art n prp art n N v-pcp v-fin v-inf prp pron-det n art n adj pron-indp v-fin prp art pron-det n 
+art n prp art n N v-pcp v-fin prp pron-det n v-inf art n adj pron-indp v-fin prp pron-det n 
+art n prp art n prp art n prp art n adj conj-c pron-det n adj v-fin v-pcp prp art n prp art n 
+art n prp art n prp n n adj conj-c pron-det n adj v-fin v-pcp prp art n prp art n 
+prp v-inf prp adv v-inf v-inf v-pcp art n prp n prp n prop 
+prp adv art n prp n prp n N N v-fin v-inf v-pcp 
+n v-fin n prp art n pron-det pron-indp v-fin 
+pron-pers v-fin n prp art n pron-det pron-indp v-fin 
+adv v-inf prp art n prp n prp art n adj 
+adv v-inf art n prp n prp art n adj 
+adv v-fin v-inf art v-pcp prp n 
+adv v-fin v-inf art v-pcp prp n 
+adv v-fin v-inf art n adj conj-c art n prp n prp art n prp art n 
+adv v-fin v-inf art n adj conj-c art N prp n prp art n prp art n 
+adv v-fin art n prp art n 
+adv v-fin art n prp art n 
+adv pron-pers v-fin prp n 
+adv pron-pers v-fin art n 
+n prp art v-pcp prp n prp n adj v-fin N pron-pers prp v-inf art pron-det n adv prp art n prp n prp n prop 
+pron-pers v-fin art v-pcp adj prp n prp n v-fin N pron-pers prp v-inf pron-det n adv prp art n prp n prp art n N N 
+v-fin adj v-inf art n adj prp n N prp art n prp art n prp art n prop 
+v-fin adj v-inf art n adj N adv art n N N v-fin v-pcp 
+v-fin pron-det n adv prp prp art N n v-pcp 
+v-fin pron-det n prp n prp art N v-pcp 
+v-fin n pron-indp adv v-fin v-inf v-pcp adv prp art n prp n prp n prop 
+v-fin n pron-indp adv v-fin v-inf v-pcp adv prp art n prp n prp art n prop 
+art n prp n v-fin v-inf v-pcp prp art n prp n prp art n prop 
+art n prp art n v-fin v-inf v-pcp prp art n prp n prp art n prop 
+art pron-det n adj v-pcp adv pron-pers v-fin adv adj conj-s v-fin v-inf 
+pron-det n adj v-pcp adv v-fin adv adj pron-det pron-indp v-fin v-inf 
+pron-det pron-indp v-fin art v-pcp adj v-pcp 
+pron-det pron-indp v-fin art v-pcp adj v-pcp 
+pron-det pron-indp v-fin art v-pcp adj 
+pron-det pron-indp v-fin art v-pcp adj 
+adv v-fin v-inf art v-pcp adj v-pcp 
+adv v-fin v-inf art v-pcp adj v-pcp 
+prp art n prp art n adv prp art n prp n prp n prop v-fin adj art n prp pron-det art n 
+prp art n prp art n adv prp art n prp n prp art prop nprop v-fin adj art n prp pron-det art n 
+v-fin v-inf adv prp prp art n adj prp art n prp n n art n pron-indp v-fin prp art pron-det n 
+v-fin N v-inf prp v-inf prp art n v-pcp prp art n prp n prp n art n pron-indp v-fin prp pron-det n 
+pron-det art n prp v-inf prp art n prp n 
+pron-det v-fin art n prp v-inf prp art n prp n 
+pron-det v-fin art n prp n v-pcp prp art n prp n prp n prop 
+pron-det v-fin art n prp n v-pcp prp art n prp n prp art n N N 
+pron-det v-fin art n adv v-fin v-inf v-pcp art n 
+pron-det v-fin art n adv art n v-fin v-pcp 
+pron-det art n prp n prp art n prop conj-c prp art n prop prp n v-pcp 
+pron-det v-fin art n prp v-inf art n N N conj-c art n N N prp n v-pcp 
+pron-det art n pron-indp art n v-fin prp v-inf art n 
+prp pron-det n art n v-fin conj-s pron-pers v-inf 
+adv v-fin v-inf art n prp art n adj prp art n prop 
+adv v-fin conj-s v-inf art n adj prp art n prop 
+adv v-fin adj art n prp art n adj prp art n prop 
+adv v-fin adj v-inf art n adj prp art n prop 
+pron-det n prp v-pcp v-fin conj-s v-fin v-inf v-pcp prp art n prp n prp n 
+pron-det n prp v-pcp v-fin pron-det pron-indp v-fin v-inf v-pcp prp art n prp n prp n 
+pron-det n prp n v-fin v-inf v-pcp adv prp art n prp n prp n prop 
+pron-det n prp n v-fin v-inf v-pcp adv prp art n prp n prp art n prop 
+pron-indp v-fin v-inf art n adv prp art n prp n prp n prop 
+pron-indp v-fin v-inf art n prp adj prp art n prp n prp art n N N 
+v-fin adj v-inf art n prp n prp art n prop adv art n v-fin n adj conj-c pron-pers v-fin n adj adj v-fin pron-det n adj 
+v-fin adj v-inf art n prp n prp art n prop adv art n v-fin n adj conj-c conj-s pron-pers v-fin n adj adj v-fin pron-det n adj 
+v-fin adj art n adj art n prp art n prop prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin adj conj-s n adj v-fin art n N N prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin n conj-c adv v-fin art v-pcp adj pron-indp v-fin prp pron-det n adj v-fin v-inf pron-det v-pcp prp pron-pers v-inf conj-c v-inf art n prp n prp n 
+v-fin n conj-c adv N art v-pcp adj pron-indp v-fin pron-det n adj v-fin v-inf pron-det v-pcp prp pron-pers v-inf conj-c v-inf art n prp n prp n 
+art n adj v-fin v-inf art n adv prp art n prp n prp n prop 
+art n adj v-fin v-inf art n adv prp art n prp n prp art n prop 
+adv v-inf art v-pcp prp n prp n conj-c n 
+adv v-inf art v-pcp prp n prp n conj-c n 
+adv v-fin v-inf art n prp art n prp v-pcp prp n conj-c pron-det art pron-det n 
+adv v-fin v-inf art n prp n prp art v-pcp prp n conj-c pron-det v-fin art n 
+pron-indp v-fin v-inf art v-pcp prp n 
+pron-indp v-fin v-inf art v-pcp prp n 
+adv v-inf art n adj prp n prp n adj 
+adv v-inf art n prp n adj 
+pron-det art n prp n prp art v-pcp prp n 
+pron-det v-fin art n prp n prp art v-pcp prp n 
+prp pron-det n v-fin v-pcp art v-pcp prp n 
+adv v-fin v-pcp art v-pcp prp n 
+adv v-inf prp art n prp art n conj-c n 
+adv v-inf art n prp art n conj-c n 
+v-fin v-inf adj n prp art v-pcp prp n 
+v-fin v-inf art adj n prp art v-pcp prp n 
+prp pron-det n v-fin adj v-pcp prp n prp n prp n prp n adv adj 
+prp pron-det n v-fin v-pcp art v-pcp prp n prp v-inf art n adj 
+prp pron-det n art n n adj v-fin prp v-pcp prp n 
+prp pron-det n art n n adj v-fin prp art v-pcp prp n 
+v-fin adj v-inf art v-pcp prp n 
+v-fin adj v-inf art v-pcp prp n 
+adv v-inf n n conj-c prop prp n adv prp art N 
+adv v-inf art N prp n n conj-c n prp art N 
+v-fin adj art n v-inf n adj adj prp pron-det prp n adv adj 
+v-fin adj prp art n v-inf art n adj adj prp pron-det prp art n adj 
+adv v-inf prp prop art n conj-c pron-det n adj prp n adj 
+adv v-inf prp prop art n conj-c pron-det n adj prp art n adj 
+adv v-inf n prp n n prp art n adj prp n adj 
+adv v-inf n prp n v-pcp prp art n adj prp n adj 
+adv v-inf art n adj conj-c adj prp art n adj prp n adj ec n prp n prp art n prp prop 
+adv v-inf art n adj conj-c adj prp art n adj prp n adj ec n prp n prp art n prp prop 
+adv v-inf n prp n adj prp art n adj prp n adj 
+adv v-inf n prp n adj prp art n adj prp n adj 
+adv v-inf art n 
+adv pron-pers v-inf prp art n 
+adv v-inf art n 
+adv v-inf prp art n 
+adv v-inf art n prp art n adj prp n adj 
+adv v-inf art n prp art n adj prp n adj 
+adv v-inf art n adj 
+adv v-inf prp art n adj 
+pron-det pron-indp v-fin art n adj prp n prp n 
+pron-det pron-indp v-fin n adj prp n prp n 
+adv v-fin v-inf art n prp art n conj-c prp art n 
+adv v-fin v-inf art n prp art n adj conj-c n 
+adv v-fin v-inf art n v-pcp prp art n adj prp n adj prp n prp n conj-c n n conj-c n prp n adj conj-c n v-pcp conj-c n prp n adj adj 
+adv v-fin v-inf art n v-pcp prp art n adj prp n adj prp n prp n conj-c n n conj-c n prp n adj conj-c n adj conj-c n prp n adj 
+v-fin v-inf art v-pcp prp n 
+v-fin v-inf art v-pcp prp n 
+v-fin v-inf prp art n prp v-pcp prp n 
+v-fin v-inf art pron-det n prp v-pcp prp n 
+adv v-fin v-inf pron-det n prp n conj-c n v-pcp prp n prp art N 
+adv v-fin v-inf pron-det n prp n conj-c n v-pcp prp n prp art N 
+pron-det art n prp art n prp art n prp v-inf art n prp art n adj prp n adj 
+pron-det v-fin art n prp v-inf n prp art n prp art n adj prp n adj 
+adv v-fin v-inf art n prp art n prp n conj-c art n prp n prp n 
+adv v-fin v-inf art n prp art n prp n conj-c art n prp art n prp art v-pcp 
+adv v-inf n prp art n adj prp art n adj N 
+adv v-inf n prp art n adj prp n adj N 
+pron-det art n prp art n prp art n adj 
+pron-det v-fin art n prp v-inf art n prp art n 
+pron-det pron-indp v-fin art n adj prp n 
+pron-det pron-indp v-fin n adj prp n 
+prp pron-det n pron-pers v-fin v-inf art n adj prp art n prp n prp conj-c prp n v-pcp 
+prp pron-det n art n prp art n prp n prp conj-c prp n v-pcp v-fin v-inf v-pcp 
+pron-det pron-indp v-fin art n prp n prp n v-pcp 
+pron-det pron-indp v-fin art n prp n v-pcp 
+pron-det pron-indp v-fin art n prp n 
+pron-det pron-indp v-fin art adv prp n 
+adv v-fin v-inf art n prp n n adj 
+adv v-fin v-inf art n adj adv n 
+pron-pers art n conj-c n prp art n prp art n adv v-fin v-pcp v-pcp adv prp art n prp n prp art v-pcp prp n pron-indp v-fin v-inf 
+pron-pers art n conj-c n prp art n prp art n adv v-fin v-pcp v-pcp adv prp art n prp n prp art v-pcp prp n pron-det pron-indp v-fin v-inf 
+pron-pers v-inf v-pcp prp n prp n prp n prp art n adj prp n conj-c prp n n n prp art pron-det n v-fin v-pcp art pron-det N 
+art pron-det N v-fin v-pcp conj-s pron-pers v-inf art v-pcp prp n prp art n prp v-inf art n prp n conj-c prp n n prp pron-det n 
+v-fin v-inf art n v-pcp prp art n prp v-pcp v-pcp prp art adj n 
+v-fin v-inf art n v-fin prp art n prp v-pcp v-pcp prp art adj adj 
+v-fin v-inf n prp art v-pcp prp n 
+v-fin v-inf art n prp art v-pcp prp n 
+pron-indp v-fin v-inf art n prp v-pcp prp n 
+pron-indp v-fin v-inf art n prp v-pcp prp n 
+pron-det art n prp art n prp v-pcp prp n 
+pron-det v-fin art n prp v-inf art v-pcp prp n 
+prp art n prp n prop v-fin n prp pron-det adj 
+adv prp v-inf art n N N v-fin n prp pron-det n 
+n v-fin n prp art n pron-det pron-indp v-fin 
+pron-pers v-fin n prp art n pron-det pron-indp v-fin 
+adv v-fin art n prp n adj 
+adv v-fin art n adj 
+adv prp v-pcp art n v-fin v-inf n prp pron-det adj 
+prp art n v-fin n prp pron-det n 
+adv prp v-inf art n adv v-fin prp v-inf art adj prp art N 
+adv prp v-inf art n adv v-fin v-inf art adj prp art N 
+prp pron-det n v-fin v-inf art n prp n n 
+prp pron-det n v-fin v-inf art n prp n adj 
+v-fin v-inf n prp art n prp n prop 
+v-fin v-inf art n adj prop 
+pron-det art n prp n adj 
+pron-det n prp n v-fin adj 
+pron-det art n v-pcp prp pron-det n prp n prop 
+pron-det v-fin art n v-pcp prp pron-det n prop 
+pron-det art n prp n 
+pron-det v-fin art n prp n 
+pron-det art n pron-indp art N v-fin prp v-inf art n 
+pron-det n art N v-fin conj-s pron-pers v-inf 
+pron-det n v-fin v-inf prp art n prp art n 
+pron-det n v-fin v-inf prp art v-inf n 
+pron-det n v-fin v-inf 
+pron-det n v-fin v-inf 
+pron-det n prp n v-fin v-inf 
+pron-det n prp n v-fin v-inf 
+pron-indp v-fin v-inf n prop 
+pron-indp v-fin pron-pers v-inf prop 
+conj-s art n v-fin v-pcp v-fin pron-pers art n prp art n v-pcp 
+conj-s art n v-fin v-pcp v-fin v-pcp art n prp art n v-fin 
+prp pron-det n prp n v-fin v-inf n prop 
+pron-det n prp n v-fin v-inf N N 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp v-fin art v-pcp adj 
+pron-det art n prp v-inf art n adj 
+pron-det v-fin art n prp pron-pers v-inf prp art v-pcp adj 
+prp pron-det n prp n adj v-fin v-inf n 
+pron-det n prp v-pcp adj v-fin v-inf 
+adv v-fin v-inf n prp art n adj 
+adv v-fin v-inf art v-pcp adj 
+pron-indp v-fin v-inf art n adj prop 
+pron-indp v-fin v-inf art v-pcp N N adj 
+adv v-fin v-inf art n adj 
+adv v-fin v-inf art v-pcp adj 
+pron-det art n pron-indp v-fin prp art n adj 
+pron-det n v-fin v-pcp prp art v-pcp adj 
+pron-det art n prp art n adj conj-c pron-det art n prp n 
+pron-det v-fin art n prp art v-pcp adj conj-c pron-det v-fin art n prp n 
+v-fin v-inf art n adj 
+v-fin v-inf art v-pcp adj 
+prp v-inf prp conj-c adv adv v-fin v-inf art n adj 
+prp conj-c adv adv v-fin v-inf art v-pcp adj 
+conj-c conj-s adv pron-pers v-inf prp art n prp art n prp n prp art n 
+conj-c conj-s pron-pers adv v-inf v-inf art n prp n prp art v-pcp 
+prp art v-inf art pron-det n v-fin v-inf art adj n prp n 
+prp art v-inf pron-det v-pcp v-fin art adj n prp n 
+prp pron-indp v-fin art n adj v-fin 
+pron-det pron-indp v-fin art n prp n N 
+pron-det art n prp art n adj v-fin 
+pron-det v-fin art n prp art n prp n N 
+N v-fin v-inf prp art n adj prp n 
+adv v-fin v-inf art n adj prp n 
+pron-det art n prp n prp art n adj prp art n adj 
+pron-det v-fin art n prp v-inf art v-pcp adj prp art n prp n 
+pron-det art n prp art n adj prp n prp n adj conj-c pron-det art n prp n 
+pron-det v-fin art n prp art v-pcp prp n adj prp n conj-c pron-det v-fin art n prp n 
+pron-det art n adj prp art n adj prp n prp art n adj 
+pron-det v-fin art n adj prp art v-pcp adj prp n prp art n prp n 
+adv v-fin conj-s v-fin adj v-inf n prp art n prp n 
+adv v-fin conj-s adj v-inf n prp art n prp n 
+adv prp v-pcp pron-det n prp n v-fin v-inf n prp pron-det adj 
+adv prp v-inf pron-det n prp n v-fin n prp pron-det n 
+adv prp v-pcp art n v-fin v-inf n prp pron-det adj 
+prp art n v-fin n prp pron-det n 
+adv prp v-inf art n adv v-fin prp v-inf art adj prp art n prp art n adj 
+adv prp v-inf art n adv v-fin v-inf art adj prp art n adj 
+v-fin v-inf art n prop prp art n prp n prp pron-det num prp art n adj 
+v-fin v-inf art n N N prp art n prp n prp pron-det num prp art n adj 
+v-fin v-inf art n prop prp art n prp n 
+v-fin v-inf art n N N prp art n prp n 
+v-fin adj v-inf n prp v-inf art n prp n 
+v-fin adj v-inf n prp v-inf art n prp n 
+prp conj-s n prp n v-fin v-inf n prp n 
+prp conj-s n prp n v-fin v-inf n prp n 
+prp conj-s n prp n v-fin v-inf art n prp n 
+prp conj-s n prp n v-fin v-inf art n prp n 
+v-fin v-inf adv prp pron-det pron-indp art n prp n prp art pron-det n 
+v-fin v-inf adv prp art n prp n prp art pron-det n 
+v-fin v-inf art n prp art n adj prp n prp art n conj-c n prp art n prp art n prp art n prp art adj n 
+v-fin v-inf art n prp art n adj prp n prp art n conj-c n prep prp art n prp n prp art adj n 
+v-fin v-inf art n prp art n adj prp pron-det art n adj prp art n 
+v-fin v-inf art n prp art n adj prp pron-det art n v-pcp prp art n 
+v-fin v-inf art n prp n prp pron-det n prp n 
+v-fin v-inf art n prp pron-det n prp n 
+pron-det art n v-pcp prp art n prp n prp n 
+pron-det v-fin art n v-pcp prp art adj prp n 
+pron-det art n v-pcp prp art n prp n prp n 
+pron-det v-fin art n v-pcp prp art n prp n 
+pron-det n adv art n prp art n prp n 
+pron-det n v-fin prp v-inf art n prp n 
+pron-det n adv art n prp art n prp n 
+pron-det n v-fin prp pron-pers v-inf prp n 
+pron-det n v-fin v-inf prp v-inf art n 
+pron-det n adv prp v-inf art n 
+pron-det n prp art n adj v-fin v-inf prp art prop 
+pron-det n prp art n adj v-fin v-inf prp art prop 
+pron-det n v-fin v-inf prp art n prp art n 
+pron-det n v-fin v-inf prp art v-inf n 
+pron-det n v-fin adj v-inf prp v-inf art n prp n 
+pron-det n pron-pers adj v-inf prp v-inf art n prp n 
+pron-det n prp n prp n v-fin v-inf 
+pron-det n prp n pron-pers v-fin v-inf 
+pron-det n prp art n prop v-fin adj prp n adj 
+pron-det n prp art n N N v-fin adj prp n adj 
+pron-det n prp n prp n prp n v-fin v-inf 
+pron-det n prp n prp n prp n v-fin v-inf 
+pron-indp v-fin v-inf n prp n 
+pron-indp v-fin v-inf n prp n 
+pron-indp v-fin v-inf art n prp n prp n 
+pron-indp v-fin v-inf art adj prp n 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+pron-det v-fin art n prp n prp v-inf conj-c v-inf art n v-pcp prp art N 
+prp pron-indp v-fin art adj n N n N 
+pron-det pron-indp v-fin art n adj N 
+prp pron-indp v-fin art n prp n N 
+pron-det v-fin art n prp n N 
+prp pron-indp v-fin art n prp n adj N 
+pron-det v-fin art n prp n adj N 
+pron-det art n v-pcp prp art N 
+pron-det n v-fin v-pcp prp art N 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp pron-pers art n prp art N 
+art n v-pcp prp art n adj v-fin v-pcp prp pron-det n prp art n prp art N 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+pron-det n v-fin adj prp art n adj prp n conj-c prp prop adv v-pcp prp art N 
+adv v-fin v-inf v-pcp art n n N n art n prp n art n prp n adj conj-c art n prp n v-pcp prp art N 
+adv v-fin v-inf v-pcp art n adj n art n prp n art n prp n adj prp n conj-c n v-pcp prp art N 
+prp v-inf prp art n prp art n conj-c adj v-inf n prp n 
+prp v-inf art n prp art n pron-pers v-fin prp art n prp n 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+pron-det pron-indp v-fin conj-c adv v-inf prp art adj prop N 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+pron-det n v-fin v-inf v-pcp prp v-inf 
+adv v-inf art n prp art n prp art n pron-pers pron-det adv v-fin adj 
+adv v-inf art n prp art n prp art n conj-s adv v-fin adj 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+pron-det v-fin art n prp art n adj v-pcp conj-c adv N pron-pers 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+adv pron-pers v-fin pron-pers art n conj-c pron-det n v-fin v-pcp prp art n prp pron-indp pron-pers v-fin v-pcp 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+art n n prp n prp art n v-fin v-pcp prp art n pron-indp pron-pers v-fin v-inf 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+v-fin n v-inf art n prp art n adj prp art n adj conj-c adj N 
+art n prp art n adj prp n prp art adj adj prp n adj N v-fin pron-det n adj prp art n prp art N 
+art n prp art n prp art n prp n prp art n prp n adj N v-fin prp pron-det n adj prp art n prp art N 
+pron-det art n adv prp art n prp n 
+pron-det v-fin art n prp art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+v-fin n v-inf art n prp n conj-c pron-det n 
+v-fin n v-inf art n 
+v-fin n v-inf n 
+v-fin N N prp art n v-pcp prp art n prp art n prp n 
+v-fin n prp art n v-pcp prp art n prp n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+art n prp n conj-c art n prp art n prp n v-fin adj art n 
+adv conj-c v-pcp art n prp art N N prp n adv art n adj n pron-det n adj adv pron-pers v-fin adv n prp n 
+adv art n prp n v-fin v-pcp adv art n adj v-fin pron-det n adv art n v-fin v-pcp prp art pron-det n 
+pron-det pron-indp v-fin v-inf prp art n v-pcp prp art n prp n 
+pron-det pron-indp v-fin v-inf v-pcp prp art n v-pcp prp art n prp n 
+v-fin v-inf pron-pers prp art n prp art n 
+pron-pers v-fin v-inf prp art n prp art n 
+adv v-fin v-inf art n prp n 
+adv v-fin v-inf art n prp n 
+pron-det conj-c art n prp art n adj prp n adj 
+pron-det v-fin art n prp art n adj prp n adj 
+art n pron-indp v-fin prp n n v-pcp prp n adj prp n n prp n n conj-c n prp n prp art n prp n v-fin v-inf pron-det n adj prp pron-det n 
+v-fin art n prp n n prp n adj prp n n n conj-c n prp n prp n v-inf pron-det n v-pcp prp pron-det n 
+pron-pers v-fin N prp n prp v-fin N art n prp art n N prp art prop N conj-c prp n adj v-fin v-pcp prp pron-det n conj-c n 
+art n prp n prp n prp art n prp n conj-c adv v-fin v-pcp prp pron-det n conj-c n 
+v-fin adj art n prp art n adj 
+v-fin n pron-pers v-inf prp art n adj 
+pron-det art n pron-indp v-fin prp n prp art n prp art n prp n prp N N conj-c n prp n 
+pron-det n v-fin adv n prp n prp art n prp v-inf N N conj-c n prp n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+art n prp art n conj-c n prp art n v-pcp prp art N v-fin v-inf v-pcp 
+pron-det art n v-pcp prp art n prp n 
+pron-det v-fin art n v-pcp prp art n prp n 
+prp pron-det n v-fin v-pcp art n prp n adj conj-c art n prp n prp art n prp n conj-c prp n n adj v-pcp prp art n N prp art n N prp art N N n num N num n prp n prp n pron-indp v-fin prp art n pron-indp v-fin num conj-c pron-det n conj-c v-fin v-pcp prp art n pron-indp v-fin prp n adj prp art n prp n v-pcp adj conj-c adj prp num N n prp art n prp pron-indp adv v-pcp v-fin art n prp n adj prp num N n conj-c adv v-fin v-pcp prp n adj n n prp n prp n prp n prp n adj conj-c adj prp num N n v-pcp prp n adj N n prp n prp n prp n prp n conj-c adj n conj-c n n N N n prp n conj-c prp n adj N art n prp n prp n adj N n prp n prp n conj-c n prp n n n conj-c n N n prp n prp n conj-c n prp n n n prp n prp n n N conj-c n adj v-pcp conj-c n N N n prp n N n prp n prp n adj N n prp n prp n prp prop conj-c n n n n N n prp n prp n conj-c prp n prp v-fin prp n art n prp n conj-c prp n adv n 
+prp conj-s n pron-pers v-fin art n n adj conj-c n prp n prp art n conj-c n v-pcp prp art n N prp art n N prp art N N n num N num n prp n n prp art n pron-indp v-fin num conj-c pron-det n conj-c pron-indp v-fin n prp art n pron-indp v-fin prp n adj art n prp n adj adj conj-c adj prp num N n prp art n prp pron-indp adv pron-pers v-fin art n prp n adv prp num N n conj-c adv v-fin v-pcp prp n adj n n prp n prp art n prp n prp num N n conj-c adv prp n adj N n prp n prp n prp n prp n conj-c pron-det n conj-c n prp n N N n prp adj n conj-c n n N art n prp n prp n adj N n prp n prp adj conj-c n prp n adj n conj-c n N n prp n prp n conj-c n prp n adj v-ger n n prp n N conj-c n adj n N N n prp n N n prp n prp n N n prp n prp n prp prop conj-c n n n prp N n prp n prp n conj-c n prp n prp n art n conj-c n prp n adv n 
+pron-det n v-fin v-pcp art n 
+pron-det n v-fin v-pcp art n 
+prp pron-det n v-fin v-pcp art n prp n adj conj-c art n prp n prp art n prp n conj-c prp n prp n prp n v-pcp prp art n N prp art n N prp art N num N num n prp n conj-c prp n n prp n n prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N n n prp n conj-c prp n prp pron-pers v-fin prp art n 
+pron-det n v-fin v-pcp prp art n n adj conj-c n prp n prp art adj n conj-c n prp n adj v-pcp prp art n N prp art n N prp art N num N num n prp n prp n conj-c n prp n adj prp n adj prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N n n conj-c n prp n prp v-fin prp n 
+pron-det art n prp n prp n prp prp art n prp n conj-c prp n prp n prp n v-pcp prp art n N prp art n N prp art N num N num n prp n conj-c prp n n prp n n prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N 
+pron-det art n prp n prp art n prp art n adj conj-c n prp n adj v-pcp prp art n N prp art n N prp art N num N num n n conj-c n prp n n prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N 
+pron-det art n prp n prp n prp n prp n conj-c prp n prp v-fin prp n 
+pron-det v-fin art n prp art n prp art n prp art n prp n conj-c n prp n prp n 
+prp pron-det n v-fin v-pcp art n conj-c n adj prp art adj n adj adv v-pcp prp n adj num n adj prp n adj adj adj conj-c adj prp num N n 
+pron-det n v-fin art n conj-c n adj prp art adj n adj adv v-pcp prp n adj num n adj prp n adj adj prp num N n conj-c adv 
+pron-det pron-indp v-fin adj N N adj 
+pron-det v-fin art adj n adj 
+pron-det pron-indp conj-c v-pcp adv n prp n 
+pron-det pron-indp v-fin v-pcp art n prp n 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp conj-c n adj adj 
+pron-det pron-indp v-fin n adj adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+prp pron-indp v-fin v-pcp art n prp art n prp n conj-c n prp art n adj adj 
+pron-det v-fin v-pcp prp art n prp art n prp n conj-c n prp art n adj adj 
+art n prp art n conj-c adj prp v-inf prp art n conj-c n adj prp adj N N adj conj-c n adj 
+art n prp art n v-fin adj prp v-inf conj-c v-inf adv adj n adj conj-c adj 
+art n adj v-fin v-pcp art n 
+art n adj v-fin v-pcp art n 
+v-fin pron-det n prp v-inf art n prp art n adj 
+v-fin pron-det n prp v-inf art n prp art n adj 
+pron-det art n adj prp art n prp art n adj 
+pron-det v-fin art n prp v-inf art n adj 
+pron-det pron-indp v-fin n n N 
+pron-det pron-indp v-fin n n N 
+pron-det art n prp art n adj prp art n adj N adj prp pron-det n 
+pron-det art n prp art n adj prp n adj N adj prp pron-det n 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp num n prp art n N prep adv pron-pers art n prp n N adj conj-c adj conj-c adj n conj-c adj v-fin v-pcp art n prp n adj conj-c n prp n prp n conj-c art n adv art n prp pron-det n v-fin v-pcp 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+art n prp n prp n adj conj-c adj v-fin v-pcp art adj prp num n 
+art n prp n prp v-fin prp art adj conj-c adj v-fin v-inf v-pcp prp adj prp num n 
+art n prp n adj conj-c adj v-fin v-inf v-pcp prp n adj prp num n 
+v-fin v-pcp art n prp n prp v-fin prp art adj conj-c adj adj n prp pron-pers pron-det prp n prp art n N conj-c prp art prop N conj-c prp n prp n conj-c n v-pcp 
+art n n conj-c n v-fin v-pcp prp adj prp n prp art n conj-c prp n conj-c prp n v-pcp prp n conj-c n 
+pron-det pron-indp pron-pers v-fin prp adv 
+pron-det pron-indp pron-pers v-fin prp adv 
+pron-det pron-indp pron-pers v-fin prp n adj 
+pron-det pron-indp pron-pers v-fin prp n adj 
+pron-det pron-indp pron-pers v-fin prp n 
+pron-det pron-indp pron-pers v-fin prp N 
+pron-det art n prp v-fin N art n adv n pron-indp adv pron-pers v-fin prp art n prp n conj-c prp n adj prp art n prp art N 
+pron-det n prp n n adv n adv pron-pers v-fin prp art n prp n conj-c n v-pcp prp art n prp art N 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n N adj prp art n prp art n prp n conj-c prp art n adj 
+art n prp n v-pcp adj n adj n n adv prp n n conj-c N N conj-c v-pcp n adj 
+art n prp n v-pcp n n adj n n adv prp n n conj-c adj v-fin v-pcp n adj 
+v-fin n v-inf n adj prp adv conj-c prp n adj prp art n prp n 
+v-fin n v-inf art n prp n prp n conj-c n adj prp art n prp n 
+art n conj-c n n pron-indp v-fin v-pcp prp art adj n prp art n prp n adj v-fin v-pcp prp v-inf art adj n N n 
+art n conj-c n prp n pron-indp v-fin pron-det n prp art n adj v-fin v-inf art n adj 
+pron-det art n pron-indp art adv conj-c conj-c n adj v-fin v-inf prp art n n adv n prp pron-indp v-fin art n prp n prp art n 
+pron-det n art n conj-c conj-c n adj v-fin v-inf prp art n prp n adv n prp pron-indp v-fin art n prp n prp art n 
+prp art n prp n pron-indp v-fin n adv n prp v-fin N conj-c n conj-c n conj-c nprop N art adj n N n N 
+adj prop n N v-fin v-pcp prp n prp n pron-indp v-fin n adv n prp n conj-c prop 
+v-fin prop N pron-pers v-fin N art n adv n prp pron-det art n 
+art n n adv n v-fin adj prp pron-det art n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+art n conj-c n n v-fin prp v-inf n prp n 
+art n prp n conj-c n n v-fin v-inf art n prp n 
+pron-det pron-indp v-fin v-inf prp v-inf v-inf prp art n prp art n 
+pron-det pron-indp v-fin v-inf prp v-inf prp art n prp n 
+art n prp n adj pron-indp v-fin v-inf prp n conj-c v-pcp prp n prp art N adv adv 
+v-fin art n prp n adj pron-indp v-fin v-inf prp n v-pcp prp n prp art N adv art n adj 
+pron-indp v-fin art n prp adv conj-c conj-c n adj prp pron-det n n conj-c N n art n pron-indp pron-pers v-fin v-fin v-inf art n prp n adj 
+pron-indp v-fin art n prp n conj-c conj-c n adj prp pron-det n n conj-c v-fin art n pron-indp v-fin conj-s v-fin v-inf art n prp n adj 
+art n prp n prp n adj v-fin v-pcp prp art n prp art adj n N n 
+art n prp n prp n adj v-fin v-pcp prp art n prp art n adj 
+pron-det art n v-pcp 
+pron-det v-fin art n 
+pron-det art n prp art n prp N n n pron-indp v-fin N conj-c N adv n N 
+pron-det art n prp n prp n adj pron-indp v-fin N conj-c N adv n 
+prp conj-s n conj-c v-pcp art n prp art n prp art n prp n prp n n N conj-c n adj v-pcp conj-c n N conj-c art adj n prp pron-det N N 
+pron-det v-fin art n prp art n prp art n prp n n prp n N conj-c n adj n N v-pcp conj-c art adj n prp pron-det n 
+pron-det art n prp art n prp art n n n n conj-c n prp n prp art n prp N n pron-indp v-fin N conj-c N 
+pron-det v-fin art n prp v-inf art n n n n conj-c n prp n prp art n prp n v-ger N conj-c N 
+v-fin adj art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n prp N conj-c N prp N n 
+pron-pers v-fin prp art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n N conj-c N prp art n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-indp n art n adj prp N adj prp n conj-c N n prp n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+pron-det v-fin art n prp n pron-indp v-fin n prp v-inf art n adj prp n conj-c n prp n n 
+pron-det art n prp art n adj prp pron-det n n prp art n adj conj-c prp art n adj n pron-indp v-fin v-inf art adj n prp n adj 
+pron-det art n prp n adj prp pron-det n n prp art n adj conj-c prp art n adj n pron-indp N v-inf art pron-det n prp n adj 
+v-fin art n prp art n prp art n prp n prp n n conj-c n adj v-pcp conj-c n 
+v-fin art n prp art n prp art n n prp n conj-c n adj v-pcp conj-c n 
+v-fin adj n prp n adj prp art n pron-indp adv conj-c v-inf N n n prp N conj-c N 
+art n prp n adj v-fin adj prp n pron-indp v-fin conj-c v-fin n prp N conj-c N 
+v-fin n v-inf n prp adv v-inf n n 
+v-fin adj v-inf n prp art n prp n n 
+prp art n prp prop adj pron-indp n v-fin v-inf v-pcp 
+prp n prp N adj pron-indp n v-fin v-inf v-pcp 
+prp art N N prp n prp art n conj-c adj art n prp pron-indp 
+prp art n prp n prp art n v-fin adj art n prp pron-indp 
+pron-det conj-c art n prp art adj pron-pers adj conj-c prp art n pron-pers adj prp n prp n adj 
+pron-det v-fin art n prp art adj n conj-c n adj prp art n prp n 
+prp pron-indp adv v-fin v-inf v-pcp art n prp n adj 
+pron-indp adv v-fin v-inf v-pcp prp art n prp n 
+pron-det pron-indp v-fin prp n adj v-inf 
+pron-det pron-indp art n adj v-fin v-inf 
+v-fin n v-inf n 
+v-fin n v-inf n 
+pron-det pron-indp v-fin art n prp n v-pcp 
+pron-det v-fin art n prp n v-pcp 
+v-fin v-pcp art n prp art n prp n adj 
+v-fin art n v-pcp prp art n prp n adj 
+pron-indp adv v-fin v-inf conj-c v-inf adj conj-c adv art n prp n conj-c art n prp N n adj 
+pron-indp adv v-fin adj conj-c adv v-inf conj-c v-inf art n n conj-c n prp n adj 
+pron-det art n prp v-inf art n conj-c n prp adj pron-pers adj 
+pron-det v-fin art n prp v-inf art n conj-c n prp art n adj 
+adv conj-c v-pcp art v-pcp prp n prp art adj pron-pers adj conj-c prp adv conj-c nprop N 
+adv v-fin art v-pcp prp n prp art adj n v-pcp conj-c adv v-fin v-pcp 
+n n v-fin v-inf art n prp art pron-det adj pron-pers adj 
+n n v-fin v-inf adj prp art pron-det n 
+v-fin n n prp n adj 
+v-fin n v-inf art n adj 
+pron-det conj-c art n adj prp art n adj conj-c pron-det pron-indp v-fin pron-det v-inf 
+pron-det v-fin art n adj prp art n adj conj-c pron-det pron-indp pron-indp v-fin v-inf 
+pron-det v-fin art n v-pcp 
+pron-det v-fin art n v-pcp 
+prp pron-det n v-fin v-inf v-fin prp n 
+prp pron-det n v-fin v-inf n prp n 
+pron-det conj-c art n prp n prp n prp n conj-c prp n prp v-fin prp art n adj prp art n num pron-pers prp num num conj-c num num conj-c prp n n v-pcp prp n adj prp N N pron-pers adj v-pcp adj conj-c adj prp num N 
+pron-det art n prp n prp n prp n prp n prp art n prp art n num prp num conj-c num conj-c n adj v-pcp art n adj prp n adj v-pcp adj conj-c adj prp num N 
+art n pron-indp v-fin art N adj adv v-pcp prp art N prp ec n conj-c pron-indp v-fin v-inf art adj n n prp n conj-c prp n prp ec N v-fin v-inf conj-s n 
+art n pron-indp v-fin art N adj adv v-pcp prp art N prp n n conj-c pron-indp v-fin v-inf art adj n prp n prp prop conj-c n prp n n v-fin v-inf pron-det n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf prp art n prp n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf v-pcp prp art n prp n 
+pron-det v-fin art n pron-indp v-fin v-inf v-pcp prp art n 
+pron-det n v-fin v-inf v-pcp prp art n 
+v-fin v-pcp n prp n prp n conj-c n 
+v-fin v-pcp n prp n conj-c n 
+v-fin v-pcp art n prp n adj prp n 
+v-fin v-pcp v-inf n adj prp n 
+art n prp n conj-c n v-fin v-inf n v-pcp prp n prp art n prp art n prp ec N N 
+art n conj-c n prp n v-fin v-inf n adj v-ger prp art n prp art n prp n N N 
+pron-det art n prp art n prp n prp n 
+pron-det v-fin art n prp art n prp n prp n 
+v-fin n prp art n conj-c n prp n adj prp n N n conj-c prp n v-pcp prp art N adj 
+v-fin n prp art n conj-c n prp n adj prp n adj conj-c adj v-pcp prp art n 
+pron-det n v-fin v-inf v-pcp prp art n prp n 
+pron-det n v-fin v-inf v-pcp prp n prp n 
+v-fin v-inf v-pcp conj-s n v-fin v-inf 
+pron-pers v-fin v-inf n pron-det n v-fin v-inf 
+adv v-fin v-inf pron-det n prp art adj n adv art N n v-fin N 
+adv v-fin v-inf pron-det n prp adj n adj 
+pron-det conj-c art n prp n prp n prp n prp n prp n prp n conj-c prp n prp n adv n 
+pron-det v-fin art n prp n prp n prp n prp n prp n prp n conj-c n adv n 
+v N prp art n prp n conj-c n adv n prp art prop N N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det prop N v-fin prp v-inf adj N prp art prop N adv adv v-fin N 
+pron-pers v N prp adv n prop prp art n N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det n pron-pers v-fin conj-s v-inf art adj N prp art n adv adv v-fin N 
+pron-det art n prp art n prp n prp n conj-c n prp n adj conj-c adv v-pcp prp N N n conj-c n pron-indp prp n adv v-fin pron-det n prp n conj-c v-fin adj prp n prp art n prp v-inf n pron-indp pron-pers v-fin prp v-inf pron-det n adj adj adj prp n conj-c pron-det 
+pron-det v-fin art n prp art n adj conj-c adv adj prp n prp prop conj-c n prp n n conj-c n pron-indp adv v-fin prp n pron-det n conj-c v-fin adj prp n prp v-inf n pron-indp v-fin pron-det n adj adj adj n conj-c pron-det 
+art n prp n prp n n prp n conj-c n v-fin pron-det n prp adj n N n 
+art n prp n prp n n prp prop conj-c n v-fin pron-det n prp adj n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det v-fin art n adj prp art adj n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det v-fin art n adj prp art n adj 
+pron-det art n adj prp art prop art N adv adj 
+pron-det v-fin art n adj art adj n adv adj 
+v-fin art adj pron-indp v-fin v-inf adv n adj pron-det pron-indp v-fin v-inf 
+pron-pers v-fin art n pron-indp v-fin v-inf adv n adj pron-det pron-indp v-fin v-inf 
+v-fin art adj conj-c v-fin prp pron-pers v-inf prp n adv n adj pron-det pron-indp v-fin v-inf 
+pron-pers v-fin art n conj-c v-fin prp N pron-pers prp art n adv n adj pron-det pron-indp v-fin v-inf 
+pron-pers adv prop art adj prp art pron-det n v-fin v-pcp n adj prp pron-det n 
+v-fin prp v-inf art adj prp art pron-det n v-fin v-pcp n adj prp pron-det n 
+art n prp n n prp n prp art adj v-fin v-pcp n prp art n prp n adj 
+v-fin art n n prp n prp art n v-pcp adv n prp art n adj prp n 
+pron-det v-fin art n prp art num n prp n prp n adj 
+pron-det v-fin art n prp art num n prp n prp n adj 
+pron-det pron-indp v-fin art n 
+pron-det pron-indp v-fin art n 
+v-fin art n prp art pron-det n v-fin n adj v-fin v-inf adv n adj 
+pron-pers v-fin art n prp pron-det n v-fin n adj v-fin v-inf adv art n adj 
+prp art pron-det n v-fin v-inf pron-det n prp n adj 
+prp art pron-det n v-fin v-inf pron-det n adj prp n 
+v-fin prp art pron-det n v-inf adj n prp n prp n adj prp n num n conj-c art n prp n v-ger pron-det art n 
+v-fin prp art pron-det n v-inf adj n prp n adj prp n prp n num n conj-c art n prp n v-ger pron-det art n 
+prp art n prp art n adv v-fin adj v-inf art n prp n prp n prp n prp art n prp art n prp art adj n prp n prp n v-fin adj art n prp pron-det n 
+prp art n adv v-fin adj v-inf art n prp art n prp n prp n prp art n prp art n prp art adj n prp n prp n v-fin adj v-inf pron-det n 
+prp v-inf n prp n adj v-fin adj pron-det n conj-c n 
+pron-pers v-fin prp pron-det n conj-c n prp v-inf art n adj 
+v-fin v-inf adv n adj art adj pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp art n n adj conj-c adv v-fin n prp n prp art n pron-indp v-fin pron-det n v-fin v-inf prp art n prp art n adj prp art pron-det n conj-c pron-indp v-fin v-inf prp n prp art n prp art n adj 
+v-fin v-inf adv art n adj art n pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp pron-det n n adj conj-c pron-pers adv v-fin art n prp n prp art n pron-det n pron-det n v-fin v-inf prp art n prp art n adj prp art pron-det n conj-c pron-indp v-fin prp n prp art n prp art n adj 
+v-fin v-inf art n prp n prp art n prp n adj prp n prp art n prp n 
+v-fin v-inf art n prp n prp art n prp n adj prp n prp art n prp n 
+art n n pron-indp v-fin prp n conj-c v-fin conj-s adv adv v-fin n prp v-inf art n prp n v-fin v-inf art n prp art n prp n prp v-inf art n prp n adj 
+art n n pron-indp v-fin prp n conj-c v-fin conj-s adv adv v-fin n prp v-inf art n prp n v-fin v-inf art n prp art n prp v-inf art n prp art n adj 
+art n prp art N n adj prp art n adj v-fin n 
+art n prp art N n adj prp n adj v-fin n 
+v-fin pron-det n conj-c n pron-indp adv prp art n prp n prp n n prp n 
+v-fin pron-det n conj-c n pron-indp v-fin art n prp n prp n n prp art n 
+art n prp art n prp n adj v-fin v-pcp art n 
+art n prp n prp n adj v-fin v-pcp art n 
+v-ger art n prp art n v-fin prp v-inf pron-pers prp v-inf art adj n adj prp art n adj adj conj-c v-fin v-inf prp art adj pron-indp pron-pers v-fin 
+v-ger art n prp art n v-fin prp v-inf art n adj prp art n adj adj conj-c v-fin v-inf prp art adj prp art v-inf 
+adv v-fin n prp n prp n n adv v-fin v-inf art n 
+pron-pers adv v-fin art n prp art n prp n prp n adv v-fin pron-pers v-inf 
+v-fin n conj-c adv v-fin n prp art n adv v-fin v-inf art n prp art pron-det n adj 
+v-fin n conj-c adv N n prp n adv v-fin v-inf pron-det n adj 
+prp v-inf art n prp art n adj adj pron-det n v-fin prp conj-s v-fin v-pcp art n prp n 
+adv prp pron-pers v-inf prp art n adj pron-det n v-fin prp conj-s art n prp n v-fin v-pcp 
+v-fin art n adj adv v-pcp v-fin prp v-inf adv prp art n adj adj 
+pron-pers adv v-fin art n adj v-pcp v-fin conj-s pron-pers v-inf adv prp art n adj 
+art adj adv v-fin v-inf art n prp n prp n prp n v-fin v-pcp adv N conj-c adv v-fin n prp n adv n prp n adj prp art n prp n 
+art n adv v-fin v-inf art n prp n prp n prp n v-fin v-pcp adv prp N conj-c adv v-fin n prp n adv n art n prp art n prp n 
+v-fin art n adj prp art n prp n adj 
+v-fin art n adj prp n adj prp n 
+adv pron-pers v-fin art n prp art n conj-c prp art n prp art n prp n adj adv prp art n prp n 
+adv art n conj-c art n v-fin v-inf v-pcp prp n adj prp n prp adj n prp n 
+prp art n prp n prp art n adj prp art n prp art n v-fin prp pron-pers v-inf art n prp n pron-det n v-fin art n adj 
+prp art n prp n prp art n adj prp art n prp art n v-fin v-inf v-pcp art n prp n pron-det n v-fin n adj 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art N v-pcp prp art n n N n num N prp num prp n art n prp art n conj-c art n prp art adj 
+pron-indp v-fin v-inf art n prep num prp art N v-pcp prp art n n N num N prp num prp n art n prp art n conj-c art n prp art n 
+v-fin art N adv v-pcp adv prp num prp n prp N art N v-pcp prp art pron-det n v-fin adj prp art v-pcp prp art N N n num N prp num prp n v-fin v-inf art N 
+pron-pers v-fin art N adv v-pcp adv prp num prp n prp N art N v-pcp prp art pron-det n v-fin adj prp pron-det v-pcp prp art N adv num N prp num prp n v-fin v-inf art N 
+adv v-inf prp art n prp art N prp art n 
+adv v-inf prp v-inf art N prp art n 
+art n adj v-fin v-inf n prp art n prp art n v-fin pron-det n N v-pcp 
+art n adj v-fin v-inf n prp art n v-fin pron-det n n 
+prp pron-det n art n prp art n prp n adj v-fin v-pcp conj-c pron-indp pron-pers v-fin v-inf 
+prp pron-det n art n prp n prp n adj v-fin v-pcp conj-c pron-indp v-fin N pron-pers 
+adv prp art n v-fin v-inf conj-c v-inf art pron-det n prp art n 
+adv prp art n v-fin v-inf conj-c v-inf pron-det n prp art n 
+v-fin prp art n pron-indp v-ger art n prp n adj prp n adj prp num n v-fin v-inf n prp art n prp art n prp n prp n pron-indp v-fin prp art N N n num N prp num prp n conj-c n N n N N prp num prp n v-ger prp n pron-indp v-fin art n n pron-det art n pron-indp nprop prp pron-det n pron-pers v-fin art n adj 
+v-fin prp art n pron-indp v-ger art n prp n adj prp n prp pron-det prp num n v-fin prp v-inf art n prp n prp n prp art n v-pcp prp art N N num N prp num prp n conj-c n n N N prp num prp n v-pcp pron-indp v-fin art n n pron-det art n pron-indp pron-pers nprop prp art n n adj 
+prp art n prp art n prp n adj conj-c adj prp num n prp n prp n prp n pron-det art n conj-c n adv v-pcp prp art pron-det n adj 
+prp art n prp n prp n prp num conj-c adv prp n prp n prp n pron-det n prp n conj-c n v-fin adv v-pcp prp art pron-det n adj 
+prp art n adj v-fin adj art n adj prp pron-det n v-fin v-inf v-pcp 
+prp art n adj v-fin n prp n adj prp pron-det n v-fin v-inf v-pcp 
+pron-det art n n prp art adj pron-indp v-fin v-inf adv n prp n adj 
+pron-det v-fin art n n prp art n pron-indp pron-pers v-fin adv art n prp n adj 
+art n adj v-fin n prp pron-det art n prp n prp n adj 
+n prp n v-fin n prp pron-det art n prp n prp n adj 
+prp art n v-fin adj v-inf art n adj 
+v-fin adj v-inf art n adj prp art n 
+prp art n v-fin v-inf art adj n prp art n adj 
+art n v-fin v-inf art adj n prp n adj 
+adv v-fin v-inf art n adj prp art n prp n 
+adv v-fin v-inf art n prp n prp art n prp n 
+v-fin art n prp n adj v-pcp adv prp num prp n prp N v-fin v-inf art pron-det n 
+pron-pers v-fin art n prp n adj v-pcp adv prp num prp n prp N v-fin v-inf art pron-det n 
+art n prp n v-fin n prp pron-det n prp n prp n adj 
+art n prp n v-fin n prp pron-det art n adj prp n 
+v-fin num n prp art pron-det n v-fin prp v-inf art n prp n prp pron-det num 
+pron-pers v-fin num n prp art pron-det n v-fin conj-s v-inf art n prp n prp pron-det num 
+pron-pers art n prp art pron-det n v-inf prp pron-det n v-fin prp v-inf art adj n 
+pron-pers art n prp art pron-det n v-inf prp pron-det n adj v-inf art adj n 
+pron-det pron-indp v-fin v-inf conj-s adv v-inf v-inf art n prp art n 
+pron-det pron-indp v-fin v-inf conj-s adv v-fin v-inf prep art n 
+v-fin art n adv adv n adj v-fin adj prp pron-det n prp art n prp n adj pron-indp adv 
+pron-pers v-fin art n adv adj n adj v-fin adj prp pron-det n prp art n adj prp n pron-indp adv 
+v-fin v-inf v-pcp art n prp n prep prp art n prp art n conj-c n n art n pron-indp v-fin conj-c v-fin prp n prp art n prp n n adv v-pcp 
+art n pron-indp v-fin conj-c v-fin adv n prp art n prp n adj adv v-pcp v-fin v-pcp prp art n prp adj n prep prp art n prp art n conj-c n n 
+adv v-fin conj-s v-fin v-inf conj-s art v-pcp n prp n adj v-fin v-pcp 
+adv v-fin v-inf conj-s art v-pcp n adj prp n v-fin v-pcp 
+pron-det pron-indp v-fin adv art n prp prop N n v-fin conj-s art n prp n adj v-fin n prp v-inf v-pcp n adj 
+pron-det pron-indp v-fin adv art n prp prop N v-fin conj-s art n prp n adj v-fin art n prp v-inf v-pcp art n adj 
+prp pron-det n v-fin v-inf v-pcp art n prp n prp art n prp n conj-c pron-indp pron-pers v-fin v-inf 
+prp pron-det n prp n prp art n prp n prp n v-fin v-inf v-pcp conj-c pron-indp v-fin N pron-pers 
+pron-det pron-indp v-fin n v-pcp prp n adj 
+pron-det v-fin art n v-pcp prp n adj 
+adv prp art n prp n prp art n n N n num N prp num prp n adv v-fin v-pcp prp art n prp n prp art pron-det n adv prp num n n v-ger pron-det n adj prp num prp art n prp n adj prp art n adv pron-pers v-ger art n v-pcp prp art n num n prp art N num N v-fin v-inf adv pron-det n prp art pron-det n 
+adv prp art n prp n prp art n n n num N prp num prp n adv v-fin v-pcp adv prp num n prp art pron-det n pron-indp v-fin adv prp num prp art n prp n prp art n conj-s pron-pers adv v-inf art n v-pcp prp art n num prp art N num N v-fin v-inf pron-det pron-det n prp art pron-det n 
+pron-det pron-indp v-fin prp art n prp n adj pron-indp adv v-fin art n prp n 
+pron-det pron-indp v-fin prp art n adj prp n pron-indp adv v-fin art n n 
+art n prp n adv n adv n adj v-fin adv prp v-inf v-pcp n v-inf v-pcp adv art n v-fin pron-det n 
+art n prp n adv v-pcp adv n adj v-fin v-inf v-pcp adv n adv prp v-inf v-pcp n v-fin n 
+pron-det pron-indp v-fin prp art n prp n adj v-pcp prp art n prp art n adj pron-indp v-fin adv prp num n conj-c adv v-fin prp pron-det n v-inf art pron-det n prp n adj v-fin prp v-inf 
+pron-det pron-indp v-fin prp art n prp n adj v-pcp prp art n prp n adj pron-indp v-fin adv prp num n conj-c adv v-fin prp pron-det n v-inf prp art n adj pron-pers v-fin conj-s v-inf 
+pron-det n prp n v-fin v-inf v-pcp prp art n n prp art n 
+pron-det n prp n v-fin v-inf v-pcp prp art n n prp n prp art n 
+v-fin n pron-indp adv v-fin v-inf v-pcp prp art n n prp art n 
+v-fin n pron-indp adv v-fin v-inf v-pcp prp art n prop N n 
+prp pron-det n prp n n prp art n pron-pers v-fin v-inf 
+pron-det n N v-fin v-inf prp n 
+pron-det art n prp art n prp n prp art n 
+pron-det v-fin art n prp art n prp nprop N n 
+prp art n prp art n prp art n v-fin adj art n prp pron-det art n 
+prp art n prp art n prp art n prp n prp pron-det art n v-fin adj 
+v-fin v-inf adv prp prp art n adj prp art n adj prp n pron-indp v-fin prp art pron-det n prp art n 
+v-fin N v-inf prp art n v-pcp prp n pron-indp v-fin prp art pron-det n N N N 
+pron-det art n prp n prp art n prp art n 
+pron-det v-fin art n prp v-inf art n prp art n 
+adv v-fin v-inf art n prp art n adj prp art n prp art n 
+adv v-fin v-inf art n adj prp art n prp art n 
+adv v-fin adj art n prp art n adj prp art n prp art n 
+adv v-fin adj v-inf art n adj prp art n prp art n 
+art n prp art n N v-pcp v-fin v-inf prp pron-det n art n adj pron-indp v-fin prp art pron-det n 
+art n prp art n N v-pcp v-fin prp pron-det n art n adj prp art pron-det n 
+n prp art v-pcp prp n prp n adj v-fin N pron-pers prp v-inf art pron-det n prp art n 
+pron-pers v-fin art v-pcp adj prp n prp n v-fin N pron-pers prp v-inf pron-det n prp n 
+art n prp art n prp art n prp art n adj conj-c pron-det n adj v-fin v-pcp prp art n prp art n 
+art n v-fin v-pcp prp n n adj conj-c pron-det n adj prp art n prp art n 
+prp n prp art n prp v-pcp prp n v-fin adj v-inf prp art n adj prp art n prp n prp n prp n adj 
+adv n prp art n prp n v-fin adj v-inf adv art n prp n prp n prp n adj 
+v-fin adj v-inf art n prp n prp art n prp art n adv art n v-fin n adj conj-c pron-pers v-fin n adj adj v-fin pron-det n adj 
+v-fin adj v-inf art n N n prop adv art n v-fin n adj conj-c conj-s pron-pers v-fin adj adj v-fin pron-det n adj 
+v-fin adj art n adj art n prp art n prp art n prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin adj conj-s n adj v-fin art prop N N N prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin adj art n prp art n adj prp n prp art n prp art n prp art n prp art n 
+art n adj v-fin v-pcp prp art n prp art n prp art n prp art n 
+pron-det art n prp v-inf prp adv art n adj prp n 
+pron-det v-fin art n prp adj v-inf art n 
+pron-det art n v-pcp prp art n prp art N prp art n 
+pron-det v-fin art n v-pcp prp art n prp art N N 
+v-fin adj art n prp art n adj prp n adj conj-c n prp art n prp art n adj prp art n prp art n prp art n 
+art n prp n adj prp n adj conj-c n v-fin adj prp art n prp art n v-pcp prp art n prp art n 
+pron-det art n adv v-fin v-inf v-pcp art n 
+pron-det v-fin art n adv art n v-fin v-pcp 
+v-fin adj v-inf art n prp N prp art n prp art n adj 
+v-fin adj v-inf art n prp N prp art n adj 
+v-fin adj v-inf pron-det n prp n adj 
+adj v-inf pron-det n prp n 
+prp pron-det n v-fin v-inf art n prp N 
+prp conj-s n v-fin art n prp n v-inf 
+v-fin v-inf art n prp art n prp prop 
+v-fin pron-pers v-inf prp art n prp art prop 
+pron-det pron-indp v-fin v-inf prp v-inf art n prp art n prp art prop 
+pron-det pron-indp v-fin v-inf prp v-inf art n prp n prp art prop 
+v-fin v-inf art n prp art n prp n v-pcp 
+v-fin v-inf art n N N N prp art n v-pcp 
+v-fin v-inf prp art n prp n prp n prp n 
+v-fin v-inf prp art n prp n prp n prp n 
+pron-det pron-indp v-fin art n prp art n 
+pron-det v-fin art n prp n 
+adv v-fin v-inf art n prp art n 
+adv v-fin v-inf art n prp n 
+pron-indp v-fin v-inf art n prp art n 
+pron-indp v-fin v-inf art n prp art n 
+pron-det art n prp v-inf art n prp art n conj-c pron-det art n prp n 
+pron-det v-fin v-inf art n prp n conj-c pron-det v-fin art n prp n 
+v-fin adv adj v-inf art n prp art n prp pron-det pron-indp v-inf art n prp art n adj 
+v-fin adv adj v-inf art n prp n prp pron-det pron-indp v-inf art n prp art n adj 
+adv v-fin v-inf art n prp n prp art n 
+adv v-fin v-inf art n v-pcp prp art n 
+pron-det art n prp n conj-c n adj prp art n prp art n prp art n 
+pron-det n prp n conj-c n v-fin adj prp art N N n 
+pron-det art n prp v-inf v-pcp adv pron-det n prp n conj-c n 
+prp pron-indp adv pron-det n prp n conj-c n v-fin v-pcp 
+prp art n prp art n prp n prp art n prp art n prp n prp n prp art n pron-det n v-fin v-pcp prp art n 
+prp art n prp art n prp n prp art n prp art n prp art n prp n conj-c n pron-det n v-fin v-pcp prp art n v-pcp 
+pron-det art n prp n pron-indp v-fin adv adj 
+n n v-fin adv adj 
+v-fin v-inf art n prp art n prp v-inf adv art n prp art n conj-c n prop 
+v-fin v-inf art n prp n prp v-inf adv art n prp n conj-c n N N 
+prp conj-s n v-fin v-inf art n prp art n v-pcp prp art n prp art n 
+prp conj-s n prp n v-fin v-inf art n prp pron-det n prep prp art n prp art n 
+v-fin v-inf art n prp art n prp n v-pcp v-ger art n prp art n adj prp art n n pron-indp v-fin v-inf 
+v-fin v-inf art n N n prp art n v-pcp v-ger art n prp art n adj prp art n n pron-indp pron-pers v-fin v-inf 
+prp art n prp art n prp art n prp n prp art n v-fin v-inf art n prp art n v-ger art n prp art pron-det n 
+adv prp v-inf art n prp art n prp art n n v-fin v-inf art n prp art n v-ger art n prp art pron-det n 
+pron-det art n adj prp n prp v-inf art n prp art n prp prp art pron-det n prp art n 
+pron-det v-fin art n prp n prp art n prp v-inf art n N prp pron-det n prp art n v-pcp 
+prp pron-det n v-fin v-pcp art n prp art n 
+prp pron-det n art n prp n v-pcp v-fin adj 
+pron-det art n prp n prp art n 
+pron-det v-fin art pp prp art n prp art n 
+v-fin v-inf art pron-det n prp art n prp n adj conj-c adj 
+v-fin v-inf art pron-det n prp n prp art pp adj conj-c adj 
+pron-det pron-indp v-fin art n prp n 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin art n adj conj-c art n prp n adj 
+pron-det pron-indp v-fin art n adj conj-c art n adj 
+pron-det pron-indp v-fin n adj prp n 
+pron-det pron-indp v-fin n prp art adj n prp n 
+pron-det pron-indp v-fin art n adj prp n v-pcp 
+pron-det pron-indp v-fin art n adj prp n v-pcp 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin n adj 
+pron-det pron-indp v-fin n 
+pron-det pron-indp v-fin n prp n adj 
+pron-det pron-indp v-fin n prp n adj 
+pron-det pron-indp v-fin n prp n 
+pron-det pron-indp v-fin n v-pcp 
+adv v-inf art n adj prp n prp n adj 
+adv v-inf art n prp n adj 
+adv v-fin v-inf art n adj prp art n conj-c prp n adj 
+adv v-fin v-inf art n conj-c n adj 
+art n prp art n conj-c art n prp n adj v-fin v-inf v-pcp 
+art n prp art n conj-c art n adj v-fin v-inf v-pcp 
+art n prp n prp n adj conj-c n v-pcp v-pcp prp art N conj-c prp pron-indp v-fin n v-fin prp v-inf adj 
+art n prp n adj conj-c n adj v-pcp prp art N conj-c prp art pron-det pron-pers v-fin n adv v-fin adj 
+art n adj prp art n conj-c prp n adj v-fin v-inf v-pcp 
+art n conj-c art n adj v-fin v-inf v-pcp 
+pron-det pron-indp v-fin art n prp art n conj-c art n prp n adj 
+pron-det v-fin art n prp art n conj-c art n adj 
+pron-det pron-indp v-fin art n adj prp art n conj-c prp n adj 
+pron-det v-fin art n conj-c art n adj 
+adv v-fin v-inf art n prp art n conj-c art n prp n adj 
+adv v-fin v-inf art n prp art n conj-c art n adj 
+prp adv v-fin v-pcp art n prp art n conj-c art n prp n adj 
+adv v-fin v-pcp art n prp art n conj-c art n adj 
+v-fin v-inf v-pcp n adj prp art n conj-c prp n adj prp art n n prp n adj prp n prp n adj conj-c n v-pcp v-pcp adv prp art n num num N conj-c n adv art pron-det n 
+art adj conj-c n adj v-fin v-inf v-pcp prp n n prp art n prp n adj prp art n adj conj-c n adj v-pcp adv prp num prp n prp N conj-c v-pcp adv prp pron-det n 
+pron-det art n prp art n prp art n conj-c art n prp n adj 
+pron-det v-fin art n prp art n prp art n conj-c art n adj 
+pron-det art n prp art n prp art n conj-c prp art n prp n adj 
+pron-det v-fin art n prp art n prp art n conj-c prp art n adj 
+pron-det art n prp art n prp art n conj-c prp art n prp n adj 
+pron-det v-fin art n prp art n prp art n conj-c prp art n adj 
+adv v-fin v-pcp art n prp art n n prp n adj 
+adv v-fin v-pcp art n prp art n n adj 
+art n adv pron-pers v-fin adj conj-s v-fin v-inf 
+art n adv v-fin adj pron-det pron-indp pron-pers v-fin v-inf 
+art n prp art n N v-pcp v-fin v-inf prp pron-det n art n adj pron-indp v-fin prp art pron-det n 
+art n prp art n N v-pcp prp pron-det n v-fin art n adj pron-indp pron-pers v-fin prp art pron-det n 
+art n prp art n prp art n prp art n adj conj-c pron-det n adj v-fin v-pcp prp art n prp art n 
+art n prp art n prp n n adj conj-c pron-det n adj v-fin v-pcp prp art n prp art n 
+prp v-inf prp adv v-inf v-inf v-pcp art n prp n prp n prop 
+adv art n N N prp n prp n v-fin v-inf v-pcp 
+n v-fin n prp art n pron-det pron-indp v-fin 
+pron-pers v-fin n prp art n pron-det pron-indp v-fin 
+adv v-inf prp art n prp n prp art n adj 
+adv v-inf art n prp n prp art n adj 
+adv v-fin v-inf art v-pcp prp n 
+adv v-fin v-inf art v-pcp prp n 
+adv v-fin v-inf art n adj conj-c art n prp n prp art n prp art n 
+adv v-fin v-inf art n adj conj-c art N prp n prp art n prp art n 
+adv v-fin art n prp art n 
+adv v-fin prp v-inf art n prp art pron-det n 
+adv pron-pers v-fin prp n 
+adv pron-pers v-fin art n 
+n prp art v-pcp prp n prp n adj v-fin N pron-pers prp v-inf art pron-det n adv prp art n prp n prp n prop 
+pron-pers v-fin art v-pcp adj prp n prp n v-fin N pron-pers prp v-inf pron-det n adv prp art n prp n prp n N N 
+v-fin adj v-inf art n adj prp n N prp art n prp art n prp art n prop 
+v-fin adj v-inf art n adj N adv art n N N v-fin v-pcp 
+v-fin n pron-indp adv v-fin v-inf v-pcp adv prp art n prp n prp n prop 
+v-fin n pron-indp adv v-fin v-inf v-pcp adv prp art n prp n prp n N N 
+art n prp n v-fin v-inf v-pcp prp art n prp n prp art n prop 
+art n prp art n v-fin v-inf v-pcp prp art n prp n prp art n prop 
+art pron-det n adj v-pcp adv pron-pers v-fin adv adj conj-s v-fin v-inf 
+pron-det adj adj v-pcp adv v-fin adv adj pron-det pron-indp v-fin v-inf 
+pron-det pron-indp v-fin art v-pcp adj v-pcp 
+pron-det pron-indp v-fin art v-pcp adj v-pcp 
+pron-det pron-indp v-fin art v-pcp adj 
+pron-det pron-indp v-fin art v-pcp adj 
+adv v-fin v-inf art v-pcp adj v-pcp 
+adv v-fin v-inf art v-pcp adj v-pcp 
+prp art n prp art n adv prp art n prp n prp n prop v-fin adj art n prp pron-det art n 
+art n prp pron-det art n v-fin adj prp art n prp art n adv prp art n prp n prp art n prop 
+v-fin v-inf adv prp prp art n adj prp art n prp n n art n pron-indp v-fin prp art pron-det n 
+v-fin N v-inf prp v-inf prp art n v-pcp prp art n prp n prp n art n pron-indp v-fin prp pron-det n 
+pron-det art n prp v-inf prp art n prp n 
+pron-det v-fin art n prp v-inf prp art n prp n 
+pron-det v-fin art n prp n v-pcp prp art n prp n prp n prop 
+pron-det v-fin art n prp n v-pcp prp art n prp n prp n N N 
+pron-det v-fin art n adv v-fin v-inf v-pcp art n 
+pron-det v-fin art n adv art n v-fin v-pcp 
+pron-det art n prp n prp art n prop conj-c prp art n prop prp n v-pcp 
+pron-det v-fin art n prp v-inf art n N N conj-c art n N N prp n v-pcp 
+pron-det art n pron-indp art n v-fin prp v-inf art n 
+prp pron-det n art n v-fin conj-s pron-pers v-inf 
+adv v-fin v-inf art n prp art n adj prp art n prop 
+adv v-fin conj-s v-inf art n adj prp art n prop 
+adv v-fin adj art n prp art n adj prp art n prop 
+adv v-fin adj v-inf art n adj prp art prop nprop 
+pron-det n prp v-pcp v-fin conj-s v-fin v-inf v-pcp prp art n prp n prp n 
+pron-det n prp v-pcp v-fin pron-det pron-indp v-fin v-inf v-pcp prp art n prp n prp n 
+pron-det n prp n v-fin v-inf v-pcp adv prp art n prp n prp n prop 
+pron-det n prp n v-fin v-inf v-pcp adv prp art n prp n prp art n prop 
+pron-indp v-fin v-inf art n adv prp art n prp n prp n prop 
+pron-indp v-fin v-inf art n adv prp art n prp n prp n N N 
+v-fin adj v-inf art n prp n prp art n prop adv art n v-fin n adj conj-c pron-pers v-fin n adj adj v-fin pron-det n adj 
+v-fin adj v-inf art n prp n prp art n prop adv art n v-fin n adj conj-c conj-s pron-pers v-fin adj adj v-fin pron-det n adj 
+v-fin adj art n adj art n prp art n prop prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin adj conj-s n adj v-fin art n prop prp pron-det n v-fin pron-det n adj pron-indp v-fin v-inf v-pcp 
+v-fin n conj-c adv v-fin art v-pcp adj pron-indp v-fin prp pron-det n adj v-fin v-inf pron-det v-pcp prp pron-pers v-inf conj-c v-inf art n prp n prp n 
+v-fin n conj-c adv v-fin art v-pcp adj pron-indp v-fin pron-det n adj v-fin v-inf pron-det v-pcp prp pron-pers v-inf conj-c v-inf art n prp n prp n 
+art n adj v-fin v-inf art n adv prp art n prp n prp n prop 
+art n adj v-fin v-inf art n adv prp art n prp n prp art n prop 
+adv v-inf art v-pcp prp n prp n conj-c n 
+adv v-inf art v-pcp prp n prp n conj-c n 
+adv v-fin v-inf art n prp art n prp v-pcp prp n conj-c pron-det art pron-det n 
+adv v-fin v-inf art n prp n prp art v-pcp prp n conj-c pron-det v-fin art n 
+pron-indp v-fin v-inf art v-pcp prp n 
+pron-indp v-fin v-inf art v-pcp prp n 
+adv v-inf art n adj prp n prp n adj 
+adv v-inf art n prp n adj 
+pron-det art n prp n prp art v-pcp prp n 
+pron-det v-fin art n prp n prp art v-pcp prp n 
+prp pron-det n v-fin v-pcp art v-pcp prp n 
+adv v-fin v-pcp art v-pcp prp n 
+adv v-inf prp art n prp art n conj-c n 
+adv v-inf art n prp art n conj-c n 
+v-fin v-inf adj n prp art v-pcp prp n 
+v-fin v-inf art adj n prp art v-pcp prp n 
+prp pron-det n v-fin adj v-pcp prp n prp n prp n prp n adv adj 
+prp pron-det n v-fin v-pcp art v-pcp prp n prp v-inf art n adj 
+prp pron-det n art n n adj v-fin prp v-pcp prp n 
+prp pron-det n art n n adj v-fin prp art v-pcp prp n 
+v-fin adj v-inf art v-pcp prp n 
+v-fin adj v-inf art v-pcp prp n 
+adv v-inf n n conj-c prop prp n adv prp art N 
+adv v-inf art n n conj-c n prp art n N 
+v-fin adj art n v-inf n adj adj prp pron-det prp n adv adj 
+v-fin adj prp art n v-inf art n adj adj prp pron-det prp art n adj 
+adv v-inf prp prop art n conj-c pron-det n adj prp n adj 
+adv v-inf prp prop art n conj-c pron-det n adj prp art n adj 
+adv v-inf n prp n n prp art n adj prp n adj 
+adv v-inf n prp n v-pcp prp art n adj prp n adj 
+adv v-inf art n adj conj-c adj prp art n adj prp n adj ec n prp n prp art n prp prop 
+adv v-inf art n adj conj-c adj prp art n adj prp n adj ec n prp n prp art n prp prop 
+adv v-inf n prp n adj prp art n adj prp n adj 
+adv v-inf n prp n adj prp art n adj prp n adj 
+adv v-inf art n 
+adv pron-pers v-inf prp art n 
+adv v-inf art n 
+adv v-inf prp art n 
+adv v-inf art n prp art n adj prp n adj 
+adv v-inf art n prp art n adj prp n adj 
+adv v-inf art n adj 
+adv v-inf prp art n adj 
+pron-det pron-indp v-fin art n adj prp n prp n 
+pron-det pron-indp v-fin n adj prp n prp n 
+adv v-fin v-inf art n prp art n conj-c prp art n 
+adv v-fin v-inf art n prp art n conj-c n 
+adv v-fin v-inf art n v-pcp prp art n adj prp n adj prp n prp n conj-c n n conj-c n prp n adj conj-c n v-pcp conj-c n prp n adj adj 
+adv v-fin v-inf art n v-pcp prp art n adj prp n adj prp n prp n conj-c n n conj-c n prp n adj conj-c n adj conj-c n prp n adj 
+v-fin v-inf art v-pcp prp n 
+v-fin v-inf art v-pcp prp n 
+v-fin v-inf prp art n prp v-pcp prp n 
+v-fin v-inf art pron-det n prp v-pcp prp n 
+adv v-fin v-inf pron-det n prp n conj-c n v-pcp prp n prp art N 
+adv v-fin v-inf pron-det n prp n conj-c n v-pcp prp art n prp art N 
+pron-det art n prp art n prp art n prp v-inf art n prp art n adj prp n adj 
+pron-det v-fin art n prp v-fin prp art n prp art n adj prp n adj 
+adv v-fin v-inf art n prp art n prp n conj-c art n prp n prp n 
+adv v-fin v-inf art n prp art n prp n conj-c v-inf pron-pers prp v-inf art v-pcp 
+adv v-inf n prp art n adj prp art n adj N 
+adv v-inf n prp art n adj prp n adj N 
+pron-det art n prp art n prp art n adj 
+pron-det v-fin art n prp v-inf art n prp art n 
+pron-det pron-indp v-fin art n adj prp n 
+pron-det pron-indp v-fin n adj prp n 
+prp pron-det n pron-pers v-fin v-inf art n adj prp art n prp n prp conj-c prp n v-pcp 
+prp pron-det n art n prp art n prp n prp conj-c prp n v-pcp v-fin v-inf v-pcp 
+pron-det pron-indp v-fin art n prp n prp n v-pcp 
+pron-det v-fin art n prp n v-pcp 
+pron-det pron-indp v-fin art n prp n 
+pron-det pron-indp v-fin art prop adv 
+adv v-fin v-inf art n prp n n adj 
+adv v-fin v-inf art n adj adv n 
+pron-pers art n conj-c n prp art n prp art n adv v-fin v-pcp v-pcp adv prp art n prp n prp art v-pcp prp n pron-indp v-fin v-inf 
+pron-pers art n conj-c n prp art n prp art n adv v-fin v-pcp v-pcp adv prp art n prp n prp art v-pcp prp n pron-det pron-indp v-fin v-inf 
+pron-pers v-inf v-pcp prp n prp n prp n prp art n adj prp n conj-c prp n n n prp art pron-det n v-fin v-pcp art pron-det N 
+art pron-det N v-fin v-pcp conj-s pron-pers v-inf art v-pcp prp n prp art n prp v-inf art n prp n conj-c prp v-inf v-inf pron-det n 
+v-fin v-inf art n v-pcp prp art n prp v-pcp v-pcp prp art adj n 
+v-fin v-inf art n v-fin prp art n prp v-pcp v-pcp prp art adj adj 
+v-fin v-inf n prp art v-pcp prp n 
+v-fin v-inf art n prp art v-pcp prp n 
+pron-indp v-fin v-inf art n prp v-pcp prp n 
+pron-indp v-fin v-inf art n prp v-pcp prp n 
+pron-det art n prp art n prp v-pcp prp n 
+pron-det v-fin art n prp v-inf art v-pcp prp n 
+prp art n prp n prop v-fin n prp pron-det adj 
+adv prp v-inf art n N N pron-pers v-fin n prp pron-det n 
+n v-fin n prp art n pron-det pron-indp v-fin 
+pron-pers v-fin n prp art n pron-det pron-indp v-fin 
+adv v-fin art n prp n adj 
+adv v-fin art n adj 
+adv prp v-pcp art n v-fin v-inf n prp pron-det adj 
+prp art n v-fin n prp pron-det n 
+adv prp v-inf art n adv v-fin prp v-inf art adj prp art N 
+adv v-fin conj-s v-inf art adj prp art N adv prp v-inf art n 
+prp pron-det n v-fin v-inf art n prp n n 
+prp pron-det n v-fin v-inf art n prp n adj 
+v-fin v-inf n prp art n prp n prop 
+v-fin v-inf art n adj prop 
+pron-det art n prp n adj 
+pron-det n prp n v-fin adj 
+pron-det art n v-pcp prp pron-det n prp n prop 
+pron-det v-fin art n v-pcp prp pron-det n prop 
+pron-det art n prp n 
+pron-det v-fin art n prp n 
+pron-det art n pron-indp art N v-fin prp v-inf art n 
+pron-det n art N v-fin conj-s pron-pers v-inf 
+pron-det n v-fin v-inf prp art n prp art n 
+pron-det n v-fin v-inf prp art v-inf n 
+pron-det n v-fin v-inf 
+pron-det n v-fin v-inf 
+pron-det n prp n v-fin v-inf 
+pron-det n prp n v-fin v-inf 
+pron-indp v-fin v-inf n prop 
+pron-indp v-fin pron-pers v-inf prop 
+conj-s art n v-fin v-pcp v-fin pron-pers art n prp art n v-pcp 
+conj-s art n v-fin v-pcp v-fin v-pcp art n prp art n v-fin 
+prp pron-det n prp n v-fin v-inf n prop 
+pron-det n prp n v-fin v-inf N N 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp v-fin art v-pcp adj 
+pron-det art n prp v-inf art n adj 
+pron-det v-fin art n prp pron-pers v-inf prp art v-pcp adj 
+prp pron-det n prp n adj v-fin v-inf n 
+pron-det n prp v-pcp adj v-fin v-inf 
+adv v-fin v-inf n prp art n adj 
+adv v-fin v-inf art v-pcp adj 
+pron-indp v-fin v-inf art n adj prop 
+pron-indp v-fin v-inf art v-pcp N N adj 
+adv v-fin v-inf art n adj 
+adv v-fin v-inf art v-pcp adj 
+pron-det art n pron-indp v-fin prp art n adj 
+pron-det n v-fin v-pcp prp art v-pcp adj 
+pron-det art n prp art n adj conj-c pron-det art n prp n 
+pron-det v-fin art n prp art v-pcp adj conj-c pron-det v-fin art n prp n 
+v-fin v-inf art n adj 
+v-fin v-inf art v-pcp adj 
+prp v-inf prp conj-c adv adv v-fin v-inf art n adj 
+prp conj-c adv adv v-fin v-inf art v-pcp adj 
+conj-c conj-s adv pron-pers v-inf prp art n prp art n prp n prp art n 
+conj-c conj-s pron-pers adv v-inf v-inf art n prp n prp art v-pcp 
+prp art v-inf art pron-det n v-fin v-inf art adj n prp n 
+adv v-inf art pron-det v-pcp v-fin art adj n prp n 
+prp pron-indp v-fin art n adj v-fin 
+pron-det pron-indp v-fin art n prp n N 
+pron-det art n prp art n adj v-fin 
+pron-det v-fin art n prp v-inf n N 
+N v-fin v-inf prp art n adj prp n 
+adv v-fin v-inf art n adj prp n 
+pron-det art n prp n prp art n adj prp art n adj 
+pron-det v-fin art n prp v-inf art v-pcp adj prp art n prp n 
+pron-det art n prp art n adj prp n prp n adj conj-c pron-det art n prp n 
+pron-det v-fin art n prp art v-pcp prp n adj prp n conj-c pron-det v-fin art n prp n 
+pron-det art n adj prp art n adj prp n prp art n adj 
+pron-det v-fin art n adj prp art v-pcp adj prp n prp art n prp n 
+adv v-fin conj-s v-fin adj v-inf n prp art n prp n 
+adv v-fin conj-s adj v-inf n prp art n prp n 
+adv prp v-pcp pron-det n prp n v-fin v-inf n prp pron-det adj 
+adv prp v-inf pron-det n prp n v-fin n prp pron-det n 
+adv prp v-pcp art n v-fin v-inf n prp pron-det adj 
+prp art n v-fin n prp pron-det n 
+adv prp v-inf art n adv v-fin prp v-inf art adj prp art n prp art n adj 
+adv v-fin conj-s v-inf art adj prp art n adj 
+v-fin v-inf art n prop prp art n prp n prp pron-det num prp art n adj 
+v-fin v-inf art n N N prp art n prp n prp pron-det num prp art n adj 
+v-fin v-inf art n prop prp art n prp n 
+v-fin v-inf art n N N prp art n prp n 
+v-fin adj v-inf n prp v-inf art n prp n 
+v-fin adj v-inf n prp v-inf art n prp n 
+prp conj-s n prp n v-fin v-inf n prp n 
+prp conj-s n prp n v-fin v-inf n prp n 
+prp conj-s n prp n v-fin v-inf art n prp n 
+prp conj-s n prp n v-fin v-inf art n prp n 
+v-fin v-inf adv prp pron-det pron-indp art n prp n prp art pron-det n 
+v-fin v-inf adv prp art n prp n prp art pron-det n 
+v-fin v-inf art n prp art n adj prp n prp art n conj-c n prp art n prp art n prp art n prp art adj n 
+v-fin v-inf art n prp art n adj prp n prp art n conj-c n prp n prp n prp art adj n 
+v-fin v-inf art n prp art n adj prp pron-det art n adj prp art n 
+v-fin v-inf art n prp art n adj prp pron-det art n v-pcp prp art n 
+v-fin v-inf art n prp n prp pron-det n prp n 
+v-fin v-inf art n prp pron-det n prp n 
+pron-det art n v-pcp prp art n prp n prp n 
+pron-det v-fin art n v-pcp prp art adj prp n 
+pron-det art n v-pcp prp art n prp n prp n 
+pron-det v-fin art n v-pcp prp art n prp n 
+pron-det n adv art n prp art n prp n 
+pron-det n v-fin prp v-inf art n prp n 
+pron-det n adv art n prp art n prp n 
+pron-det n v-fin prp pron-pers v-inf prp n 
+pron-det n v-fin v-inf prp v-inf art n 
+pron-det n v-fin prp v-inf art n 
+pron-det n prp art n adj v-fin v-inf prp art prop 
+pron-det n prp art n adj v-fin v-inf prp art prop 
+pron-det n v-fin v-inf prp art n prp art n 
+pron-det n v-fin v-inf prp art v-inf n 
+pron-det n v-fin adj v-inf prp v-inf art n prp n 
+pron-det n pron-pers adj v-inf prp v-inf art n prp n 
+pron-det n prp n prp n v-fin v-inf 
+pron-det n prp n pron-pers v-fin v-inf 
+pron-det n prp art n prop v-fin adj prp n adj 
+pron-det n prp n N N v-fin adj prp n adj 
+pron-det n prp n prp n prp n v-fin v-inf 
+pron-det n prp n prp n prp n v-fin v-inf 
+pron-indp v-fin v-inf n prp n 
+pron-indp v-fin pron-pers v-inf prp n 
+pron-indp v-fin v-inf art n prp n prp n 
+pron-indp v-fin v-inf art n prp n 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+pron-det v-fin art n prp n prp v-inf conj-c v-inf art n v-pcp prp art N 
+prp pron-indp v-fin art adj n N n N 
+pron-det pron-indp v-fin n adj N 
+prp pron-indp v-fin art n prp n N 
+pron-det v-fin art n prp n N 
+prp pron-indp v-fin art n prp n adj N 
+pron-det v-fin art n prp n adj N 
+pron-det art n v-pcp prp art N 
+pron-det n v-fin v-pcp prp art N 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp pron-pers art n prp art N 
+art n v-pcp prp art n adj v-fin v-pcp prp pron-det n prp art n prp art N 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+pron-det n v-fin adj art n adj prp n conj-c prp prop adv v-pcp prp art N 
+adv v-fin v-inf v-pcp art n n N n art n prp n art n prp n adj conj-c art n prp n v-pcp prp art N 
+adv v-fin v-inf v-pcp art n adj art n prp n art n n prp n conj-c n prp n v-pcp prp art N 
+prp v-inf prp art n prp art n conj-c adj v-inf n prp n 
+prp v-inf art n prp art n pron-pers v-fin prp art n prp n 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+pron-det pron-indp v-fin conj-c adv v-inf prp art adj prop N 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+pron-det n v-fin v-inf v-pcp prp v-inf 
+adv v-inf art n prp art n prp art n pron-pers pron-det adv v-fin adj 
+adv v-inf art n prp art n prp art n conj-s adv v-fin adj 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+pron-det v-fin art n prp art n adj v-pcp conj-c adv N pron-pers 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+adv pron-pers v-fin pron-pers art n conj-c pron-det n v-fin v-pcp prp art n prp art pron-det pron-pers v-fin v-pcp 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+art n n prp n prp art n v-fin v-pcp prp art n pron-indp pron-pers v-fin v-inf 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+v-fin n v-inf art n prp art n adj prp art n adj conj-c adj N 
+art n prp art n adj prp n prp art adj adj prp n adj N v-fin pron-det n adj prp art n prp art N 
+art n prp art n prp art n prp n prp art n prp n adj N v-fin prp pron-det n adj prp art n prp art N 
+pron-det art n adv prp art n prp n 
+pron-det v-fin art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+v-fin n v-inf art n prp n conj-c pron-det n 
+v-fin n v-inf art n 
+v-fin n v-inf n 
+v-fin N N prp art n v-pcp prp art n prp art n prp n 
+v-fin n prp n v-pcp prp art n prp n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+art n prp n conj-c art n prp art n prp n v-fin adj art n 
+adv conj-c v-pcp art n prp art N N prp n adv art n adj n pron-det n adj adv pron-pers v-fin adv n prp n 
+adv art n prp n v-fin v-pcp adv art n adj v-fin n n adv art n v-fin v-pcp prp art pron-det n 
+pron-det pron-indp v-fin v-inf prp art n v-pcp prp art n prp n 
+pron-det pron-indp v-fin v-inf v-pcp prp art n v-pcp prp art n prp n 
+v-fin v-inf pron-pers prp art n prp art n 
+pron-pers v-fin v-inf prp art n prp art n 
+adv v-fin v-inf art n prp n 
+adv v-fin v-inf art n prp n 
+pron-det conj-c art n prp art n adj prp n adj 
+pron-det v-fin art n prp art n adj prp n adj 
+art n pron-indp v-fin prp n n v-pcp prp n adj prp n n prp n n conj-c n prp n prp art n prp n v-fin v-inf pron-det n adj prp pron-det n 
+art n prp n n prp n adj prp n n n conj-c n prp n n v-fin pron-det n v-pcp prp pron-det n 
+pron-pers v-fin N prp n prp v-fin N art n prp art n N prp art prop N conj-c prp n adj v-fin v-pcp prp pron-det n conj-c n 
+art n prp n v-fin art art n prp n conj-c adv v-pcp prp pron-det n conj-c n 
+v-fin adj art n prp art n adj 
+v-fin n pron-pers v-inf prp art n adj 
+pron-det art n pron-indp v-fin prp n prp art n prp art n prp n prp N N conj-c n prp n 
+pron-det n v-fin adv n prp n prp art n prp v-inf N N conj-c n prp n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+v-fin v-inf v-pcp art n prp n conj-c n prp art n v-pcp prp art N 
+pron-det art n v-pcp prp art n prp n 
+pron-det v-fin art n prp art n prp n 
+prp pron-det n v-fin v-pcp art n prp n adj conj-c art n prp n prp art n prp n conj-c prp n n adj v-pcp prp art n N prp art n N prp art N N n num N num n prp n prp n pron-indp v-fin prp art n pron-indp v-fin num conj-c pron-det n conj-c v-fin v-pcp prp art n pron-indp v-fin prp n adj prp art n prp n v-pcp adj conj-c adj prp num N n prp art n prp pron-indp adv v-pcp v-fin art n prp n adj prp num N n conj-c adv v-fin v-pcp prp n adj n n prp n prp n prp n prp n adj conj-c adj prp num N n v-pcp prp n adj N n prp n prp n prp n prp n conj-c adj n conj-c n n N N n prp n conj-c prp n adj N art n prp n prp n adj N n prp n prp n conj-c n prp n n n conj-c n N n prp n prp n conj-c n prp n n n prp n prp n n N conj-c n adj v-pcp conj-c n N N n prp n N n prp n prp n adj N n prp n prp n prp prop conj-c n n n n N n prp n prp n conj-c prp n prp v-fin prp n art n prp n conj-c prp n adv n 
+prp pron-det n v-fin art n n adj conj-c n prp n prp art n conj-c n v-pcp prp art n N prp art n N prp art N n num N num n prp n n prp art n pron-indp v-fin num conj-c pron-det n conj-c pron-indp v-fin n prp art n prp art n v-pcp prp n adj conj-c adj prp num N n prp n adj prp art n prp pron-indp v-fin art n prp n adj prp num N n conj-c adv v-pcp prp n adj n n prp n prp art n prp n prp num N n conj-c adv prp n adj N n prp n prp n prp n prp n conj-c pron-det n conj-c n prp n N N n prp adj n conj-c n n N art n prp n prp n adj N n prp n prp adj conj-c n prp n adj n conj-c n N n prp n prp n conj-c n prp n prp n v-ger n prp n n N conj-c n adj n N N n prp n N n prp n prp n N n prp n prp n prp prop conj-c n n n prp N n prp n prp n conj-c n prp n prp n art n conj-c n prp n adv n 
+pron-det n v-fin v-pcp art n 
+pron-det n v-fin v-pcp art n 
+prp pron-det n v-fin v-pcp art n prp n adj conj-c art n prp n prp art n prp n conj-c prp n prp n prp n v-pcp prp art n N prp art n N prp art N num N num n prp n conj-c prp n n prp n n prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N n n prp n conj-c prp n prp pron-pers v-fin prp art n 
+pron-det n v-fin v-pcp prp art n n adj conj-c n prp n prp art adj n conj-c n prp n v-pcp prp art n N prp art n N prp art N num N num n prp n prp n conj-c n prp n adj prp n adj prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N n n conj-c n prp n prp n prp n 
+pron-det art n prp n prp n prp prp art n prp n conj-c prp n prp n prp n v-pcp prp art n N prp art n N prp art N num N num n prp n conj-c prp n n prp n n prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N 
+pron-det art n prp n prp art n prp art n adj conj-c n prp n v-pcp prp art n N prp art n N prp art N num N num n n conj-c adj prp n n prp n adj pron-indp v-fin n prp n v-pcp v-pcp prp art n N prp art n N prp art N num N 
+pron-det art n prp n prp n prp n prp n conj-c prp n prp v-fin prp n 
+pron-det v-fin art n prp art n prp art n prp art n prp n prp prop conj-c adv adj 
+prp pron-det n v-fin v-pcp art n conj-c n adj prp art adj n adj adv v-pcp prp n adj num n adj prp n adj adj adj conj-c adj prp num N n 
+pron-det n v-fin art n conj-c n adj prp art adj n adj adv v-pcp prp n adj num n adj prp n adj adj prp num N n conj-c adv 
+pron-det pron-indp v-fin adj N N adj 
+pron-det v-fin art adj n adj 
+pron-det pron-indp conj-c v-pcp adv n prp n 
+pron-det pron-indp v-fin v-pcp art n prp n 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp conj-c n adj adj 
+pron-det pron-indp v-fin n adj adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+prp pron-indp v-fin v-pcp art n prp art n prp n conj-c n prp art n adj adj 
+pron-det v-fin v-pcp prp art n prp art n prp n conj-c n prp art n adj adj 
+art n prp art n conj-c adj prp v-inf prp art n conj-c n adj prp adj N N adj conj-c n adj 
+art n prp art n v-fin adj prp v-inf conj-c v-inf adv adj n adj conj-c adj 
+art n adj v-fin v-pcp art n 
+art n adj v-fin v-pcp art n 
+v-fin pron-det n prp v-inf art n prp art n adj 
+v-fin pron-det n prp v-inf art n prp art n adj 
+pron-det art n adj prp art n prp art n adj 
+pron-det v-fin art n prp v-inf art n adj 
+pron-det pron-indp v-fin n n N 
+pron-det pron-indp v-fin n n N 
+pron-det art n prp art n adj prp art n adj N adj prp pron-det n 
+pron-det art n prp art n adj prp n adj N adj prp pron-det n 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp num n prp art n N prep adv pron-pers art n N adj conj-c adj conj-c n adj conj-c n v-fin v-pcp art n prp n adj conj-c n prp n prp n conj-c art n adv art n prp pron-det n v-fin v-pcp 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+art n prp n prp n adj conj-c adj v-fin v-pcp art adj prp num n 
+art n prp n prp v-fin prp art adj conj-c adj v-fin v-inf v-pcp prp adj prp num n 
+art n adj conj-c adj v-fin v-inf v-pcp prp n prp pron-det prp num n 
+v-fin v-pcp art n prp n prp v-fin prp art adj conj-c adj adj n prp pron-pers pron-det prp n prp art n N conj-c prp art prop N conj-c prp n prp n conj-c n v-pcp 
+art n n conj-c n v-fin v-pcp adv prp n prp art n conj-c prp n conj-c prp n conj-c n v-pcp 
+pron-det pron-indp pron-pers v-fin prp adv 
+pron-det pron-indp pron-pers v-fin prp adv 
+pron-det pron-indp pron-pers v-fin prp n adj 
+pron-det pron-indp pron-pers v-fin prp n adj 
+pron-det pron-indp pron-pers v-fin prp n 
+pron-det pron-indp pron-pers v-fin prp N 
+pron-det art n prp v-fin N art n adv n pron-indp adv pron-pers v-fin prp art n prp n conj-c prp n adj prp art n prp art N 
+pron-det n prp n n adv n adv pron-pers v-fin prp art n prp n conj-c n v-pcp prp art n prp art N 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det n N pron-pers v-fin prp art n prp art n prp n conj-c prp art n adj 
+art n prp n v-pcp adj n adj n n adv prp n n conj-c N N conj-c v-pcp n adj 
+art n prp n v-pcp n n adj n n adv prp n n conj-c adj v-fin v-pcp n adj 
+v-fin n v-inf n adj prp adv conj-c prp n adj prp art n prp n 
+v-fin n v-inf art n prp n prp art n conj-c n adj prp art n prp n 
+art n conj-c n n pron-indp v-fin v-pcp prp art adj n prp art n prp n adj v-fin v-pcp prp v-inf art adj n N n 
+art adj n conj-c n n pron-indp v-fin pron-det n prp art n adj v-fin art n adj 
+pron-det art n pron-indp art adv conj-c conj-c n adj v-fin v-inf prp art n n adv n prp pron-indp v-fin art n prp n prp art n 
+pron-det n art n conj-c conj-c n adj v-fin v-inf prp art n prp n adv n prp pron-indp v-fin art n prp n prp art n 
+prp art n prp n pron-indp v-fin n adv n prp v-fin N conj-c n conj-c n conj-c nprop N art adj n N n N 
+art adj prop n N v-fin v-pcp prp n prp n pron-indp v-fin prp n adj conj-c prp n adv n 
+v-fin prop N pron-pers v-fin N art n adv n prp pron-det art n 
+art n n adv n v-fin adj prp pron-det art n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+v-fin pron-det n prp art n prp n adj v-pcp prp adj n conj-c n n 
+art n conj-c n n v-fin prp v-inf n prp n 
+art n prp n conj-c art adj prp n v-fin v-inf art n prp n 
+pron-det pron-indp v-fin v-inf prp v-inf v-inf prp art n prp art n 
+pron-det pron-indp v-fin v-inf prp v-inf prp art n prp n 
+art n prp n adj pron-indp v-fin v-inf prp n conj-c v-pcp prp n prp art N adv adv 
+v-fin art n prp n adj pron-indp v-fin v-inf prp n v-pcp prp n prp art N adv art n adj 
+pron-indp v-fin art n prp adv conj-c conj-c n adj prp pron-det n n conj-c N n art n pron-indp pron-pers v-fin v-fin v-inf art n prp n adj 
+pron-indp v-fin art n prp n conj-c conj-c n adj prp pron-det n n conj-c v-fin art n adj prp pron-indp v-fin v-inf art n prp n adj 
+art n prp n prp n adj v-fin v-pcp prp art n prp art adj n N n 
+art n prp n prp n adj v-fin v-pcp prp art n prp art n adj 
+pron-det art n v-pcp 
+pron-det v-fin art n 
+pron-det art n prp art n prp N n n pron-indp v-fin N conj-c N adv n N 
+pron-det v-fin art n prp n prp n adj pron-indp v-fin N conj-c N adv n 
+prp conj-s n conj-c v-pcp art n prp art n prp art n prp n prp n n N conj-c n adj v-pcp conj-c n N conj-c art adj n prp pron-det N N 
+pron-det art n prp art n prp art n prp n n prp n N conj-c n adj n N v-pcp conj-c art adj n prp pron-det n 
+pron-det art n prp art n prp art n n n n conj-c n prp n prp art n prp N n pron-indp v-fin N conj-c N 
+pron-det v-fin art n prp v-inf art n n n n conj-c n prp n prp art n prp n v-ger N conj-c N 
+v-fin adj art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n prp N conj-c N prp N n 
+pron-pers v-fin prp art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n N conj-c N prp art n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-indp n art n adj prp N adj prp n conj-c N n prp n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+pron-det v-fin art n prp n pron-indp v-fin n prp v-inf art n adj prp n conj-c n prp n n 
+pron-det art n prp art n adj prp pron-det n n prp art n adj conj-c prp art n adj n pron-indp v-fin v-inf art adj n prp n adj 
+pron-det v-fin art n prp n prp pron-det n n prp art n adj conj-c prp art n adj n pron-indp v-fin v-inf prp n adj 
+v-fin art n prp art n prp art n prp n prp n n conj-c n adj v-pcp conj-c n 
+v-fin art n prp art n prp art n n prp n conj-c n adj v-pcp conj-c n 
+v-fin adj n prp n adj prp art n pron-indp adv conj-c v-inf N n n prp N conj-c N 
+art n prp n adj v-fin adj prp n pron-indp v-fin conj-c v-fin n N conj-c N 
+v-fin n v-inf n prp adv v-inf n n 
+v-fin adj v-inf n prp art n prp n n 
+prp art n prp prop adj pron-indp n v-fin v-inf v-pcp 
+prp n prp N adj pron-indp n v-fin v-inf v-pcp 
+prp art N N prp n prp art n conj-c adj art n prp pron-indp 
+prp art n prp n prp art n v-fin adj art n prp pron-indp 
+pron-det conj-c art n prp art adj pron-pers adj conj-c prp art n pron-pers adj prp n prp n adj 
+pron-det v-fin art n prp art adj n conj-c n adj prp art n prp n 
+prp pron-indp adv v-fin v-inf v-pcp art n prp n adj 
+pron-indp adv v-fin v-inf v-pcp prp art n prp n 
+pron-det pron-indp v-fin prp n adj v-inf 
+pron-det pron-indp art n adj v-fin v-inf 
+v-fin n v-inf n 
+v-fin n v-inf n 
+pron-det pron-indp v-fin art n prp n v-pcp 
+pron-det v-fin art n prp n v-pcp 
+v-fin v-pcp art n prp art n prp n adj 
+v-fin art n adj prp art n prp n adj 
+pron-indp adv v-fin v-inf conj-c v-inf adj conj-c adv art n prp n conj-c art n prp N n adj 
+pron-indp adv v-fin adj conj-c adv v-inf conj-c v-inf art n n conj-c n prp n adj 
+pron-det art n prp v-inf art n conj-c n prp adj pron-pers adj 
+pron-det v-fin art n prp v-inf art n conj-c art n prp art n adj 
+adv conj-c v-pcp art v-pcp prp n prp art adj pron-pers adj conj-c prp adv conj-c nprop N 
+adv v-fin art v-pcp prp n prp art adj n v-pcp conj-c adv v-fin v-pcp 
+n n v-fin v-inf art n prp art pron-det adj pron-pers adj 
+n n v-fin v-inf adj prp art pron-det n 
+v-fin n n prp n adj 
+v-fin n v-inf art n adj 
+pron-det conj-c art n adj prp art n adj conj-c pron-det pron-indp v-fin pron-det v-inf 
+pron-det v-fin art n adj prp art n adj conj-c pron-det pron-indp pron-indp v-fin v-inf 
+pron-det v-fin art n v-pcp 
+pron-det v-fin art n v-pcp 
+prp pron-det n v-fin v-inf v-fin prp n 
+prp pron-det n v-fin v-inf n prp n 
+pron-det conj-c art n prp n prp n prp n conj-c prp n prp v-fin prp art n adj prp art n num pron-pers prp num num conj-c num num conj-c prp n n v-pcp prp n adj prp N N pron-pers adj v-pcp adj conj-c adj prp num N 
+pron-det art n prp n prp art n prp n prp n prp art n prp art n num prp num conj-c num conj-c n adj v-pcp prp art n adj prp n adj v-pcp adj conj-c adj prp num N 
+art n pron-indp v-fin art N adj adv v-pcp prp art N prp ec n conj-c pron-indp v-fin v-inf art adj n n prp n conj-c prp n prp ec N v-fin v-inf conj-s n 
+art n v-fin v-inf art N adj adv v-pcp prp art N prp n n conj-c v-fin prp v-inf art adj n prp n prp prop conj-c n prp n n v-inf pron-indp 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf prp art n prp n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf v-pcp prp art n prp n 
+pron-det v-fin art n pron-indp v-fin v-inf v-pcp prp art n 
+pron-det n v-fin v-inf v-pcp prp art n 
+v-fin v-pcp n prp n prp n conj-c n 
+v-fin v-pcp n prp n conj-c n 
+v-fin v-pcp art n prp n adj prp n 
+v-fin v-pcp v-inf n adj prp n 
+art n prp n conj-c n v-fin v-inf n v-pcp prp n prp art n prp art n prp ec N N 
+art n conj-c n prp n v-fin v-inf n adj v-ger prp art n prp art n prp n N N 
+pron-det art n prp art n prp n prp n 
+pron-det v-fin art n prp v-inf n prp n 
+v-fin n prp art n conj-c n prp n adj prp n N n conj-c prp n v-pcp prp art N adj 
+v-fin n prp art n conj-c n prp n adj prp n adj conj-c adj v-pcp prp art n 
+pron-det n v-fin v-inf v-pcp prp art n prp n 
+pron-det n v-fin v-inf v-pcp prp n prp n 
+v-fin v-inf v-pcp conj-s n v-fin v-inf 
+pron-pers v-fin v-inf n pron-det n v-fin v-inf 
+adv v-fin v-inf pron-det n prp art adj n adv art N n v-fin N 
+adv v-fin v-inf pron-det n prp adj n adj 
+pron-det conj-c art n prp n prp n prp n prp n prp n prp n conj-c prp n prp n adv n 
+pron-det v-fin art n prp n prp n prp n prp n prp n prp n conj-c n adv n 
+v N prp art n prp n conj-c n adv n prp art prop N N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det prop N v-fin prp v-inf adj N prp art prop N adv adv v-fin N 
+v N prp adv n prop prp art n N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det n pron-pers v-fin conj-s v-inf art adj N prp art n adv adv v-fin N 
+pron-det art n prp art n prp n prp n conj-c n prp n adj conj-c adv v-pcp prp N N n conj-c n pron-indp prp n adv v-fin pron-det n prp n conj-c v-fin adj prp n prp art n prp v-inf n pron-indp pron-pers v-fin prp v-inf pron-det n adj adj adj prp n conj-c pron-det 
+pron-det v-fin art n prp art n adj conj-c adv adj prp n prp prop prp n n conj-c n pron-indp adv v-fin adv pron-det n conj-c v-fin adj prp n prp v-inf n pron-indp v-fin pron-det n adj adj prp n conj-c pron-det 
+art n prp n prp n n prp n conj-c n v-fin pron-det n prp adj n N n 
+art n prp n prp n n prp prop conj-c n v-fin pron-det n prp adj n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det v-fin art n adj prp art adj n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det v-fin art n adj prp art n adj 
+pron-det art n adj prp art prop art N adv adj 
+pron-det v-fin art n adj art adj n adv adj 
+v-fin art adj pron-indp v-fin v-inf adv n adj pron-det pron-indp v-fin v-inf 
+pron-pers v-fin art n pron-indp v-fin v-inf adv n adj pron-det pron-indp v-fin v-inf 
+v-fin art adj conj-c v-fin prp pron-pers v-inf prp n adv n adj pron-det pron-indp v-fin v-inf 
+pron-pers v-fin art n conj-c v-fin prp v-inf prp art n adv n adj pron-det pron-indp v-fin v-inf 
+pron-pers adv prop art adj prp art pron-det n v-fin v-pcp n adj prp pron-det n 
+v-fin prp v-inf art adj prp art pron-det n v-fin v-pcp n adj prp conj-s n 
+art n prp n n prp n prp art adj v-fin v-pcp n prp art n prp n adj 
+v-fin art n n prp n prp art n v-pcp adv n prp art n adj prp n 
+pron-det v-fin art n prp art num n prp n prp n adj 
+pron-det v-fin art n prp art num n prp n prp n adj 
+pron-det pron-indp v-fin art n 
+pron-det pron-indp v-fin art n 
+v-fin art n prp art pron-det n v-fin n adj v-fin v-inf adv n adj 
+pron-pers v-fin art n prp pron-det n pron-pers v-fin n adj v-fin v-inf adv art n adj 
+prp art pron-det n v-fin v-inf pron-det n prp n adj 
+prp art pron-det n v-fin v-inf pron-det n adj prp n 
+v-fin prp art pron-det n v-inf adj n prp n prp n adj prp n num n conj-c art n prp n v-ger pron-det art n 
+v-fin prp art pron-det n v-inf adj n prp n prp n adj prp n num n conj-c art n prp n v-ger pron-det art n 
+prp art n prp art n adv v-fin adj v-inf art n prp n prp n prp n prp art n prp art n prp art adj n prp n prp n v-fin adj art n prp pron-det n 
+prp n prp art n adv v-fin adj v-inf art n prp n prp n prp n prp art n prp art adj prp art adj n prp n prp n v-fin adj v-inf pron-det n 
+prp v-inf n prp n adj v-fin adj pron-det n conj-c n 
+pron-pers v-fin prp pron-det n conj-c n prp v-inf art n adj 
+v-fin v-inf adv n adj art adj pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp art n n adj conj-c adv v-fin n prp n prp art n pron-indp v-fin pron-det n v-fin v-inf prp art n prp art n adj prp art pron-det n conj-c pron-indp v-fin v-inf prp n prp art n prp art n adj 
+v-fin v-inf adv art n adj art n pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp pron-det n n adj conj-c pron-pers adv v-fin art n prp n prp art n pron-det n pron-det n v-fin pron-pers v-inf prp art n adj prp art pron-det n conj-c pron-indp v-fin prp n prp art n prp art n prp n 
+v-fin v-inf art n prp n prp art n prp n adj prp n prp art n prp n 
+v-fin v-inf art n prp n prp art n prp n adj prp n prp art n prp n 
+art n n pron-indp v-fin prp n conj-c v-fin conj-s adv adv v-fin n prp v-inf art n prp n v-fin v-inf art n prp art n prp n prp v-inf art n prp n adj 
+art n n pron-indp v-fin prp n conj-c v-fin conj-s adv adv v-fin n prp v-inf art n prp n v-fin v-inf art n prp art n prp v-inf art n prp art n adj 
+art n prp art N n adj prp art n adj v-fin n 
+art n prp art N n adj prp n adj v-fin n 
+v-fin pron-det n conj-c n pron-indp adv prp art n prp n prp n n prp n 
+v-fin pron-det n conj-c n pron-indp v-fin art n prp n prp n n prp art n 
+art n prp art n prp n adj v-fin v-pcp art n 
+art n prp n prp n adj v-fin v-pcp art n 
+v-ger art n prp art n v-fin prp v-inf pron-pers prp v-inf art adj n adj prp art n adj adj conj-c v-fin v-inf prp art adj pron-indp pron-pers v-fin 
+v-ger art n prp art n v-fin prp v-inf art n adj prp art n adj adj conj-c v-fin v-inf prp art adj prp art v-inf 
+adv v-fin n prp n prp n n adv v-fin v-inf art n 
+pron-pers adv v-fin art n prp art n prp n prp n adv v-fin pron-pers v-inf 
+v-fin n conj-c adv v-fin n prp art n adv v-fin v-inf art n prp art pron-det n adj 
+v-fin n conj-c adv N n prp n adv v-fin v-inf pron-det n adj 
+prp v-inf art n prp art n adj adj pron-det n v-fin prp conj-s v-fin v-pcp art n prp n 
+adv prp pron-pers v-inf prp art n adj pron-det n v-fin prp conj-s art n prp n v-fin v-pcp 
+v-fin art n adj adv v-pcp v-fin prp v-inf adv prp art n adj adj 
+pron-pers adv v-fin art n adj v-pcp v-fin conj-s pron-pers v-inf adv prp art n adj 
+art adj adv v-fin v-inf art n prp n prp n prp n v-fin v-pcp adv N conj-c adv v-fin n prp n adv n prp n adj prp art n prp n 
+art n adv v-fin v-inf art n prp n prp n prp n v-fin v-pcp adv prp N conj-c adv v-fin n prp n adv n art n prp art n prp n 
+v-fin art n adj prp art n prp n adj 
+v-fin art n adj prp n adj prp n 
+adv pron-pers v-fin art n prp art n conj-c prp art n prp art n prp n adj adv prp art n prp n 
+adv art n conj-c art n v-fin v-inf v-pcp prp n adj prp n prp adj n prp n 
+prp art n prp n prp art n adj prp art n prp art n v-fin prp pron-pers v-inf art n prp n pron-det n v-fin art n adj 
+prp art n prp n prp art n adj prp art n prp art n v-fin v-inf v-pcp art n prp n pron-det n v-fin n adj 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art N v-pcp prp art n n N n num N prp num prp n art n prp art n conj-c art n prp art adj 
+pron-indp v-fin v-inf art n prep num prp art N v-pcp prp art n n N num N prp num prp n art n prp art n conj-c art n prp art n 
+v-fin art N adv v-pcp adv prp num prp n prp N art N v-pcp prp art pron-det n v-fin adj prp art v-pcp prp art N N n num N prp num prp n v-fin v-inf art N 
+pron-pers v-fin art N adv v-pcp adv prp num prp n prp N art N v-pcp prp art pron-det n v-fin adj prp pron-det v-pcp prp art N adv num N prp num prp n v-fin v-inf art N 
+adv v-inf prp art n prp art N prp art n 
+adv v-fin prp v-inf art N prp art n 
+art n adj v-fin v-inf n prp art n prp art n v-fin pron-det n N v-pcp 
+art n adj v-fin v-inf n prp art n v-fin pron-det n n 
+prp pron-det n art n prp art n prp n adj v-fin v-pcp conj-c pron-indp pron-pers v-fin v-inf 
+prp pron-det n art n prp n prp n adj v-fin v-pcp conj-c pron-indp v-fin N pron-pers 
+adv prp art n v-fin v-inf conj-c v-inf art pron-det n prp art n 
+adv prp art n v-fin v-inf conj-c v-inf pron-det n prp art n 
+v-fin prp art n pron-indp v-ger art n prp n adj prp n adj prp num n v-fin v-inf n prp art n prp art n prp n prp n pron-indp v-fin prp art N N n num N prp num prp n conj-c n N n N N prp num prp n v-ger prp n pron-indp v-fin art n n pron-det art n pron-indp nprop prp pron-det n pron-pers v-fin art n adj 
+pron-pers v-fin v-pcp prp art n pron-indp v-ger art n prp n adj prp n prp pron-det prp num n pron-pers v-fin conj-s v-inf prp art n prp n prp n prp art n v-pcp prp art N N num N prp num prp n conj-c n n N N prp num prp n v-ger conj-s v-fin art n n pron-det n pron-pers nprop prp art n adj prop 
+prp art n prp art n prp n adj conj-c adj prp num n prp n prp n prp n pron-det art n conj-c n adv v-pcp prp art pron-det n adj 
+prp n prp n prp num conj-c adv prp n prp n prp n pron-det n prp n conj-c n v-fin adv v-pcp prp pron-det n adj 
+prp art n adj v-fin adj art n adj prp pron-det n v-fin v-inf v-pcp 
+art n adj v-fin adj prp n adj prp pron-det n v-fin v-inf v-pcp 
+pron-det art n n prp art adj pron-indp v-fin v-inf adv n prp n adj 
+pron-det v-fin art n n prp art n pron-indp pron-pers v-fin adv art n prp n adj 
+art n adj v-fin n prp pron-det art n prp n prp n adj 
+art n prp n v-fin n prp pron-det art n prp n prp n adj 
+prp art n v-fin adj v-inf art n adj 
+v-fin adj v-inf art n adj prp art n 
+prp art n v-fin v-inf art adj n prp art n adj 
+art n v-fin v-inf art adj n prp n adj 
+adv v-fin v-inf art n adj prp art n prp n 
+adv v-fin v-inf art n prp n prp art n prp n 
+v-fin art n prp n adj v-pcp adv prp num prp n prp N v-fin v-inf art pron-det n 
+pron-pers v-fin art n prp n adj v-pcp adv prp num prp n prp N v-fin v-inf art pron-det n 
+art n prp n v-fin n prp pron-det n prp n prp n adj 
+art n prp n v-fin n prp pron-det art n adj prp n 
+v-fin num n prp art pron-det n v-fin prp v-inf art n prp n prp pron-det num 
+pron-pers v-fin num n prp art pron-det n pron-pers v-fin conj-s v-inf art n prp n prp pron-det num prp pron-pers 
+pron-pers art n prp art pron-det n v-inf prp pron-det n v-fin prp v-inf art adj n 
+pron-pers art n prp art pron-det n v-inf prp pron-det n adj pron-pers v-inf adv 
+pron-det pron-indp v-fin v-inf conj-s adv v-inf v-inf art n prp art n 
+pron-det pron-indp v-fin v-inf conj-s adv v-fin v-inf prep art n 
+v-fin art n adv adv n adj v-fin adj prp pron-det n prp art n prp n adj pron-indp adv 
+pron-pers v-fin art n adv adj n adj v-fin adj prp pron-det n prp art n adj prp n pron-indp adv 
+v-fin v-inf v-pcp art n prp n prep prp art n prp art n conj-c n n art n pron-indp v-fin conj-c v-fin prp n prp art n prp n n adv v-pcp 
+art n pron-indp v-fin conj-c v-fin adv n prp n prp n adj adv v-pcp v-fin v-pcp prp art n prp adj n prep prp n conj-c n 
+adv v-fin conj-s v-fin v-inf conj-s art v-pcp n prp n adj v-fin v-pcp 
+adv v-fin v-inf conj-s art v-pcp n prp n v-fin v-pcp 
+pron-det pron-indp v-fin adv art n prp prop N n v-fin conj-s art n prp n adj v-fin n prp v-inf v-pcp n adj 
+pron-det pron-indp v-fin adv art n prp prop N v-fin conj-s art n prp n adj v-fin art n prp v-inf v-pcp art n adj 
+prp pron-det n v-fin v-inf v-pcp art n prp n prp art n prp n conj-c pron-indp pron-pers v-fin v-inf 
+prp pron-det n prp n prp art n prp art n prp n v-fin v-inf v-pcp conj-c pron-indp v-fin N pron-pers 
+pron-det pron-indp v-fin n v-pcp prp n adj 
+pron-det v-fin art n v-pcp prp n adj 
+adv prp art n prp n prp art n n N n num N prp num prp n adv v-fin v-pcp prp art n prp n prp art pron-det n adv prp num n n v-ger pron-det n adj prp num prp art n prp n adj prp art n adv pron-pers v-ger art n v-pcp prp art n num n prp art N num N v-fin v-inf adv pron-det n prp art pron-det n 
+adv prp art n prp n prp art n n n art n num N prp num prp n adv v-fin adv prp num n prp art pron-det n pron-det pron-indp v-fin adv prp num prp art n prp n prp art n conj-s pron-pers adv v-inf art n v-pcp prp art n num prp art N num N v-fin v-inf pron-det pron-det n prp art pron-det n 
+pron-det pron-indp v-fin prp art n prp n adj pron-indp adv v-fin art n prp n 
+pron-det pron-indp v-fin prp art n adj pron-indp adv v-fin art n prp art n 
+art n prp n adv n adv n adj v-fin adv prp v-inf v-pcp n v-inf v-pcp adv art n v-fin pron-det n 
+art n prp n adv v-pcp adv n adj v-fin v-inf v-pcp adv n adv prp v-inf v-pcp n v-fin n 
+pron-det pron-indp v-fin prp art n prp n adj v-pcp prp art n prp art n adj pron-indp v-fin adv prp num n conj-c adv v-fin prp pron-det n v-inf art pron-det n prp n adj v-fin prp v-inf 
+pron-det pron-indp v-fin prp art n prp n adj v-pcp prp art n prp n adj pron-indp v-fin adv prp num n conj-c adv v-fin prp pron-det n v-inf prp art n adj pron-pers v-fin conj-s v-inf 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+pron-det art n prp n prp art n conj-c n prp art n v-pcp prp art n adj prp n conj-c n prp n prp n 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+pron-det art n pron-indp art N v-fin 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+pron-det art n pron-indp art n adj prp n conj-c n prp n prp n v-fin 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+prp pron-indp v-fin art N 
+pron-det art n prp n prp art n conj-c v-fin N prp art n v-pcp prp art N 
+prp pron-indp v-fin art n adj prp n conj-c n prp n prp n 
+prp pron-indp v-fin art adj n N n N 
+prp pron-indp v-fin prp N 
+prp pron-indp v-fin art adj n N n N 
+prp pron-indp v-fin art adj n adj 
+prp pron-indp v-fin art adj n N n N 
+pron-det pron-indp v-fin art adj n v-fin 
+prp pron-indp v-fin art adj n N n N 
+pron-det pron-indp v-fin art N 
+prp pron-indp v-fin art adj n N n N 
+prp conj-s v-fin art adj n v-fin 
+prp pron-indp v-fin art adj n N n N 
+prp conj-s v-fin prp N 
+prp pron-indp v-fin art n prp n N 
+prp pron-indp v-fin art n prp n 
+prp pron-indp v-fin art n prp n N 
+pron-det pron-indp v-fin art n prp n 
+prp pron-indp v-fin art n prp n N 
+pron-det pron-indp v-fin art n prp N 
+prp pron-indp v-fin art n prp n N 
+prp conj-s v-fin art n prp n 
+prp pron-indp v-fin art n prp n N 
+prp conj-s v-fin art n prp N 
+prp pron-indp v-fin art n prp n adj N 
+prp pron-indp v-fin art n prp n adj 
+prp pron-indp v-fin art n prp n adj N 
+prp pron-indp v-fin art n prp N 
+prp pron-indp v-fin art n prp n adj N 
+pron-det pron-indp v-fin art n prp n adj 
+prp pron-indp v-fin art n prp n adj N 
+pron-det pron-indp v-fin art n prp N 
+prp pron-indp v-fin art n prp n adj N 
+pron-det pron-indp v-fin art n adj 
+prp pron-indp v-fin art n prp n adj N 
+pron-det pron-indp v-fin art N 
+prp pron-indp v-fin art n prp n adj N 
+prp conj-s v-fin art n prp n adj 
+prp pron-indp v-fin art n prp n adj N 
+prp conj-s v-fin art n prp N 
+prp pron-indp v-fin art n prp n adj N 
+prp conj-s v-fin art n adj 
+prp pron-indp v-fin art n prp n adj N 
+prp conj-s v-fin prp N 
+pron-det art n v-pcp prp art N 
+pron-det art n v-pcp prp art n adj prp n conj-c n prp n prp n 
+pron-det art n v-pcp prp art N 
+pron-det v-fin art n v-pcp prp art N 
+pron-det art n v-pcp prp art N 
+pron-det v-fin art n v-pcp prp art n adj prp n conj-c n prp n prp n 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp pron-pers art n prp art N 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp art n prp art n adj prp n conj-c n prp n prp n 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp pron-pers art n prp art N 
+art n v-pcp prp art n adj v-fin v-pcp prp pron-det n prp art n prp art N 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp pron-pers art n prp art N 
+art n v-pcp prp art n adj v-fin v-pcp prp pron-det n prp art n prp art n adj prp n conj-c n prp n prp n 
+art n v-pcp prp art n prp art n adj v-fin v-pcp prp pron-det n prp pron-pers art n prp art N 
+art pron-det n v-fin v-pcp prp art n adj adj prp v-inf pron-det n 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+prp pron-det n v-fin v-pcp art n prp n n conj-c n adv v-pcp prp art n adj prp n conj-c n prp n prp n 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+prp pron-det n v-fin v-pcp art n prp n n conj-c n adv v-pcp prp art N 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+prp pron-det n v-fin v-pcp art n prp n n conj-c n adv v-pcp prp art n adj prp n conj-c n prp n prp n 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+art pron-det n adv v-fin v-pcp prp art N pron-det v-fin art n 
+prp pron-det n v-fin v-pcp art n prp v-fin N n conj-c n adv v-pcp prp art N 
+art pron-det n adv v-fin v-pcp prp art n adj prp n conj-c n prp n prp n pron-det v-fin art n 
+adv v-fin v-inf v-pcp art n n N n art n prp n art n prp n adj conj-c art n prp n v-pcp prp art N 
+adv v-fin v-inf art n v-pcp prp art N 
+adv v-fin v-inf v-pcp art n n N n art n prp n art n prp n adj conj-c art n prp n v-pcp prp art N 
+adv v-fin v-inf art n v-pcp prp art n adj prp n conj-c n prp n prp n 
+adv v-fin v-inf v-pcp art n n N n art n prp n art n prp n adj conj-c art n prp n v-pcp prp art N 
+adv v-fin v-inf art n 
+adv v-fin v-inf v-pcp art n n N n art n prp n art n prp n adj conj-c art n prp n v-pcp prp art N 
+adv v-fin v-inf pron-det art n 
+prp v-inf prp art n prp art n conj-c adj v-inf n prp n 
+prp v-inf prp art n prp art n v-fin adj v-inf n 
+prp v-inf prp art n prp art n conj-c adj v-inf n prp n 
+adj prp v-inf art n prp n prp v-inf prp art n N n 
+prp v-inf prp art n prp art n conj-c adj v-inf n prp n 
+adj prp v-inf art n prp v-inf prp art n N n 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+pron-det pron-indp v-fin art n adj adj 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+pron-det pron-indp v-fin art N 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+adv v-fin v-inf prp art n adj adj 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+adv v-fin v-inf prp art N 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+adv v-fin v-inf art pron-det n adj adj 
+pron-det pron-indp conj-c conj-c adv v-inf prp art n adj adj 
+adv v-fin v-inf art pron-det N 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n prp art n prp art n 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+pron-det art prop pron-indp v-fin v-inf prp v-inf prp art n prp art n 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+adv v-fin v-inf prp art n prp art n pron-det pron-pers v-fin conj-s v-fin v-inf 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+adv v-fin v-inf prp art n prp art n pron-det art prop pron-indp v-fin v-inf 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+adv v-fin v-inf art n prp art n prp art n pron-det pron-pers v-fin conj-s v-fin v-inf 
+pron-indp prop v-fin v-inf v-pcp prp v-inf art n 
+adv v-fin v-inf art n prp art n prp art n pron-det art prop pron-indp v-fin v-inf 
+adv v-inf art n prp art n prp art n pron-pers pron-det adv v-fin adj 
+art n v-fin prop 
+adv v-inf art n prp art n prp art n pron-pers pron-det adv v-fin adj 
+art n prp art n prp art n v-fin prop 
+adv v-inf art n prp art n prp art n pron-pers pron-det adv v-fin adj 
+art n v-fin v-fin prp n 
+adv v-inf art n prp art n prp art n pron-pers pron-det adv v-fin adj 
+art n prp art n prp art n v-fin v-fin prp n 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+pron-det v-fin art n prp art n adj v-pcp 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+adv v-inf art n adj v-pcp 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+pron-det v-fin art n prp art n adj v-pcp 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+pron-det v-fin art n prp art n adj 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+pron-det v-fin art n prp art n adj 
+pron-det conj-c art n prp art n adj v-pcp conj-c adv N pron-pers 
+adv v-inf art n adj 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+adv v-inf art n v-pcp 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+adv v-inf art n v-pcp prp art n prp pron-indp v-fin v-pcp 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+adv v-inf art n pron-indp v-fin 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+adv v-inf art n pron-indp v-fin prp art n pron-indp v-fin v-pcp 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+art n v-fin v-inf art n v-pcp 
+adv v-inf conj-s v-fin v-pcp n conj-c art adj n prp art n prp pron-indp v-fin v-pcp 
+art n v-fin v-inf art n v-pcp prp art n 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+art n prp n prp art n v-fin v-pcp prp art n pron-indp v-fin v-inf 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+art n prp n prp art n v-fin v-pcp prp art n pron-indp v-fin v-inf 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+pron-indp n prp n prp n 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+pron-indp n prp n prp n 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+adv v-fin v-inf art n prp n 
+art n n prp n prp art n conj-c v-pcp prp art n pron-indp v-fin v-inf 
+adv v-fin v-inf art n prp n 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+v-fin n v-inf art n prp art n adj adv prp art n adj 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+v-fin n v-inf art n adj prp art pron-det n adj 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+adv v-fin v-inf art n adj prp art pron-det n 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+pron-det art n prp v-inf art n n prp art n prp art pron-det n 
+v-fin n v-inf pron-pers v-fin N prp art n adj adv prp art n adj conj-c adj N 
+pron-det art n prp v-inf art n n prp art n prp art pron-det n 
+art n prp art n adj prp n prp art adj adj prp n adj N v-fin pron-det n adj prp art n prp art N 
+art n prp art n adj v-fin pron-det n adj 
+pron-det art n adv prp art n prp n 
+art n adj v-fin v-inf art n prp n 
+pron-det art n adv prp art n prp n 
+art n adj v-fin v-inf art n prp n 
+pron-det art n adv prp art n prp n 
+pron-det art n prp v-inf art n prp n 
+pron-det art n adv prp art n prp n 
+pron-det art n prp v-inf art n prp n 
+pron-det art n adv prp art n prp n 
+art n prp n v-fin v-inf art n prp art n pron-indp pron-pers prp prp v-inf adv prp art n prp n 
+pron-det art n adv prp art n prp n 
+art n prp n v-fin v-inf art n prp art n pron-indp pron-pers prp prp v-inf adv prp art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+v-fin v-inf art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+v-fin v-inf art n prp art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+adv v-fin v-inf art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+adv v-fin v-inf art n prp n 
+v-fin n v-inf art n prp n conj-c art pron-det n 
+pron-det art n prp adv v-inf art n prp n adj 
+v-fin n v-inf art n 
+v-fin n v-inf art n 
+v-fin n v-inf art n 
+art n prp n v-fin v-inf adj 
+v-fin n v-inf art n 
+art n v-fin v-inf adj 
+v-fin n v-inf art n 
+adv v-fin v-inf art n prp n 
+v-fin n v-inf art n 
+adv v-fin v-inf art n 
+v-fin n v-inf art n 
+pron-det art n prp adv v-inf art n prp n 
+v-fin n v-inf art n 
+pron-det art n prp adv v-inf art n 
+v-fin n v-inf art n 
+pron-det pron-indp v-fin v-inf art n prp n 
+v-fin n v-inf art n 
+pron-det pron-indp v-fin v-inf art n 
+v-fin N N prp art n v-pcp prp art n prp art n prp n 
+adv v-fin v-inf n prp art pron-det n 
+v-fin N N prp art n v-pcp prp art n prp art n prp n 
+adv v-fin v-inf art n 
+v-fin N N prp art n v-pcp prp art n prp art n prp n 
+pron-det art n prp art n 
+v-fin N N prp art n v-pcp prp art n prp art n prp n 
+pron-det art n prp art n prp art n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+v-fin v-inf n v-fin v-inf n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+v-fin v-inf n v-fin v-inf n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+prp pron-indp v-fin v-inf pron-pers v-inf v-inf n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+prp pron-indp v-fin v-inf pron-pers v-inf v-inf n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+pron-det art n prp art n prp art n prp art n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+pron-det art n prp art n prp art n prp art n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+pron-det pron-indp v-inf conj-s v-fin v-inf n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+pron-det pron-indp v-inf conj-s v-fin v-inf n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+pron-det art n prp adv N art n prp art n 
+art n prp n conj-c art n prp art n prp n v-fin v-pcp art n 
+pron-det art n prp adv N art n prp art n 
+adv conj-c v-pcp art n prp art N N prp n adv art n adj n pron-det n adj adv pron-pers v-fin adv n prp n 
+adv v-fin v-pcp art n prp art n 
+pron-det pron-indp v-fin v-inf prp art n v-pcp prp art n prp n 
+pron-det pron-indp v-fin v-inf v-pcp prp art n 
+v-fin v-inf pron-pers prp art n prp art n 
+v-fin v-inf prp art n 
+v-fin v-inf pron-pers prp art n prp art n 
+art n v-fin v-inf adj 
+adv v-fin v-inf art n prp n 
+adv v-inf art n prp n 
+adv v-fin v-inf art n prp n 
+pron-det art n prp adv v-inf art n prp n 
+pron-det conj-c art n prp art n adj prp n adj 
+pron-det v-fin art n adj prp art n adj prp n adj 
+art n pron-indp v-fin prp n n v-pcp prp n adj prp n n prp n n conj-c n prp n prp art n prp n v-fin v-inf pron-det n adj prp pron-det n 
+n n prp art n v-fin v-inf pron-det n 
+pron-pers v-fin N prp n prp v-fin N art n prp art n N prp art prop N conj-c prp n adj v-fin v-pcp prp pron-det n conj-c n 
+art n prp n prp n prp n prp art n v-fin v-pcp prp pron-det n conj-c n 
+pron-pers v-fin N prp n prp v-fin N art n prp art n N prp art prop N conj-c prp n adj v-fin v-pcp prp pron-det n conj-c n 
+art n prp n prp n prp n prp art n v-fin v-pcp prp pron-det n conj-c n 
+pron-pers v-fin N prp n prp v-fin N art n prp art n N prp art prop N conj-c prp n adj v-fin v-pcp prp pron-det n conj-c n 
+art n prp n prp n prp n prp n adj v-fin v-pcp prp pron-det n conj-c n 
+v-fin adj art n prp art n adj 
+v-fin v-pcp prp v-inf pron-pers prp art n adj 
+pron-det art n pron-indp v-fin prp n prp art n prp art n prp n prp N N conj-c n prp n 
+pron-det art n prp art n prp art n v-pcp prp art N 
+pron-det art n pron-indp v-fin prp n prp art n prp art n prp n prp N N conj-c n prp n 
+pron-det art n prp art n prp art n v-pcp prp art n adj prp n conj-c n prp n prp n 
+pron-det art n pron-indp v-fin prp n prp art n prp art n prp n prp N N conj-c n prp n 
+adv v-fin v-inf art n prp art pron-det n prp art N 
+pron-det art n pron-indp v-fin prp n prp art n prp art n prp n prp N N conj-c n prp n 
+adv v-fin v-inf art n prp art pron-det n prp art n adj prp n conj-c n prp n prp n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+v-fin v-inf n art n prp art n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+v-fin v-inf n prp n prp n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+pron-det art n prp art n prp art n prp art n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+pron-det art n prp art n prp art n prp art n prp n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+pron-det art n prp art n prp n prp art n prp art n 
+v-fin v-inf n art n prp n conj-c art n prp n v-pcp prp art N 
+pron-det art n prp art n prp n prp art n prp n 
+pron-det art n v-pcp prp art n prp n 
+pron-det art n prp v-inf prp art n prp art n prp art n 
+pron-det art n v-pcp prp art n prp n 
+pron-det art n prp v-inf prp art n prp art n prp art n prp n 
+pron-det n v-fin v-pcp art n 
+pron-det pron-indp v-fin v-pcp art n 
+pron-det art n prp n prp n prp n prp n conj-c prp n prp v-fin prp n 
+pron-det art n prp n prp n prp n prp n 
+pron-det art n prp n prp n prp n prp n conj-c prp n prp v-fin prp n 
+pron-det art n prp n prp n prp n prp v-pcp 
+pron-det pron-indp v-fin adj N N adj 
+adv v-fin conj-s v-fin v-pcp art adj n adj 
+pron-det pron-indp conj-c v-pcp adv n prp n 
+adv v-fin conj-c v-fin prp N prp n 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp v-fin v-pcp art n adj 
+pron-det pron-indp v-fin art n adj 
+art n adj v-fin v-inf prp art pron-det n 
+pron-det pron-indp conj-c n adj adj 
+n conj-c n v-fin n prp art N adj adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+art n prp art N pron-det v-pcp art n adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+art n prp art N v-fin v-pcp art n adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+art n prp art n v-fin v-pcp art n adj 
+pron-det n v-fin art n adj v-pcp art n adj 
+art n prp n prp n v-fin v-pcp art n adj 
+prp pron-indp v-fin v-pcp art n prp art n prp n conj-c n prp art n adj adj 
+pron-det art n prp art n prp art N prp n 
+prp pron-indp v-fin v-pcp art n prp art n prp n conj-c n prp art n adj adj 
+pron-det art n prp art n prp art N adj adj 
+prp pron-indp v-fin v-pcp art n prp art n prp n conj-c n prp art n adj adj 
+pron-det pron-indp v-fin v-inf pron-pers v-inf art pron-det N prp n 
+prp pron-indp v-fin v-pcp art n prp art n prp n conj-c n prp art n adj adj 
+pron-det pron-indp v-fin v-inf pron-pers v-inf art pron-det N adj adj 
+art n prp art n conj-c adj prp v-inf prp art n conj-c n adj prp adj N N adj conj-c n adj 
+adv v-fin v-inf n adj prp adj n adj 
+art n prp art n conj-c adj prp v-inf prp art n conj-c n adj prp adj N N adj conj-c n adj 
+adv v-fin v-inf n adj prp n adj 
+art n adj v-fin v-pcp art n 
+pron-det art n prp art n adj 
+art n adj v-fin v-pcp art n 
+pron-det art n prp art n adj 
+v-fin pron-det n prp v-inf art n prp art n adj 
+v-fin pron-pers v-inf art n adj 
+pron-det art n adj prp art n prp art n adj 
+adv v-inf art n prp art n adj 
+pron-det art n adj prp art n prp art n adj 
+adv v-inf art n prp art n adj 
+pron-det art n adj prp art n prp art n adj 
+pron-det art n prp v-inf art n prp art n adj 
+pron-det art n adj prp art n prp art n adj 
+pron-det art n prp v-inf art n prp art n adj 
+pron-det pron-indp v-fin n n N 
+pron-det pron-indp v-fin art n N 
+pron-det pron-indp v-fin n n N 
+prp pron-indp v-fin art n N 
+pron-det pron-indp v-fin n n N 
+pron-det pron-indp v-fin art n 
+pron-det pron-indp v-fin n n N 
+prp pron-indp v-fin art n 
+pron-det pron-indp v-fin n n N 
+adv pron-pers v-fin art n N 
+pron-det pron-indp v-fin n n N 
+adv pron-pers v-fin art n 
+pron-det art n prp art n adj prp art n adj N adj prp pron-det n 
+pron-det art n prp art n adj prp art n adj adj prp art n 
+pron-det art n prp art n adj prp art n adj N adj prp pron-det n 
+pron-det art n prp n prp art n 
+pron-det art n prp art n adj prp art n adj N adj prp pron-det n 
+pron-det art n prp n prp art n N 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det art n pron-indp art n prp n v-fin v-inf 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det art n pron-indp art n prp n N v-fin v-inf 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det art n pron-indp art n v-fin v-inf 
+pron-det art n pron-indp pron-det n v-fin v-inf 
+pron-det art n pron-indp art n N v-fin v-inf 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n N v-fin v-pcp art n 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n N v-fin v-pcp art n prp n N adj 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n N v-fin v-pcp art n 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n N v-fin v-pcp art n prp n 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n v-fin v-pcp art n 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n v-fin v-pcp art n prp n N adj 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n v-fin v-pcp art n 
+pron-det pron-indp v-fin pron-pers prp pron-det prp num n prp art n N prp v-inf adv pron-pers v-fin prp v-inf art n prp n N adj conj-c prp n adj conj-c adj N n conj-c adj art n prp n conj-c n prp n adj v-pcp art n conj-c art n adv pron-pers conj-s art n prp pron-det n 
+pron-det pron-indp v-fin pron-pers adv prp art n v-fin v-pcp art n prp n 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+art n prp n n prp art n prp adj prp num n v-fin v-pcp 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+art n prp n n prp art n N art adj prp num n v-fin v-pcp 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+art n prp n n prp art n prp adj prp num n v-fin v-pcp 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+art n prp n n prp art n N art adj prp num n v-fin v-pcp 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+pron-det art n prp v-inf n n prp adj prp num n 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+pron-det art n prp v-inf n n prp adj prp num n 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+pron-det art n prp v-inf n n prp adj prp num n prp art n 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+pron-det art n prp v-inf n n prp adj prp num n prp art n 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+pron-det art n prp v-inf n n prp adj prp num n prp art n N 
+art n prp n prp v-fin prp art adj conj-c adj conj-c v-pcp art adj prp num n 
+pron-det art n prp v-inf n n prp adj prp num n prp art n N 
+v-fin v-pcp art n prp n prp v-fin prp art adj conj-c adj adj n prp pron-pers pron-det prp n prp art n N conj-c prp art prop N conj-c prp n prp n conj-c n v-pcp 
+v-fin v-inf n prp n adj prop 
+v-fin v-pcp art n prp n prp v-fin prp art adj conj-c adj adj n prp pron-pers pron-det prp n prp art n N conj-c prp art prop N conj-c prp n prp n conj-c n v-pcp 
+v-fin v-inf n prp n adj prop 
+pron-det pron-indp pron-pers v-fin prp adv 
+pron-det pron-indp v-fin art adv 
+pron-det pron-indp pron-pers v-fin prp adv 
+pron-det pron-indp v-fin art n pron-indp v-fin prp n 
+pron-det pron-indp pron-pers v-fin prp n adj 
+pron-det pron-indp v-fin art n adj 
+pron-det pron-indp pron-pers v-fin prp n adj 
+art adj n v-fin v-pcp prp art N 
+pron-det pron-indp pron-pers v-fin prp n adj 
+art adj n v-fin v-pcp prp art n adj prp n conj-c n prp n prp n 
+pron-det pron-indp pron-pers v-fin prp n 
+pron-det pron-indp v-fin art n 
+pron-det art n prp v-fin N art n adv n pron-indp adv pron-pers v-fin prp art n prp n conj-c prp n adj prp art n prp art N 
+pron-det art n prp n pron-indp adv pron-pers v-fin prp art n prp n 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n prp art n prp n adj adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n prp art N adj prp art n prp adv 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n prp art n prp n adj adj prp art n prp adv 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n prp art N adj prp art n prp n adj 
+pron-det v-fin art n prp art N adj prp art n prp adv conj-c prp n adj 
+pron-det v-fin art n prp art n prp n adj adj prp art n prp n adj 
+art n prp n v-pcp adj n adj n n adv prp n n conj-c N N conj-c v-pcp n adj 
+art n prp adj v-fin v-pcp n adj 
+art n prp n v-pcp adj n adj n n adv prp n n conj-c N N conj-c v-pcp n adj 
+art n prp n adj v-fin v-pcp n adj 
+art n prp n v-pcp adj n adj n n adv prp n n conj-c N N conj-c v-pcp n adj 
+art n prp n v-fin v-pcp n adj 
+art n prp n v-pcp adj n adj n n adv prp n n conj-c N N conj-c v-pcp n adj 
+art n prp n v-fin v-pcp n adj 
+v-fin n v-inf n adj prp adv conj-c prp n adj prp art n prp n 
+v-fin n v-inf n adj prp adv prp art n prp n 
+v-fin n v-inf n adj prp adv conj-c prp n adj prp art n prp n 
+v-fin n v-inf n adj prp n adj prp art n prp n 
+v-fin n v-inf n adj prp adv conj-c prp n adj prp art n prp n 
+v-fin n prp pron-indp pron-indp conj-s pron-indp v-fin adv 
+v-fin n v-inf n adj prp adv conj-c prp n adj prp art n prp n 
+v-fin n prp pron-indp pron-indp conj-s pron-indp v-fin n adj 
+art n conj-c n n pron-indp v-fin v-pcp prp art adj n prp art n prp n adj v-fin v-pcp prp v-inf art adj n N n 
+art n v-fin prp v-inf art n prp art n 
+art n conj-c n n pron-indp v-fin v-pcp prp art adj n prp art n prp n adj v-fin v-pcp prp v-inf art adj n N n 
+art n v-fin prp v-inf art n prp art n 
+art n conj-c n n pron-indp v-fin v-pcp prp art adj n prp art n prp n adj v-fin v-pcp prp v-inf art adj n N n 
+art adj n v-fin prp v-inf art n prp art n 
+art n conj-c n n pron-indp v-fin v-pcp prp art adj n prp art n prp n adj v-fin v-pcp prp v-inf art adj n N n 
+art adj n v-fin prp v-inf art n prp art n 
+pron-det art n pron-indp art adv conj-c conj-c n adj v-fin v-inf prp art n n adv n prp pron-indp v-fin art n prp n prp art n 
+pron-det art n pron-indp art adv v-fin v-inf prp art n n 
+pron-det art n pron-indp art adv conj-c conj-c n adj v-fin v-inf prp art n n adv n prp pron-indp v-fin art n prp n prp art n 
+pron-det art n pron-indp art n adj v-fin v-inf prp art n n 
+prp art n prp n pron-indp v-fin n adv n prp v-fin N conj-c n conj-c n conj-c nprop N art adj n N n N 
+v-fin n prp adj n adj prp art n prp n pron-indp v-fin n adv n 
+prp art n prp n pron-indp v-fin n adv n prp v-fin N conj-c n conj-c n conj-c nprop N art adj n N n N 
+v-fin n prp N prp art n prp n pron-indp v-fin n adv n 
+v-fin prop N pron-pers v-fin N art n adv n prp pron-det art n 
+pron-det art n pron-indp adv v-fin v-inf v-pcp art n adv n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+pron-det art n prp art n prp n adj art n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+v-fin v-pcp art n prp n adj art n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+pron-det art n prp art n prp n adj prp adj n 
+v-fin pron-det n prp art n prp n adj v-pcp prp n conj-c n n 
+v-fin v-pcp art n prp n adj prp adj n 
+art n conj-c n n v-fin prp v-inf n prp n 
+adv adv v-fin prp n prp n 
+art n conj-c n n v-fin prp v-inf n prp n 
+adv n adj adj prp n prp n 
+pron-det pron-indp v-fin v-inf prp v-inf v-inf prp art n prp art n 
+adv v-inf prp art n prp art n 
+pron-det pron-indp v-fin v-inf prp v-inf v-inf prp art n prp art n 
+pron-det pron-indp adj prp v-inf prp art n prp art n 
+art n prp n adj pron-indp v-fin v-inf prp n conj-c v-pcp prp n prp art N adv adv 
+art n prp n adj v-fin adv adv 
+pron-indp v-fin art n prp adv conj-c conj-c n adj prp pron-det n n conj-c N n art n pron-indp pron-pers v-fin v-fin v-inf art n prp n adj 
+N v-fin adv conj-c conj-c n adj prp pron-det n n conj-c n art n pron-indp pron-pers v-fin v-fin v-inf art n prp n adj 
+art n prp n prp n adj v-fin v-pcp prp art n prp art adj n N n 
+pron-det pron-indp adj prp v-inf art n 
+art n prp n prp n adj v-fin v-pcp prp art n prp art adj n N n 
+pron-det art n pron-indp adj prp v-inf art n 
+pron-det art n v-pcp 
+pron-det art n v-pcp prp art n prp n adj n conj-c n conj-c n prp n conj-c n prp n adj n prp n prp n n N conj-c n adj v-pcp conj-c n N 
+pron-det art n prp art n prp N n n pron-indp v-fin N conj-c N adv n N 
+adv v-fin v-inf v-pcp art n n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp N n n pron-indp v-fin N conj-c N adv n N 
+adv v-fin v-inf v-pcp art n n pron-indp v-fin n prp n n conj-c n adj 
+pron-det art n prp art n prp N n n pron-indp v-fin N conj-c N adv n N 
+pron-det art n prp adv v-inf art n prp art n prp N conj-c N 
+pron-det art n prp art n prp N n n pron-indp v-fin N conj-c N adv n N 
+pron-det art n prp adv v-inf art n prp art n prp n prp n n conj-c n adj 
+prp conj-s n conj-c v-pcp art n prp art n prp art n prp n prp n n N conj-c n adj v-pcp conj-c n N conj-c art adj n prp pron-det N N 
+prp conj-s n v-fin v-pcp art n prp art n prp art n prp n prp n n N conj-c n adj v-pcp conj-c n N 
+pron-det art n prp art n prp art n n n n conj-c n prp n prp art n prp N n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp art n prp n prp prp n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp art n n n n conj-c n prp n prp art n prp N n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp art n prp n prp prp n pron-indp v-fin n prp n n conj-c n adj 
+pron-det art n prp art n prp art n n n n conj-c n prp n prp art n prp N n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp art n prp art n prp art n prp n prp prp n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp art n n n n conj-c n prp n prp art n prp N n pron-indp v-fin N conj-c N 
+pron-det art n prp art n prp art n prp art n prp art n prp n prp prp n pron-indp v-fin n prp n n conj-c n adj 
+v-fin adj art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n prp N conj-c N prp N n 
+art n v-fin v-inf art n prp art pron-det n 
+v-fin adj art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n prp N conj-c N prp N n 
+art n v-fin v-inf art n prp art pron-det n 
+v-fin adj art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n prp N conj-c N prp N n 
+pron-det art n prp art n adv v-inf art n prp art n 
+v-fin adj art n v-pcp prp pron-det art n conj-c n v-pcp prp art n prp n prp N conj-c N prp N n 
+pron-det art n prp art n adv v-inf art n prp art n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-indp n art n adj prp adj prp N n conj-c n prp N n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-indp n art n adj prp adj prp N n conj-c n prp N n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-indp n art n adj prp adj prp prop conj-c n prp prop 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-det art n v-fin n prp n adj prp adj prp N n conj-c n prp N n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-det art n v-fin n prp n adj prp adj prp N n conj-c n prp N n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-det art n v-fin n prp n adj prp adj prp N n conj-c n prp N n 
+pron-indp n art pron-pers N adj prp n N prp N n conj-c pron-pers adj prp N n 
+pron-det art n v-fin n prp n adj prp adj prp prop conj-c n prp prop 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art n adj prp n conj-c n prp N n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art n adj prp n conj-c n prp prop 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+adv v-fin v-inf art n prp adj prp n conj-c n prp N n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+adv v-fin v-inf art n prp adj prp n conj-c n prp N n 
+pron-det v-fin art n n pron-indp v-fin n prp n prp art pron-pers N adj prp n n conj-c pron-pers n prp N n 
+adv v-fin v-inf art n prp adj prp n conj-c n prp prop 
+pron-det art n prp art n adj prp pron-det n n prp art n adj conj-c prp art n adj n pron-indp v-fin v-inf art adj n prp n adj 
+v-fin n v-fin v-inf prp art n prp n prp prp n pron-indp v-fin N conj-c N 
+pron-det art n prp art n adj prp pron-det n n prp art n adj conj-c prp art n adj n pron-indp v-fin v-inf art adj n prp n adj 
+v-fin n v-fin v-inf prp art n prp n prp prp n pron-indp v-fin n prp n n conj-c n adj 
+v-fin art n prp art n prp art n prp n prp n n conj-c n adj v-pcp conj-c n 
+v-fin art n prp art n prp art n prp N conj-c N 
+v-fin art n prp art n prp art n prp n prp n n conj-c n adj v-pcp conj-c n 
+pron-indp v-fin art n prp n prp n prp n n conj-c n adj v-pcp conj-c n 
+v-fin art n prp art n prp art n prp n prp n n conj-c n adj v-pcp conj-c n 
+pron-indp v-fin art n prp n prp N conj-c N 
+v-fin adj n prp n adj prp art n pron-indp adv conj-c v-inf N n n prp N conj-c N 
+v-fin adj n prp n adj prp art n pron-indp adv conj-c v-inf n n prp n prp n n conj-c n adj 
+v-fin n v-inf n prp adv v-inf n n 
+v-fin pron-pers v-inf v-inf n n 
+v-fin n v-inf n prp adv v-inf n n 
+v-inf art n adj v-fin n 
+v-fin n v-inf n prp adv v-inf n n 
+v-fin n v-inf n prp adv v-inf art n n 
+v-fin n v-inf n prp adv v-inf n n 
+v-fin pron-pers v-inf v-inf art n n 
+v-fin n v-inf n prp adv v-inf n n 
+v-inf art n adj v-fin n 
+prp art n prp prop adj pron-indp n v-fin v-inf v-pcp 
+pron-det art n prp art n 
+prp art N N prp n prp art n conj-c adj art n prp pron-indp 
+pron-indp v-fin v-inf adj prp art n prp n adj 
+pron-det conj-c art n prp art adj pron-pers adj conj-c prp art n pron-pers adj prp n prp n adj 
+pron-det art n n prp art n prp n adj 
+prp pron-indp adv v-fin v-inf v-pcp art n prp n adj 
+adj prp num n v-fin v-inf art n prp n adj 
+prp pron-indp adv v-fin v-inf v-pcp art n prp n adj 
+v-pcp v-fin v-inf art n prp n adj 
+prp pron-indp adv v-fin v-inf v-pcp art n prp n adj 
+pron-indp adv v-fin v-inf art n prp n adj 
+pron-det pron-indp v-fin prp n adj v-inf 
+pron-det pron-indp v-fin prp n adj v-inf prp art n prp n adj 
+pron-det pron-indp v-fin prp n adj v-inf 
+pron-det art n prp adv v-inf art n adj prp art n prp n adj 
+v-fin n v-inf n 
+v-fin n v-inf n prp art n prp n adj 
+pron-det pron-indp v-fin art n prp n v-pcp 
+pron-det pron-indp v-fin art n prp n v-pcp prp art n prp n adj 
+v-fin v-pcp art n prp art n prp n adj 
+v-fin v-pcp art n prp art n prp n adj prp art n prp n adj 
+pron-indp adv v-fin v-inf conj-c v-inf adj conj-c adv art n prp n conj-c art n prp N n adj 
+pron-indp adv v-fin v-inf art n adj 
+pron-det art n prp v-inf art n conj-c n prp adj pron-pers adj 
+pron-det art n prp v-inf art n conj-c n prp adj n prp art n n 
+adv conj-c v-pcp art v-pcp prp n prp art adj pron-pers adj conj-c prp adv conj-c nprop N 
+adv v-fin v-pcp art v-pcp prp n prp art adj n conj-c prp adv v-fin adj prp art adj n prp n n 
+n n v-fin v-inf art n prp art pron-det adj pron-pers adj 
+n n n v-fin v-inf art n prp art pron-det adj n 
+n n v-fin v-inf art n prp art pron-det adj pron-pers adj 
+n n n v-fin v-inf art n prp art pron-det n 
+v-fin n n prp n adj 
+v-fin n n prp n 
+v-fin n n prp n adj 
+art n n v-fin v-pcp prp v-inf adj 
+pron-det conj-c art n adj prp art n adj conj-c pron-det pron-indp v-fin pron-det v-inf 
+pron-det art n adj pron-indp art n v-fin v-inf 
+pron-det v-fin art n v-pcp 
+pron-det v-fin art n v-pcp prp art n adj prp n prp n 
+pron-det v-fin art n v-pcp 
+pron-det art n pron-indp v-fin prp art n adj prp n 
+pron-det v-fin art n v-pcp 
+pron-det art n pron-indp v-fin prp art n adj prp n 
+prp pron-det n v-fin v-inf v-fin prp n 
+prp pron-det n v-fin v-inf v-fin prp art n adj prp n 
+prp pron-det n v-fin v-inf v-fin prp n 
+prp pron-det n v-fin v-inf v-fin prp art n adj prp n 
+pron-det conj-c art n prp n prp n prp n conj-c prp n prp v-fin prp art n adj prp art n num pron-pers prp num num conj-c num num conj-c prp n n v-pcp prp n adj prp N N pron-pers adj v-pcp adj conj-c adj prp num N 
+pron-det v-fin art n prp n prp n prp n conj-c prp n prp v-fin prp art n adj prp n 
+art n pron-indp v-fin art N adj adv v-pcp prp art N prp ec n conj-c pron-indp v-fin v-inf art adj n n prp n conj-c prp n prp ec N v-fin v-inf conj-s n 
+art n pron-indp v-fin art n prp n adj adj adv v-pcp prp art N conj-c pron-indp v-fin v-inf art adj n n prp n conj-c prp n v-fin v-inf conj-s n 
+art n pron-indp v-fin art N adj adv v-pcp prp art N prp ec n conj-c pron-indp v-fin v-inf art adj n n prp n conj-c prp n prp ec N v-fin v-inf conj-s n 
+v-fin art n adv v-pcp prp art N conj-c v-fin v-inf art n prp n conj-c prp n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf prp art n prp n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf prp art n prp n prp art n v-pcp prp n adj prp n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf prp art n prp n 
+adv v-fin v-inf conj-c pron-det pron-indp v-fin v-inf prp art n prp n prp art n v-pcp prp n adj prp n 
+v-fin v-pcp n prp n prp n conj-c n 
+v-fin v-inf n prp art n v-pcp prp art N 
+v-fin v-pcp art n prp n adj prp n 
+pron-det pron-indp v-fin v-inf prp art n prp n adj prp n 
+v-fin v-pcp art n prp n adj prp n 
+v-fin v-inf art n adj prp n 
+v-fin v-pcp art n prp n adj prp n 
+v-fin v-pcp art n prp n adj prp n 
+v-fin v-pcp art n prp n adj prp n 
+pron-det pron-indp v-fin v-inf prp art n prp n adj prp n 
+v-fin v-pcp art n prp n adj prp n 
+v-fin v-inf art n adj prp n 
+art n prp n conj-c n v-fin v-inf n v-pcp prp n prp art n prp art n prp ec N N 
+adv v-fin v-inf art N N 
+art n prp n conj-c n v-fin v-inf n v-pcp prp n prp art n prp art n prp ec N N 
+v-fin v-inf n adj n art n 
+pron-det art n prp art n prp n prp n 
+v-fin v-inf v-fin art n 
+pron-det art n prp art n prp n prp n 
+v-fin v-inf n conj-c n prp n 
+v-fin n prp art n conj-c n prp n adj prp n N n conj-c prp n v-pcp prp art N adj 
+v-fin v-inf n adj art adj prp num n 
+v-fin n prp art n conj-c n prp n adj prp n N n conj-c prp n v-pcp prp art N adj 
+pron-det art n prp art n prp n adj art adj prp num 
+pron-det n v-fin v-inf v-pcp prp art n prp n 
+pron-det n adj v-fin v-inf prp art n prp n 
+v-fin v-inf v-pcp conj-s n v-fin v-inf 
+pron-det pron-indp v-inf prp v-inf v-pcp 
+v-fin v-inf v-pcp conj-s n v-fin v-inf 
+pron-det pron-indp v-inf prp v-inf v-pcp 
+v-fin v-inf v-pcp conj-s n v-fin v-inf 
+pron-det art n prp art n prp v-pcp 
+pron-det conj-c art n prp n prp n prp n prp n prp n prp n conj-c prp n prp n adv n 
+pron-det n v-fin v-inf prp art n prp n conj-c prp n prp n adv n 
+v N prp art n prp n conj-c n adv n prp art prop N N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det prop N v-fin prp v-inf adj N prp art prop N adv adv v-fin N 
+v adj n adj prp art n prp n conj-c n adv n prp art n N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det n v-fin prp v-inf adj N prp art n adv adv v-fin N 
+v N prp art n prp n conj-c n adv n prp art prop N N adv v-fin v-inf art pron-det n prp art pron-det n prp pron-det prop N v-fin prp v-inf adj N prp art prop N adv adv v-fin N 
+v-fin v-inf art pron-det n prp art pron-det n prp pron-det n v-fin prp v-inf adj N prp art n adv adv 
+art n prp n prp n n prp n conj-c n v-fin pron-det n prp adj n N n 
+v-fin v-inf prp n prp n n adj prp art adj n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det art n prp prp n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det art n prp art n prp n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det art n n adj 
+pron-det art n adj prp art prop art N adj 
+pron-det art n prp art n prp n adj 
+pron-det art n adj prp art prop art N adv adj 
+pron-det art n prp n adv adj 
+pron-det art n adj prp art prop art N adv adj 
+pron-det pron-pers v-fin prp n prp n adv adj 
+v-fin art adj pron-indp v-fin v-inf adv n adj pron-det pron-indp v-fin v-inf 
+adv v-inf prp v-inf art adj 
+v-fin art adj pron-indp v-fin v-inf adv n adj pron-det pron-indp v-fin v-inf 
+pron-det n adj v-fin v-inf prp v-inf art n prp n prp n 
+v-fin art adj conj-c v-fin prp pron-pers v-inf prp n adv n adj pron-det pron-indp v-fin v-inf 
+v-fin prp v-inf pron-det n v-inf art pron-det n 
+v-fin art adj conj-c v-fin prp pron-pers v-inf prp n adv n adj pron-det pron-indp v-fin v-inf 
+pron-det pron-indp v-fin v-inf prp art n prp v-inf art pron-det n 
+pron-pers adv prop art adj prp art pron-det n v-fin v-pcp n adj prp pron-det n 
+v-inf art adj v-fin v-pcp n adj 
+pron-pers adv prop art adj prp art pron-det n v-fin v-pcp n adj prp pron-det n 
+prp pron-det n v-fin art pron-det prp art adj 
+pron-pers adv prop art adj prp art pron-det n v-fin v-pcp n adj prp pron-det n 
+pron-det n prp n adj v-fin v-pcp art pron-det prp art adj prp pron-det n 
+art n prp n n prp n prp art adj v-fin v-pcp n prp art n prp n adj 
+pron-det art n prp art n prp n adj conj-c art n prp art n prp n adj 
+art n prp n n prp n prp art adj v-fin v-pcp n prp art n prp n adj 
+adv prop art pron-det adj prp n prp art n n 
+pron-det v-fin art n prp art num n prp n prp n adj 
+pron-det art n prp n n conj-c n prp n 
+pron-det v-fin art n prp art num n prp n prp n adj 
+conj-s v-fin conj-s pron-det n v-fin v-pcp n pron-det n conj-c adv n prp n 
+pron-det pron-indp v-fin art n 
+prp pron-indp v-fin art n 
+pron-det pron-indp v-fin art n 
+prp pron-det n v-fin v-inf prp n 
+v-fin art n prp art pron-det n v-fin n adj v-fin v-inf adv n adj 
+v-fin art n pron-indp v-fin prp v-inf 
+v-fin art n prp art pron-det n v-fin n adj v-fin v-inf adv n adj 
+v-fin pron-pers v-pcp v-inf art n prp art pron-det n adv n adj 
+prp art pron-det n v-fin v-inf pron-det n prp n adj 
+prp art pron-det n v-fin pron-pers v-inf n n 
+prp art pron-det n v-fin v-inf pron-det n prp n adj 
+v-fin adj v-inf n prp art pron-det n adv n adj 
+v-fin prp art pron-det n v-inf adj n prp n prp n adj prp n num n conj-c art n prp n v-ger pron-det art n 
+adv v-fin v-inf pron-det art n prp art n 
+v-fin prp art pron-det n v-inf adj n prp n prp n adj prp n num n conj-c art n prp n v-ger pron-det art n 
+v-fin adj v-inf adj n prp n adj prp art pron-det n 
+prp art n prp art n adv v-fin adj v-inf art n prp n prp n prp n prp art n prp art n prp art adj n prp n prp n v-fin adj art n prp pron-det n 
+pron-det art n prp n conj-c n 
+prp art n prp art n adv v-fin adj v-inf art n prp n prp n prp n prp art n prp art n prp art adj n prp n prp n v-fin adj art n prp pron-det n 
+v-fin v-inf n prp art n prp pron-det n prp n 
+prp v-inf n prp n adj v-fin adj pron-det n conj-c n 
+prp v-inf n prp n adj v-fin adj pron-det n conj-c n 
+prp v-inf n prp n adj v-fin adj pron-det n conj-c n 
+pron-det art n adj prp v-inf n prp n adj 
+v-fin v-inf adv n adj art adj pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp art n n adj conj-c adv v-fin n prp n prp art n pron-indp v-fin pron-det n v-fin v-inf prp art n prp art n adj prp art pron-det n conj-c pron-indp v-fin v-inf prp n prp art n prp art n adj 
+v-fin v-inf art n adv n adj pron-det pron-indp pron-pers v-fin adv prp art n adj adv adj 
+v-fin v-inf adv n adj art adj pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp art n n adj conj-c adv v-fin n prp n prp art n pron-indp v-fin pron-det n v-fin v-inf prp art n prp art n adj prp art pron-det n conj-c pron-indp v-fin v-inf prp n prp art n prp art n adj 
+v-fin pron-pers v-pcp v-inf adv n adj art n adj prp art n adj 
+v-fin v-inf adv n adj art adj pron-indp v-fin v-pcp prp art pron-det n prp art n adj prp art n n adj conj-c adv v-fin n prp n prp art n pron-indp v-fin pron-det n v-fin v-inf prp art n prp art n adj prp art pron-det n conj-c pron-indp v-fin v-inf prp n prp art n prp art n adj 
+art n prp art n adv prp art n adj v-fin v-inf prp n prp art n prp pron-det n 
+v-fin v-inf art n prp n prp art n prp n adj prp n prp art n prp n 
+v-fin v-inf prp n art pron-det n n prp n adj 
+v-fin v-inf art n prp n prp art n prp n adj prp n prp art n prp n 
+v-fin pron-det n prp art v-inf art pron-det adj n 
+art n n pron-indp v-fin prp n conj-c v-fin conj-s adv adv v-fin n prp v-inf art n prp n v-fin v-inf art n prp art n prp n prp v-inf art n prp n adj 
+v-fin v-inf art n prp art n prp num prp n adj v-ger pron-det adv prp n 
+art n n pron-indp v-fin prp n conj-c v-fin conj-s adv adv v-fin n prp v-inf art n prp n v-fin v-inf art n prp art n prp n prp v-inf art n prp n adj 
+adv prp v-inf art n prp n art n prp art n prp n v-fin v-inf v-pcp prp n adj 
+art n prp art N n adj prp art n adj v-fin n 
+pron-det art n pron-indp v-fin v-inf prp v-inf v-inf n prp n adj conj-c n n prp n 
+art n prp art N n adj prp art n adj v-fin n 
+art N v-fin adv prp v-inf v-pcp 
+v-fin pron-det n conj-c n pron-indp adv prp art n prp n prp n n prp n 
+art n adj conj-c n v-fin prp pron-det n prp v-inf v-pcp 
+v-fin pron-det n conj-c n pron-indp adv prp art n prp n prp n n prp n 
+pron-det n v-fin art n prp n prp n n 
+v-fin pron-det n conj-c n pron-indp adv prp art n prp n prp n n prp n 
+pron-det n v-fin art n prp n prp n prp n 
+art n prp art n prp n adj v-fin v-pcp art n 
+art n prp art adj n n v-fin v-pcp art n prp art n prp n prp n n prp n 
+art n prp art n prp n adj v-fin v-pcp art n 
+art n prp n adj v-fin v-pcp art n 
+v-ger art n prp art n v-fin prp v-inf pron-pers prp v-inf art adj n adj prp art n adj adj conj-c v-fin v-inf prp art adj pron-indp pron-pers v-fin 
+v-fin prp v-inf art n prp art n prp v-inf art adj n adj 
+v-ger art n prp art n v-fin prp v-inf pron-pers prp v-inf art adj n adj prp art n adj adj conj-c v-fin v-inf prp art adj pron-indp pron-pers v-fin 
+art adj n adj v-fin prp v-inf v-pcp prp art n 
+adv v-fin n prp n prp n n adv v-fin v-inf art n 
+adv v-fin v-inf art n adj prp art n adj 
+adv v-fin n prp n prp n n adv v-fin v-inf art n 
+v-fin v-inf art n adj prp art n adj prp art n adj 
+v-fin n conj-c adv v-fin n prp art n adv v-fin v-inf art n prp art pron-det n adj 
+v-ger n v-fin v-inf art n prp art pron-det n adj 
+v-fin n conj-c adv v-fin n prp art n adv v-fin v-inf art n prp art pron-det n adj 
+pron-det art n prp art n v-inf art pron-det n adj 
+prp v-inf art n prp art n adj adj pron-det n v-fin prp conj-s v-fin v-pcp art n prp n 
+pron-det n adv prp v-inf v-pcp art n prp n prp n adj 
+prp v-inf art n prp art n adj adj pron-det n v-fin prp conj-s v-fin v-pcp art n prp n 
+adv prp art n prp art n adj adj adv v-fin v-pcp art n 
+v-fin art n adj adv v-pcp v-fin prp v-inf adv prp art n adj adj 
+v-fin art n adj adv v-pcp pron-det pron-indp v-fin v-inf adv 
+v-fin art n adj adv v-pcp v-fin prp v-inf adv prp art n adj adj 
+v-fin v-inf art n adj pron-indp adv pron-pers v-fin v-pcp v-fin prp pron-pers v-inf prp v-inf 
+art adj adv v-fin v-inf art n prp n prp n prp n v-fin v-pcp adv N conj-c adv v-fin n prp n adv n prp n adj prp art n prp n 
+adj prp n prp n pron-det pron-indp v-fin v-inf 
+v-fin art n adj prp art n prp n adj 
+art n v-fin art n adj 
+v-fin art n adj prp art n prp n adj 
+pron-det art n adj prp n conj-c art n adj prp n prp art n adj 
+adv pron-pers v-fin art n prp art n conj-c prp art n prp art n prp n adj adv prp art n prp n 
+adv pron-pers v-fin art n prp art n conj-c prp art n 
+adv pron-pers v-fin art n prp art n conj-c prp art n prp art n prp n adj adv prp art n prp n 
+adv v-inf art n prp art n conj-c prp art n 
+adv pron-pers v-fin art n prp art n conj-c prp art n prp art n prp n adj adv prp art n prp n 
+adv v-inf art n conj-c art n 
+prp art n prp n prp art n adj prp art n prp art n v-fin prp pron-pers v-inf art n prp n pron-det n v-fin art n adj 
+n adj v-fin v-inf v-pcp prp art n prp art n adj 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art N v-pcp prp art n n N n num N prp num prp n art n prp art n conj-c art n prp art adj 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art n prp n art n prp art n conj-c art n prp art adj 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art N v-pcp prp art n n N n num N prp num prp n art n prp art n conj-c art n prp art adj 
+pron-indp v-fin v-inf art n art n conj-c pron-indp adv art adj 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art N v-pcp prp art n n N n num N prp num prp n art n prp art n conj-c art n prp art adj 
+art n prp art adj v-fin v-inf v-pcp prp art n adv n 
+pron-indp v-fin conj-s v-fin v-inf n prep num prp art N v-pcp prp art n n N n num N prp num prp n art n prp art n conj-c art n prp art adj 
+art n prp art adj v-fin v-inf v-pcp prp art n 
+v-fin art N adv v-pcp adv prp num prp n prp N art N v-pcp prp art pron-det n v-fin adj prp art v-pcp prp art N N n num N prp num prp n v-fin v-inf art N 
+adv v-fin v-inf art n prp n adj prp art n prp n adj 
+v-fin art N adv v-pcp adv prp num prp n prp N art N v-pcp prp art pron-det n v-fin adj prp art v-pcp prp art N N n num N prp num prp n v-fin v-inf art N 
+adv v-fin v-inf art N prp art n v-pcp adv prp N 
+adv v-inf prp art n prp art N prp art n 
+adv v-inf prp art n prp art n prp n adj prp art n 
+adv v-inf prp art n prp art N prp art n 
+adv v-inf art n prp art n prp n adj prp n adj 
+art n adj v-fin v-inf n prp art n prp art n v-fin pron-det n N v-pcp 
+pron-det art n prp art n prp art n prp art n adj 
+art n adj v-fin v-inf n prp art n prp art n v-fin pron-det n N v-pcp 
+pron-det v-fin art n prp art n 
+art n adj v-fin v-inf n prp art n prp art n v-fin pron-det n N v-pcp 
+pron-det art n prp art n 
+prp pron-det n art n prp art n prp n adj v-fin v-pcp conj-c pron-indp pron-pers v-fin v-inf 
+pron-indp v-fin v-inf art n prp n prp n adj 
+prp pron-det n art n prp art n prp n adj v-fin v-pcp conj-c pron-indp pron-pers v-fin v-inf 
+conj-s n conj-c pron-indp v-fin art n prp v-inf v-inf art pron-det n 
+adv prp art n v-fin v-inf conj-c v-inf art pron-det n prp art n 
+adv prp art n prp art pron-det n prp n prp n adj v-fin v-inf prp art adj conj-c v-inf n 
+adv prp art n v-fin v-inf conj-c v-inf art pron-det n prp art n 
+v-fin v-inf conj-c v-inf art pron-det n prp art n adv conj-s v-inf art n 
+v-fin prp art n pron-indp v-ger art n prp n adj prp n adj prp num n v-fin v-inf n prp art n prp art n prp n prp n pron-indp v-fin prp art N N n num N prp num prp n conj-c n N n N N prp num prp n v-ger prp n pron-indp v-fin art n n pron-det art n pron-indp nprop prp pron-det n pron-pers v-fin art n adj 
+pron-det art n prp n prp v-inf prp art n adj 
+v-fin prp art n pron-indp v-ger art n prp n adj prp n adj prp num n v-fin v-inf n prp art n prp art n prp n prp n pron-indp v-fin prp art N N n num N prp num prp n conj-c n N n N N prp num prp n v-ger prp n pron-indp v-fin art n n pron-det art n pron-indp nprop prp pron-det n pron-pers v-fin art n adj 
+pron-det n prp n v-fin v-inf prp art n adj prp pron-det prp num n 
+prp art n prp art n prp n adj conj-c adj prp num n prp n prp n prp n pron-det art n conj-c n adv v-pcp prp art pron-det n adj 
+pron-det art n conj-c n prp v-inf prp art n adj 
+prp art n prp art n prp n adj conj-c adj prp num n prp n prp n prp n pron-det art n conj-c n adv v-pcp prp art pron-det n adj 
+pron-det n conj-c n v-pcp prp n prp n prp num n 
+prp art n adj v-fin adj art n adj prp pron-det n v-fin v-inf v-pcp 
+art n adj v-fin v-inf n adj 
+prp art n adj v-fin adj art n adj prp pron-det n v-fin v-inf v-pcp 
+adv v-fin v-inf v-pcp n adj prp art pron-det n adj 
+prp art n adj v-fin adj art n adj prp pron-det n v-fin v-inf v-pcp 
+pron-det art n prp v-inf adv art pron-det n adj 
+pron-det art n n prp art adj pron-indp v-fin v-inf adv n prp n adj 
+pron-det n v-fin v-inf art n adj 
+pron-det art n n prp art adj pron-indp v-fin v-inf adv n prp n adj 
+pron-det n prp n v-fin v-inf prp art n pron-indp v-fin v-inf 
+art n adj v-fin n prp pron-det art n prp n prp n adj 
+v-fin v-inf n pron-indp v-fin prp art pron-det n adj 
+art n adj v-fin n prp pron-det art n prp n prp n adj 
+pron-det n v-fin adv prp art n prp n 
+prp art n v-fin adj v-inf art n adj 
+adv pron-pers v-fin v-inf art n adj prp art n 
+prp art n v-fin adj v-inf art n adj 
+art n v-fin adv prp art n adj 
+prp art n v-fin v-inf art adj n prp art n adj 
+art n adj v-fin v-inf art n prp art n adj 
+prp art n v-fin v-inf art adj n prp art n adj 
+art n adj v-fin adv prp v-inf art n prp art n adj 
+adv v-fin v-inf art n adj prp art n prp n 
+adv v-fin v-inf art n adj prp art n prp n 
+adv v-fin v-inf art n adj prp art n prp n 
+adv v-fin v-inf art n prp v-inf art pron-det n 
+v-fin art n prp n adj v-pcp adv prp num prp n prp N v-fin v-inf art pron-det n 
+n v-pcp adv prp N v-fin prp v-inf prp n adj 
+v-fin art n prp n adj v-pcp adv prp num prp n prp N v-fin v-inf art pron-det n 
+n prp n adj prp n adj prp N v-fin prp v-inf art pron-det n prp n 
+art n prp n v-fin n prp pron-det n prp n prp n adj 
+art n adj v-fin prp n prp n 
+art n prp n v-fin n prp pron-det n prp n prp n adj 
+pron-det n prp n adj v-fin adv prp v-inf art n prp n 
+v-fin num n prp art pron-det n v-fin prp v-inf art n prp n prp pron-det num 
+prp n n adj prp v-inf n prp n prp pron-det num 
+v-fin num n prp art pron-det n v-fin prp v-inf art n prp n prp pron-det num 
+pron-det pron-indp v-fin prp art pron-det n v-fin adj art n prp n prp pron-det n pron-indp v-fin 
+pron-pers art n prp art pron-det n v-inf prp pron-det n v-fin prp v-inf art adj n 
+art pron-det adj prp n adj v-fin prp pron-det n pron-det pron-indp adj prp v-inf 
+pron-pers art n prp art pron-det n v-inf prp pron-det n v-fin prp v-inf art adj n 
+v-fin adj v-inf art n prp art n prp conj-s v prp v-inf 
+pron-det pron-indp v-fin v-inf conj-s adv v-inf v-inf art n prp art n 
+v-fin v-inf art n prp art pron-det n adv n adj 
+pron-det pron-indp v-fin v-inf conj-s adv v-inf v-inf art n prp art n 
+v-fin v-inf art n prp art pron-det n adv n adj 
+pron-det pron-indp v-fin v-inf conj-s adv v-inf v-inf art n prp art n 
+v-fin n v-inf art n prp art pron-det n adv n prp n adj 
+v-fin art n adv adv n adj v-fin adj prp pron-det n prp art n prp n adj pron-indp adv 
+v-fin n v-pcp prp art pron-det n adj n pron-det n 
+v-fin art n adv adv n adj v-fin adj prp pron-det n prp art n prp n adj pron-indp adv 
+v-fin adj prp art n pron-indp v-fin n prp n adj v-fin v-pcp adj prp adj n prp pron-det n 
+v-fin v-inf v-pcp art n prp n prep prp art n prp art n conj-c n n art n pron-indp v-fin conj-c v-fin prp n prp art n prp n n adv v-pcp 
+v-fin v-pcp conj-s adv v-fin art n prp art pron-det n adj 
+v-fin v-inf v-pcp art n prp n prep prp art n prp art n conj-c n n art n pron-indp v-fin conj-c v-fin prp n prp art n prp n n adv v-pcp 
+v-fin pron-det n prp pron-indp v-inf adv n adj n adv v-pcp 
+adv v-fin conj-s v-fin v-inf conj-s art v-pcp n prp n adj v-fin v-pcp 
+adv v-inf pron-pers art n adj v-fin v-pcp 
+adv v-fin conj-s v-fin v-inf conj-s art v-pcp n prp n adj v-fin v-pcp 
+adv v-fin v-inf pron-pers art n adj v-fin v-pcp 
+pron-det pron-indp v-fin adv art n prp prop N n v-fin conj-s art n prp n adj v-fin n prp v-inf v-pcp n adj 
+pron-det art n prp art n prp art n adj prp art n adj 
+pron-det pron-indp v-fin adv art n prp prop N n v-fin conj-s art n prp n adj v-fin n prp v-inf v-pcp n adj 
+pron-det pron-indp pron-pers v-fin prp art n prp art n prp prop prp conj-s art n adj v-fin n adj prp n adj 
+prp pron-det n v-fin v-inf v-pcp art n prp n prp art n prp n conj-c pron-indp pron-pers v-fin v-inf 
+pron-det art n pron-indp v-fin v-inf art pron-det n adj conj-s adv art v-inf prp n adj 
+prp pron-det n v-fin v-inf v-pcp art n prp n prp art n prp n conj-c pron-indp pron-pers v-fin v-inf 
+conj-s n pron-pers v-fin v-inf prp v-inf n prp n pron-det art n n prp art v-inf 
+pron-det pron-indp v-fin n v-pcp prp n adj 
+pron-det pron-indp pron-pers v-fin prp n v-pcp prp n adj 
+pron-det pron-indp v-fin n v-pcp prp n adj 
+prp pron-indp v-fin art n v-pcp prp n adj 
+adv prp art n prp n prp art n n N n num N prp num prp n adv v-fin v-pcp prp art n prp n prp art pron-det n adv prp num n n v-ger pron-det n adj prp num prp art n prp n adj prp art n adv pron-pers v-ger art n v-pcp prp art n num n prp art N num N v-fin v-inf adv pron-det n prp art pron-det n 
+adv v-ger pron-det pron-indp num n v-fin v-inf art adj 
+adv prp art n prp n prp art n n N n num N prp num prp n adv v-fin v-pcp prp art n prp n prp art pron-det n adv prp num n n v-ger pron-det n adj prp num prp art n prp n adj prp art n adv pron-pers v-ger art n v-pcp prp art n num n prp art N num N v-fin v-inf adv pron-det n prp art pron-det n 
+v-fin adv prp num n v-fin prp art n v-fin v-inf adv pron-det prp art pron-det n 
+pron-det pron-indp v-fin prp art n prp n adj pron-indp adv v-fin art n prp n 
+v-fin v-inf prp v-inf art n prp n 
+pron-det pron-indp v-fin prp art n prp n adj pron-indp adv v-fin art n prp n 
+v-fin art n pron-indp adv v-fin prp n prp art n adj prp art v-inf v-fin pron-det n 
+art n prp n adv n adv n adj v-fin adv prp v-inf v-pcp n v-inf v-pcp adv art n v-fin pron-det n 
+v-fin v-inf art pron-det n prp n v-fin pron-det n 
+art n prp n adv n adv n adj v-fin adv prp v-inf v-pcp n v-inf v-pcp adv art n v-fin pron-det n 
+v-fin pron-det n prp v-inf art pron-det n prp n adj adv n 
+pron-det pron-indp v-fin prp art n prp n adj v-pcp prp art n prp art n adj pron-indp v-fin adv prp num n conj-c adv v-fin prp pron-det n v-inf art pron-det n prp n adj v-fin prp v-inf 
+pron-det pron-indp v-fin art n pron-indp v-fin adv conj-s num n conj-c adv v-fin v-inf art n prp n adj 
+pron-det pron-indp v-fin prp art n prp n adj v-pcp prp art n prp art n adj pron-indp v-fin adv prp num n conj-c adv v-fin prp pron-det n v-inf art pron-det n prp n adj v-fin prp v-inf 
+pron-pers v-fin art n prp pron-det pron-indp num n conj-c adv v-inf v-inf art n prp n adj v-fin prp pron-pers v-inf 

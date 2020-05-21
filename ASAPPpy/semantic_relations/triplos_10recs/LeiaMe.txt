@@ -1,0 +1,59 @@
+Relações em vários recursos
+Data: Março 2018
+--------------------------
+
+Há actualmente vários recursos léxico-semânticos disponíveis para o português, criados por diferentes equipas e seguindo abordagens diferentes.
+A nossa intuição é que relações que se encontrem em mais recursos, serão mais úteis, enquanto que relações em apenas um serão demasiado específicas e / ou com maior probabilidade de estar erradas.
+
+
+Conteúdo do pacote
+------------------
+* Todos os triplos extraídos a partir de 10 recursos léxico-semânticos para o português:
+	- PAPEL (http://www.linguateca.pt/PAPEL/)
+	- Dicionário Aberto (dicionario-aberto.net)
+	- Wikcionário.PT (https://pt.wiktionary.org)
+	- TeP (http://www.nilc.icmc.usp.br/tep2/)
+	- OpenThesaurus.PT (http://paginas.fe.up.pt/~arocha/AED1/0607/trabalhos/thesaurus.txt)
+	- OpenWordNet-PT (https://github.com/own-pt/openWordnet-PT)
+	- PULO (http://wordnet.pt/)
+	- Port4Nooj (http://www.linguateca.pt/Repositorio/Port4Nooj/)
+	- WordNet.Br (http://www.nilc.icmc.usp.br/wordnetbr/)
+	- ConceptNet (http://conceptnet.io/), apenas triplos entre duas palavras portuguesas
+
+* Formato dos dados:
+	- Cada linha tem um triplo relacional A RELACAO B, onde:
+		- A e B são lemas
+		- RELACAO é uma relação entre um sentido de A e um sentido de B
+		- Nomes das relações definidos no projecto PAPEL (http://www.linguateca.pt/PAPEL/)
+		- À frente de cada triplo, separado por um caracter '\t' encontra-se o número de recursos de onde foi extraído
+
+* Dados quantitativos:
+	- Total de triplos: 938.846
+		Em pelo menos 2 recursos: 160.749
+		Em pelo menos 3 recursos: 45.510
+	- Total de lemas: 202.000
+		Em pelo menos 2 recursos: 58.412
+		Em pelo menos 3 recursos: 24.959
+
+
+Licença
+-------
+Estes triplos são disponibilizados pela Universidade de Coimbra, através de uma licença Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+Confira as condições desta licença em: http://creativecommons.org/licenses/by/3.0/
+
+
+Créditos
+--------
+Recursos desenvolvidos no Centro de Informática e Sistemas da Universidade de Coimbra, no âmbito do projecto CONTO.PT -- uma wordnet com medidas de confiança para o português.
+
+
+Referência bibliográfica
+------------------------
+O processo de extração e análise destes triplos encontra-se descrito na seguinte referência bibliográfica:
+Hugo Gonçalo Oliveira. A Survey on Portuguese Lexical Knowledge Bases: Contents, Comparison and Combination. Information 2018, 9(2), 34; doi:10.3390/info9020034.
+
+
+------------------------------
+Responsável principal: Hugo Gonçalo Oliveira
+E-mail pessoal: hroliv@dei.uc.pt
+URL pessoal: http://eden.dei.uc.pt/~hroliv

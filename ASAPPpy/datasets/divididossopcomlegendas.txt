@@ -1,0 +1,587 @@
+Perguntas§Class
+P:Que tipos de sociedades podem ser constituídas nos balcões "Empresa na Hora"?§1
+P:Há sociedades que não podem ser constituídas nos balcões "Empresa na Hora"?§1
+P:A que balcão de atendimento "Empresa na Hora" me devo dirigir?§1
+P:Quais os pressupostos da constituição de "Empresa na Hora"?§1
+P:Para a constituição de uma "Empresa na Hora" é necessária a presença de todos os sócios?§1
+P:Posso reservar previamente, de entre as firmas constantes da lista disponível, a firma que pretendo para a minha "Empresa na Hora"?§1
+P:Qual o custo de constituição de uma "Empresa na Hora"?§1
+P:Quando deverei efectuar o depósito do capital social da "Empresa na Hora"?§1
+P:Quando é possível o levantamento do capital social da "Empresa na Hora"?§1
+P:A escolha de uma firma pré-aprovada pode limitar de alguma forma o objecto social que pretendo para a minha empresa?§1
+P:Disponho de um Certificado de Admissibilidade de firma válido. Posso utilizá-lo para constituir a minha Empresa na Hora?§1
+P:A inscrição da sociedade nas finanças, na segurança social e outros serviços públicos são efectuadas no momento da constituição?§1
+P:Em alternativa à entrega de impresso em papel, é possível proceder à entrega eletrónica da declaração de início de atividade para efeitos fiscais?§1
+P:Será possível utilizar o processo de constituição da "Empresa na Hora" quando os sócios são pessoas colectivas? E se forem pessoas colectivas estrangeiras, existe algum formalismo prévio?§1
+P:Será possível, a cidadãos estrangeiros, a constituição de uma "Empresa na Hora"? Nestes casos, existe algum formalismo prévio que deva ser respeitado?§1
+P:É necessária a presença do Técnico Oficial de Contas no momento da constituição da "Empresa na Hora"?§1
+P:Qual a vantagem de indicar, desde logo, um Técnico Oficial de Contas?§1
+P:Quais os custos associados à escolha de um TOC da Bolsa?§1
+P:É necessária a presença dos Revisores Oficiais de Contas (efectivo e suplente) na constituição de uma Sociedade Anónima no âmbito da "Empresa na Hora"?§1
+P:Qual o website onde irão ser feitas as publicações?§1
+P:É necessário legalizar os Livros de Atas na Conservatória do Registo Comercial?§1
+P:É necessário ter outros livros de escrituração mercantil?§1
+P:A que formalidades devem obedecer os livros de atas?§1
+P:Posso obter o registo de um Domínio de Internet?§1
+P:O que devo fazer para obter o registo do Domínio na Internet?§1
+P:Posso constituir uma "Empresa na Hora" com Marca associada?§1
+P:Posso aderir a um Centro de Arbitragem para conflitos de consumo?§1
+P:O que é a "Marca na Hora"?§1
+P:Como posso adquirir uma Marca na Hora?§1
+P:Quem pode adquirir uma Marca na Hora?§1
+P:Qual o custo de adquirir uma Marca na Hora e quais as modalidades de pagamento?§1
+P:É mais caro adquirir uma Marca na Hora do que obter uma marca pela via tradicional?§1
+P:Onde posso consultar a bolsa de Marcas na Hora?§1
+P:Quais as classes de produtos e serviços disponíveis no âmbito da Marca na Hora?§1
+P:Qual a razão de serem abrangidas apenas algumas classes de produtos e serviços?§1
+P:No final do processo de constituição de uma Empresa na Hora com escolha de Marca na Hora que documentos são entregues aos interessados?§1
+P:Qual o número de marcas que estarão permanentemente disponíveis?§1
+P:Posso adquirir uma Marca na Hora sem constituir simultaneamente uma Empresa na Hora ou Empresa Online?§1
+P:De que bolsa posso escolher a Marca na Hora dissociada da constituição da Empresa?§1
+P:Posso constituir uma Empresa na Hora com Marca associada sendo o objecto da sociedade diferente dos produtos/serviços que pretendo adquirir?§1
+P:Após a constituição de uma Empresa na Hora com Marca na Hora posso alterar a firma da sociedade mantendo a marca com a mesma designação?§1
+P:Qual o fluxo procedimental de BackOffice para criar uma Marca na Hora até à sua aquisição pelos interessados?§1
+P:Por quanto tempo é valido o registo da marca?§1
+P:Qual o âmbito de proteção da marca?§1
+P:Posso proteger a minha Marca na Hora com âmbito europeu ou internacional?§1
+P:O que é a Renovação de Taxas?§1
+P:O que é uma empresa individual ou um empresário em nome individual?§1
+P:O que são sociedades unipessoais por quotas?§1
+P:O que é um Estabelecimento Individual de Responsabilidade Limitada?§1
+P:O que são Sociedades por Quotas?§1
+P:O que são Sociedades Anónimas?§1
+P:O que são Sociedades em Nome Coletivo?§1
+P:O que são sociedades em comandita?§1
+P:Como pedir o Cartão Provisório de Identificação de Pessoa Coletiva?§1
+P:Como posso pedir o Cartão Eletrónico da Empresa ou de Pessoa Coletiva?§1
+P:O Cartão da Empresa e o Cartão de Pessoa Coletiva podem ser cancelados?§1
+P:O Cartão de Identificação de Pessoa Coletiva ou entidade equiparada, emitido pelo RNPC e de que sou titular, continua a ser válido?§1
+P:O Cartão Eletrónico da Empresa ou de Pessoa Coletiva pode ser cancelado?§1
+P:O que é o Cartão da Empresa e o Cartão de Pessoa Coletiva?§1
+P:O que é o Cartão Eletrónico da Empresa e de Pessoa Coletiva?§1
+P:Onde posso pedir o Cartão da Empresa e o Cartão de Pessoa Coletiva?§1
+P:Para onde é enviado o Cartão da Empresa e o Cartão de Pessoa Coletiva?§1
+P:Pode ser emitido Cartão Eletrónico da Empresa ou de Pessoa Coletiva às entidades titulares de Cartão Definitivo de Identificação de Pessoa Coletiva ou entidade equiparada, emitido antes do dia 31/12/2008 ou inscritas anteriormente a essa data?§1
+P:Qual a diferença entre o Cartão da Empresa e o Cartão de Pessoa Coletiva?§1
+P:Qual a validade do Cartão da Empresa e do Cartão de Pessoa Coletiva?§1
+P:Qual o custo do Cartão da Empresa e do Cartão de Pessoa Coletiva?§1
+P:Quando é emitido o Cartão da Empresa/Cartão de Pessoa Coletiva?§1
+P:A assinatura não se encontra legível. Que posso fazer?§1
+P:A escolha de uma firma pré-aprovada pode limitar de alguma forma o objeto social que pretendo para a minha empresa?§1
+P:A inscrição da sociedade nas finanças, na segurança social e outros serviços públicos são efetuados no momento da constituição?§1
+P:A partir de onde poder ser acedido o serviço de criação de Empresa Online?§1
+P:Caso existam inconformidades no processo, o que sucede?§1
+P:Como aceder ao fórum de validação do Pacto Social?§1
+P:Como poderei obter o certificado de Admissibilidade?§1
+P:Como posso enviar o Pacto Social e o anexo de reconhecimento para o Portal da Empresa?§1
+P:Como recebo o Cartão da Empresa?§1
+P:Como se escolhe a firma?§1
+P:Disponho de um Certificado de Admissibilidade de firma válido. Posso utilizá-lo para constituir a minha empresa através do serviço de criação de Empresa Online?§1
+P:É possível indicar um Técnico Oficial de Contas (TOC) no momento da constituição da Empresa Online?§1
+P:Existe alguma especificidade quanto a aos CAE's escolhidos?§1
+P:Há sociedades que não podem ser constituídas através do serviço de criação de Empresa Online?§1
+P:O Cartão de Cidadão pode ser utilizado no processo de criação da empresa online?§1
+P:O meu pacto social digitalizado não se encontra muito legível. Que devo fazer?§1
+P:O que é um certificado digital qualificado?§1
+P:O que é um certificado digital?§1
+P:Onde posso adquirir um certificado digital qualificado?§1
+P:Para a constituição de uma empresa através do serviço de criação de Empresa Online é necessária a presença de todos os sócios?§1
+P:Posso reservar previamente, de entre as firmas constantes da lista de nomes fantasia, o nome que pretendo para a minha empresa?§1
+P:Quais as vantagens de aderir a um centro de arbitragem?§1
+P:Quais são os prazos de pagamento associados ao serviço de criação de Empresa Online?§1
+P:Qual é o website onde irão ser feitas as publicações?§1
+P:Qual o custo de constituição de uma Empresa Online ou de uma Empresa Online com Marca associada?§1
+P:Qual o prazo que a Conservatória tem para efetuar o registo?§1
+P:Quando deverei efetuar o depósito do capital social da Empresa Online?§1
+P:Quando é possível o levantamento do capital social da Empresa Online?§1
+P:Que tipo de certificado é que pode ser utilizado no processo de criação de empresa?§1
+P:Que tipo de sociedades podem ser constituídas através do serviço de criação de Empresa Online?§1
+P:Quem pode constituir uma empresa através do serviço de criação de Empresa Online?§1
+P:Será possível utilizar o processo de constituição da Empresa Online quando os sócios são pessoas coletivas? E se forem pessoas coletivas estrangeiras, existe algum formalismo prévio?§1
+P:Será possível, a cidadãos estrangeiros, a constituição de uma Empresa Online? Nestes casos, existe algum formalismo prévio que deva ser respeitado?§1
+P:Sou advogado e já tenho um certificado digital que integra a minha cédula profissional, posso utilizar este certificado para me autenticar e utilizar o serviço de criação de empresa?§1
+P:Um cidadão estrangeiro pode constituir uma empresa através do serviço de criação de Empresa Online?§1
+P:Como pedir o certificado de admissibilidade de firma ou denominação?§1
+P:Onde posso adquirir os formulários para o pedido de certificado de admissibilidade e qual o seu custo?§1
+P:Quem pode requerer o certificado de admissibilidade?§1
+P:Como pedir o Cartão Provisório de Identificação de Pessoa Coletiva?§1
+P:Qual o prazo de validade do certificado de admissibilidade?§1
+P:Em que prazo é emitido um certificado de admissibilidade?§1
+P:Como saber da viabilidade de uma firma ou denominação?§1
+P:Posso pedir segunda via do certificado de admissibilidade?§1
+P:Em que situação é necessário certificado de admissibilidade para efeitos de alteração de entidade já existente?§1
+P:Em que situações o empresário/comerciante individual precisa de certificado de admissibilidade?§1
+P:É possível renovar um certificado de admissibilidade?§1
+P:Como proteger marca, nome ou insígnia de estabelecimento junto do RNPC?§1
+P:É possível uma sociedade utilizar elemento característico idêntico ao de sociedade já existente?§1
+P:Como inscrever em Portugal uma sucursal ou outra representação permanente de sociedade estrangeira?§1
+P:Como obter informações sobre entidades inscritas no Ficheiro Central de Pessoas Coletivas?§1
+P:Como obter uma cópia total ou parcial do Ficheiro Central de Pessoas Coletivas? (Ex: Associações com sede no concelho de Lisboa)§1
+P:Como obter informação sobre dados estatísticos do Ficheiro Central de Pessoas Coletivas?§1
+P:Como inscrever um condomínio?§1
+P:Como inscrever uma associação?§1
+P:Como inscrever uma fundação no Ficheiro Central de Pessoas Coletivas?§1
+P:Como inscrever uma sociedade irregular?§1
+P:O que é a aprovação automática com menção de atividade?§1
+P:Onde posso pedir o registo de uma marca ou de um logótipo?§1
+P:Como posso impugnar uma decisão proferida pelo Registo Nacional de Pessoas Coletivas em matéria de firmas ou denominações, inscrição e identificação de pessoas coletivas e entidades equiparadas e registo de pessoas coletivas religiosas?§1
+P:Posso invalidar o certificado de admissibilidade?§1
+P:Posso desistir do pedido de certificado de admissibilidade?§1
+P:Como posso obter mais informações sobre atos e factos sujeitos a inscrição no FCPC?§1
+P:Qual o prazo para a interposição do recurso para impugnar uma decisão do Registo Nacional de Pessoas Coletivas?§1
+P:Como posso impugnar a conta de um ato de registo ou a recusa de passagem de certidão?§1
+P:Como obter informações sobre a Classificação Portuguesa das Atividades Económicas (CAE)?§1
+P:Qual o custo da comunicação do nome comercial?§1
+P:O que é a aprovação automática de firmas?§1
+P:Em que situações se podem utilizar os nomes constantes da bolsa de firmas com ou sem marca associada?§1
+P:O que é a Bolsa de Firmas com Marca Associada?§1
+P:O que é a Bolsa de Firmas?§1
+P:Como devo compor a firma de empresário/comerciante individual?§1
+P:Se o registo ou inscrição da constituição de uma entidade não tiver sido promovido dentro do prazo de validade do certificado de admissibilidade, que devo fazer?§1
+P:Se pedir certificado de admissibilidade para efeitos de retificação do documento constitutivo de entidade ou para efeitos registo/inscrição da sua constituição, será atribuído o mesmo NIPC?§1
+P:Posso utilizar o emolumento pago por um pedido de certificado indeferido num novo pedido?§1
+P:Posso pedir urgência do certificado de admissibilidade?§1
+P:Quem pode subscrever o pedido de certificado de admissibilidade?§1
+P:Qual o custo do pedido de certificado de admissibilidade?§1
+P:Após a submissão de pedido online, tenho acesso a algum comprovativo?§1
+P:Caso existam inconformidades no processo, o que sucede?§1
+P:Como recebo o cartão de pessoa coletiva?§1
+P:Depois de efetuada a inscrição, vou ter acesso a algum comprovativo?§1
+P:Depois de submeter os documentos ainda preciso de enviar os originais para o RNPC?§1
+P:Em que atos devo indicar o representante para efeitos tributários?§1
+P:Posso solicitar urgência num pedido de inscrição online?§1
+P:Quais as modalidades de pagamento disponíveis?§1
+P:Qual o custo associado a cada pedido de inscrição online?§1
+P:Qual o prazo para pagamento?§1
+P:Qual o prazo que o RNPC tem para efetuar a inscrição?§1
+P:Que cuidados devo ter na digitalização dos documentos?§1
+P:Que documentos devo enviar?§1
+P:Que tipo de atos posso pedir?§1
+P:Quem pode pedir inscrições online?§1
+P:Se a inscrição for recusada devolvem-me o valor do emolumento pago?§1
+P:Sobre que tipo de entidades posso fazer pedidos online?§1
+P:O que é uma certidão permanente?§1
+P:Quais as vantagens de subscrever uma certidão permanente?§1
+P:A que tipos de certidão permanente posso ter acesso?§1
+P:Como posso ter acesso a uma certidão permanente?§1
+P:Quem pode pedir uma certidão permanente online?§1
+P:Onde posso pedir uma certidão permanente?§1
+P:Qual a informação que consta de uma certidão permanente?§1
+P:Qual o custo de uma certidão permanente e quais as modalidades de pagamento?§1
+P:Posso imprimir a certidão permanente?§1
+P:A partir de e até quando posso renovar a certidão permanente?§1
+P:E se não me lembrar da data do fim de validade da certidão?§1
+P:Ao renovar a minha certidão vou ter um novo código de acesso?§1
+P:Em que consiste o registo comercial bilingue?§1
+P:Quais as vantagens do registo comercial bilingue?§1
+P:omo posso aceder ao registo comercial em Inglês?§1
+P:Qual o prazo de disponibilização da certidão permanente na versão inglesa?§1
+P:Qual o custo de uma certidão permanente de registo em versão inglesa e quais as modalidades de pagamento?§1
+P:Qual o valor jurídico da certidão permanente de registo na versão inglesa?§1
+P:Como sei se é necessário efectuar alterações ao pedido de registo?§1
+P:Depois de confirmado qualquer Registo por Transcrição vou ter acesso a algum comprovativo?§1
+P:Depois de efetuado o registo vou ter acesso a algum comprovativo?§1
+P:Depois de submeter os documentos ainda preciso de enviar os originais para a Conservatória do Registo Comercial?§1
+P:Devo pedir o Registo Online do projeto de fusão sobre cada uma das entidades participantes?§1
+P:Devo pedir o Registo Online do projeto de fusão?§1
+P:É necessário submeter documentos para efetivar o Registo por Depósito?§1
+P:Para que tipo de Sociedades posso fazer Registos por Depósito?§1
+P:Para que tipo de Sociedades posso fazer um Registo por Transcrição?§1
+P:Posso efetuar mais do que um Registo por Depósito num mesmo pedido?§1
+P:Posso publicar a convocatória da assembleia geral para deliberação da fusão ou cisão no momento do pedido do registo do respetivo projeto?§1
+P:Posso publicar as convocatórias para as assembleias gerais de todas as entidades participantes na fusão?§1
+P:Posso requerer o caráter de urgência em qualquer Registo por Transcrição?§1
+P:Qual o custo associado a um pedido de Registo por Transcrição?§1
+P:Qual o custo associado ao pedido de Registo por Depósito?§1
+P:Quanto tempo demora a realização de um Registo por Transcrição?§1
+P:Quanto tempo demora a realização do Registo por Depósito?§1
+P:Quanto tempo poderá levar a extratar uma entidade?§1
+P:Que atos do Registo Comercial posso pedir pela Internet?§1
+P:Que cuidados devo ter na digitalização dos documentos?§1
+P:Que documentos são necessários submeter para efetivar um Registo por Transcrição?§1
+P:Que pedidos de Registo por Transcrição posso efetuar?§1
+P:Que serviços da Empresa Online estão disponíveis para cidadãos estrangeiros?§1
+P:Que tipo de pedidos de Registo por Depósito posso efetuar?§1
+P:Quem pode realizar Registos por Depósito?§1
+P:Quem pode realizar um Pedido de Registo por Transcrição?§1
+P:Se o registo ficar provisório posso pedir a sua conversão pela Internet?§1
+P:Quais os tipos de procedimentos para o acesso e exercício das atividades previstas no RJACSR?§10
+P:Em que consiste a Mera Comunicação Prévia (MCP)?§10
+P:Em que consiste o procedimento de Autorização (AU)?§10
+P:Em que consiste o procedimento de Autorização Conjunta (AC)?§10
+P:Quais as atividades abrangidas pelo RJACSR?§10
+P:Um estabelecimento instalado ao abrigo do regime anterior fica sujeito a algum procedimento no âmbito do RJACSR?§10
+P:A que procedimento ficam sujeitas as atividades de comércio, serviços e restauração não abrangidas pelo RJACSR?§10
+P:Onde devem ser apresentadas as Meras Comunicações Prévias, os pedidos de Autorização, os pedidos de Autorização Conjunta e as Comunicações de encerramento previstas no RJACSR?§10
+P:Para aceder ao Balcão do Empreendedor é preciso ter cartão de cidadão?§10
+P:O que é e como aderir à Chave Móvel Digital?§10
+P:Que browsers podem ser utilizados para efetuar a autenticação?§10
+P:Como efetuar um procedimento no “Balcão do empreendedor” se este não estiver operacional?§10
+P:Qual é o valor da assinatura digital qualificada e como obtê-la?§10
+P:Como saber se são devidas taxas e os respetivos montantes pelo procedimento a que está sujeito?§10
+P:A Autorização (licença) de Utilização do estabelecimento é adequada à atividade que vou exercer?§10
+P:É obrigatório declarar o exercício de uma atividade económica junto da Autoridade Tributária e Aduaneira (AT)?§10
+P:A alteração da denominação social, com manutenção do número de identificação fiscal (NIF), implica algum procedimento adicional nos termos do RJACSR?§10
+P:Qual o regime quanto ao horário de funcionamento?§10
+P:É obrigatório comunicar o horário de funcionamento e as suas alterações?§10
+P:É obrigatório afixar os preços?§10
+P:Existem períodos do ano definidos para a realização de uma venda em saldos?§10
+P:A venda em saldos e a venda sob a forma de liquidação estão sujeitas a comunicação?§10
+P:Como é feita a contagem do período de saldos quando um operador económico explore vários estabelecimentos comerciais onde se realizem, simultaneamente, vendas em saldos?§10
+P:O que deve constar de um Orçamento fornecido por um prestador de serviços?§10
+P:Pode cobrar-se pela emissão de um Orçamento?§10
+P:Onde posso adquirir o Livro de Reclamações?§10
+P:Qual é o regime das atividades económicas por via eletrónica?§10
+P:Os estabelecimentos que disponham de secções acessórias destinadas a atividades industriais (por exemplo: fabrico de pão, pastelaria e fabrico de produtos à base de carnes), devem efetuar algum procedimento relativo a estas atividades?§10
+P:O exercício de atividades de comércio a retalho à distância, ao domicílio ou de forma automática está sujeito a algum procedimento ou comunicação?§10
+P:É obrigatória a inscrição no Cadastro comercial?§10
+P:Qual o documento que serve de prova do cumprimento da obrigação de entrega de MCP, AU e comunicações de encerramento?§10
+P:Deve ser comunicado o encerramento de estabelecimento ou a cessação de atividade abrangidos pelo RJACSR?§10
+P:Qual a taxa devida pela comunicação de encerramento?§10
+P:A que procedimento está sujeita a exploração, a alteração significativa e a alteração de titularidade de: a) Estabelecimentos de comércio e de armazéns produtos alimentares (identificados na lista I do anexo I do DL n.º 10/2015); b) Estabelecimentos de comércio a retalho que pertençam a uma empresa que utilize uma ou mais insígnias ou estejam integrados num grupo, que disponha, a nível nacional, de uma área de venda acumulada igual ou superior a 30 000 m2, nos casos em que isoladamente considerados tenham uma área de venda inferior a 2 000 m2 e não estejam inseridos em conjuntos comerciais; c) Estabelecimentos de comércio a retalho com área de venda igual ou superior a 2 000 m2 inseridos em conjuntos comerciais; d) Estabelecimentos de comércio a retalho de animais de companhia e respetivos alimentos; e) Estabelecimentos sex shop; f) Atividade de feirantes e de vendedor ambulante; g) A organização de feiras por entidades privadas; h) Exploração de oficinas de manutenção e reparação de veículos automóveis, motociclos e ciclomotores; i) Exploração de oficinas de adaptação e reparação de veículos automóveis utilizadores de gases de petróleo liquefeito (GPL) e gás natural comprimido e liquefeito (GN); j) Exploração de lavandarias; k) Exploração de centros de bronzeamento artificial; l) Exploração de estabelecimentos de colocação de piercings e tatuagens; m) Atividade funerária; n) Exploração de estabelecimentos de restauração ou de bebidas (sem dispensa de requisitos); o) Atividade de restauração ou de bebidas, não sedentária?§10
+P:Que factos são considerados uma alteração?§10
+P:A que procedimento está sujeita a exploração, a alteração significativa e a alteração de titularidade de: a) Estabelecimentos de comércio e de armazéns de alimentos para animais identificados na lista II do anexo I do DL 10/2015; b) Estabelecimentos de comércio e de armazéns grossistas de géneros alimentícios de origem animal que exijam condições de temperatura controlada identificados na lista III do anexo I do DL 10/2015; c) Estabelecimentos de restauração ou de bebidas com uma dispensa dos requisitos?§10
+P:Qual o prazo para emissão de autorização dos: a) Estabelecimentos de comércio e de armazéns de alimentos para animais identificados na lista II do anexo I do DL 10/2015; b) Estabelecimentos de comércio e de armazéns grossistas de géneros alimentícios de origem animal que exijam condições de temperatura controlada identificados na lista III do anexo I do DL 10/2015?§10
+P:Qual o prazo para emissão de autorização para estabelecimento de restauração ou de bebidas com dispensa de requisitos?§10
+P:A que procedimento está sujeita a instalação e alteração significativa de: a) Grandes superfícies comerciais não inseridas em conjuntos comerciais; b) Conjuntos comerciais com área bruta locável igual ou superior a 8 000 m2?§10
+P:O que são grandes superfícies comerciais?§10
+P:O que é considerado como área de venda?§10
+P:O que é um conjunto comercial?§10
+P:O que é área bruta locável?§10
+P:Que factos constituem uma alteração significativa sujeita a autorização conjunta?§10
+P:A que fica sujeita a diminuição da área de venda e diminuição da área bruta locável?§10
+P:A notificação da decisão é suficiente para proceder à instalação ou alteração significativa de grandes superfícies comerciais ou conjuntos comerciais?§10
+P:A autorização conjunta está sujeita a caducidade?§10
+P:Há alguma possibilidade de prorrogar a validade da autorização conjunta?§10
+P:Qual o procedimento necessário à prorrogação da autorização conjunta?§10
+P:O que são estabelecimentos sex shop?§10
+P:Qual o código da Classificação Portuguesa das Atividades Económicas (CAE) correspondente a esta atividade?§10
+P:Quais os requisitos que estes estabelecimentos devem cumprir?§10
+P:O que acontece se a menos de 300 metros de uma sex shop, a funcionar legalmente, se vier a instalar um estabelecimento de educação pré-escolar ou de ensino básico ou secundário, públicos ou privados, um espaço de jogo e recreio de uso coletivo destinado a crianças ou um local onde se pratique o culto de qualquer religião?§10
+P:A venda de produtos de conteúdo pornográfico e obsceno é permitida a menores de 18 anos?§10
+P:É permitida a comercialização de produtos de conteúdo pornográfico e obsceno através de métodos de venda à distância ou ao domicílio, ou em eventos de exposição e amostra especializados?§10
+P:O que se entende por “Feirante”?§10
+P:O que se entende por “Vendedor ambulante”?§10
+P:O que se entende por “Feira”?§10
+P:Quais os eventos de comércio a retalho não sedentário que não se enquadram na noção de Feira ou de Venda ambulante nos termos do RJACSR?§10
+P:Quais são os códigos da CAE aplicáveis à atividade de feirante e de vendedor ambulante?§10
+P:A venda de castanhas assadas, pipocas, algodão doce, farturas, churros, etc.., em instalações móveis ou amovíveis, é considerada venda ambulante?§10
+P:É obrigatório afixar letreiro identificativo de feirante e de vendedor ambulante no lugar de venda?§10
+P:Os feirantes e vendedores ambulantes que tenham acedido à respetiva atividade ao abrigo de regime anterior são obrigados a apresentar a mera comunicação prévia?§10
+P:Qual o documento que o feirante e/ou vendedor ambulante deve apresentar às entidades fiscalizadoras como prova de que cumpriu a formalidade de acesso à atividade?§10
+P:Aos trabalhadores de empresas que exploram atividades não sedentárias de comércio ou restauração e bebidas, é exigível a Mera Comunicação Prévia (MCP)?§10
+P:É possível o comércio a retalho não sedentário de todos os produtos?§10
+P:Existe alguma limitação à venda de bebidas alcoólicas efetuada por feirantes e vendedores ambulantes?§10
+P:Os feirantes e vendedores ambulantes têm de ter Livro de reclamação?§10
+P:O que devo fazer para poder participar na Feira da Ladra?§10
+P:Uma associação sem fins lucrativos que queira participar em feiras é considerada, para efeitos do RJACSR, como “feirante”?§10
+P:Quem exerce a atividade de feirante e ou vendedor ambulante noutro Estado Membro e detém um documento que o comprove pode exercer a atividade em território nacional?§10
+P:A organização de feiras por entidades privadas está sujeita à apresentação da Mera Comunicação Prévia?§10
+P:Quais as oficinas compreendidas?§10
+P:Qual o regime para a identificação de veículos ligeiros que utilizam GPL ou GN como combustível?§10
+P:De que forma é atestada a conformidade da adaptação à utilização de gases de petróleo liquefeito (GPL) ou gás natural comprimido e liquefeito (GN) e o correto funcionamento de cada veículo?§10
+P:Quais os termos para o controlo da instalação, ampliação, alteração, exploração e encerramento de estabelecimentos para o fabrico de veículos que utilizem GPL e GN?§10
+P:É necessário um registo atualizado de todas as adaptações ou reparações efetuadas ao sistema de alimentação de GPL ou GN em veículos?§10
+P:Quem emite o título profissional de Mecânico de auto/gás e Técnico de auto/gás?§10
+P:Quais são as entidades formadoras que ministram cursos para obtenção do título profissional de mecânicos e técnicos de auto/gás?§10
+P:Qual o regime para os profissionais provenientes de outro Estado-Membro da União Europeia ou do Espaço Económico Europeu que pretendam exercer a respetiva atividade em território nacional?§10
+P:Há um modelo para os componentes da instalação de gás de petróleo liquefeito ou gás natural comprimido e liquefeito?§10
+P:É necessário Seguro de responsabilidade civil para as oficinas que adaptem ou reparem veículos utilizadores de GPL ou GN?§10
+P:É obrigatório tomar precauções para não propagar doenças contagiosas?§10
+P:Nas tatuagens de henna negra que precauções devem ser tomadas?§10
+P:Durante o período de funcionamento do centro é obrigatória a presença de quem?§10
+P:Qual é a formação do responsável técnico e do pessoal técnico de centro de bronzeamento artificial?§10
+P:A quem não pode ser prestado o serviço de bronzeamento artificial?§10
+P:O que deve a ficha pessoal incluir?§10
+P:É obrigatório afixar informações?§10
+P:O que é a declaração de consentimento exigida?§10
+P:É definido um valor para o seguro de responsabilidade civil?§10
+P:Quem não pode deter ou exercer, direta ou indiretamente, a propriedade, a exploração ou a gestão de agências funerárias?§10
+P:Qual o prazo para comunicar a designação e mudança de responsável técnico?§10
+P:Como é obtido o Certificado de qualificações do responsável técnico e desde quando é exigível?§10
+P:Quantas instalações podem estar a cargo do mesmo responsável técnico?§10
+P:É obrigatório dispor de Funeral Social?§10
+P:Qual é o valor máximo para o Funeral Social e o que deve este incluir?§10
+P:Quais são os estabelecimentos compreendidos?§10
+P:Em que casos pode haver dispensa de requisitos?§10
+P:Qual é o regime para exploração de estabelecimentos de restauração ou de bebidas, com dispensa dos requisitos constantes dos artigos 126.o a 130.o e 133.o, e com secções acessórias destinadas a atividades industriais, com potência elétrica contratada igual ou inferior a 99 kVA?§10
+P:Um estabelecimento que tenha uma CAE principal não abrangida pelo RJACSR (por ex. cabeleireiro), e que pretenda ter uma pequena secção acessória de restauração ou de bebidas (por ex. café), deve efetuar que procedimento?§10
+P:Onde deve existir e o que deve constar da lista de preços?§10
+P:Quais são as informações que devem ser afixadas no estabelecimento?§10
+P:São permitidos animais em estabelecimentos de restauração ou bebidas?§10
+P:É permitida a ultracongelação de ovos-moles de Aveiro?§10
+P:Um estabelecimento de restauração ou bebidas pode praticar preços diferenciados em função da hora do dia (por ex. happy hour)?§10
+P:Qual o regime para a venda de vinho a copo?§10
+P:Há restrições à venda e consumo de bebidas alcoólicas em locais públicos e em locais abertos ao público?§10
+P:Que produtos podem ser servidos nos estabelecimentos de bebidas?§10
+P:Pretendo fabricar gelados, que procedimento devo efetuar?§10
+P:Onde posso obter mais informações sobre as boas práticas quanto a géneros alimentícios?§10
+P:Qual é o regime de atribuição de espaço de venda a prestadores de serviços de restauração ou de bebidas com caráter não sedentário?§10
+P:Apresentei MCP para a atividade de restauração e bebidas não sedentária ao município X, agora pretendo iniciar a mesma atividade, nas mesmas condições, noutro município, tenho de apresentar nova MCP ao município territorialmente competente (via BdE)?§10
+P:Qual o procedimento para a prestação de serviços de restauração ou bebidas, de forma ocasional e não continuada, por indivíduos, empresas ou associações que, de facto, não exploram esse ramo de negócio e estão presentes em eventos com o fim de angariar fundos que se destinam a promover qualquer objetivo social (cultural, desportivo, de lazer ou outro)?§10
+P:A participação em eventos de estabelecimentos sedentários de restauração e bebidas implica outro procedimento de mera comunicação prévia?§10
+P:Qual a coima aplicável às contraordenações leves?§10
+P:Qual a coima aplicável às contraordenações graves?§10
+P:Qual a coima aplicável às contraordenações muito graves?§10
+P:Tenho um imóvel que pretendo explorar como “alojamento local”, o que devo fazer?§11
+P:Tenho um imóvel e gostaria de o ceder para exploração como “alojamento local”, o que devo fazer?§11
+P:Eu apenas alugo um quarto na minha moradia. Será considerado Alojamento Local? Em que modalidade?§11
+P:Um contrato de arrendamento temporário para férias de um imóvel é considerado exploração de um Estabelecimento de Alojamento Local?§11
+P:Quais são as diferenças entre as três modalidades de estabelecimentos de alojamento local?§11
+P:O que é um «hostel»?§11
+P:Tenho um anexo à minha moradia, tem entrada independente, posso alugar como alojamento local?§11
+P:No mesmo edifício podem existir vários estabelecimentos de alojamento local?§11
+P:Poderei no mesmo edifício conjugar diferentes modalidades de Estabelecimentos de Alojamento Local, por exemplo nove apartamentos e um estabelecimento de hospedagem, ocupando todas as frações?§11
+P:Nos termos da lei só é possível utilizar a denominação de Hostel em estabelecimentos de hospedagem. No caso de uma moradia com um grande número de quartos com beliches será possível o uso dessa denominação?§11
+P:Para explorar estabelecimentos de alojamento local é necessário algum licenciamento ou autorização?§11
+P:Pretendo registar como alojamento local um imóvel que está situado no mesmo espaço de um empreendimento turístico, no caso, apartamentos turísticos, e não tenho contrato de exploração com a empresa que gere esse empreendimento. Posso avançar com o registo no alojamento local do meu imóvel ou isso vai entrar em conflito com a classificação do empreendimento turístico?§11
+P:Posso efetuar uma construção de raiz para um estabelecimento de alojamento local, por exemplo para um estabelecimento de hospedagem?§11
+P:Um hotel-apartamentos que está em construção, ou seja, que ainda não tem condições para solicitar a licença de utilização, pode solicitar uma alteração ao projeto de modo a alterar o uso para alojamento local?§11
+P:O registo no RNAL (Registo Nacional do Alojamento Local) é obrigatório?§11
+P:Há outros documentos ou autorizações que habilitem à prestação de serviços de alojamento temporário a turistas?§11
+P:O registo dos estabelecimentos de alojamento local está sujeito a taxas?§11
+P:Sendo o titular da exploração, tenho de ser eu a efetuar a mera comunicação prévia no balcão único eletrónico ou posso pedir a um terceiro que a faça?§11
+P:Não tenho computador com leitor de cartãode cidadão, como poderei efetuar o registo?§11
+P:Sou estrangeiro e não tenho cartão do cidadão, como posso fazer o registo do meu alojamento local?§11
+P:Após fazer o registo no balcão único eletrónico quanto tempo decorre até que seja atribuído o número de registo?§11
+P:Tenho um alojamento local já registado, tenho de registar agora no balcão único eletrónico?§11
+P:O imóvel onde pretendo desenvolver a atividade de prestação de serviços de alojamento foi construído antes de 1951 e não tem licença de utilização, como preencho a informação relativa ao título de utilização?§11
+P:Existe uma capacidade máxima para os estabelecimentos de alojamento local?§11
+P:Como se faz a contagem das camas e dos utentes nos estabelecimentos de alojamento local, nomeadamente nos «hostel» com beliches?§11
+P:No formulário de registo do Alojamento Local, na caracterização do alojamento, tem de se preencher o número de camas. Este número inclui as camas convertíveis?§11
+P:Quem é que deve abrir atividade associando um dos CAE mencionados no Decreto-Lei n.º 128/2014, de 29 de agosto, o titular da exploração ou o proprietário do imóvel?§11
+P:Tenho um AL já registado antes de 27 de Novembro de 2014, o CAE associado à minha atividade é diferente dos referidos no DL n.º 128/2014, de 20 de agosto. Devo alterar o CAE?§11
+P:Como proceder à alteração do CAE de uma entidade?§11
+P:As câmaras municipais podem cobrar taxas pela realização da vistoria? Existe algum valor pré-definido?§11
+P:Em que situações os registos dos estabelecimentos de alojamento local são cancelados e quem o pode fazer?§11
+P:Logo após o registo posso publicitar e abrir o meu alojamento ao público?§11
+P:Vi na legislação que, tendo um estabelecimento de alojamento local com capacidade superior a 10 utentes, deverei dar cumprimento aos requisitos da segurança contra incêndios em edifícios que constam do DL n.º 220/2008, de 12 de novembro e Portaria n.º 1532/2008, de 29 de dezembro. Tendo em conta que é uma legislação extensa, qual o artigo que menciona em que categoria se insere o Alojamento Local?§11
+P:No caso dos alojamentos com capacidade igual ou inferior a 10 utentes, em termos de requisitos de segurança, qual o extintor e manta mais adequados ao meu alojamento local?§11
+P:No alojamento local é obrigatória a certificação energética? Em que termos deve ser efetuada?§11
+P:Qual o seguro obrigatório para o imóvel que vou explorar como estabelecimento de alojamento local?§11
+P:As placas identificativas são obrigatórias para todas as modalidades de estabelecimentos de alojamento local?§11
+P:No «hostel» é necessário afixar uma placa exterior?§11
+P:Da placa deve constar o novo número do alojamento local?§11
+P:Onde posso adquirir a placa identificativa para o estabelecimento de hospedagem?§11
+P:Tenho um estabelecimento de alojamento local registado antes de 27 de novembro de 2014, posso manter a mesma placa?§11
+P:O livro de reclamações é obrigatório para todas asmodalidades de Estabelecimentos de Alojamento Local?§11
+P:Tenho quatro apartamentos no mesmo edifício, tenho de ter um livro de reclamações em cada um?§11
+P:Se a exploração do meu apartamento passar para outra pessoa, tenho de fazer um novo registo?§11
+P:O que devo fazer se não pretender continuar a exploração do estabelecimento?§11
+P:Tenho um site onde divulgo alojamentos locais, sou responsável por algum incumprimento dos estabelecimentos de alojamento local que divulgo?§11
+P:Podem estar sujeitas a processo de contraordenação, além dos proprietários dos imóveis e entidades exploradores, as agências que divulguem e sirvam de intermediárias dos serviços de alojamento temporário não registado?§11
+P:Como é que posso saber se um determinado estabelecimento de alojamento local está registado?§11
+P:O que acontece quando o Turismo de Portugal I.P. verifique que o estabelecimento de alojamento local reúne requisitos para ser considerado empreendimento turístico?§11
+P:Em que situações pode ser determinada a interdição de exploração dos estabelecimentos de alojamento e quem o pode fazer?§11
+P:O que são empreendimentos convertidos em alojamento local?§11
+P:Antes da entrada em vigor do Decreto-Lei n.º 128/2014, de 29 de agosto, já tinha registado na modalidade de apartamento no mesmo edifício mais de 9 frações autónomas, sendo este número superior a 75% do número de frações existentes no edifício. Não se aplicando os limites previstos no artigo 11.º do DL 128/2014 posso registar mais algum apartamento do mesmo edifício?§11
+P:O que acontece aos estabelecimentos de alojamento local que já utilizavam a denominação de «hostel»?§11
+P:Um estabelecimento de hospedagem já inscrito como alojamento local pode, depois de ter realizado obras, ser classificado como um hotel? Há algum prazo?§11
+P:O que acontece aos estabelecimentos de alojamento local registados ao abrigo da legislação anterior que tenham mais de 9 quartos e não consigam por algum motivo fazer a sua alteração para empreendimento turístico? Têm de encerrar?§11
+P:Qual é a legislação aplicável à exploração dos estabelecimentos de alojamento local?§11
+Eu não sei. Porque não chamas o gerente?§15
+Quem vai ver esta noite?§15
+Podia fechar a janela?§15
+Anthony?§15
+Não tem boas notícias?§15
+E o RJ?§15
+Este seria o único mundo que conheceria?§15
+Recuerdas?§15
+Não o amas de todo Rose, pois não?§15
+Está bem?§15
+Achas?§15
+Pike, é você?§15
+Por isso... o que se passa?§15
+Is it healin' up?§15
+Eu quase que morria?§15
+Por que não o levas para dentro?§15
+Como ele está?§15
+Gostas de arte?§15
+Algo suspeito?§15
+Foda-se. O que disseste?§15
+Para onde você está correndo?§15
+Porque me tratas assim?§15
+Devemos fazê-lo?§15
+Quantas contas vai transferir?§15
+A viste em algum lugar?§15
+O que foi aquilo?§15
+Are those two girls machines?§15
+que queres dizer, ele era?§15
+Eu queria dizer mais no sentido do restaurante pequeno, tipo um mais outro?§15
+Francois?§15
+Sabe o que pode lhe acontecer?§15
+Onde estão?§15
+Ele não está doente, ok?§15
+Tras espiar en mi cuarto, ¿ahora me espías a mí?§15
+Terminou, Dave?§15
+O que raios é isso?§15
+Numa Iancha rápida?§15
+Há espaço para mais um?§15
+Estou a viver com um Tyson?§15
+Não é?§15
+VocÃª Ã© cientista ou professor?§15
+Como pode dizer isso agora?§15
+¡Lo siento mucho! ¿Está bien?§15
+Como estás?§15
+Quem quer isto pelo rabo acima?§15
+Él no puede amarme, ¿eh?§15
+Por que não te recostas tu também?§15
+Pára com as trombas, não estás a ver que elas só dão sarilhos?§15
+E se eu disser Eu ouvi, mas não precisas de te preocupar?§15
+Ele ainda não voltou?§15
+QUAL É O PROBLEMA?§15
+Escopola... quê?§15
+Isabelle o que estás a fazer?§15
+Então, isso significa gravá-lo a tempo inteiro?§15
+Por isso vou até aí e cubro-o de beijinhos! - Não quer antes cozinhar para mim?§15
+Então... o que o tornou a si tão especial?§15
+Trazes-me uma miúda?§15
+Vamos, você não é uma turísta, não é mesmo?§15
+Encalhados? Em quê?§15
+Não deviam ir para outro lugar? Como a cama?§15
+Quer dizer-me qual é?§15
+Gostaria de saber?§15
+Becca, me faz um favor? Não se meta nisso?§15
+Não podes ficar feliz por mim?§15
+Porquê?§15
+Joey, cerveja?§15
+O que é, Marvin?§15
+¿Entendido?§15
+Acerca de quê?§15
+O que acontece quando chegarmos ao topo?§15
+Porquê eu?§15
+Olá?§15
+Ele falou abertamente contigo e deixaste-o fugir?§15
+4º- E mais importante ele ama-te?§15
+Ela é muito simpática, sabes?§15
+Gay?§15
+O quê?§15
+Está zangada?§15
+¿Estás bien?§15
+Versão alongada?§15
+¿Qué te dice tu instinto?§15
+É a Reba?§15
+Tem outras pessoas na casa?§15
+Vais por isto no teu filme, Jerry?§15
+Certo, e eu, quem serei?§15
+Pode ser mais especÃ­fico?§15
+¿Conoces toda aquella tierra cerca de la escuela Primaria Hartley?§15
+Há quanto tempo estás aqui ?§15
+O que é que ele está a dizer?§15
+No parece que seas tû, Jake. ¿''Coraje y fuerza''?§15
+Kostya?§15
+É uma arma?§15
+O que foi?§15
+É muito alto?§15
+Óptimo. Vamos tomar um chá?§15
+Não te posso deixar sozinho nem um segundo, não?§15
+¿Qué ropa se pondrá para el baile?§15
+Morres se o experimentares?§15
+Tracy Turnblad, estás a tentar dizer-me... que a Penny não tem permissão... da mãe dela para estar aqui?§15
+Filmaste, Theo?§15
+¿Está enfermo?§15
+Não, quem te deu isto? Quem te ensinou sobre isto?§15
+Quem são essas pessoas?§15
+Continua,o que ia dizer?§15
+O que, já viu alguma vez alguém cair de uma dessas coisas?§15
+Toparam o quê?§15
+Porque fizeste isso?§15
+Achas que uma menina linda como ela, vai ficar com um conas de merda como tu?§15
+O que se passa?§15
+Pode trazer-me mais café?§15
+Eu te inscrevi. Está pronta?§15
+E o que transforma a escuridão em luz?§15
+O que queres que eu faça, Tess?§15
+E sabe que bebeste?§15
+Nem tiraste com o telemóvel?§15
+Como é que gostarias de encontrar isso nas tuas calças?§15
+Vazia?§15
+Sam?§15
+Ou pode ser que decida explodir qualquer coisa, certo?§15
+¿Qué quieres?§15
+Um suicídio?§15
+¿No quieres bailar?§15
+¿Entiendes?§15
+Não precisa nos prender. Por que está me prendendo?§15
+Tu viste-o, não viste?§15
+Você é...?§15
+Qual sua preferência, me diz ?§15
+Pai?§15
+Onde está você?§15
+Desculpe?§15
+Amigo?§15
+Então, o que vai o Nate dar-te no aniversário?§15
+Amigo?§15
+O quê? Não há reforços?§15
+¿Dónde está Emily?§15
+Quem säo, mamä?§15
+Vamos Ryan, como te estás a sentir?§15
+¿Por qué todo el mundo me pregunta... si he estado tomando?§15
+É casado?§15
+Mas está com a mãe. O que fazem?§15
+Já terminou, Doutor?§15
+¿Crees que vamos a querer tocarnos cuando tengamos 80?§15
+Está tudo bem?§15
+Espera um convite pessoal, Sr. Smith?§15
+¿Cómo reviertes este proceso?§15
+Investigação?§15
+Quem trincha o peru?§15
+Ela teve o seu bebê?§15
+Arrisca o seu casamento para salvar o meu?§15
+Mas, tentou?§15
+Auxiliar?§15
+O que a leva a dizer isso?§15
+Então, Forman, finalmente quebraste, não foi?§15
+E depois, lembraste da canção que estava a dar quando dançámos?§15
+Drácula?§15
+As crianças viram? Elas disseram-te isso?§15
+¿Recuerdas los jardines japoneses?§15
+Você quer a caneca?§15
+Nave espacial? Nave espacial?§15
+Mas o que é que aconteceu?§15
+¿Qué estás mirando?§15
+O que é isto?§15
+Estás bem?§15
+Não estás com medo do que os teus pais vão dizer?§15
+O que temos?§15
+Tens a certeza?§15
+Vão casar, não?§15
+Um cavaleiro?§15
+Uma cama e tanto, não?§15
+Mas não foi isso que fez, foi?§15
+Como é que perdi isto?§15
+Quer vir?§15
+Cricket?§15
+Queres que faça um desenho?§15
+Estás pronta para a aventura?§15
+Bem, e tu?§15
+O que está fazendo aqui?§15
+¿Qué?§15
+Como que pior que uma montanha russa?§15
+Não, a minha bolsa de Rhodes, quantas bolsas de estudos tenho eu?§15
+Estou certo?§15
+Estás bem?§15
+¿Qué vas a hacer?§15
+Ajudar a quem? A nós?§15
+Prometeste-me que íamos juntas à praia, lembras-te?§15
+...em que estavas a pensar?§15
+¿Quieres buscarlo?§15
+Bastante observador, hein?§15
+Oito copiões?§15
+Há outro vídeo?§15
+A sério?§15
+lsso seria um ponto alto na sua carreira, nÃ£o seria?§15
+E onde dormimos?§15
+Representante de vendas? Uma dormida?§15
+Achas que se vão embora?§15
+Grátis?§15
+Ella no tiene tu... ¿Deseo?§15
+Quem disse?§15
+Qual é o problema?§15
+Este tempo todo, tentámos empatar tempo, certo?§15
+O que achas deste?§15
+Você vai ficar fazendo isso pelo resto da sua vida?§15
+¿El qué?§15
+Esqueceste-te da tua acompanhante?§15
+¿Qué viene primero? ¿Cómo comienza?§15
+Alô?§15
