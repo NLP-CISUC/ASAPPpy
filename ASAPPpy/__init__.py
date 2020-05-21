@@ -1,5 +1,5 @@
 """
-Semantic Textual Similarity and Dialogue System module for Python
+Semantic Textual Similarity and Dialogue System package for Python
 =================================================================
 """
 
