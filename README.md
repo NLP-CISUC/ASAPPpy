@@ -1,5 +1,7 @@
 ## ASAPPpy
-TBD
+ASAPPpy is a Python package for developing models to compute the Semantic Textual Similarity (STS) between texts in Portuguese. These models follow a supervised learning approach to learn an STS function from annotated sentence pairs, considering a variety of lexical, syntactic, semantic and distributional features.
+
+ASAPPpy can also be used to develop STS based dialogue agents and deploy them to Slack.
 
 
 ### Development
@@ -14,16 +16,17 @@ To check the latest version use the following command:
 ```
 
 ### Project History
-TBD
+ASAP(P) is the name of a collection of systems developed by the [Natural Language Processing group](http://nlp.dei.uc.pt) at [CISUC](https://www.cisuc.uc.pt/home) for computing STS based on a regression method and a set of lexical, syntactic, semantic and distributional features extracted from text.
+It was used to participate in several STS evaluation tasks, for English and Portuguese, but was only recently integrated into two single independent frameworks: ASAPPpy (available here), in Python, and ASAPPj, in Java.
 
 
 ### Help and Support
 
 #### Documentation
-TBD
+Coming soon...
 
 #### Communication
-TBD
+If you have any questions feel free to open a new issue and we will respond as soon as possible.
 
 #### Citation
 
