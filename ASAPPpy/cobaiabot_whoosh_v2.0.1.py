@@ -19,8 +19,8 @@ from pysts.classifiers.svm_restantes_classes import corre_para_testes_restantes
 from pysts.classifiers.svm_binaria_para_testes import corre_para_frase 
 
 # constants
-SLACK_SIGNING_SECRET = '338a77e64600e2932be329157f335db2'
-SLACK_BOT_TOKEN = 'xoxb-744996242051-745006955971-f3SrOsvKqc5KDWRr9nLnCTxX'
+SLACK_SIGNING_SECRET = os.environ['SLACK_SIGNING_SECRET']
+SLACK_BOT_TOKEN = os.environ['COBAIA_BOT_TOKEN']
 
 # cobaiabot's user ID in Slack: value is assigned after the bot starts up
 bot_id = None
@@ -219,7 +219,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 		corpus_pairs, indexes = pre_selection(unprocessed_corpus, fasttext_model, position)
 
 		if corpus_pairs is None:
-			index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.1')
+			index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.3')
 
 			options, options_answers = qwi.query_indexer(interaction, index_path)
 
@@ -244,7 +244,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 
 	if highest_match < 2.5:
 		# the query search will return a list of phrases with the highest matches, which will be used with the similarity model in order to evaluate which answer should be returned to the user
-		index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.1')
+		index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.3')
 
 		options, options_answers = qwi.query_indexer(interaction, index_path)
 
