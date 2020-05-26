@@ -9,8 +9,8 @@ from gensim.models import KeyedVectors
 from sklearn.metrics.pairwise import cosine_similarity
 
 #import function to read the xml file
-from assin.assineval.commons import read_xml
-import tools as tl
+from ASAPPpy.scripts.xml_reader import read_xml
+from ASAPPpy.scripts.tools import preprocessing, compute_tfidf_matrix, deprecated_read_corpus
 
 global n_iterations
 n_iterations = 0
@@ -38,8 +38,8 @@ def compute_models(model, embeddings_data, tfidf_data, use_tf_idf=0, rm_stopword
 	if use_tf_idf == 1:
 
 		# tokenization should be 0 when applying preprocessing to the data that will be used to build the tfidf matrix
-		tfidf_preprocessed = tl.preprocessing(tfidf_data, 0, rm_stopwords, numbers_to_text, use_tf_idf)
-		tfidf_model = tl.compute_tfidf_matrix(tfidf_preprocessed, rm_stopwords, 1, 0)
+		tfidf_preprocessed = preprocessing(tfidf_data, 0, rm_stopwords, numbers_to_text, use_tf_idf)
+		tfidf_model = compute_tfidf_matrix(tfidf_preprocessed, rm_stopwords, 1, 0)
 
 		n_iterations = 0
 		embeddings_data['text'] = embeddings_data['text'].apply(lambda x: apply_tfidf_model(x, model, tfidf_model))
@@ -63,7 +63,7 @@ def word2vec_model(model, corpus, tf_idf, remove_stopwords, convert_num_to_text)
 	word2vec_embeddings = []
 
 	# when it comes to word2vec, the preprocessing function should always have tokenization equal to 1
-	preprocessed_corpus = tl.preprocessing(corpus, 1, remove_stopwords, convert_num_to_text, tf_idf)
+	preprocessed_corpus = preprocessing(corpus, 1, remove_stopwords, convert_num_to_text, tf_idf)
 
 	if tf_idf == 1:
 		embeddings_data = compute_models(model, preprocessed_corpus, corpus, tf_idf, remove_stopwords, convert_num_to_text)
@@ -92,14 +92,14 @@ def word2vec_model_single_feature():
 
 	test_list = read_xml("assin-ptpt-test.xml", 1)
 
-	corpus = tl.deprecated_read_corpus("assin-ptpt-test.xml")
+	corpus = deprecated_read_corpus("assin-ptpt-test.xml")
 
 	#function arguments
 	remove_stopwords = 0
 	convert_num_to_text = 0
 	tf_idf = 1
 	# when it comes to word2vec, the preprocessing function should always have tokenization equal to 1
-	preprocessed_corpus = tl.preprocessing(corpus, 1, remove_stopwords, convert_num_to_text, tf_idf)
+	preprocessed_corpus = preprocessing(corpus, 1, remove_stopwords, convert_num_to_text, tf_idf)
 
 	if tf_idf == 1:
 		train_data = compute_models(model, preprocessed_corpus, corpus, tf_idf, remove_stopwords, convert_num_to_text)

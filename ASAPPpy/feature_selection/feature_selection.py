@@ -6,7 +6,7 @@ import os
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.feature_selection import SelectPercentile, SelectFromModel, RFE, f_regression
-from pysts.tools import write_data_to_file
+from ASAPPpy.scripts.tools import write_data_to_file
 
 def build_mask(mask, unused_features_positions):
 	""" Function used to complete the mask with unused features not available for feature selection """

@@ -5,7 +5,7 @@ Module used to extract syntactic features from a given corpus.
 import spacy
 import pandas as pd
 
-from pysts.feature_engineering.lexical_features import jaccard_coefficient
+from ASAPPpy.feature_engineering.lexical_features import jaccard_coefficient
 
 def compute_pos(pipe_tags):
 	""" Function used to compute the POS-tags difference between two sentences in the corpus """

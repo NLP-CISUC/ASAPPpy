@@ -12,11 +12,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
 from string import punctuation
 
-from pysts.resources.resources import read_class_set
-from pysts.feature_extraction import load_embeddings_models, extract_features
-import pysts.indexers.Whoosh.whoosh_make_query as qwi
-from pysts.classifiers.svm_restantes_classes import corre_para_testes_restantes
-from pysts.classifiers.svm_binaria_para_testes import corre_para_frase 
+from ASAPPpy.resources.resources import read_class_set
+from ASAPPpy.feature_extraction import load_embeddings_models, extract_features
+import ASAPPpy.indexers.Whoosh.whoosh_make_query as qwi
+from ASAPPpy.classifiers.svm_restantes_classes import corre_para_testes_restantes
+from ASAPPpy.classifiers.svm_binaria_para_testes import corre_para_frase 
 
 # constants
 SLACK_SIGNING_SECRET = os.environ['SLACK_SIGNING_SECRET']

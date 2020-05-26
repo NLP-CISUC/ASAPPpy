@@ -4,10 +4,10 @@ Module used for feature extraction of a corpus.
 import os
 import numpy as np
 from xml.etree import cElementTree as ET
-from pysts.assin.assineval.commons import read_xml_no_attributes
+from ASAPPpy.assin.assineval.commons import read_xml_no_attributes
 
-import pysts.tools as tl
-from pysts import ROOT_PATH
+import ASAPPpy.tools as tl
+from ASAPPpy import ROOT_PATH
 
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 

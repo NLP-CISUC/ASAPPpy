@@ -29,8 +29,8 @@ from sklearn.ensemble import VotingRegressor
 from sklearn.model_selection import GridSearchCV
 from joblib import dump, load
 from NLPyPort.FullPipeline import new_full_pipe
-from commons import read_xml
-from commons import read_xml_no_attributes
+from scripts.xml_reader import read_xml
+from scripts.xml_reader import read_xml_no_attributes
 
 import models.word2vec.word2vec as w2c
 import models.fastText.fasttext as ftt

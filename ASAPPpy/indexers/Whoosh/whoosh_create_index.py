@@ -5,7 +5,7 @@ from whoosh.index import create_in
 from whoosh.fields import Schema, TEXT, ID
 from whoosh.analysis import StemmingAnalyzer, CharsetFilter, NgramFilter
 from whoosh.support.charset import accent_map
-from pysts import ROOT_PATH
+from ASAPPpy import ROOT_PATH
 
 def createSearchableData(directory, load_path):
     '''

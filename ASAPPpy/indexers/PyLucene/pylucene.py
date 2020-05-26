@@ -16,7 +16,7 @@ from org.apache.lucene.index import IndexWriter, IndexWriterConfig
 from org.apache.lucene.store import FSDirectory, SimpleFSDirectory
 from org.apache.lucene.util import Version
 
-from pysts import ROOT_PATH
+from ASAPPpy import ROOT_PATH
 
 class customPortugueseAnalyser(PythonAnalyzer):
 

@@ -33,7 +33,7 @@ from sklearn.naive_bayes import GaussianNB
 import pickle
 from sklearn import svm
 from sklearn.feature_extraction.text import TfidfVectorizer
-from pysts.classifiers.svm_binaria_para_testes import *
+from ASAPPpy.classifiers.svm_binaria_para_testes import *
 #naive bayes, svm, random forest
 
 

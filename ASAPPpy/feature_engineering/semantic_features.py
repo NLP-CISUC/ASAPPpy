@@ -7,7 +7,7 @@ import collections
 
 import pandas as pd
 
-from pysts.tools import preprocessing
+from ASAPPpy.scripts.tools import preprocessing
 
 def compute_ner(ners_corpus):
 	""" Function used to compute the NERs difference between two sentences in the corpus """

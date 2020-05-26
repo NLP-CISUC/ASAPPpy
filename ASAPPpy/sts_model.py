@@ -2,7 +2,7 @@ import os
 import numpy as np
 from joblib import dump, load
 
-from pysts import ROOT_PATH
+from ASAPPpy import ROOT_PATH
 from feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
 from feature_engineering.syntactic_features import compute_pos, dependency_parsing
 from feature_engineering.semantic_features import compute_ner, compute_semantic_relations
