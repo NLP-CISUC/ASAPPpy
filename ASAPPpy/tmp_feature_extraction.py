@@ -23,14 +23,14 @@ from sklearn.ensemble import VotingRegressor
 from sklearn.model_selection import GridSearchCV
 from joblib import dump, load
 from NLPyPort.FullPipeline import new_full_pipe, load_congif_to_list
-from commons import read_xml
-from commons import read_xml_no_attributes
+from scripts.xml_reader import read_xml
+from scripts.xml_reader import read_xml_no_attributes
 
 import models.word2vec.word2vec as w2c
 import models.fastText.fasttext as ftt
 import models.ontoPT.ptlkb as ptlkb
 import load_embeddings as ld_emb
-import tools as tl
+import scripts.tools as tl
 
 from feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
 from feature_engineering.syntactic_features import compute_pos, dependency_parsing
