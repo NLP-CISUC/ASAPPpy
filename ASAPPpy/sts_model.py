@@ -6,11 +6,13 @@ from ASAPPpy import ROOT_PATH
 from feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
 from feature_engineering.syntactic_features import compute_pos, dependency_parsing
 from feature_engineering.semantic_features import compute_ner, compute_semantic_relations
+from feature_selection.feature_selection import feature_selection
 from models.word2vec.word2vec import word2vec_model
 from models.fastText.fasttext import fasttext_model
 from models.ontoPT.ptlkb import ptlkb_model
+# TODO: rename and relocate this file:
 from load_embeddings import word_embeddings_model
-from tools import build_sentences_from_tokens, compute_tfidf_matrix, preprocessing
+from scripts.tools import build_sentences_from_tokens, compute_tfidf_matrix, preprocessing
 
 from NLPyPort.FullPipeline import new_full_pipe
 
@@ -23,25 +25,17 @@ class STSModel():
 
     '''
 
-    def __init__(self, model_name='default_model_name', model=None, number_features=0, used_features=None, lexical_features=None, syntactic_features=None, semantic_features=None, distributional_features=None, all_features=None, load_embeddings_models=None):
+    def __init__(self, model_name='default_model_name', model=None, number_features=0):
         self.model_name = model_name
         self.model = model
         self.number_features = number_features
-
-        if used_features is None:
-            self.used_features = {}
-        else:
-            self.used_features = used_features
-
-        self.lexical_features = lexical_features
-        self.syntactic_features = syntactic_features
-        self.semantic_features = semantic_features
-        self.distributional_features = distributional_features
-        self.all_features = all_features
-
-        # TODO: Continue working from here!!
-        if load_embeddings_models is not None:
-            self.
+        self.used_features = {}
+        self.lexical_features = None
+        self.syntactic_features = None
+        self.semantic_features = None
+        self.distributional_features = None
+        self.all_features = None
+        self.feature_selection = 0
 
     def extract_lexical_features(self, corpus, wn_jaccard, wn_dice, wn_overlap, cn_jaccard, cn_dice, cn_overlap):
         '''
@@ -433,7 +427,7 @@ class STSModel():
 
         return self.distributional_features
 
-    def extract_all_features(self, corpus, to_train=1, word2vec_mdl=None, fasttext_mdl=None, ptlkb_mdl=None, glove_mdl=None, numberbatch_mdl=None):
+    def extract_all_features(self, corpus, to_store=1, word2vec_mdl=None, fasttext_mdl=None, ptlkb_mdl=None, glove_mdl=None, numberbatch_mdl=None):
         '''
         Parameters
         ----------
@@ -444,53 +438,68 @@ class STSModel():
             print("Argument corpus is empty, returning None")
             return
 
-        if self.lexical_features is None:
+        if self.lexical_features is None or to_store == 0:
             lexical_features = self.extract_lexical_features(corpus, 1, 1, 1, 1, 1, 1)
         else:
             lexical_features = self.lexical_features
 
-        if self.syntactic_features is None:
+        if self.syntactic_features is None or to_store == 0:
             syntactic_features = self.extract_syntactic_features(corpus, 1, 1)
         else:
             syntactic_features = self.syntactic_features
 
-        if self.semantic_features is None:
+        if self.semantic_features is None or to_store == 0:
             semantic_features = self.extract_semantic_features(corpus, 1, 1)
         else:
             semantic_features = self.semantic_features
 
-        if self.distributional_features is None:
+        if self.distributional_features is None or to_store == 0:
             distributional_features = self.extract_distributional_features(corpus, 1, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
         else:
             distributional_features = self.distributional_features
 
         all_features = np.concatenate([lexical_features, syntactic_features, semantic_features, distributional_features], axis=1)
 
-        # If features are being extracted to train the model, add them to the model's parameters, otherwise just return them
-        if to_train:
+        # Choose whether the extracted features should be stored in the model or just returned
+        if to_store:
             self.all_features = all_features
 
             return self.all_features
         else:
             return all_features
 
-    def run_model(self, feature_selection, regressor, labels, test_features=None):
+    def run_model(self, regressor, train_features, train_target, test_features=None, eval_features=None, eval_target=None, use_feature_selection=0):
         '''
         Parameters
         ----------
 
 
         '''
-        # TODO: Add an option to check if the model used feature selection or not
-        if feature_selection:
-            pass
+        if use_feature_selection:
+            if eval_features is not None and eval_target is not None:
+                selector, selected_train_features, self.used_features = feature_selection(train_features, eval_features, train_target, eval_target, regressor, self.used_features)
+
+                selected_features = selector.transform(test_features)
+
+                self.model = regressor.fit(selected_train_features, train_target)
+
+                if test_features is not None:
+                    predicted_similarity = regressor.predict(selected_features)
+
+                    return predicted_similarity
+                else:
+                    print("Missing test features. Provide them in order to make a prediction.")
+            else:
+                print("Missing evaluation features/target necessary to perform feature selection.")
         else:
-            self.model = regressor.fit(self.all_features, labels)
+            self.model = regressor.fit(train_features, train_target)
 
             if test_features is not None:
                 predicted_similarity = regressor.predict(test_features)
 
                 return predicted_similarity
+            else:
+                    print("Missing test features. Provide them in order to make a prediction.")
 
     def save_model(self):
         '''
@@ -502,8 +511,19 @@ class STSModel():
         # TODO: Add an option to save the ID of each pair of sentences if needed
         save_model_path = os.path.join(ROOT_PATH, "trained_models", self.model_name)
 
-        if not os.path.exists(save_model_path):
-            os.mkdir(save_model_path)
+        if os.path.exists(save_model_path):
+            update_model = str(input("Directory {} already exists. Do you want to update the existing model (Y/n)? ".format(save_model_path)))
+
+            if update_model.lower() == "y":
+                update_model = 1
+            else:
+                update_model = 0
+
+        # TODO: When saving files, check if the content to be written is the same that already exists in the file and if so don't write it again. It could be done using an hash.
+        if not os.path.exists(save_model_path) or update_model:
+
+            if not os.path.exists(save_model_path):
+                os.mkdir(save_model_path)
 
             if self.model is not None:
                 sts_model_path = os.path.join(save_model_path, self.model_name)
@@ -535,7 +555,7 @@ class STSModel():
 
                 np.savetxt(all_features_path, self.all_features, delimiter=",")
 
-            if self.used_features is not None:
+            if self.used_features:
                 used_features_path = os.path.join(save_model_path, 'used_features.txt')
 
                 with open(used_features_path, 'w') as fp:
@@ -546,14 +566,53 @@ class STSModel():
                         fp.write('{}: {}\n'.format(key, value))
 
                 fp.close()
-        else:
-            print("Directory {} already exists.".format(save_model_path))
 
-    def load_model(self):
+    def load_model(self, model_name):
         '''
         Parameters
         ----------
 
 
         '''
-        pass
+        dir_load_model_path = os.path.join(ROOT_PATH, 'trained_models', model_name)
+
+        if os.path.exists(dir_load_model_path):
+            self.model_name = model_name
+
+            load_model_path = os.path.join(dir_load_model_path, model_name)
+            self.model = load(load_model_path)
+
+            used_features_path = os.path.join(dir_load_model_path, 'used_features.txt')
+            if os.path.exists(used_features_path):
+                self.feature_selection = 1
+
+                with open(used_features_path) as ufp:
+                    for i, line in enumerate(ufp):
+                        if i == 1:
+                            self.number_features = int(line)
+                        if i > 1:
+                            split_line = line.split(': ')
+                            self.used_features[split_line[0]] = int(split_line[1][:-1])
+
+            lexical_features_path = os.path.join(dir_load_model_path, 'lexical_features.csv')
+            if os.path.exists(lexical_features_path):
+                self.lexical_features = np.loadtxt(lexical_features_path, delimiter=",")
+
+            syntactic_features_path = os.path.join(dir_load_model_path, 'syntactic_features.csv')
+            if os.path.exists(syntactic_features_path):
+                self.syntactic_features = np.loadtxt(syntactic_features_path, delimiter=",")
+
+            semantic_features_path = os.path.join(dir_load_model_path, 'semantic_features.csv')
+            if os.path.exists(semantic_features_path):
+                self.semantic_features = np.loadtxt(semantic_features_path, delimiter=",")
+
+            distributional_features_path = os.path.join(dir_load_model_path, 'distributional_features.csv')
+            if os.path.exists(distributional_features_path):
+                self.distributional_features = np.loadtxt(distributional_features_path, delimiter=",")
+
+            all_features_path = os.path.join(dir_load_model_path, 'all_features.csv')
+            if os.path.exists(all_features_path):
+                self.all_features = np.loadtxt(all_features_path, delimiter=",")
+        else:
+            print("Directory {} does not exist. Insert a valid model name.".format(dir_load_model_path))
+        

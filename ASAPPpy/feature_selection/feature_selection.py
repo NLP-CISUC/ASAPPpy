@@ -8,15 +8,14 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.feature_selection import SelectPercentile, SelectFromModel, RFE, f_regression
 from ASAPPpy.scripts.tools import write_data_to_file
 
-def build_mask(mask, unused_features_positions):
+def build_mask(mask, used_features):
 	""" Function used to complete the mask with unused features not available for feature selection """
-	final_mask = mask.tolist()
 
-	for i in range(len(unused_features_positions)):
-		if not unused_features_positions[i]:
-			final_mask.insert(i, False)
+	for index, key in enumerate(used_features):
+		if not mask[index]:
+			used_features[key] = 0
 
-	return final_mask
+	return used_features
 
 def best_percentile_selector(train_features, test_features, train_similarity_target, test_similarity_target, regressor):
 	""" Function used to select the best percentile selector """
@@ -88,11 +87,11 @@ def best_iterative_based_selector(train_features, test_features, train_similarit
 	""" Function used to select the best iterative based selector """
 	iterative_based_score = 0
 	# given that all pairs use the same amount of features, the position 0 was arbitrarily selected to compute the number of features being used
-	min_number_features = int(0.15*len(train_features[0]))
-	max_number_features = int(0.85*len(train_features[0]))
+	# min_number_features = int(0.15*len(train_features[0]))
+	# max_number_features = int(0.85*len(train_features[0]))
 
-	# min_number_features = 19
-	# max_number_features = 20
+	min_number_features = 19
+	max_number_features = 20
 
 	iterative_based_selector = None
 	iterative_based_train_features_selected = None
@@ -123,6 +122,7 @@ def best_iterative_based_selector(train_features, test_features, train_similarit
 	return iterative_based_selector, iterative_based_score, iterative_based_train_features_selected, iterative_based_test_features_selected, iterative_based_mask
 
 def feature_selection(train_features, test_features, train_similarity_target, test_similarity_target, regressor, used_features):
+	# TODO: Check why were test_features being selected
 	""" Function used to perform feature selection """
 	# percentile selector
 	percentile_selector, percentile_score, percentile_train_features_selected, percentile_test_features_selected, percentile_mask = best_percentile_selector(train_features, test_features, train_similarity_target, test_similarity_target, regressor)
@@ -155,22 +155,19 @@ def feature_selection(train_features, test_features, train_similarity_target, te
 		return train_features, test_features
 	elif max_value_position == 1:
 		percentile_mask = build_mask(percentile_mask, used_features)
-		mask_save_path = os.path.join('feature_selection_masks', 'percentile_mask.txt')
-		write_data_to_file(percentile_mask, mask_save_path)
+		print(percentile_mask)
 
 		print("Returning features selected with the percentile selector!\n")
-		return percentile_selector, percentile_train_features_selected, percentile_test_features_selected
+		return percentile_selector, percentile_train_features_selected, percentile_mask
 	elif max_value_position == 2:
 		model_based_mask = build_mask(model_based_mask, used_features)
-		mask_save_path = os.path.join('feature_selection_masks', 'model_based_mask.txt')
-		write_data_to_file(model_based_mask, mask_save_path)
+		print(model_based_mask)
 
 		print("Returning features selected with the model based selector!\n")
-		return model_based_selector, model_based_train_features_selected, model_based_test_features_selected
+		return model_based_selector, model_based_train_features_selected, model_based_mask
 	else:
 		iterative_based_mask = build_mask(iterative_based_mask, used_features)
-		mask_save_path = os.path.join('feature_selection_masks', 'iterative_based_mask.txt')
-		write_data_to_file(iterative_based_mask, mask_save_path)
+		print(iterative_based_mask)
 
 		print("Returning features selected with the iterative based selector!\n")
-		return iterative_based_selector, iterative_based_train_features_selected, iterative_based_test_features_selected
+		return iterative_based_selector, iterative_based_train_features_selected, iterative_based_mask
