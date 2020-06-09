@@ -87,11 +87,11 @@ def best_iterative_based_selector(train_features, test_features, train_similarit
 	""" Function used to select the best iterative based selector """
 	iterative_based_score = 0
 	# given that all pairs use the same amount of features, the position 0 was arbitrarily selected to compute the number of features being used
-	# min_number_features = int(0.15*len(train_features[0]))
-	# max_number_features = int(0.85*len(train_features[0]))
+	min_number_features = int(0.15*len(train_features[0]))
+	max_number_features = int(0.85*len(train_features[0]))
 
-	min_number_features = 19
-	max_number_features = 20
+	# min_number_features = 19
+	# max_number_features = 20
 
 	iterative_based_selector = None
 	iterative_based_train_features_selected = None
