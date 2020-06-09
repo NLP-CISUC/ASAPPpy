@@ -84,6 +84,7 @@ def n_max_elements(list1, N):
 
 	return final_list
 
+# TODO: Update bot to use the new sts model architecture.
 def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model):
 	""" Function used to run the chatbot interface """
 	# Flag to indicate if classification should be used (1) or not (0)

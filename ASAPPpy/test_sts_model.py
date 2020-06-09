@@ -1,18 +1,21 @@
 import numpy as np
-import tools as tl
-from sts_model import STSModel
-from assin.assineval.commons import read_xml
+from xml.etree import cElementTree as ET
 from sklearn.svm import SVR
 
-system_mode = 4
+import scripts.tools as tl
+from sts_model import STSModel
+from scripts.xml_reader import read_xml, read_xml_no_attributes
+from scripts.load_embeddings import load_embeddings_models
+
+system_mode = 5
 
 # Flag to indicate if the extracted features should be written to a file (1) or not (0)
 features_to_file_flag = 0
 
 # extract labels
 train_pairs = []
-# train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptpt-train.xml", need_labels=True))
-# train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptbr-train.xml", need_labels=True))
+train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptpt-train.xml", need_labels=True))
+train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptbr-train.xml", need_labels=True))
 
 if system_mode == 2 or system_mode == 5:
     train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptpt-test.xml", need_labels=True))
@@ -24,6 +27,19 @@ train_similarity_target = np.array([pair.similarity for pair in train_pairs])
 
 # extract training features
 train_corpus = tl.read_corpus(train_pairs)
+
+# extract dev features
+dev_pairs = read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=True)
+
+dev_corpus = tl.read_corpus(dev_pairs)
+
+dev_target = np.array([pair.similarity for pair in dev_pairs])
+
+test_pairs = read_xml_no_attributes('datasets/assin/assin2/assin2-blind-test.xml')
+
+test_corpus = tl.read_corpus(test_pairs)
+
+word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model = load_embeddings_models()
 
 # tl.write_data_to_file(train_corpus, "finetune.train.raw")
 # print("Wrote training corpus")
@@ -58,14 +74,40 @@ if test_distributional_features:
     print(new_model.distributional_features)
 
 if test_all_features:
-    new_model.extract_all_features(train_corpus)
+    train_features = new_model.extract_all_features(train_corpus, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
     print(new_model.all_features)
+
+    test_features = new_model.extract_all_features(test_corpus, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
+
+    dev_features = new_model.extract_all_features(dev_corpus, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
 
 regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
 
-similarity = new_model.run_model(0, regressor, train_similarity_target)
-
-print(similarity)
+new_model.run_model(regressor, train_features, train_similarity_target)
 
 new_model.save_model()
 
+old_model = STSModel()
+
+old_model.load_model('default_model_name')
+
+print(old_model.number_features)
+
+print(old_model.used_features)
+
+similarity = old_model.predict_similarity(test_features)
+
+print("This are the used features")
+print(old_model.used_features)
+
+old_model.save_model()
+
+# write output
+tree = ET.parse('datasets/assin/assin2/assin2-blind-test.xml')
+root = tree.getroot()
+for i in range(len(test_pairs)):
+    pairs = root[i]
+    pairs.set('entailment', "None")
+    pairs.set('similarity', str(similarity[i]))
+
+tree.write("test.xml", 'utf-8')

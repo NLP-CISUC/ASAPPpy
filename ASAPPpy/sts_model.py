@@ -468,7 +468,8 @@ class STSModel():
         else:
             return all_features
 
-    def run_model(self, regressor, train_features, train_target, test_features=None, eval_features=None, eval_target=None, use_feature_selection=0):
+    # TODO: Should the function return an instance of self, the predicted similairity or both?
+    def run_model(self, regressor, train_features, train_target, use_feature_selection=0, eval_features=None, eval_target=None, test_features=None):
         '''
         Parameters
         ----------
@@ -484,22 +485,36 @@ class STSModel():
                 self.model = regressor.fit(selected_train_features, train_target)
 
                 if test_features is not None:
-                    predicted_similarity = regressor.predict(selected_features)
+                    predicted_similarity = self.model.predict(selected_features)
 
                     return predicted_similarity
                 else:
-                    print("Missing test features. Provide them in order to make a prediction.")
+                    print("Missing test features. Provide them if you want to test the model.")
             else:
                 print("Missing evaluation features/target necessary to perform feature selection.")
         else:
             self.model = regressor.fit(train_features, train_target)
 
             if test_features is not None:
-                predicted_similarity = regressor.predict(test_features)
+                predicted_similarity = self.model.predict(test_features)
 
                 return predicted_similarity
             else:
-                    print("Missing test features. Provide them in order to make a prediction.")
+                print("Missing test features. Provide them if you want to test the model.")
+
+    def predict_similarity(self, features):
+        '''
+        Parameters
+        ----------
+
+
+        '''
+        if features is not None:
+            predicted_similarity = self.model.predict(features)
+
+            return predicted_similarity
+        else:
+            print("Features parameter is missing. Provide it in order to make a prediction.")
 
     def save_model(self):
         '''
