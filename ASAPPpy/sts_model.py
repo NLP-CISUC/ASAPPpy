@@ -37,6 +37,8 @@ class STSModel():
         self.all_features = None
         self.feature_selection = 0
 
+    # TODO: number_features is being incorrectely incremented.
+    # TODO: there is no option to load a model that uses feature selection.
     def extract_lexical_features(self, corpus, wn_jaccard, wn_dice, wn_overlap, cn_jaccard, cn_dice, cn_overlap):
         '''
         Parameters
@@ -468,7 +470,7 @@ class STSModel():
         else:
             return all_features
 
-    # TODO: Should the function return an instance of self, the predicted similairity or both?
+    # TODO: Should the function return an instance of self, the predicted similarity or both?
     def run_model(self, regressor, train_features, train_target, use_feature_selection=0, eval_features=None, eval_target=None, test_features=None):
         '''
         Parameters
@@ -478,11 +480,19 @@ class STSModel():
         '''
         if use_feature_selection:
             if eval_features is not None and eval_target is not None:
-                selector, selected_train_features, self.used_features = feature_selection(train_features, eval_features, train_target, eval_target, regressor, self.used_features)
+                f_selection_values = feature_selection(train_features, eval_features, train_target, eval_target, regressor, self.used_features)
 
-                selected_features = selector.transform(test_features)
+                # If len(f_selection_values) is different than 3, it means that all feature selection techniques achieve worst performance than unsing all features
+                if f_selection_values is not None:
+                    selector = f_selection_values[0]
+                    selected_train_features = f_selection_values[1]
+                    self.used_features = f_selection_values[2]
 
-                self.model = regressor.fit(selected_train_features, train_target)
+                    selected_features = selector.transform(test_features)
+
+                    self.model = regressor.fit(selected_train_features, train_target)
+                else:
+                    self.model = regressor.fit(train_features, train_target)
 
                 if test_features is not None:
                     predicted_similarity = self.model.predict(selected_features)

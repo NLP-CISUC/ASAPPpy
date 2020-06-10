@@ -83,7 +83,7 @@ if test_all_features:
 
 regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
 
-new_model.run_model(regressor, train_features, train_similarity_target)
+new_model.run_model(regressor, train_features, train_similarity_target, 1, dev_features, dev_target)
 
 new_model.save_model()
 
