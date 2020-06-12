@@ -37,7 +37,6 @@ class STSModel():
         self.all_features = None
         self.feature_selection = 0
 
-    # TODO: number_features is being incorrectely incremented.
     # TODO: there is no option to load a model that uses feature selection.
     def extract_lexical_features(self, corpus, wn_jaccard, wn_dice, wn_overlap, cn_jaccard, cn_dice, cn_overlap):
         '''
@@ -64,7 +63,6 @@ class STSModel():
             wn_jaccard_1 = compute_jaccard(word_ngrams_1)
             wn_jaccard_2 = compute_jaccard(word_ngrams_2)
             wn_jaccard_3 = compute_jaccard(word_ngrams_3)
-            self.number_features += 3
             self.used_features.update({'wn_jaccard_1': 1, 'wn_jaccard_2': 1, 'wn_jaccard_3': 1})
         else:
             self.used_features.update({'wn_jaccard_1': 0, 'wn_jaccard_2': 0, 'wn_jaccard_3': 0})
@@ -73,7 +71,6 @@ class STSModel():
             wn_dice_1 = compute_dice(word_ngrams_1)
             wn_dice_2 = compute_dice(word_ngrams_2)
             wn_dice_3 = compute_dice(word_ngrams_3)
-            self.number_features += 3
             self.used_features.update({'wn_dice_1': 1, 'wn_dice_2': 1, 'wn_dice_3': 1})
         else:
             self.used_features.update({'wn_dice_1': 0, 'wn_dice_2': 0, 'wn_dice_3': 0})
@@ -82,7 +79,6 @@ class STSModel():
             wn_overlap_1 = compute_overlap(word_ngrams_1)
             wn_overlap_2 = compute_overlap(word_ngrams_2)
             wn_overlap_3 = compute_overlap(word_ngrams_3)
-            self.number_features += 3
             self.used_features.update({'wn_overlap_1': 1, 'wn_overlap_2': 1, 'wn_overlap_3': 1})
         else:
             self.used_features.update({'wn_overlap_1': 0, 'wn_overlap_2': 0, 'wn_overlap_3': 0})
@@ -98,7 +94,6 @@ class STSModel():
             cn_jaccard_2 = compute_jaccard(character_ngrams_2)
             cn_jaccard_3 = compute_jaccard(character_ngrams_3)
             cn_jaccard_4 = compute_jaccard(character_ngrams_4)
-            self.number_features += 3
             self.used_features.update({'cn_jaccard_2': 1, 'cn_jaccard_3': 1, 'cn_jaccard_4': 1})
         else:
             self.used_features.update({'cn_jaccard_2': 0, 'cn_jaccard_3': 0, 'cn_jaccard_4': 0})
@@ -107,7 +102,6 @@ class STSModel():
             cn_dice_2 = compute_dice(character_ngrams_2)
             cn_dice_3 = compute_dice(character_ngrams_3)
             cn_dice_4 = compute_dice(character_ngrams_4)
-            self.number_features += 3
             self.used_features.update({'cn_dice_2': 1, 'cn_dice_3': 1, 'cn_dice_4': 1})
         else:
             self.used_features.update({'cn_dice_2': 0, 'cn_dice_3': 0, 'cn_dice_4': 0})
@@ -116,7 +110,6 @@ class STSModel():
             cn_overlap_2 = compute_overlap(character_ngrams_2)
             cn_overlap_3 = compute_overlap(character_ngrams_3)
             cn_overlap_4 = compute_overlap(character_ngrams_4)
-            self.number_features += 3
             self.used_features.update({'cn_overlap_2': 1, 'cn_overlap_3': 1, 'cn_overlap_4': 1})
         else:
             self.used_features.update({'cn_overlap_2': 0, 'cn_overlap_3': 0, 'cn_overlap_4': 0})
@@ -193,7 +186,6 @@ class STSModel():
 
             # compute POS tags
             pos_tags = compute_pos(tags)
-            self.number_features += 19
             self.used_features.update({'pos_adj': 1, 'pos_adv': 1, 'pos_art': 1, 'pos_conj-c': 1, 'pos_conj-s': 1, 'pos_intj': 1, 'pos_n': 1, 'pos_n-adj': 1, 'pos_num': 1, 'pos_pron-det': 1, 'pos_pron-indp': 1, 'pos_pron-pers': 1, 'pos_prop': 1, 'pos_prp': 1, 'pos_punc': 1, 'pos_v-fin': 1, 'pos_v-ger': 1, 'pos_v-inf': 1, 'pos_v-pcp': 1})
         else:
             self.used_features.update({'pos_adj': 0, 'pos_adv': 0, 'pos_art': 0, 'pos_conj-c': 0, 'pos_conj-s': 0, 'pos_intj': 0, 'pos_n': 0, 'pos_n-adj': 0, 'pos_num': 0, 'pos_pron-det': 0, 'pos_pron-indp': 0, 'pos_pron-pers': 0, 'pos_prop': 0, 'pos_prp': 0, 'pos_punc': 0, 'pos_v-fin': 0, 'pos_v-ger': 0, 'pos_v-inf': 0, 'pos_v-pcp': 0})
@@ -201,7 +193,6 @@ class STSModel():
         if dependencies:
             # compute Syntactic Dependency parsing
             dependencies = dependency_parsing(corpus)
-            self.number_features += 1
             self.used_features.update({'dependency_parsing': 1})
         else:
             self.used_features.update({'dependency_parsing': 0})
@@ -263,7 +254,6 @@ class STSModel():
             lemmas = build_sentences_from_tokens(pipeline_lemmas.lemas)
             # compute semantic relations coefficients
             semantic_relations = compute_semantic_relations(lemmas)
-            self.number_features += 4
             self.used_features.update({'sr_antonyms': 1, 'sr_synonyms': 1, 'sr_hyperonyms': 1, 'sr_other': 1})
         else:
             self.used_features.update({'sr_antonyms': 0, 'sr_synonyms': 0, 'sr_hyperonyms': 0, 'sr_other': 0})
@@ -273,7 +263,6 @@ class STSModel():
             entities = build_sentences_from_tokens(pipeline_entities.entities)
             # compute NERs
             ners = compute_ner(entities)
-            self.number_features += 11
             self.used_features.update({'all_ne': 1, 'ne_B-ABSTRACCAO': 1, 'ne_B-ACONTECIMENTO': 1, 'ne_B-COISA': 1, 'ne_B-LOCAL': 1, 'ne_B-OBRA': 1, 'ne_B-ORGANIZACAO': 1, 'ne_B-OUTRO': 1, 'ne_B-PESSOA': 1, 'ne_B-TEMPO': 1, 'ne_B-VALOR': 1})
         else:
             self.used_features.update({'all_ne': 0, 'ne_B-ABSTRACCAO': 0, 'ne_B-ACONTECIMENTO': 0, 'ne_B-COISA': 0, 'ne_B-LOCAL': 0, 'ne_B-OBRA': 0, 'ne_B-ORGANIZACAO': 0, 'ne_B-OUTRO': 0, 'ne_B-PESSOA': 0, 'ne_B-TEMPO': 0, 'ne_B-VALOR': 0})
@@ -329,7 +318,6 @@ class STSModel():
             word2vec = word2vec_model(word2vec_mdl, corpus, 0, 1, 0)
 
             word2vec_tfidf = word2vec_model(word2vec_mdl, corpus, 1, 1, 0)
-            self.number_features += 2
             self.used_features.update({'word2vec': 1, 'word2vec_tfidf': 1})
         else:
             self.used_features.update({'word2vec': 0, 'word2vec_tfidf': 0})
@@ -338,7 +326,6 @@ class STSModel():
             fasttext = fasttext_model(fasttext_mdl, corpus, 0, 1, 0)
 
             fasttext_tfidf = fasttext_model(fasttext_mdl, corpus, 1, 1, 0)
-            self.number_features += 2
             self.used_features.update({'fasttext': 1, 'fasttext_tfidf': 1})
         else:
             self.used_features.update({'fasttext': 0, 'fasttext_tfidf': 0})
@@ -350,7 +337,6 @@ class STSModel():
             ptlkb = ptlkb_model(ptlkb_mdl, 0, 1, 0, lemmas)
 
             ptlkb_tfidf = ptlkb_model(ptlkb_mdl, 1, 1, 0, lemmas)
-            self.number_features += 2
             self.used_features.update({'ptlkb': 1, 'ptlkb_tfidf': 1})
         else:
             self.used_features.update({'ptlkb': 0, 'ptlkb_tfidf': 0})
@@ -359,7 +345,6 @@ class STSModel():
             glove = word_embeddings_model(glove_mdl, corpus, 0, 1, 0)
 
             glove_tfidf = word_embeddings_model(glove_mdl, corpus, 1, 1, 0)
-            self.number_features += 2
             self.used_features.update({'glove': 1, 'glove_tfidf': 1})
         else:
             self.used_features.update({'glove': 0, 'glove_tfidf': 0})
@@ -368,7 +353,6 @@ class STSModel():
             numberbatch = word_embeddings_model(numberbatch_mdl, corpus, 0, 1, 0)
 
             numberbatch_tfidf = word_embeddings_model(numberbatch_mdl, corpus, 1, 1, 0)
-            self.number_features += 2
             self.used_features.update({'numberbatch': 1, 'numberbatch_tfidf': 1})
         else:
             self.used_features.update({'numberbatch': 0, 'numberbatch_tfidf': 0})
@@ -377,7 +361,6 @@ class STSModel():
             # compute tfidf matrix - padding was applied to vectors of different sizes by adding zeros to the smaller vector of the pair
             tfidf_corpus = preprocessing(corpus, 0, 0, 0, 1)
             tfidf_matrix = compute_tfidf_matrix(tfidf_corpus, 0, 0, 1)
-            self.number_features += 1
             self.used_features.update({'tfidf': 1})
         else:
             self.used_features.update({'tfidf': 0})
@@ -494,6 +477,8 @@ class STSModel():
                 else:
                     self.model = regressor.fit(train_features, train_target)
 
+                self._update_number_features()
+
                 if test_features is not None:
                     predicted_similarity = self.model.predict(selected_features)
 
@@ -501,8 +486,12 @@ class STSModel():
                 else:
                     print("Missing test features. Provide them if you want to test the model.")
             else:
+                self._update_number_features()
+
                 print("Missing evaluation features/target necessary to perform feature selection.")
         else:
+            self._update_number_features()
+
             self.model = regressor.fit(train_features, train_target)
 
             if test_features is not None:
@@ -640,4 +629,14 @@ class STSModel():
                 self.all_features = np.loadtxt(all_features_path, delimiter=",")
         else:
             print("Directory {} does not exist. Insert a valid model name.".format(dir_load_model_path))
-        
+
+    def _update_number_features(self):
+        '''
+        Parameters
+        ----------
+
+
+        '''
+        for value in self.used_features.values():
+            if value == 1:
+                self.number_features += 1
