@@ -89,7 +89,7 @@ new_model.save_model()
 
 old_model = STSModel()
 
-old_model.load_model('default_model_name')
+old_model.load_model('model_1206')
 
 print(old_model.number_features)
 

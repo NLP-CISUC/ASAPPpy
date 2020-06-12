@@ -148,18 +148,178 @@ class STSModel():
                 pair_features.extend([0]*3)
 
             if cn_dice:
-                pair_features.append(cn_dice_2['jaccard'][pair])
-                pair_features.append(cn_dice_3['jaccard'][pair])
-                pair_features.append(cn_dice_4['jaccard'][pair])
+                pair_features.append(cn_dice_2['dice'][pair])
+                pair_features.append(cn_dice_3['dice'][pair])
+                pair_features.append(cn_dice_4['dice'][pair])
             else:
                 pair_features.extend([0]*3)
 
             if cn_overlap:
-                pair_features.append(cn_overlap_2['jaccard'][pair])
-                pair_features.append(cn_overlap_3['jaccard'][pair])
-                pair_features.append(cn_overlap_4['jaccard'][pair])
+                pair_features.append(cn_overlap_2['overlap'][pair])
+                pair_features.append(cn_overlap_3['overlap'][pair])
+                pair_features.append(cn_overlap_4['overlap'][pair])
             else:
                 pair_features.extend([0]*3)
+
+            pair_features_tuple = tuple(pair_features)
+            tmp_lexical_features.append(pair_features_tuple)
+
+        self.lexical_features = np.array(tmp_lexical_features)
+
+        return self.lexical_features
+
+    def _extract_lexical_features(self, corpus):
+        '''
+        Parameters
+        ----------
+        When loading a previously trained model this function extracts only the features that were used by it instead of extracting them all.
+
+        '''
+
+        if corpus is None:
+            print("Argument corpus is empty, returning None")
+            return
+        else:
+            preprocessed_corpus = preprocessing(corpus, 0, 0, 0, 0)
+
+        # check if any wn feature was used by the model before computing the word n_grams
+        if any('wn' in key[:2] for key in list(self.used_features.keys())):
+            word_ngrams_1 = create_word_ngrams(preprocessed_corpus, 1)
+            word_ngrams_2 = create_word_ngrams(preprocessed_corpus, 2)
+            word_ngrams_3 = create_word_ngrams(preprocessed_corpus, 3)
+
+        # compute distance coefficients for these ngrams
+        if self.used_features['wn_jaccard_1'] == 1:
+            wn_jaccard_1 = compute_jaccard(word_ngrams_1)
+        if self.used_features['wn_jaccard_2'] == 1:
+            wn_jaccard_2 = compute_jaccard(word_ngrams_2)
+        if self.used_features['wn_jaccard_3'] == 1:
+            wn_jaccard_3 = compute_jaccard(word_ngrams_3)
+
+        if self.used_features['wn_dice_1'] == 1:
+            wn_dice_1 = compute_dice(word_ngrams_1)
+        if self.used_features['wn_dice_2'] == 1:
+            wn_dice_2 = compute_dice(word_ngrams_2)
+        if self.used_features['wn_dice_3'] == 1:
+            wn_dice_3 = compute_dice(word_ngrams_3)
+
+        if self.used_features['wn_overlap_1'] == 1:
+            wn_overlap_1 = compute_overlap(word_ngrams_1)
+        if self.used_features['wn_overlap_2'] == 1:
+            wn_overlap_2 = compute_overlap(word_ngrams_2)
+        if self.used_features['wn_overlap_3'] == 1:
+            wn_overlap_3 = compute_overlap(word_ngrams_3)
+
+        # check if any cn feature was used by the model before computing the character n_grams
+        if any('cn' in key[:2] for key in list(self.used_features.keys())):
+            character_ngrams_2 = create_character_ngrams(preprocessed_corpus, 2)
+            character_ngrams_3 = create_character_ngrams(preprocessed_corpus, 3)
+            character_ngrams_4 = create_character_ngrams(preprocessed_corpus, 4)
+
+        # compute distance coefficients for these ngrams
+        if self.used_features['cn_jaccard_2'] == 1:
+            cn_jaccard_2 = compute_jaccard(character_ngrams_2)
+        if self.used_features['cn_jaccard_3'] == 1:
+            cn_jaccard_3 = compute_jaccard(character_ngrams_3)
+        if self.used_features['cn_jaccard_4'] == 1:
+            cn_jaccard_4 = compute_jaccard(character_ngrams_4)
+
+        if self.used_features['cn_dice_2'] == 1:
+            cn_dice_2 = compute_dice(character_ngrams_2)
+        if self.used_features['cn_dice_3'] == 1:
+            cn_dice_3 = compute_dice(character_ngrams_3)
+        if self.used_features['cn_dice_4'] == 1:
+            cn_dice_4 = compute_dice(character_ngrams_4)
+
+        if self.used_features['cn_overlap_2'] == 1:
+            cn_overlap_2 = compute_overlap(character_ngrams_2)
+        if self.used_features['cn_overlap_3'] == 1:
+            cn_overlap_3 = compute_overlap(character_ngrams_3)
+        if self.used_features['cn_overlap_4'] == 1:
+            cn_overlap_4 = compute_overlap(character_ngrams_4)
+
+        tmp_lexical_features = []
+
+        for pair in range(len(corpus)//2):
+            pair_features = []
+
+            if self.used_features['wn_jaccard_1'] == 1:
+                pair_features.append(wn_jaccard_1['jaccard'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['wn_jaccard_2'] == 1:
+                pair_features.append(wn_jaccard_2['jaccard'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['wn_jaccard_3'] == 1:
+                pair_features.append(wn_jaccard_3['jaccard'][pair])
+            else:
+                pair_features.append(0)
+
+            if self.used_features['wn_dice_1'] == 1:
+                pair_features.append(wn_dice_1['dice'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['wn_dice_2'] == 1:
+                pair_features.append(wn_dice_2['dice'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['wn_dice_3'] == 1:
+                pair_features.append(wn_dice_3['dice'][pair])
+            else:
+                pair_features.append(0)
+
+            if self.used_features['wn_overlap_1'] == 1:
+                pair_features.append(wn_overlap_1['overlap'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['wn_overlap_2'] == 1:
+                pair_features.append(wn_overlap_2['overlap'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['wn_overlap_3'] == 1:
+                pair_features.append(wn_overlap_3['overlap'][pair])
+            else:
+                pair_features.append(0)
+
+            if self.used_features['cn_jaccard_2'] == 1:
+                pair_features.append(cn_jaccard_2['jaccard'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['cn_jaccard_3'] == 1:
+                pair_features.append(cn_jaccard_3['jaccard'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['cn_jaccard_4'] == 1:
+                pair_features.append(cn_jaccard_4['jaccard'][pair])
+            else:
+                pair_features.append(0)
+
+            if self.used_features['cn_dice_2'] == 1:
+                pair_features.append(cn_dice_2['dice'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['cn_dice_3'] == 1:
+                pair_features.append(cn_dice_3['dice'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['cn_dice_4'] == 1:
+                pair_features.append(cn_dice_4['dice'][pair])
+            else:
+                pair_features.append(0)
+
+            if self.used_features['cn_overlap_2'] == 1:
+                pair_features.append(cn_overlap_2['jaccard'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['cn_overlap_3'] == 1:
+                pair_features.append(cn_overlap_3['jaccard'][pair])
+            else:
+                pair_features.append(0)
+            if self.used_features['cn_overlap_4'] == 1:
+                pair_features.append(cn_overlap_4['jaccard'][pair])
+            else:
+                pair_features.append(0)
 
             pair_features_tuple = tuple(pair_features)
             tmp_lexical_features.append(pair_features_tuple)
@@ -237,6 +397,130 @@ class STSModel():
 
         return self.syntactic_features
 
+    def _extract_syntactic_features(self, corpus):
+        '''
+        Parameters
+        ----------
+
+
+        '''
+
+        if corpus is None:
+            print("Argument corpus is empty, returning None")
+            return
+
+        # check if any pos feature was used by the model before computing the pipeline tags and respective features
+        if any('pos' in key[:3] for key in list(self.used_features.keys())):
+            pipeline_tags = new_full_pipe(corpus, options={"pos_tagger":True, "string_or_array":True})
+            tags = build_sentences_from_tokens(pipeline_tags.pos_tags)
+
+            # compute POS tags
+            pos_tags = compute_pos(tags)
+
+        if self.used_features['dependency_parsing'] == 1:
+            # compute Syntactic Dependency parsing
+            dependencies = dependency_parsing(corpus)
+
+        tmp_syntactic_features = []
+
+        for pair in range(len(corpus)//2):
+            pair_features = []
+
+            if not pos_tags.empty:
+                if self.used_features['adj'] == 1:
+                    pair_features.append(pos_tags['adj'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['adv'] == 1:
+                    pair_features.append(pos_tags['adv'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['art'] == 1:
+                    pair_features.append(pos_tags['art'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['conj-c'] == 1:
+                    pair_features.append(pos_tags['conj-c'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['conj-s'] == 1:
+                    pair_features.append(pos_tags['conj-s'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['intj'] == 1:
+                    pair_features.append(pos_tags['intj'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['n'] == 1:
+                    pair_features.append(pos_tags['n'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['n-adj'] == 1:
+                    pair_features.append(pos_tags['n-adj'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['num'] == 1:
+                    pair_features.append(pos_tags['num'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['pron-det'] == 1:
+                    pair_features.append(pos_tags['pron-det'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['pron-indp'] == 1:
+                    pair_features.append(pos_tags['pron-indp'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['pron-pers'] == 1:
+                    pair_features.append(pos_tags['pron-pers'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['prop'] == 1:
+                    pair_features.append(pos_tags['prop'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['prp'] == 1:
+                    pair_features.append(pos_tags['prp'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['punc'] == 1:
+                    pair_features.append(pos_tags['punc'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['v-fin'] == 1:
+                    pair_features.append(pos_tags['v-fin'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['v-ger'] == 1:
+                    pair_features.append(pos_tags['v-ger'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['v-inf'] == 1:
+                    pair_features.append(pos_tags['v-inf'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['v-pcp'] == 1:
+                    pair_features.append(pos_tags['v-pcp'][pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*19)
+
+            if not dependencies.empty:
+                if self.used_features['dependency_parsing'] == 1:
+                    pair_features.append(dependencies['dependency_parsing_jc'][pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.append(0)
+
+            pair_features_tuple = tuple(pair_features)
+            tmp_syntactic_features.append(pair_features_tuple)
+
+        self.syntactic_features = np.array(tmp_syntactic_features)
+
+        return self.syntactic_features
+
     def extract_semantic_features(self, corpus, semantic_relations, ners):
         '''
         Parameters
@@ -292,6 +576,112 @@ class STSModel():
                 pair_features.append(ners['B-PESSOA'][pair])
                 pair_features.append(ners['B-TEMPO'][pair])
                 pair_features.append(ners['B-VALOR'][pair])
+            else:
+                pair_features.extend([0]*11)
+
+            pair_features_tuple = tuple(pair_features)
+            tmp_semantic_features.append(pair_features_tuple)
+
+        self.semantic_features = np.array(tmp_semantic_features)
+
+        return self.semantic_features
+
+    def _extract_semantic_features(self, corpus):
+        '''
+        Parameters
+        ----------
+
+
+        '''
+
+        if corpus is None:
+            print("Argument corpus is empty, returning None")
+            return
+
+        # check if any sr feature was used by the model before computing the pipeline lemmas and semantic relations features
+        if any('sr' in key[:2] for key in list(self.used_features.keys())):
+            pipeline_lemmas = new_full_pipe(corpus, options={"lemmatizer":True, "string_or_array":True})
+            lemmas = build_sentences_from_tokens(pipeline_lemmas.lemas)
+            # compute semantic relations coefficients
+            semantic_relations = compute_semantic_relations(lemmas)
+
+        # check if any ne feature was used by the model before computing the pipeline entities and ners features
+        if any('ne' in key[:2] for key in list(self.used_features.keys())):
+            pipeline_entities = new_full_pipe(corpus, options={"entity_recognition":True, "string_or_array":True})
+            entities = build_sentences_from_tokens(pipeline_entities.entities)
+            # compute NERs
+            ners = compute_ner(entities)
+
+        tmp_semantic_features = []
+
+        for pair in range(len(corpus)//2):
+            pair_features = []
+
+            if not semantic_relations.empty:
+                if self.used_features['antonyms'] == 1:
+                    pair_features.append(semantic_relations['antonyms'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['synonyms'] == 1:
+                    pair_features.append(semantic_relations['synonyms'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['hyperonyms'] == 1:
+                    pair_features.append(semantic_relations['hyperonyms'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['other'] == 1:
+                    pair_features.append(semantic_relations['other'][pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*4)
+
+            if not ners.empty:
+                if self.used_features['all_ners'] == 1:
+                    pair_features.append(ners['all_ners'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-ABSTRACCAO'] == 1:
+                    pair_features.append(ners['B-ABSTRACCAO'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-ACONTECIMENTO'] == 1:
+                    pair_features.append(ners['B-ACONTECIMENTO'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-COISA'] == 1:
+                    pair_features.append(ners['B-COISA'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-LOCAL'] == 1:
+                    pair_features.append(ners['B-LOCAL'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-OBRA'] == 1:
+                    pair_features.append(ners['B-OBRA'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-ORGANIZACAO'] == 1:
+                    pair_features.append(ners['B-ORGANIZACAO'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-OUTRO'] == 1:
+                    pair_features.append(ners['B-OUTRO'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-PESSOA'] == 1:
+                    pair_features.append(ners['B-PESSOA'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-TEMPO'] == 1:
+                    pair_features.append(ners['B-TEMPO'][pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['B-VALOR'] == 1:
+                    pair_features.append(ners['B-VALOR'][pair])
+                else:
+                    pair_features.append(0)
             else:
                 pair_features.extend([0]*11)
 
@@ -412,6 +802,137 @@ class STSModel():
 
         return self.distributional_features
 
+    def _extract_distributional_features(self, corpus, word2vec_mdl=None, fasttext_mdl=None, ptlkb_mdl=None, glove_mdl=None, numberbatch_mdl=None):
+        '''
+        Parameters
+        ----------
+
+
+        '''
+
+        if corpus is None:
+            print("Argument corpus is empty, returning None")
+            return
+
+        if word2vec_mdl:
+            if self.used_features['word2vec'] == 1:
+                word2vec = word2vec_model(word2vec_mdl, corpus, 0, 1, 0)
+            if self.used_features['word2vec_tfidf'] == 1:
+                word2vec_tfidf = word2vec_model(word2vec_mdl, corpus, 1, 1, 0)
+
+        if fasttext_mdl:
+            if self.used_features['fasttext'] == 1:
+                fasttext = fasttext_model(fasttext_mdl, corpus, 0, 1, 0)
+            if self.used_features['fasttext_tfidf'] == 1:
+                fasttext_tfidf = fasttext_model(fasttext_mdl, corpus, 1, 1, 0)
+
+        if ptlkb_mdl:
+            if self.used_features['ptlkb'] == 1 or self.used_features['ptlkb_tfidf'] == 1:
+                pipeline_lemmas = new_full_pipe(corpus, options={"lemmatizer":True, "string_or_array":True})
+                lemmas = build_sentences_from_tokens(pipeline_lemmas.lemas)
+
+                if self.used_features['ptlkb'] == 1:
+                    ptlkb = ptlkb_model(ptlkb_mdl, 0, 1, 0, lemmas)
+
+                if self.used_features['ptlkb_tfidf'] == 1:
+                    ptlkb_tfidf = ptlkb_model(ptlkb_mdl, 1, 1, 0, lemmas)
+
+        if glove_mdl:
+            if self.used_features['glove'] == 1:
+                glove = word_embeddings_model(glove_mdl, corpus, 0, 1, 0)
+
+            if self.used_features['glove_tfidf'] == 1:
+                glove_tfidf = word_embeddings_model(glove_mdl, corpus, 1, 1, 0)
+
+        if numberbatch_mdl:
+            if self.used_features['numberbatch'] == 1:
+                numberbatch = word_embeddings_model(numberbatch_mdl, corpus, 0, 1, 0)
+
+            if self.used_features['numberbatch_tfidf'] == 1:
+                numberbatch_tfidf = word_embeddings_model(numberbatch_mdl, corpus, 1, 1, 0)
+
+        if self.used_features['tfidf'] == 1:
+            # compute tfidf matrix - padding was applied to vectors of different sizes by adding zeros to the smaller vector of the pair
+            tfidf_corpus = preprocessing(corpus, 0, 0, 0, 1)
+            tfidf_matrix = compute_tfidf_matrix(tfidf_corpus, 0, 0, 1)
+
+        tmp_distributional_features = []
+
+        for pair in range(len(corpus)//2):
+            pair_features = []
+
+            if word2vec_mdl:
+                if self.used_features['word2vec'] == 1:
+                    pair_features.append(word2vec[pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['word2vec_tfidf'] == 1:
+                    pair_features.append(word2vec_tfidf[pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*2)
+
+            if fasttext_mdl:
+                if self.used_features['fasttext'] == 1:
+                    pair_features.append(fasttext[pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['fasttext_tfidf'] == 1:
+                    pair_features.append(fasttext_tfidf[pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*2)
+
+            if ptlkb_mdl:
+                if self.used_features['ptlkb'] == 1:
+                    pair_features.append(ptlkb[pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['ptlkb_tfidf'] == 1:
+                    pair_features.append(ptlkb_tfidf[pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*2)
+
+            if glove_mdl:
+                if self.used_features['glove'] == 1:
+                    pair_features.append(glove[pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['glove_tfidf'] == 1:
+                    pair_features.append(glove_tfidf[pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*2)
+
+            if numberbatch_mdl:
+                if self.used_features['numberbatch'] == 1:
+                    pair_features.append(numberbatch[pair])
+                else:
+                    pair_features.append(0)
+                if self.used_features['numberbatch_tfidf'] == 1:
+                    pair_features.append(numberbatch_tfidf[pair])
+                else:
+                    pair_features.append(0)
+            else:
+                pair_features.extend([0]*2)
+
+            if self.used_features['tfidf'] == 1:
+                pair_features.append(tfidf_matrix[pair])
+            else:
+                pair_features.append(0)
+
+            pair_features_tuple = tuple(pair_features)
+            tmp_distributional_features.append(pair_features_tuple)
+
+        self.distributional_features = np.array(tmp_distributional_features)
+
+        return self.distributional_features
+
     def extract_all_features(self, corpus, to_store=1, word2vec_mdl=None, fasttext_mdl=None, ptlkb_mdl=None, glove_mdl=None, numberbatch_mdl=None):
         '''
         Parameters
@@ -424,22 +945,34 @@ class STSModel():
             return
 
         if self.lexical_features is None or to_store == 0:
-            lexical_features = self.extract_lexical_features(corpus, 1, 1, 1, 1, 1, 1)
+            if self.feature_selection == 1:
+                lexical_features = self._extract_lexical_features(corpus)
+            else:
+                lexical_features = self.extract_lexical_features(corpus, 1, 1, 1, 1, 1, 1)
         else:
             lexical_features = self.lexical_features
 
         if self.syntactic_features is None or to_store == 0:
-            syntactic_features = self.extract_syntactic_features(corpus, 1, 1)
+            if self.feature_selection == 1:
+                syntactic_features = self._extract_syntactic_features(corpus)
+            else:
+                syntactic_features = self.extract_syntactic_features(corpus, 1, 1)
         else:
             syntactic_features = self.syntactic_features
 
         if self.semantic_features is None or to_store == 0:
-            semantic_features = self.extract_semantic_features(corpus, 1, 1)
+            if self.feature_selection == 1:
+                semantic_features = self._extract_semantic_features(corpus)
+            else:
+                semantic_features = self.extract_semantic_features(corpus, 1, 1)
         else:
             semantic_features = self.semantic_features
 
         if self.distributional_features is None or to_store == 0:
-            distributional_features = self.extract_distributional_features(corpus, 1, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
+            if self.feature_selection == 1:
+                distributional_features = self._extract_distributional_features(corpus, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
+            else:
+                distributional_features = self.extract_distributional_features(corpus, 1, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
         else:
             distributional_features = self.distributional_features
 
@@ -515,6 +1048,7 @@ class STSModel():
         else:
             print("Features parameter is missing. Provide it in order to make a prediction.")
 
+# TODO: Verify if it makes sense to add a tests folder to each model in order to store tests performed by it
     def save_model(self):
         '''
         Parameters
