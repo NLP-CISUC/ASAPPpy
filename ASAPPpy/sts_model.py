@@ -637,6 +637,10 @@ class STSModel():
 
 
         '''
+        tmp_features = 0
+
         for value in self.used_features.values():
             if value == 1:
-                self.number_features += 1
+                tmp_features += 1
+
+        self.number_features = tmp_features
