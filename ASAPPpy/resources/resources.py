@@ -243,10 +243,13 @@ def select_multiple_random_subtitles():
 
 def write_output_file(model_path, accuracies, classif_flag, fselect_flag, preselect_flag):
 
-	split_model_path = model_path.split('/')
-	model_name = split_model_path[1].split('.')
+	if '/' in model_path:
+		split_model_path = model_path.split('/')
+		model_name = split_model_path[1].split('.')
 
-	filename = '{}_classif_{}_fselect_{}_preselect_{}.txt'.format(model_name[0], classif_flag, fselect_flag, preselect_flag)
+		filename = '{}_classif_{}_fselect_{}_preselect_{}.txt'.format(model_name[0], classif_flag, fselect_flag, preselect_flag)
+	else:
+		filename = '{}_classif_{}_fselect_{}_preselect_{}.txt'.format(model_path, classif_flag, fselect_flag, preselect_flag)
 
 	filename_path = 'computed_accuracies/{}'.format(filename)
 
