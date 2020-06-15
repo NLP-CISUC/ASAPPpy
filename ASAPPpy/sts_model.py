@@ -1004,8 +1004,6 @@ class STSModel():
                     selected_train_features = f_selection_values[1]
                     self.used_features = f_selection_values[2]
 
-                    selected_features = selector.transform(test_features)
-
                     self.model = regressor.fit(selected_train_features, train_target)
                 else:
                     self.model = regressor.fit(train_features, train_target)
@@ -1013,6 +1011,7 @@ class STSModel():
                 self._update_number_features()
 
                 if test_features is not None:
+                    selected_features = selector.transform(test_features)
                     predicted_similarity = self.model.predict(selected_features)
 
                     return predicted_similarity
