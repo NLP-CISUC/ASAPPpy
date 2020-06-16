@@ -27,26 +27,20 @@ if system_mode == 4 or system_mode == 5:
 
 train_similarity_target = np.array([pair.similarity for pair in train_pairs])
 
-# extract training features
-train_corpus = tl.read_corpus(train_pairs)
-
 if feature_selection_assin1:
-    train_corpus, dev_corpus, train_similarity_target, dev_target = train_test_split(train_corpus, train_similarity_target, test_size=0.3, random_state=42)
+    train_pairs, dev_pairs, train_similarity_target, dev_target = train_test_split(train_pairs, train_similarity_target, test_size=0.3, random_state=42)
 
     test_pairs = read_xml_no_attributes('datasets/assin/assin1/assin-ptbr-test.xml')
-
     test_corpus = tl.read_corpus(test_pairs)
 else:
-    # extract dev features
     dev_pairs = read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=True)
-
-    dev_corpus = tl.read_corpus(dev_pairs)
-
     dev_target = np.array([pair.similarity for pair in dev_pairs])
 
     test_pairs = read_xml_no_attributes('datasets/assin/assin2/assin2-blind-test.xml')
-
     test_corpus = tl.read_corpus(test_pairs)
+
+train_corpus = tl.read_corpus(train_pairs)
+dev_corpus = tl.read_corpus(dev_pairs)
 
 word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model = load_embeddings_models()
 
