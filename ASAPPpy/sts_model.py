@@ -37,7 +37,7 @@ class STSModel():
         self.all_features = None
         self.feature_selection = 0
 
-    # TODO: there is no option to load a model that uses feature selection.
+    # TODO (TESTING): there is no option to load a model that uses feature selection.
     def extract_lexical_features(self, corpus, wn_jaccard, wn_dice, wn_overlap, cn_jaccard, cn_dice, cn_overlap):
         '''
         Parameters
@@ -409,6 +409,7 @@ class STSModel():
             print("Argument corpus is empty, returning None")
             return
 
+        # TODO: 'pos' will always be present, however it can be 0 or 1, fix this in all extract features functions
         # check if any pos feature was used by the model before computing the pipeline tags and respective features
         if any('pos' in key[:3] for key in list(self.used_features.keys())):
             pipeline_tags = new_full_pipe(corpus, options={"pos_tagger":True, "string_or_array":True})
@@ -1047,7 +1048,7 @@ class STSModel():
         else:
             print("Features parameter is missing. Provide it in order to make a prediction.")
 
-# TODO: Verify if it makes sense to add a tests folder to each model in order to store tests performed by it
+    # TODO: Verify if it makes sense to add a tests folder to each model in order to store tests performed by it
     def save_model(self):
         '''
         Parameters
@@ -1123,45 +1124,47 @@ class STSModel():
         '''
         dir_load_model_path = os.path.join(ROOT_PATH, 'trained_models', model_name)
 
-        if os.path.exists(dir_load_model_path):
-            self.model_name = model_name
+        while not os.path.exists(dir_load_model_path):
+            model_name = str(input("Directory {} does not exist. Insert a valid model name:".format(dir_load_model_path)))
 
-            load_model_path = os.path.join(dir_load_model_path, model_name)
-            self.model = load(load_model_path)
+            dir_load_model_path = os.path.join(ROOT_PATH, 'trained_models', model_name)
 
-            used_features_path = os.path.join(dir_load_model_path, 'used_features.txt')
-            if os.path.exists(used_features_path):
-                self.feature_selection = 1
+        self.model_name = model_name
 
-                with open(used_features_path) as ufp:
-                    for i, line in enumerate(ufp):
-                        if i == 1:
-                            self.number_features = int(line)
-                        if i > 1:
-                            split_line = line.split(': ')
-                            self.used_features[split_line[0]] = int(split_line[1][:-1])
+        load_model_path = os.path.join(dir_load_model_path, model_name)
+        self.model = load(load_model_path)
 
-            lexical_features_path = os.path.join(dir_load_model_path, 'lexical_features.csv')
-            if os.path.exists(lexical_features_path):
-                self.lexical_features = np.loadtxt(lexical_features_path, delimiter=",")
+        used_features_path = os.path.join(dir_load_model_path, 'used_features.txt')
+        if os.path.exists(used_features_path):
+            self.feature_selection = 1
 
-            syntactic_features_path = os.path.join(dir_load_model_path, 'syntactic_features.csv')
-            if os.path.exists(syntactic_features_path):
-                self.syntactic_features = np.loadtxt(syntactic_features_path, delimiter=",")
+            with open(used_features_path) as ufp:
+                for i, line in enumerate(ufp):
+                    if i == 1:
+                        self.number_features = int(line)
+                    if i > 1:
+                        split_line = line.split(': ')
+                        self.used_features[split_line[0]] = int(split_line[1][:-1])
 
-            semantic_features_path = os.path.join(dir_load_model_path, 'semantic_features.csv')
-            if os.path.exists(semantic_features_path):
-                self.semantic_features = np.loadtxt(semantic_features_path, delimiter=",")
+        lexical_features_path = os.path.join(dir_load_model_path, 'lexical_features.csv')
+        if os.path.exists(lexical_features_path):
+            self.lexical_features = np.loadtxt(lexical_features_path, delimiter=",")
 
-            distributional_features_path = os.path.join(dir_load_model_path, 'distributional_features.csv')
-            if os.path.exists(distributional_features_path):
-                self.distributional_features = np.loadtxt(distributional_features_path, delimiter=",")
+        syntactic_features_path = os.path.join(dir_load_model_path, 'syntactic_features.csv')
+        if os.path.exists(syntactic_features_path):
+            self.syntactic_features = np.loadtxt(syntactic_features_path, delimiter=",")
 
-            all_features_path = os.path.join(dir_load_model_path, 'all_features.csv')
-            if os.path.exists(all_features_path):
-                self.all_features = np.loadtxt(all_features_path, delimiter=",")
-        else:
-            print("Directory {} does not exist. Insert a valid model name.".format(dir_load_model_path))
+        semantic_features_path = os.path.join(dir_load_model_path, 'semantic_features.csv')
+        if os.path.exists(semantic_features_path):
+            self.semantic_features = np.loadtxt(semantic_features_path, delimiter=",")
+
+        distributional_features_path = os.path.join(dir_load_model_path, 'distributional_features.csv')
+        if os.path.exists(distributional_features_path):
+            self.distributional_features = np.loadtxt(distributional_features_path, delimiter=",")
+
+        all_features_path = os.path.join(dir_load_model_path, 'all_features.csv')
+        if os.path.exists(all_features_path):
+            self.all_features = np.loadtxt(all_features_path, delimiter=",")
 
     def _update_number_features(self):
         '''

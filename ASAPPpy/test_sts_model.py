@@ -7,7 +7,7 @@ from sts_model import STSModel
 from scripts.xml_reader import read_xml, read_xml_no_attributes
 from scripts.load_embeddings import load_embeddings_models
 
-system_mode = 5
+system_mode = 4
 
 # Flag to indicate if the extracted features should be written to a file (1) or not (0)
 features_to_file_flag = 0
@@ -47,7 +47,7 @@ word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model
 # preprocessing(text, tokenization=0, rm_stopwords=0, numbers_to_text=0, to_tfidf=0)
 # preprocessed_train_corpus = tl.preprocessing(train_corpus, 0, 0, 0, 0)
 
-new_model = STSModel()
+new_model = STSModel(model_name='model_1506_ablation_study_assin2')
 
 test_lexical_features = 0
 test_syntactic_features = 0
@@ -89,7 +89,7 @@ new_model.save_model()
 
 old_model = STSModel()
 
-old_model.load_model('model_1206')
+old_model.load_model('model_1506_ablation_study_assin2')
 
 print(old_model.number_features)
 
