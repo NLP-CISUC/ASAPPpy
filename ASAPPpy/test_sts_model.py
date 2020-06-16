@@ -1,6 +1,7 @@
 import numpy as np
 from xml.etree import cElementTree as ET
 from sklearn.svm import SVR
+from sklearn.model_selection import train_test_split
 
 import scripts.tools as tl
 from sts_model import STSModel
@@ -8,6 +9,7 @@ from scripts.xml_reader import read_xml, read_xml_no_attributes
 from scripts.load_embeddings import load_embeddings_models
 
 system_mode = 4
+feature_selection_assin1 = 1
 
 # Flag to indicate if the extracted features should be written to a file (1) or not (0)
 features_to_file_flag = 0
@@ -28,16 +30,23 @@ train_similarity_target = np.array([pair.similarity for pair in train_pairs])
 # extract training features
 train_corpus = tl.read_corpus(train_pairs)
 
-# extract dev features
-dev_pairs = read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=True)
+if feature_selection_assin1:
+    train_corpus, dev_corpus, train_similarity_target, dev_target = train_test_split(train_corpus, train_similarity_target, test_size=0.3, random_state=42)
 
-dev_corpus = tl.read_corpus(dev_pairs)
+    test_pairs = read_xml_no_attributes('datasets/assin/assin1/assin-ptbr-test.xml')
 
-dev_target = np.array([pair.similarity for pair in dev_pairs])
+    test_corpus = tl.read_corpus(test_pairs)
+else:
+    # extract dev features
+    dev_pairs = read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=True)
 
-test_pairs = read_xml_no_attributes('datasets/assin/assin2/assin2-blind-test.xml')
+    dev_corpus = tl.read_corpus(dev_pairs)
 
-test_corpus = tl.read_corpus(test_pairs)
+    dev_target = np.array([pair.similarity for pair in dev_pairs])
+
+    test_pairs = read_xml_no_attributes('datasets/assin/assin2/assin2-blind-test.xml')
+
+    test_corpus = tl.read_corpus(test_pairs)
 
 word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model = load_embeddings_models()
 
@@ -47,7 +56,7 @@ word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model
 # preprocessing(text, tokenization=0, rm_stopwords=0, numbers_to_text=0, to_tfidf=0)
 # preprocessed_train_corpus = tl.preprocessing(train_corpus, 0, 0, 0, 0)
 
-new_model = STSModel(model_name='model_1506_ablation_study_assin2')
+new_model = STSModel(model_name='model_1506_ablation_study_assin1_ptbr')
 
 test_lexical_features = 0
 test_syntactic_features = 0
@@ -89,7 +98,7 @@ new_model.save_model()
 
 old_model = STSModel()
 
-old_model.load_model('model_1506_ablation_study_assin2')
+old_model.load_model('model_1506_ablation_study_assin1_ptbr')
 
 print(old_model.number_features)
 
@@ -103,7 +112,7 @@ print(old_model.used_features)
 old_model.save_model()
 
 # write output
-tree = ET.parse('datasets/assin/assin2/assin2-blind-test.xml')
+tree = ET.parse('datasets/assin/assin1/assin-ptbr-test.xml')
 root = tree.getroot()
 for i in range(len(test_pairs)):
     pairs = root[i]
