@@ -392,43 +392,43 @@ class STSModel():
             pair_features = []
 
             if not pos_tags.empty:
-                if self.used_features['adj'] == 1:
+                if self.used_features['pos_adj'] == 1:
                     pair_features.append(pos_tags['adj'][pair])
-                if self.used_features['adv'] == 1:
+                if self.used_features['pos_adv'] == 1:
                     pair_features.append(pos_tags['adv'][pair])
-                if self.used_features['art'] == 1:
+                if self.used_features['pos_art'] == 1:
                     pair_features.append(pos_tags['art'][pair])
-                if self.used_features['conj-c'] == 1:
+                if self.used_features['pos_conj-c'] == 1:
                     pair_features.append(pos_tags['conj-c'][pair])
-                if self.used_features['conj-s'] == 1:
+                if self.used_features['pos_conj-s'] == 1:
                     pair_features.append(pos_tags['conj-s'][pair])
-                if self.used_features['intj'] == 1:
+                if self.used_features['pos_intj'] == 1:
                     pair_features.append(pos_tags['intj'][pair])
-                if self.used_features['n'] == 1:
+                if self.used_features['pos_n'] == 1:
                     pair_features.append(pos_tags['n'][pair])
-                if self.used_features['n-adj'] == 1:
+                if self.used_features['pos_n-adj'] == 1:
                     pair_features.append(pos_tags['n-adj'][pair])
-                if self.used_features['num'] == 1:
+                if self.used_features['pos_num'] == 1:
                     pair_features.append(pos_tags['num'][pair])
-                if self.used_features['pron-det'] == 1:
+                if self.used_features['pos_pron-det'] == 1:
                     pair_features.append(pos_tags['pron-det'][pair])
-                if self.used_features['pron-indp'] == 1:
+                if self.used_features['pos_pron-indp'] == 1:
                     pair_features.append(pos_tags['pron-indp'][pair])
-                if self.used_features['pron-pers'] == 1:
+                if self.used_features['pos_pron-pers'] == 1:
                     pair_features.append(pos_tags['pron-pers'][pair])
-                if self.used_features['prop'] == 1:
+                if self.used_features['pos_prop'] == 1:
                     pair_features.append(pos_tags['prop'][pair])
-                if self.used_features['prp'] == 1:
+                if self.used_features['pos_prp'] == 1:
                     pair_features.append(pos_tags['prp'][pair])
-                if self.used_features['punc'] == 1:
+                if self.used_features['pos_punc'] == 1:
                     pair_features.append(pos_tags['punc'][pair])
-                if self.used_features['v-fin'] == 1:
+                if self.used_features['pos_v-fin'] == 1:
                     pair_features.append(pos_tags['v-fin'][pair])
-                if self.used_features['v-ger'] == 1:
+                if self.used_features['pos_v-ger'] == 1:
                     pair_features.append(pos_tags['v-ger'][pair])
-                if self.used_features['v-inf'] == 1:
+                if self.used_features['pos_v-inf'] == 1:
                     pair_features.append(pos_tags['v-inf'][pair])
-                if self.used_features['v-pcp'] == 1:
+                if self.used_features['pos_v-pcp'] == 1:
                     pair_features.append(pos_tags['v-pcp'][pair])
 
             if not dependencies.empty:
@@ -539,37 +539,37 @@ class STSModel():
             pair_features = []
 
             if not semantic_relations.empty:
-                if self.used_features['antonyms'] == 1:
+                if self.used_features['sr_antonyms'] == 1:
                     pair_features.append(semantic_relations['antonyms'][pair])
-                if self.used_features['synonyms'] == 1:
+                if self.used_features['sr_synonyms'] == 1:
                     pair_features.append(semantic_relations['synonyms'][pair])
-                if self.used_features['hyperonyms'] == 1:
+                if self.used_features['sr_hyperonyms'] == 1:
                     pair_features.append(semantic_relations['hyperonyms'][pair])
-                if self.used_features['other'] == 1:
+                if self.used_features['sr_other'] == 1:
                     pair_features.append(semantic_relations['other'][pair])
 
             if not ners.empty:
-                if self.used_features['all_ners'] == 1:
+                if self.used_features['all_ne'] == 1:
                     pair_features.append(ners['all_ners'][pair])
-                if self.used_features['B-ABSTRACCAO'] == 1:
+                if self.used_features['ne_B-ABSTRACCAO'] == 1:
                     pair_features.append(ners['B-ABSTRACCAO'][pair])
-                if self.used_features['B-ACONTECIMENTO'] == 1:
+                if self.used_features['ne_B-ACONTECIMENTO'] == 1:
                     pair_features.append(ners['B-ACONTECIMENTO'][pair])
-                if self.used_features['B-COISA'] == 1:
+                if self.used_features['ne_B-COISA'] == 1:
                     pair_features.append(ners['B-COISA'][pair])
-                if self.used_features['B-LOCAL'] == 1:
+                if self.used_features['ne_B-LOCAL'] == 1:
                     pair_features.append(ners['B-LOCAL'][pair])
-                if self.used_features['B-OBRA'] == 1:
+                if self.used_features['ne_B-OBRA'] == 1:
                     pair_features.append(ners['B-OBRA'][pair])
-                if self.used_features['B-ORGANIZACAO'] == 1:
+                if self.used_features['ne_B-ORGANIZACAO'] == 1:
                     pair_features.append(ners['B-ORGANIZACAO'][pair])
-                if self.used_features['B-OUTRO'] == 1:
+                if self.used_features['ne_B-OUTRO'] == 1:
                     pair_features.append(ners['B-OUTRO'][pair])
-                if self.used_features['B-PESSOA'] == 1:
+                if self.used_features['ne_B-PESSOA'] == 1:
                     pair_features.append(ners['B-PESSOA'][pair])
-                if self.used_features['B-TEMPO'] == 1:
+                if self.used_features['ne_B-TEMPO'] == 1:
                     pair_features.append(ners['B-TEMPO'][pair])
-                if self.used_features['B-VALOR'] == 1:
+                if self.used_features['ne_B-VALOR'] == 1:
                     pair_features.append(ners['B-VALOR'][pair])
 
             pair_features_tuple = tuple(pair_features)
