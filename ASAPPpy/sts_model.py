@@ -245,81 +245,45 @@ class STSModel():
 
             if self.used_features['wn_jaccard_1'] == 1:
                 pair_features.append(wn_jaccard_1['jaccard'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['wn_jaccard_2'] == 1:
                 pair_features.append(wn_jaccard_2['jaccard'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['wn_jaccard_3'] == 1:
                 pair_features.append(wn_jaccard_3['jaccard'][pair])
-            else:
-                pair_features.append(0)
 
             if self.used_features['wn_dice_1'] == 1:
                 pair_features.append(wn_dice_1['dice'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['wn_dice_2'] == 1:
                 pair_features.append(wn_dice_2['dice'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['wn_dice_3'] == 1:
                 pair_features.append(wn_dice_3['dice'][pair])
-            else:
-                pair_features.append(0)
 
             if self.used_features['wn_overlap_1'] == 1:
                 pair_features.append(wn_overlap_1['overlap'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['wn_overlap_2'] == 1:
                 pair_features.append(wn_overlap_2['overlap'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['wn_overlap_3'] == 1:
                 pair_features.append(wn_overlap_3['overlap'][pair])
-            else:
-                pair_features.append(0)
 
             if self.used_features['cn_jaccard_2'] == 1:
                 pair_features.append(cn_jaccard_2['jaccard'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['cn_jaccard_3'] == 1:
                 pair_features.append(cn_jaccard_3['jaccard'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['cn_jaccard_4'] == 1:
                 pair_features.append(cn_jaccard_4['jaccard'][pair])
-            else:
-                pair_features.append(0)
 
             if self.used_features['cn_dice_2'] == 1:
                 pair_features.append(cn_dice_2['dice'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['cn_dice_3'] == 1:
                 pair_features.append(cn_dice_3['dice'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['cn_dice_4'] == 1:
                 pair_features.append(cn_dice_4['dice'][pair])
-            else:
-                pair_features.append(0)
 
             if self.used_features['cn_overlap_2'] == 1:
                 pair_features.append(cn_overlap_2['jaccard'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['cn_overlap_3'] == 1:
                 pair_features.append(cn_overlap_3['jaccard'][pair])
-            else:
-                pair_features.append(0)
             if self.used_features['cn_overlap_4'] == 1:
                 pair_features.append(cn_overlap_4['jaccard'][pair])
-            else:
-                pair_features.append(0)
 
             pair_features_tuple = tuple(pair_features)
             tmp_lexical_features.append(pair_features_tuple)
@@ -430,90 +394,46 @@ class STSModel():
             if not pos_tags.empty:
                 if self.used_features['adj'] == 1:
                     pair_features.append(pos_tags['adj'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['adv'] == 1:
                     pair_features.append(pos_tags['adv'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['art'] == 1:
                     pair_features.append(pos_tags['art'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['conj-c'] == 1:
                     pair_features.append(pos_tags['conj-c'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['conj-s'] == 1:
                     pair_features.append(pos_tags['conj-s'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['intj'] == 1:
                     pair_features.append(pos_tags['intj'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['n'] == 1:
                     pair_features.append(pos_tags['n'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['n-adj'] == 1:
                     pair_features.append(pos_tags['n-adj'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['num'] == 1:
                     pair_features.append(pos_tags['num'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['pron-det'] == 1:
                     pair_features.append(pos_tags['pron-det'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['pron-indp'] == 1:
                     pair_features.append(pos_tags['pron-indp'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['pron-pers'] == 1:
                     pair_features.append(pos_tags['pron-pers'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['prop'] == 1:
                     pair_features.append(pos_tags['prop'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['prp'] == 1:
                     pair_features.append(pos_tags['prp'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['punc'] == 1:
                     pair_features.append(pos_tags['punc'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['v-fin'] == 1:
                     pair_features.append(pos_tags['v-fin'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['v-ger'] == 1:
                     pair_features.append(pos_tags['v-ger'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['v-inf'] == 1:
                     pair_features.append(pos_tags['v-inf'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['v-pcp'] == 1:
                     pair_features.append(pos_tags['v-pcp'][pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*19)
 
             if not dependencies.empty:
                 if self.used_features['dependency_parsing'] == 1:
                     pair_features.append(dependencies['dependency_parsing_jc'][pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.append(0)
 
             pair_features_tuple = tuple(pair_features)
             tmp_syntactic_features.append(pair_features_tuple)
@@ -621,70 +541,36 @@ class STSModel():
             if not semantic_relations.empty:
                 if self.used_features['antonyms'] == 1:
                     pair_features.append(semantic_relations['antonyms'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['synonyms'] == 1:
                     pair_features.append(semantic_relations['synonyms'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['hyperonyms'] == 1:
                     pair_features.append(semantic_relations['hyperonyms'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['other'] == 1:
                     pair_features.append(semantic_relations['other'][pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*4)
 
             if not ners.empty:
                 if self.used_features['all_ners'] == 1:
                     pair_features.append(ners['all_ners'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-ABSTRACCAO'] == 1:
                     pair_features.append(ners['B-ABSTRACCAO'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-ACONTECIMENTO'] == 1:
                     pair_features.append(ners['B-ACONTECIMENTO'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-COISA'] == 1:
                     pair_features.append(ners['B-COISA'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-LOCAL'] == 1:
                     pair_features.append(ners['B-LOCAL'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-OBRA'] == 1:
                     pair_features.append(ners['B-OBRA'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-ORGANIZACAO'] == 1:
                     pair_features.append(ners['B-ORGANIZACAO'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-OUTRO'] == 1:
                     pair_features.append(ners['B-OUTRO'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-PESSOA'] == 1:
                     pair_features.append(ners['B-PESSOA'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-TEMPO'] == 1:
                     pair_features.append(ners['B-TEMPO'][pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['B-VALOR'] == 1:
                     pair_features.append(ners['B-VALOR'][pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*11)
 
             pair_features_tuple = tuple(pair_features)
             tmp_semantic_features.append(pair_features_tuple)
@@ -865,67 +751,35 @@ class STSModel():
             if word2vec_mdl:
                 if self.used_features['word2vec'] == 1:
                     pair_features.append(word2vec[pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['word2vec_tfidf'] == 1:
                     pair_features.append(word2vec_tfidf[pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*2)
 
             if fasttext_mdl:
                 if self.used_features['fasttext'] == 1:
                     pair_features.append(fasttext[pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['fasttext_tfidf'] == 1:
                     pair_features.append(fasttext_tfidf[pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*2)
 
             if ptlkb_mdl:
                 if self.used_features['ptlkb'] == 1:
                     pair_features.append(ptlkb[pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['ptlkb_tfidf'] == 1:
                     pair_features.append(ptlkb_tfidf[pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*2)
 
             if glove_mdl:
                 if self.used_features['glove'] == 1:
                     pair_features.append(glove[pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['glove_tfidf'] == 1:
                     pair_features.append(glove_tfidf[pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*2)
 
             if numberbatch_mdl:
                 if self.used_features['numberbatch'] == 1:
                     pair_features.append(numberbatch[pair])
-                else:
-                    pair_features.append(0)
                 if self.used_features['numberbatch_tfidf'] == 1:
                     pair_features.append(numberbatch_tfidf[pair])
-                else:
-                    pair_features.append(0)
-            else:
-                pair_features.extend([0]*2)
 
             if self.used_features['tfidf'] == 1:
                 pair_features.append(tfidf_matrix[pair])
-            else:
-                pair_features.append(0)
 
             pair_features_tuple = tuple(pair_features)
             tmp_distributional_features.append(pair_features_tuple)
@@ -1041,6 +895,7 @@ class STSModel():
 
 
         '''
+        # TODO: Does not work without the selector to transform the features in case feature selection was used
         if features is not None:
             predicted_similarity = self.model.predict(features)
 
