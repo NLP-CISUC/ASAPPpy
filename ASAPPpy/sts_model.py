@@ -858,21 +858,7 @@ class STSModel():
             distributional_features = None
 
         # before concatening all groups of features it is necessary to check if they were extracted or not
-        valid_feature_groups = []
-
-        if lexical_features is not None:
-            valid_feature_groups.extend(lexical_features)
-
-        if syntactic_features is not None:
-            valid_feature_groups.extend(syntactic_features)
-
-        if semantic_features is not None:
-            valid_feature_groups.extend(semantic_features)
-
-        if distributional_features is not None:
-            valid_feature_groups.extend(distributional_features)
-
-        all_features = np.concatenate(valid_feature_groups, axis=1)
+        all_features = np.concatenate([fg for fg in [lexical_features, syntactic_features, semantic_features, distributional_features] if fg is not None], axis=1)
 
         # Choose whether the extracted features should be stored in the model or just returned
         if to_store:
@@ -883,6 +869,7 @@ class STSModel():
             return all_features
 
     # TODO: Should the function return an instance of self, the predicted similarity or both?
+    # TODO: Should it return the predicted similarity or only the predict_similarity function should be able to do that
     def run_model(self, regressor, train_features, train_target, use_feature_selection=0, eval_features=None, eval_target=None, test_features=None):
         '''
         Parameters

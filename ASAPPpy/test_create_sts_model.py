@@ -80,6 +80,16 @@ regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
 
 if predict_similarity:
     similarity = model.run_model(regressor, train_features, train_similarity_target, 1, dev_features, dev_target, test_features)
+
+    # write output
+    tree = ET.parse('datasets/assin/assin1/assin-ptbr-test.xml')
+    root = tree.getroot()
+    for i in range(len(test_pairs)):
+        pairs = root[i]
+        pairs.set('entailment', "None")
+        pairs.set('similarity', str(similarity[i]))
+
+    tree.write("test.xml", 'utf-8')
 else:
     similarity = model.run_model(regressor, train_features, train_similarity_target, 1, dev_features, dev_target)
 
@@ -88,13 +98,3 @@ print(model.number_features)
 print(model.used_features)
 
 model.save_model()
-
-# write output
-tree = ET.parse('datasets/assin/assin1/assin-ptbr-test.xml')
-root = tree.getroot()
-for i in range(len(test_pairs)):
-    pairs = root[i]
-    pairs.set('entailment', "None")
-    pairs.set('similarity', str(similarity[i]))
-
-tree.write("test.xml", 'utf-8')
