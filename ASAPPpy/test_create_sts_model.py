@@ -10,6 +10,7 @@ from scripts.load_embeddings import load_embeddings_models
 
 system_mode = 4
 feature_selection_assin1 = 1
+predict_similarity = 0
 
 # extract labels
 train_pairs = []
@@ -77,7 +78,10 @@ if test_all_features:
 
 regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
 
-similarity = model.run_model(regressor, train_features, train_similarity_target, 1, dev_features, dev_target, test_features)
+if predict_similarity:
+    similarity = model.run_model(regressor, train_features, train_similarity_target, 1, dev_features, dev_target, test_features)
+else:
+    similarity = model.run_model(regressor, train_features, train_similarity_target, 1, dev_features, dev_target)
 
 print(model.number_features)
 
