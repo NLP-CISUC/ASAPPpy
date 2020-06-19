@@ -19,10 +19,19 @@ from NLPyPort.FullPipeline import new_full_pipe
 class STSModel():
     '''Semantic Textual Similarity Model.
 
-    Parameters
-    ----------
+    Add longer class information here....
 
-
+    Attributes:
+        model_name: .
+        model: .
+        number_features: .
+        used_features: .
+        lexical_features: .
+        syntactic_features: .
+        semantic_features: .
+        distributional_features: .
+        all_features: .
+        feature_selection: .
     '''
 
     def __init__(self, model_name='default_model_name', model=None, number_features=0):
@@ -788,7 +797,7 @@ class STSModel():
 
         return self.distributional_features
 
-    def extract_all_features(self, corpus, to_store=1, word2vec_mdl=None, fasttext_mdl=None, ptlkb_mdl=None, glove_mdl=None, numberbatch_mdl=None):
+    def extract_multiple_features(self, corpus, to_store=1, extract_lexical=1, extract_syntactic=1, extract_semantic=1, extract_distributional=1, word2vec_mdl=None, fasttext_mdl=None, ptlkb_mdl=None, glove_mdl=None, numberbatch_mdl=None):
         '''
         Parameters
         ----------
@@ -799,39 +808,71 @@ class STSModel():
             print("Argument corpus is empty, returning None")
             return
 
-        if self.lexical_features is None or to_store == 0:
-            if self.feature_selection == 1:
-                lexical_features = self._extract_lexical_features(corpus)
-            else:
-                lexical_features = self.extract_lexical_features(corpus, 1, 1, 1, 1, 1, 1)
-        else:
-            lexical_features = self.lexical_features
+        # TODO: It would be awesome if we could just pass a dictionary with the features we want to extract
+        if (extract_lexical and extract_syntactic and extract_semantic and extract_distributional) == 0:
+            print("All feature groups are set to 0, so no features will be returned")
+            return
 
-        if self.syntactic_features is None or to_store == 0:
-            if self.feature_selection == 1:
-                syntactic_features = self._extract_syntactic_features(corpus)
+        if extract_lexical:
+            if self.lexical_features is None or to_store == 0:
+                if self.feature_selection == 1:
+                    lexical_features = self._extract_lexical_features(corpus)
+                else:
+                    lexical_features = self.extract_lexical_features(corpus, 1, 1, 1, 1, 1, 1)
             else:
-                syntactic_features = self.extract_syntactic_features(corpus, 1, 1)
+                lexical_features = self.lexical_features
         else:
-            syntactic_features = self.syntactic_features
+            lexical_features = None
 
-        if self.semantic_features is None or to_store == 0:
-            if self.feature_selection == 1:
-                semantic_features = self._extract_semantic_features(corpus)
+        if extract_syntactic:
+            if self.syntactic_features is None or to_store == 0:
+                if self.feature_selection == 1:
+                    syntactic_features = self._extract_syntactic_features(corpus)
+                else:
+                    syntactic_features = self.extract_syntactic_features(corpus, 1, 1)
             else:
-                semantic_features = self.extract_semantic_features(corpus, 1, 1)
+                syntactic_features = self.syntactic_features
         else:
-            semantic_features = self.semantic_features
+            syntactic_features = None
 
-        if self.distributional_features is None or to_store == 0:
-            if self.feature_selection == 1:
-                distributional_features = self._extract_distributional_features(corpus, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
+        if extract_semantic:
+            if self.semantic_features is None or to_store == 0:
+                if self.feature_selection == 1:
+                    semantic_features = self._extract_semantic_features(corpus)
+                else:
+                    semantic_features = self.extract_semantic_features(corpus, 1, 1)
             else:
-                distributional_features = self.extract_distributional_features(corpus, 1, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
+                semantic_features = self.semantic_features
         else:
-            distributional_features = self.distributional_features
+            semantic_features = None
 
-        all_features = np.concatenate([lexical_features, syntactic_features, semantic_features, distributional_features], axis=1)
+        if extract_distributional:
+            if self.distributional_features is None or to_store == 0:
+                if self.feature_selection == 1:
+                    distributional_features = self._extract_distributional_features(corpus, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
+                else:
+                    distributional_features = self.extract_distributional_features(corpus, 1, word2vec_mdl, fasttext_mdl, ptlkb_mdl, glove_mdl, numberbatch_mdl)
+            else:
+                distributional_features = self.distributional_features
+        else:
+            distributional_features = None
+
+        # before concatening all groups of features it is necessary to check if they were extracted or not
+        valid_feature_groups = []
+
+        if lexical_features is not None:
+            valid_feature_groups.extend(lexical_features)
+
+        if syntactic_features is not None:
+            valid_feature_groups.extend(syntactic_features)
+
+        if semantic_features is not None:
+            valid_feature_groups.extend(semantic_features)
+
+        if distributional_features is not None:
+            valid_feature_groups.extend(distributional_features)
+
+        all_features = np.concatenate(valid_feature_groups, axis=1)
 
         # Choose whether the extracted features should be stored in the model or just returned
         if to_store:

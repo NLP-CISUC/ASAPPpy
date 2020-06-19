@@ -247,7 +247,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 
 	# predicted_similarity = model.predict(element_features)
 
-	element_features = model.extract_all_features(corpus_pairs, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
+	element_features = model.extract_multiple_features(corpus_pairs, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 	predicted_similarity = model.predict_similarity(element_features)
 	predicted_similarity = predicted_similarity.tolist()
@@ -277,7 +277,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 
 			# element_features_qwi = extract_features(0, unprocessed_answers, aux_qwi, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model, f_selection=converted_mask)
 
-			element_features_qwi = model.extract_all_features(unprocessed_answers, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
+			element_features_qwi = model.extract_multiple_features(unprocessed_answers, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 			predicted_similarity_qwi = model.predict_similarity(element_features_qwi)
 			predicted_similarity_qwi = predicted_similarity_qwi.tolist()

@@ -24,11 +24,12 @@ if system_mode == 2 or system_mode == 5:
     train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptbr-test.xml", need_labels=True))
 if system_mode == 4 or system_mode == 5:
     train_pairs.extend(read_xml("datasets/assin/assin2/assin2-train-only.xml", need_labels=True))
+    train_pairs.extend(read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=True))
 
 train_similarity_target = np.array([pair.similarity for pair in train_pairs])
 
 if feature_selection_assin1:
-    train_pairs, dev_pairs, train_similarity_target, dev_target = train_test_split(train_pairs, train_similarity_target, test_size=0.3, random_state=42)
+    train_pairs, dev_pairs, train_similarity_target, dev_target = train_test_split(train_pairs, train_similarity_target, test_size=0.1, random_state=42)
 
     test_pairs = read_xml_no_attributes('datasets/assin/assin1/assin-ptbr-test.xml')
     test_corpus = tl.read_corpus(test_pairs)
@@ -44,13 +45,7 @@ dev_corpus = tl.read_corpus(dev_pairs)
 
 word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model = load_embeddings_models()
 
-# tl.write_data_to_file(train_corpus, "finetune.train.raw")
-# print("Wrote training corpus")
-
-# preprocessing(text, tokenization=0, rm_stopwords=0, numbers_to_text=0, to_tfidf=0)
-# preprocessed_train_corpus = tl.preprocessing(train_corpus, 0, 0, 0, 0)
-
-new_model = STSModel(model_name='model_1506_ablation_study_assin1_ptbr')
+new_model = STSModel(model_name='model_1706_ablation_study_master')
 
 test_lexical_features = 0
 test_syntactic_features = 0
@@ -77,12 +72,9 @@ if test_distributional_features:
     print(new_model.distributional_features)
 
 if test_all_features:
-    train_features = new_model.extract_all_features(train_corpus, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
-    print(new_model.all_features)
+    train_features = new_model.extract_multiple_features(train_corpus, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
-    test_features = new_model.extract_all_features(test_corpus, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
-
-    dev_features = new_model.extract_all_features(dev_corpus, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
+    dev_features = new_model.extract_multiple_features(dev_corpus, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
 
@@ -92,11 +84,13 @@ new_model.save_model()
 
 old_model = STSModel()
 
-old_model.load_model('model_1506_ablation_study_assin1_ptbr')
+old_model.load_model('model_1706_ablation_study_master')
 
 print(old_model.number_features)
 
 print(old_model.used_features)
+
+test_features = old_model.extract_multiple_features(test_corpus, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 similarity = old_model.predict_similarity(test_features)
 

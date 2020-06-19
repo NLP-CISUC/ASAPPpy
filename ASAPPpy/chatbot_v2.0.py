@@ -159,7 +159,7 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 					corpus_pairs = unprocessed_corpus
 					selected_aux_df = aux_df
 
-				element_features = model.extract_all_features(corpus_pairs, 0, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model)
+				element_features = model.extract_multiple_features(corpus_pairs, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 				# number_of_features_train = converted_mask.count(1)
 				# number_of_features_test = len(element_features[0])
