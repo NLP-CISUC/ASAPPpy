@@ -7,26 +7,6 @@ from whoosh.query import FuzzyTerm
 from gensim.parsing.preprocessing import strip_non_alphanum
 from gensim.parsing.preprocessing import strip_multiple_whitespaces
 
-# index_path = os.path.join('indexers', 'FAQs')
-# ix = open_dir(index_path)
-
-# # query_str is query string
-# query_str = sys.argv[1]
-# query_str = strip_non_alphanum(query_str)
-# query_str = strip_multiple_whitespaces(query_str)
-
-# # Top 'n' documents as result
-# topN = int(sys.argv[2])
-
-# with ix.searcher(weighting=scoring.BM25F) as searcher:
-#     query = QueryParser("question", ix.schema, termclass=FuzzyTerm).parse(query_str)
-#     try:
-#         results = searcher.search(query,limit=topN)
-#         for i in range(topN):
-#                 print(results[i]['question'], results[i]['response'], str(results[i].score))
-#     except IndexError:
-#         print("No match found!")
-
 def query_indexer(query_string, directory, topN=30):
 	'''
 	query_string - sentence used to perform the search.
@@ -44,6 +24,8 @@ def query_indexer(query_string, directory, topN=30):
 		try:
 			options = []
 			options_answers = []
+			options_docnumbers = []
+
 			loop_range = 0
 
 			results = searcher.search(query, limit=topN, terms=True)
@@ -57,8 +39,9 @@ def query_indexer(query_string, directory, topN=30):
 				# this needs to be adapted in order to work with the Whoosh Chatbot; uncomment next line in order to work with the normal Chatbot
 				options_answers.append(results[i]['response'])
 				options.append(results[i]['question'])
+				options_docnumbers.append(results[i].docnum)
 
-			return options, options_answers
+			return options, options_answers, options_docnumbers
 
 			# return the element with the highest similarity score from the indexer
 			# return results[0]['response']
