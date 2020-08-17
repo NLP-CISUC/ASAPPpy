@@ -17,50 +17,29 @@ from resources.resources import read_faqs_variants, read_class_set, pre_selectio
 from tmp_feature_extraction import extract_features, load_features
 from classifiers.svm import svm_classifier
 from classifiers.svm_restantes_classes import corre_para_testes_restantes
+from indexers.Whoosh.whoosh_make_query import query_indexer
+from ASAPPpy.sts_model import STSModel
 
 def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb128_model=None, glove100_model=None, glove300_model=None, numberbatch_model=None):
-	""" Function used to run the chatbot
-
-	system_mode = 0 -> uses the variant questions with the system
-	system_mode = 1 -> uses the PTPT and PTBR train ASSIN collection datasets with the system
-	system_mode = 2 -> uses the PTPT and PTBR train and test ASSIN collection datasets with the system
-	system_mode = 3 -> uses the Whoosh collection with the system
 	"""
+	Function used to run the chatbot
 
-	system_mode = 0
-	run_pipeline = 1
+	"""
 
 	# Flag to indicate if classification should be used (1) or not (0)
 	classification_flag = 0
 
-	# Flag to indicate if feature-selection should be used (1) or not (0)
-	feature_selection_flag = 1
-
-	# Choose if pre-selection should be used or not
-	pre_selection_flag = 0
+	# Choose if pre-selection should not be used (0), used with word embeddings (1) or used with Whoosh (2)
+	pre_selection_flag = 2
 
 	# Choose whether (1) or not (0) a new file with VUC random positions should be generated
 	generate_random_positions_file_flag = 0
 
 	# load the pre-trained STS model
-	model_load_path = os.path.join('trained_models', 'SVR_FS_09_04.joblib')
-	model = load(model_load_path)
+	model_name = 'model_1906_ablation_study_master'
 
-	if feature_selection_flag == 1:
-		converted_mask = []
-
-		mask_load_path = os.path.join('feature_selection_masks', 'assin2_percentile_based_mask_09_04.txt')
-
-		with open(mask_load_path) as mask_file:
-			lines = mask_file.read().splitlines()
-
-		for line in lines:
-			if line == 'True':
-				converted_mask.append(1)
-			else:
-				converted_mask.append(0)
-
-		mask_file.close()
+	model = STSModel()
+	model.load_model(model_name)
 
 	if classification_flag:
 		print("The classifier is being used.")
@@ -79,11 +58,6 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 	all_variants = [OG, VIN, VG1, VG2, VUC, VMT]
 	all_variants_names = ["OG", "VIN", "VG1", "VG2", "VUC", "VMT"]
 
-	#for testing purposes, a subset of subtitles were selected
-	# subtitles = select_multiple_random_subtitles()
-	# all_variants = [subtitles]
-	# all_variants_names = ["Subtitles"]
-
 	all_accuracies = [['Variant collection', 'Mean', 'Number of Correct matches', 'Total number of questions', "Top 3", "Top 5", "Threshold 0", "Threshold 1", "Threshold 1,5", "Threshold 2", "Threshold 2,5", "Threshold 3", "Threshold 3,5", "Threshold 4",]]
 
 	if generate_random_positions_file_flag == 1:
@@ -97,6 +71,15 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 			random_positions_VUC = random_positions_VUC_file.read().splitlines()
 
 		random_positions_VUC_file.close()
+
+	# given that que questions indexed with Whoosh were preprocessed, the original questions are needed in order to confirm if the correct response was returned
+	if pre_selection_flag == 2:
+		original_questions_with_duplicates = [phrases[0] for phrases in OG]
+
+		original_questions = []
+		for question in original_questions_with_duplicates:
+			if question not in original_questions:
+				original_questions.append(question)
 
 	# used to plot the ROC curve
 	y_true = []
@@ -166,13 +149,14 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 				else:
 					aux_df['response'] = element[i]
 
-				for j in range(len(aux_list_of_questions)):
-					if int(pre_selection_flag) == 1:
-						unprocessed_corpus.append([aux_list_of_questions[j], element[i]])
-					else:
-						unprocessed_corpus.extend([aux_list_of_questions[j], element[i]])
+				if pre_selection_flag != 2:
+					for j in range(len(aux_list_of_questions)):
+						if int(pre_selection_flag) == 1:
+							unprocessed_corpus.append([aux_list_of_questions[j], element[i]])
+						else:
+							unprocessed_corpus.extend([aux_list_of_questions[j], element[i]])
 
-				if int(pre_selection_flag) == 1:
+				if pre_selection_flag == 1:
 					corpus_pairs, indexes = pre_selection(unprocessed_corpus, fasttext_model, position)
 
 					if corpus_pairs is None:
@@ -183,24 +167,37 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 					selected_aux_df = aux_df.iloc[indexes]
 					selected_aux_df = selected_aux_df.reset_index(drop=True)
 				else:
+					if pre_selection_flag == 2:
+						index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'FAQs_stemming_analyser_charset_filter_AIA-BDE_v2.0_no_preprocessing')
+
+						query_response = query_indexer(element[i], index_path)
+						options_docnumbers = query_response[2]
+
+						if len(options_docnumbers) == 0:
+							continue
+						
+						aux_corpus_pairs = []
+
+						for pos, elem in enumerate(options_docnumbers):
+							unprocessed_corpus.extend([original_questions[elem], element[i]])
+							#aux_corpus_pairs.append([original_questions[elem], element[i]])
+							aux_corpus_pairs.append(original_questions[elem])
+
 					corpus_pairs = unprocessed_corpus
 					selected_aux_df = aux_df
 
-				if feature_selection_flag == 1:
-					element_features = load_features(converted_mask, corpus_pairs, selected_aux_df, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
-				else:
-					element_features = extract_features(corpus_pairs, selected_aux_df, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
+				element_features = model.extract_multiple_features(corpus_pairs, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
-				number_of_features_train = converted_mask.count(1)
-				number_of_features_test = len(element_features[0])
+				# number_of_features_train = converted_mask.count(1)
+				# number_of_features_test = len(element_features[0])
 
-				if number_of_features_train > number_of_features_test:
-					element_features_list = element_features.tolist()
-					for feature_pair in element_features_list:
-						feature_pair.extend([0]*(number_of_features_train-number_of_features_test))
-					element_features = np.asarray(element_features_list)
+				# if number_of_features_train > number_of_features_test:
+				# 	element_features_list = element_features.tolist()
+				# 	for feature_pair in element_features_list:
+				# 		feature_pair.extend([0]*(number_of_features_train-number_of_features_test))
+				# 	element_features = np.asarray(element_features_list)
 
-				predicted_similarity = model.predict(element_features)
+				predicted_similarity = model.predict_similarity(element_features)
 				predicted_similarity = predicted_similarity.tolist()
 
 				highest_match = max(predicted_similarity)
@@ -241,7 +238,14 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 							incorrect_matches_VG1.append([element[0], element[i], aux_list_of_questions[highest_match_index], highest_match])
 				else:
 					# if highest_match_index == position:
-					if aux_list_of_questions[highest_match_index] == element[0]:
+					if pre_selection_flag == 0:
+						match = aux_list_of_questions[highest_match_index]
+					elif pre_selection_flag == 2:
+						match = aux_corpus_pairs[highest_match_index]
+					else:
+						print("Pre-selection flag was assigned a wrong number. Please fix it and re-run the script.")
+
+					if match == element[0]:
 						# used to plot the ROC curve
 						y_true.append(1)
 						y_score.append(highest_match)
@@ -268,6 +272,44 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 						y_true.append(0)
 						y_score.append(highest_match)
 
+						if pre_selection_flag == 0:
+							top3 = n_max_elements(predicted_similarity, 3)
+							top5 = n_max_elements(predicted_similarity, 5)
+
+							if predicted_similarity[position] in top3:
+								n_top3 += 1
+
+							if (predicted_similarity[position] in top5) and (predicted_similarity[position] not in top3):
+								n_top5 += 1
+
+							# for research purposes only. Used to evaluate why mismatches happen with VG1
+							if all_variants_names[pos_variant] == 'VG1':
+								incorrect_matches_VG1.append([element[0], element[i], aux_list_of_questions[highest_match_index], highest_match])
+						
+						elif pre_selection_flag == 2:
+							if len(predicted_similarity) >= 3:
+								top3 = n_max_elements_indexes(predicted_similarity, 3)
+							else:
+								continue
+
+							if len(predicted_similarity) >= 5:
+								top5 = n_max_elements_indexes(predicted_similarity, 5)
+							else:
+								continue
+
+							for index in top3:
+								if aux_corpus_pairs[index] == element[0]:
+									n_top3 += 1
+
+							for index in top5:
+								if aux_corpus_pairs[index] == element[0] and index not in top3:
+									n_top5 += 1
+						
+						else:
+							print("Pre-selection flag was assigned a wrong number. Please fix it and re-run the script.")
+
+
+						'''
 						top3 = n_max_elements_indexes(predicted_similarity, 3)
 						top5 = n_max_elements_indexes(predicted_similarity, 5)
 
@@ -284,19 +326,8 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 							if aux_list_of_questions[index] == element[0] and current_value_top3 != n_top3:
 								# print("In top 5")
 								n_top5 += 1
-
-						# top3 = n_max_elements(predicted_similarity, 3)
-						# top5 = n_max_elements(predicted_similarity, 5)
-
-						# if predicted_similarity[position] in top3:
-						# 	n_top3 += 1
-
-						# if (predicted_similarity[position] in top5) and (predicted_similarity[position] not in top3):
-						# 	n_top5 += 1
-
-						# for research purposes only. Used to evaluate why mismatches happen with VG1
-						if all_variants_names[pos_variant] == 'VG1':
-							incorrect_matches_VG1.append([element[0], element[i], aux_list_of_questions[highest_match_index], highest_match])
+						'''
+						
 
 				# uncomment if only pretends to evaluate one variant question of VUC
 				if all_variants_names[pos_variant] == 'VUC' and use_only_one_vuc:
@@ -309,6 +340,7 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 
 		all_accuracies.append([all_variants_names[pos_variant], variant_accuracy, n_correct_matches, n_variant_questions, n_top3, n_top5, threshold_0, threshold_1, threshold_1_5, threshold_2, threshold_2_5, threshold_3, threshold_3_5, threshold_4])
 
+	'''
 	# used to plot the ROC curve
 	y = np.array(y_true)
 	scores = np.array(y_score)
@@ -354,7 +386,7 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 	plt.legend(loc="lower right")
 	plt.show()
 	plt.close()
-
+	'''
 	# writing VG1 mismatches to file
 	with open('vg1_mismatches.txt', 'w') as mismatches_file:
 		for item in incorrect_matches_VG1:
@@ -387,7 +419,7 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 		random_positions_VUC_file.close()
 
 	# writing the results to file
-	write_output_file(model_load_path, all_accuracies, classification_flag, feature_selection_flag, pre_selection_flag)
+	write_output_file(model_name, all_accuracies, classification_flag, model.feature_selection, pre_selection_flag)
 
 	print("Testing finished successfully")
 	print("--- %s seconds ---" %(time.time() - start_time))
