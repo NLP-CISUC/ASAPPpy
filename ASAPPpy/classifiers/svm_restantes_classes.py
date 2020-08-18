@@ -1,4 +1,3 @@
-import os
 import keras as k
 import pandas as pd
 import cufflinks as cf
@@ -33,7 +32,11 @@ from sklearn.naive_bayes import GaussianNB
 import pickle
 from sklearn import svm
 from sklearn.feature_extraction.text import TfidfVectorizer
-from ASAPPpy.classifiers.svm_binaria_para_testes import *
+from ASAPPpy.classifiers.svm_binaria import *
+#from svm_binaria import *
+import matplotlib.pyplot as plt
+
+#from sklearn.svm._classes import *
 #naive bayes, svm, random forest
 
 
@@ -60,7 +63,7 @@ def escala(X,y):
 
 def treina(model_name):
 
-	df = pd.read_csv("divididosemlegendas.txt",sep='§',header=0)
+	df = pd.read_csv("input/multiclass_only_train.txt",sep='§',header=0)
 	df.info()
 
 	max_len = 0
@@ -101,7 +104,7 @@ def treina(model_name):
 
 	vect = TfidfVectorizer().fit(X_train)
 
-	with open("vect_tresclasses", 'wb') as fid:
+	with open("Models/vect_tresclasses", 'wb') as fid:
 		pickle.dump(vect, fid)	
 
 	X_train_vectorized = vect.transform(X_train)
@@ -115,54 +118,101 @@ def treina(model_name):
 		pickle.dump(clf, fid)	
 
 	preds = clf.predict(vect.transform(X_test))
-	score = classification_report(Y_test, preds)
+	score = classification_report(Y_test, preds,target_names = ["Espaço Empresa","Apoios Sociais","RJACSR","Alojamento Local"])
 	print(score)
 
 	return vect
 
-def corre_para_testes_restantes(frases):
-	cwd = os.getcwd()
-	print("The current working directory is ")
-	print(cwd)
-
-	with open('classifiers/trained_models/svm_tresclasses_proba.pickle', 'rb') as fid:
+def corre_para_testes_restantes(modelo,frases,tresh_hold):
+	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("classifiers/vectors/vect_tresclasses", 'rb') as fid:
+	with open("Models/vect_tresclasses", 'rb') as fid:
 		v = pickle.load(fid)
 
-	# sentences = []
-	sentences = frases
+	sentences = []
 	true_results = []
-	# for line in frases:
-	# 	line = line.replace("\n","")
-	# 	line = line.split("§")
-	# 	sentences.append(line[0])
-	# 	true_results.append(int(line[1]))
-	# print("Entrada recebida.")
+	for line in frases:
+		line = line.replace("\n","")
+		line = line.split("§")
+		sentences.append(line[0])
+		true_results.append(int(line[1]))
+	print("Entrada recebida.")
 	transformada = v.transform(sentences)
 	preds = clfrNB.predict(transformada)
-	# preds_probs = clfrNB.predict_proba(transformada)
-	if preds == 1:
-		return 1
-	elif preds == 10:
-		return 2
-	else:
-		return 3
+	preds_probs = clfrNB.predict_proba(transformada)
 
 	#score = classification_report(true_results, preds,labels=[1,10,11])
 	#print(score)
-	# for index, elem in enumerate(sentences):
-	# 	current_prob = preds_probs[index]
-	# 	print(sentences[index] + "Prediction: " + str(preds[index]) +" probability " + str(current_prob[current_prob.argmax()])[0:5])
+	'''
+	all_classes = []
+	all_valores = []
+	max_prob_correto = []
+	max_prob_errado = []
+	for index, elem in enumerate(sentences):
+		current_prob = preds_probs[index]
+		if(preds[index]==true_results[index]):
+			max_prob_correto.append(current_prob[current_prob.argmax()])
+		else:
+			max_prob_errado.append(current_prob[current_prob.argmax()])
+		classes = []
+		valores = []
+		for index_2,elem in enumerate(current_prob):
+			if(elem>tresh_hold):
+				classes.append(index_2)
+				valores.append(elem)
+		frase = sentences[index] + "Prediction: "
+		for elem in classes:
+			frase+=" "+str(elem)+" "
+		frase+=" probability " 
+		for elem in valores:
+			frase+=" "+str(elem)
+		all_classes.append(classes)
+		all_valores.append(valores)
+		#print(frase)
+	'''
+	score = classification_report(true_results, preds)
+	#target_names = ["Espaço Empresa","Apoios Sociais","RJACSR","Alojamento Local"]
+	print(score)
+	#hist = np.histogram([max_prob], bins=100)
+	#print(max_prob)
+	#plt.hist([max_prob_correto,max_prob_errado], bins=100)
+	#plt.show()
+	return preds
 
+def corre_para_frase_restantes(modelo,frases,tresh_hold):
+	with open(modelo, 'rb') as fid:
+		clfrNB = pickle.load(fid)
+
+	with open("Models/vect", 'rb') as fid:
+		v = pickle.load(fid)
+
+	sentences = []
+	true_results = []
+	sentences.append(frases[0].replace("\n",""))
+	print("Entrada recebida.")
+	transformada = v.transform(sentences)
+	preds = clfrNB.predict(transformada)
+	preds_probs = clfrNB.predict_proba(transformada)
+
+	max_prob_correto = []
+	max_prob_errado = []
+	for index, elem in enumerate(sentences):
+		current_prob = preds_probs[index]
+		classes = []
+		valores = []
+		for index_2,elem in enumerate(current_prob):
+			if(elem>tresh_hold):
+				classes.append(index_2)
+				valores.append(elem)
+	return classes,valores
 
 def corre(modelo,v):
 	#RJACSR,AL,PE
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("vectors/vect_tresclasses", 'rb') as fid:
+	with open("Models/vect_tresclasses", 'rb') as fid:
 		v = pickle.load(fid)
 	a = 0
 
@@ -174,6 +224,7 @@ def corre(modelo,v):
 		print("Entrada recebida.")
 		transformada = v.transform(entrada)
 		preds = clfrNB.predict(transformada)
+		preds_probs = clfrNB.predict_proba(transformada)
 		print(preds)
 		if(preds[0]==1):
 			print("PE")
@@ -184,20 +235,101 @@ def corre(modelo,v):
 		else:
 			print("OOD")
 
+def corre_modelo_real(modelo,frases,tresh_hold):
+	
+	with open(modelo, 'rb') as fid:
+		clfrNB = pickle.load(fid)
 
+	with open("Models/vect_tresclasses", 'rb') as fid:
+		v = pickle.load(fid)
+
+	sentences = frases
+	transformada = v.transform(sentences)
+	preds = clfrNB.predict(transformada)
+	preds_probs = clfrNB.predict_proba(transformada)
+	max_prob_correto = []
+	max_prob_errado = []
+	for index, elem in enumerate(sentences):
+		current_prob = preds_probs[index]
+		classes = []
+		valores = []
+		for index_2,elem in enumerate(current_prob):
+			#print(elem)
+			if(elem>tresh_hold):
+				classes.append(index_2)
+				valores.append(elem)
+	return classes,valores
+	'''
+	for index,elem in enumerate(preds_probs):
+		#print(sentences[index] + " "+ str(elem))
+		print(elem)
+	return preds_probs
+	'''
+
+def corre_modelo_completo(modelo_binario,modelo_conjunto,frase,tresh_hold):
+	frases_validas = corre_para_frase(modelo_binario,frase)
+	return corre_modelo_real(modelo_conjunto,frases_validas,tresh_hold)
 
 if __name__ == '__main__':
-	#_lr_0.03
-	#modelo = "lstm_com_balanceamento_varias_camadas_500_lr_0.03.h5"
-	#modelo = "lstm_com_balanceamento_varias_camadas_200_lr_0.03.h5"
-	#vect = treina("modelos/svm_tresclasses_proba.pickle")
-	#corre("modelos/svm_tresclasses_proba.pickle","")
-	# frases_dentro_do_dominio = corre_para_testes("modelos/svm_binaria.pickle","inputs/out_vg1_legendas_original.txt")
-	# corre_para_testes_restantes("modelos/svm_tresclasses_proba.pickle",frases_dentro_do_dominio)
-	# frases_dentro_do_dominio = corre_para_testes("modelos/svm_binaria.pickle","inputs/out_vg2_legendas_original.txt")
-	# corre_para_testes_restantes("modelos/svm_tresclasses_proba.pickle",frases_dentro_do_dominio)
-	# frases_dentro_do_dominio = corre_para_testes("modelos/svm_binaria.pickle","inputs/out_vuc_legendas_original.txt")
-	# corre_para_testes_restantes("modelos/svm_tresclasses_proba.pickle",frases_dentro_do_dominio)
-	result = corre_para_testes_restantes(["olá"])
-	print(result)
+	##########
+	#Descomentar para treinar modelo multiclasses (1-4)
+	##########
+	#vect = treina("Models/svm_muticlass.pickle")
 
+	#########
+	#Coisas para testes
+	#########
+	'''
+	frases = []
+	print("##################VERSAO VG1#################")
+	with open("Input/TestMulticlass/VG1.txt","r") as f:
+		for line in f:
+			frases.append(line)
+			#print(line)
+	corre_para_testes_restantes("Models/svm_muticlass.pickle",frases,0.8)
+
+	frases = []
+	print("##################VERSAO VG2#################")
+	with open("Input/TestMulticlass/VG2.txt","r") as f:
+		for line in f:
+			frases.append(line)
+			#print(line)
+	corre_para_testes_restantes("Models/svm_muticlass.pickle",frases,0.8)
+
+	frases = []
+	print("##################VERSAO VUC#################")
+	with open("Input/TestMulticlass/VUC.txt","r") as f:
+		for line in f:
+			frases.append(line)
+			#print(line)
+	corre_para_testes_restantes("Models/svm_muticlass.pickle",frases,0.8)
+
+	frases = []
+	print("##################VERSAO VIN#################")
+	with open("Input/TestMulticlass/VIN.txt","r") as f:
+		for line in f:
+			frases.append(line)
+			#print(line)
+	corre_para_testes_restantes("Models/svm_muticlass.pickle",frases,0.8)
+	'''
+	'''
+	frases = []
+	print("##################VERSAO VIN#################")
+	with open("Input/TestMulticlass/total.txt","r") as f:
+		for line in f:
+			frases.append(line)
+			#print(line)
+	corre_para_testes_restantes("Models/svm_muticlass.pickle",frases,0.8)
+	'''
+
+	#########
+	#Correr binário seguido de normal
+	#########
+	tresh_hold = 0.9
+	for i in range(10000):
+		for elem in (corre_modelo_completo("Models/svm_binaria_v3.pickle","Models/svm_muticlass.pickle","frase de teste",tresh_hold)):
+			print(elem)
+
+
+
+	

@@ -143,7 +143,7 @@ def corre_para_frase_1(modelo,frase):
 	return in_domain
 
 def corre_para_frase(frase):
-	with open("classifiers/trained_models/svm_binaria.pickle", 'rb') as fid:
+	with open("classifiers/trained_models/svm_binaria_v3.pickle", 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
 	with open("classifiers/vectors/vect_bin", 'rb') as fid:
@@ -153,7 +153,7 @@ def corre_para_frase(frase):
 	transformada = v.transform(sentences)
 	preds = clfrNB.predict(transformada)
 
-
+	'''
 	############################################
 	#Parte para alimentar o outro classificador
 	############################################
@@ -164,6 +164,8 @@ def corre_para_frase(frase):
 			#frase = str(sentences[index])+"§"+str(classe_original[index])
 			in_domain.append(frase)
 	return in_domain
+	'''
+	return preds[0]
 
 def corre_para_testes(modelo,ficheiro):
 	print("##############")
