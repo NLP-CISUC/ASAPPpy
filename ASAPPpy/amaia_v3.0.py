@@ -5,7 +5,6 @@ import asyncio
 import slack
 import pandas as pd
 
-from joblib import load
 from gensim.parsing.preprocessing import strip_non_alphanum
 from gensim.parsing.preprocessing import strip_multiple_whitespaces
 from sklearn.metrics.pairwise import cosine_similarity
@@ -13,10 +12,11 @@ from nltk.corpus import stopwords
 from string import punctuation
 
 from ASAPPpy.resources.resources import read_class_set
-from ASAPPpy.feature_extraction import load_embeddings_models, extract_features
+from ASAPPpy.feature_extraction import load_embeddings_models
 import ASAPPpy.indexers.Whoosh.whoosh_make_query as qwi
 from ASAPPpy.classifiers.svm_restantes_classes import corre_para_testes_restantes
-from ASAPPpy.classifiers.svm_binaria_para_testes import corre_para_frase 
+from ASAPPpy.classifiers.svm_binaria import corre_para_frase
+from ASAPPpy.sts_model import STSModel
 
 # constants
 SLACK_SIGNING_SECRET = os.environ['SLACK_SIGNING_SECRET']
@@ -84,42 +84,29 @@ def n_max_elements(list1, N):
 
 	return final_list
 
-# TODO: Update bot to use the new sts model architecture.
 def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model):
 	""" Function used to run the chatbot interface """
 	# Flag to indicate if classification should be used (1) or not (0)
-	classification_flag = 0
+	classification_flag = 1
 
 	# Flag to indicate if the binary classifier should be used (1) or not (0)
-	binary_classifier_flag = 0
+	binary_classifier_flag = 1
 
 	# choose if stopwords should be removed from the user interaction
 	process_interaction_toggle = 0
 
-	# choose whether pre-selection should be used or not
-	pre_selection_toggle = 0
+	# choose if pre-selection should not be used (0), used with word embeddings (1) or used with Whoosh (2)
+	pre_selection_toggle = 2
 
 	# parameters used to tune the selection of more than one response
 	sr_alpha = 0.1
 	sr_beta = 3
 
+	# TODO: The STS model class can't perform feature selection but can use a model that uses it already.
+
 	# location of the STS model
-	model_load_path = os.path.join('trained_models', 'SVR_FS_no_pipe.joblib')
-	model = load(model_load_path)
-
-	converted_mask = []
-	mask_load_path = os.path.join('feature_selection_masks', 'assin2_percentile_based_mask_no_pipe.txt')
-
-	with open(mask_load_path) as mask_file:
-		lines = mask_file.read().splitlines()
-
-	for line in lines:
-		if line == 'True':
-			converted_mask.append(1)
-		else:
-			converted_mask.append(0)
-
-	mask_file.close()
+	model = STSModel()
+	model.load_model('model_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch')
 
 	if classification_flag:
 		print("The classifier is being used.")
@@ -132,7 +119,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 		class_2_df = pd.DataFrame(class_2, columns=['text'])
 		class_3_df = pd.DataFrame(class_3, columns=['text'])
 
-	faqs_variants_load_path = os.path.join('datasets', 'FAQ_todas_variantes_texto_16.11.txt')
+	faqs_variants_load_path = os.path.join('datasets', 'AIA-BDE_v2.0.txt')
 
 	with open(faqs_variants_load_path) as faqs_file:
 		faqs_variants_corpus = faqs_file.read().splitlines()
@@ -147,9 +134,18 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 	faqs_variants_questions = []
 
 	for element in faqs_variants_corpus:
-		if element[0] == 'P':
+		if element[0] == 'P' and element[1] not in faqs_variants_questions:
 			faqs_variants_questions.append(element[1])
-			position += 1 
+			position += 1
+
+	# add the original question to a different list to improve the conversational presentation of a response
+	position = 0
+	faqs_variants_answers = []
+
+	for element in faqs_variants_corpus:
+		if element[0] == 'R' and element[1] not in faqs_variants_answers:
+			faqs_variants_answers.append(element[1])
+			position += 1
 
 	faqs_variants_corpus = [line for line in faqs_variants_corpus if len(line) == 2 and line[1]]
 	faqs_variants_corpus = [[line[0], strip_non_alphanum(line[1])] if line[0] != 'R' else [line[0], line[1]] for line in faqs_variants_corpus]
@@ -170,7 +166,14 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 			position += 1
 
 	aux_list_of_questions = [phrases[0] for phrases in corpus]
-	aux_df = pd.DataFrame(aux_list_of_questions, columns=['text'])
+	aux_df = pd.DataFrame(faqs_variants_questions, columns=['text'])
+
+	# remove duplicate sentences from the aux_list_of_questions in order for Whoosh to work.
+	clean_aux_list_of_questions = []
+
+	for pair in corpus:
+		if pair not in clean_aux_list_of_questions:
+			clean_aux_list_of_questions.append(pair)
 
 	if process_interaction_toggle:
 		print("The original sentence was: {}".format(interaction))
@@ -183,8 +186,8 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 	if classification_flag:
 		# apply the classifier before using the STS model
 		if binary_classifier_flag:
-			predicted_class = corre_para_frase([interaction])
-
+			predicted_class = corre_para_frase(interaction)
+			print("Saí daqui")
 			if predicted_class == 0:
 				print("The provided interaction is out of domain!\n")
 		else:
@@ -205,87 +208,129 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 			else:
 				print("The provided interaction is out of domain!\n")
 
-	if 'response' not in aux_df:
-		aux_df.insert(1, 'response', interaction)
-	else:
-		aux_df['response'] = interaction
-
-	for j in range(len(aux_list_of_questions)):
-		if int(pre_selection_toggle) == 1:
-			unprocessed_corpus.append([aux_list_of_questions[j], interaction])
+	if predicted_class == 1:
+		if 'response' not in aux_df:
+			aux_df.insert(1, 'response', interaction)
 		else:
-			unprocessed_corpus.extend([aux_list_of_questions[j], interaction])
+			aux_df['response'] = interaction
 
-	if int(pre_selection_toggle) == 1:
-		corpus_pairs, indexes = pre_selection(unprocessed_corpus, fasttext_model, position)
+		if pre_selection_toggle != 2:
+			for j in range(len(faqs_variants_questions)):
+				if pre_selection_toggle == 1:
+					unprocessed_corpus.append([faqs_variants_questions[j], interaction])
+				else:
+					unprocessed_corpus.extend([faqs_variants_questions[j], interaction])
 
-		if corpus_pairs is None:
-			index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.3')
+		if pre_selection_toggle == 1:
+			corpus_pairs, indexes = pre_selection(unprocessed_corpus, fasttext_model, position)
 
-			options, options_answers = qwi.query_indexer(interaction, index_path)
+			if corpus_pairs is None:
+				index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.5')
 
-			if (options is None) or (not options):
-				response = "Desculpe, não percebi, pode colocar a sua questão de outra forma?"
-				return response
-			else:
-				return response
+				query_response = qwi.query_indexer(interaction, index_path)
 
-		selected_aux_df = aux_df.iloc[indexes]
-		selected_aux_df = selected_aux_df.reset_index(drop=True)
+				if (query_response[0] is None) or (not query_response[0]):
+					response = "Desculpe, não percebi, pode colocar a sua questão de outra forma?"
+					return response
+				else:
+					return response
+
+			selected_aux_df = aux_df.iloc[indexes]
+			selected_aux_df = selected_aux_df.reset_index(drop=True)
+		else:
+			if pre_selection_toggle == 2:
+				pre_selection_index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'FAQs_no_analyser_AIA-BDE_v2.0')
+
+				query_response = qwi.query_indexer(interaction, pre_selection_index_path)
+				options_docnumbers = query_response[2]
+
+				if len(options_docnumbers) == 0:
+					response = "Desculpe, não percebi, pode colocar a sua questão de outra forma?"
+					return response
+				else:
+					possible_variants_questions = []
+					possible_variants_answers = []
+
+					for pos, elem in enumerate(options_docnumbers):
+						unprocessed_corpus.extend([faqs_variants_questions[elem], interaction])
+						possible_variants_questions.append(faqs_variants_questions[elem])
+						possible_variants_answers.append(faqs_variants_answers[elem])
+
+			corpus_pairs = unprocessed_corpus
+			selected_aux_df = aux_df
+
+		element_features = model.extract_multiple_features(corpus_pairs, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
+
+		predicted_similarity = model.predict_similarity(element_features)
+		predicted_similarity = predicted_similarity.tolist()
+
+		highest_match = max(predicted_similarity)
+
+		selectable_range = (max(predicted_similarity)-min(predicted_similarity)) * sr_alpha
+
+		if sr_beta > len(predicted_similarity):
+			tmp_sr_beta = len(predicted_similarity)
+			sr_beta_range = tmp_sr_beta
+			possible_matches = n_max_elements(predicted_similarity, tmp_sr_beta)
+		else:
+			sr_beta_range = sr_beta
+			possible_matches = n_max_elements(predicted_similarity, sr_beta)
+
+		highest_match_index = predicted_similarity.index(max(predicted_similarity))
+
+		if pre_selection_toggle == 2:
+			response = ("Se a sua pergunta foi: %s \nR: %s\n" % (possible_variants_questions[highest_match_index], possible_variants_answers[highest_match_index]))
+
+			for i in range(1, sr_beta_range):
+				if abs(highest_match-possible_matches[i]) <= selectable_range:
+					response += ("Também poderá estar interessado em: %s\nR: %s\n" % (possible_variants_questions[predicted_similarity.index(possible_matches[i])], possible_variants_answers[predicted_similarity.index(possible_matches[i])]))
+
+			return response
+		else:
+			#should be index 1, for testing purposes it is 0
+			response = ("Se a sua pergunta foi: %s \nR: %s\n" % (faqs_variants_questions[highest_match_index], faqs_variants_answers[highest_match_index]))
+
+			for i in range(1, sr_beta):
+				if abs(highest_match-possible_matches[i]) <= selectable_range:
+					response += ("Também poderá estar interessado em: %s\nR: %s\n" % (faqs_variants_questions[predicted_similarity.index(possible_matches[i])], faqs_variants_answers[predicted_similarity.index(possible_matches[i])]))
+
+			return response
 	else:
-		corpus_pairs = unprocessed_corpus
-		selected_aux_df = aux_df
-
-	element_features = extract_features(0, corpus_pairs, selected_aux_df, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model, f_selection=converted_mask)
-
-	predicted_similarity = model.predict(element_features)
-	predicted_similarity = predicted_similarity.tolist()
-
-	highest_match = max(predicted_similarity)
-
-	if highest_match < 2.5:
 		# the query search will return a list of phrases with the highest matches, which will be used with the similarity model in order to evaluate which answer should be returned to the user
-		index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.3')
+		index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.5')
 
-		options, options_answers = qwi.query_indexer(interaction, index_path)
-
-		if (options is None) or (not options):
+		query_response = qwi.query_indexer(interaction, index_path, 1)
+		print(query_response[0])
+		print(query_response[1])
+		if (query_response[0] is None) or (not query_response[0]):
 			response = "Desculpe, não percebi, pode colocar a sua questão de outra forma?"
 			return response
 		else:
+			'''
 			unprocessed_answers = []
-			aux_qwi = pd.DataFrame(options, columns=['text'])
+			aux_qwi = pd.DataFrame(query_response[0], columns=['text'])
 
 			if 'response' not in aux_qwi:
 				aux_qwi.insert(1, 'response', interaction)
 			else:
 				aux_qwi['response'] = interaction
 
-			for k in range(len(options)):
-				unprocessed_answers.extend([aux_list_of_questions[k], interaction])
+			for k in range(len(query_response[0])):
+				unprocessed_answers.extend([faqs_variants_questions[k], interaction])
 
-			element_features_qwi = extract_features(0, unprocessed_answers, aux_qwi, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model, f_selection=converted_mask)
+			# element_features_qwi = extract_features(0, unprocessed_answers, aux_qwi, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model, f_selection=converted_mask)
 
-			predicted_similarity_qwi = model.predict(element_features_qwi)
+			element_features_qwi = model.extract_multiple_features(unprocessed_answers, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
+
+			predicted_similarity_qwi = model.predict_similarity(element_features_qwi)
 			predicted_similarity_qwi = predicted_similarity_qwi.tolist()
+			print(predicted_similarity_qwi)
 
 			highest_match_index_qwi = predicted_similarity_qwi.index(max(predicted_similarity_qwi))
 
-			return options_answers[highest_match_index_qwi]
-	else:
-		selectable_range = (max(predicted_similarity)-min(predicted_similarity)) * sr_alpha
-
-		possible_matches = n_max_elements(predicted_similarity, sr_beta)
-
-		highest_match_index = predicted_similarity.index(max(predicted_similarity))
-		#should be index 1, for testing purposes it is 0
-		response = ("Se a sua pergunta foi: %s \nR: %s\n" % (faqs_variants_questions[highest_match_index], corpus[highest_match_index][1]))
-
-		for i in range(1, sr_beta):
-			if abs(highest_match-possible_matches[i]) <= selectable_range:
-				response += ("Também poderá estar interessado em: %s\nR: %s\n" % (faqs_variants_questions[predicted_similarity.index(possible_matches[i])], corpus[predicted_similarity.index(possible_matches[i])][1]))
-
-		return response
+			return query_response[1][highest_match_index_qwi]
+			'''
+			return query_response[1][0]
 
 @slack.RTMClient.run_on(event='message')
 async def handle_message(**payload):
