@@ -11,6 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
 from string import punctuation
 
+from ASAPPpy import ROOT_PATH
 from ASAPPpy.resources.resources import read_class_set
 from ASAPPpy.feature_extraction import load_embeddings_models
 import ASAPPpy.indexers.Whoosh.whoosh_make_query as qwi
@@ -119,7 +120,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 		class_2_df = pd.DataFrame(class_2, columns=['text'])
 		class_3_df = pd.DataFrame(class_3, columns=['text'])
 
-	faqs_variants_load_path = os.path.join('datasets', 'AIA-BDE_v2.0.txt')
+	faqs_variants_load_path = os.path.join(ROOT_PATH, 'datasets', 'AIA-BDE_v2.0.txt')
 
 	with open(faqs_variants_load_path) as faqs_file:
 		faqs_variants_corpus = faqs_file.read().splitlines()
@@ -225,7 +226,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 			corpus_pairs, indexes = pre_selection(unprocessed_corpus, fasttext_model, position)
 
 			if corpus_pairs is None:
-				index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.5')
+				index_path = os.path.join(ROOT_PATH, 'indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.5')
 
 				query_response = qwi.query_indexer(interaction, index_path)
 
@@ -239,7 +240,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 			selected_aux_df = selected_aux_df.reset_index(drop=True)
 		else:
 			if pre_selection_toggle == 2:
-				pre_selection_index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'FAQs_no_analyser_AIA-BDE_v2.0')
+				pre_selection_index_path = os.path.join(ROOT_PATH, 'indexers', 'Whoosh', 'indexes', 'FAQs_no_analyser_AIA-BDE_v2.0')
 
 				query_response = qwi.query_indexer(interaction, pre_selection_index_path)
 				options_docnumbers = query_response[2]
@@ -297,7 +298,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 			return response
 	else:
 		# the query search will return a list of phrases with the highest matches, which will be used with the similarity model in order to evaluate which answer should be returned to the user
-		index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.5')
+		index_path = os.path.join(ROOT_PATH, 'indexers', 'Whoosh', 'indexes', 'cobaia_chitchat_v1.5')
 
 		query_response = qwi.query_indexer(interaction, index_path, 1)
 		print(query_response[0])

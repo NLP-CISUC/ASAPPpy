@@ -8,9 +8,7 @@ from xml.etree import cElementTree as ET
 from gensim.models import KeyedVectors
 from sklearn.metrics.pairwise import cosine_similarity
 
-#import function to read the xml file
-from ASAPPpy.scripts.xml_reader import read_xml
-from ASAPPpy.scripts.tools import preprocessing, compute_tfidf_matrix
+from ...scripts.tools import preprocessing, compute_tfidf_matrix
 
 global n_iterations
 n_iterations = 0

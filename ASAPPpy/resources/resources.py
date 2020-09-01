@@ -6,10 +6,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 from gensim.parsing.preprocessing import strip_non_alphanum, strip_multiple_whitespaces
 from random import randint
 
+from ASAPPpy import ROOT_PATH
+
 def read_faqs_variants():
 	""" Function used to read the faqs variants """
 
-	faqs_variants_load_path = os.path.join('datasets', 'AIA-BDE_v2.0.txt')
+	faqs_variants_load_path = os.path.join(ROOT_PATH, 'datasets', 'AIA-BDE_v2.0.txt')
 
 	with open(faqs_variants_load_path) as faqs_file:
 		faqs_variants_corpus = faqs_file.read().splitlines()
@@ -108,7 +110,8 @@ def read_faqs_variants():
 	return OG, VIN, VG1, VG2, VUC, VMT
 
 def read_class_set():
-	df = pd.read_csv("datasets/divididossopcomlegendas.txt",sep='§',header=0)
+	subtitles_class_path = os.path.join(ROOT_PATH, 'datasets', 'divididossopcomlegendas.txt')
+	df = pd.read_csv(subtitles_class_path, sep='§', header=0)
 
 	classes = df.values.tolist()
 
@@ -222,7 +225,7 @@ def n_max_elements_indexes(list1, N):
 	return indexes_list
 
 def select_multiple_random_subtitles():
-	subtle_path = os.path.join('dataset', 'SubtleCorpusPTEN', 'por', 'corpus0sDialogues_clean.txt')
+	subtle_path = os.path.join(ROOT_PATH, 'dataset', 'SubtleCorpusPTEN', 'por', 'corpus0sDialogues_clean.txt')
 	selected_interactions = []
 	selected_positions = []
 

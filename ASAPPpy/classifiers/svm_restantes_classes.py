@@ -23,7 +23,7 @@ from keras.layers import Dropout
 from keras.models import Model, load_model
 from sklearn.utils import resample
 import tensorflow as tf
-from keras.optimizers import adam,RMSprop
+from keras.optimizers import Adam, RMSprop
 from imblearn.over_sampling import SMOTE
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB

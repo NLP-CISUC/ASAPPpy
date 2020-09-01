@@ -16,7 +16,7 @@ word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model
 
 model = STSModel()
 
-model.load_model('model_1906_ablation_study_master')
+model.load_model('model_2206_RFR_ablation_study_master')
 
 test_features = model.extract_multiple_features(corpus=test_corpus, to_store=0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 

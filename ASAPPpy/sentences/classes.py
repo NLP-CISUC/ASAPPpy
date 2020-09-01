@@ -1,6 +1,6 @@
 from ASAPPpy.scripts.tools import build_sentences_from_tokens
 
-from ASAPPpy.NLPyPort.FullPipeline import new_full_pipe
+from NLPyPort.FullPipeline import new_full_pipe
 
 class Sentence():
     def __init__(self, text, tags=None, lemmas=None, entities=None):

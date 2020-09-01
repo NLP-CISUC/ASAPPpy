@@ -19,8 +19,10 @@ Semantic Textual Similarity and Dialogue System package for Python
 # Dev branch marker is: 'X.Y.dev' or 'X.Y.devN' where N is an integer.
 # 'X.Y.dev0' is the canonical version of 'X.Y.dev'
 #
-__version__ = '0.1.dev1'
+__version__ = '0.1.dev16'
 
 import os
 
 ROOT_PATH = os.path.dirname(__file__)
+
+from ASAPPpy.downloader import download

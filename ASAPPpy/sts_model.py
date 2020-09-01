@@ -3,16 +3,16 @@ import numpy as np
 from joblib import dump, load
 
 from ASAPPpy import ROOT_PATH
-from feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
-from feature_engineering.syntactic_features import compute_pos, dependency_parsing
-from feature_engineering.semantic_features import compute_ner, compute_semantic_relations
-from feature_selection.feature_selection import feature_selection
-from models.word2vec.word2vec import word2vec_model
-from models.fastText.fasttext import fasttext_model
-from models.ontoPT.ptlkb import ptlkb_model
+from .feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
+from .feature_engineering.syntactic_features import compute_pos, dependency_parsing
+from .feature_engineering.semantic_features import compute_ner, compute_semantic_relations
+from .feature_selection.feature_selection import feature_selection
+from .models.word2vec.word2vec import word2vec_model
+from .models.fastText.fasttext import fasttext_model
+from .models.ontoPT.ptlkb import ptlkb_model
 # TODO: rename and relocate this file:
-from load_embeddings import word_embeddings_model
-from scripts.tools import build_sentences_from_tokens, compute_tfidf_matrix, preprocessing
+from .load_embeddings import word_embeddings_model
+from .scripts.tools import build_sentences_from_tokens, compute_tfidf_matrix, preprocessing
 
 from NLPyPort.FullPipeline import new_full_pipe
 

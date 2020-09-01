@@ -3,6 +3,7 @@
 # Copyright (c) 2020 José Santos
 # License: MIT License
 from setuptools import setup, find_packages
+from setuptools.command.install import install
 
 import ASAPPpy
 
@@ -14,8 +15,10 @@ setup(
     version=ASAPPpy.__version__,
     description='Semantic Textual Similarity and Dialogue System package for Python',
     long_description=LONG_DESCRIPTION,
-
+    long_description_content_type="text/markdown",
+    
     packages=find_packages(),
+    include_package_data=True,
 
     author=u'José Santos',
     author_email='santos@student.dei.uc.pt',
@@ -44,4 +47,25 @@ setup(
     ],
 
     python_requires='>=3.6.1',
+    install_requires=[
+        'setuptools == 49.6.0',
+        'scikit-learn == 0.22.2',
+        'pandas >= 1.1.1',
+        'requests',
+        'slackclient == 2.1.0',
+        'slackeventsapi == 2.1.0',
+        'nltk',
+        'NLPyPort',
+        'spacy',
+        'gensim',
+        'joblib',
+        'num2words',
+        'Whoosh',
+        'Keras',
+        'tensorflow',
+        'cufflinks',
+        'matplotlib',
+        'seaborn',
+        'imblearn',
+    ],
 )
