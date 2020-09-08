@@ -967,14 +967,14 @@ def run_feature_extraction(word2vec_model=None, fasttext_model=None, ptlkb64_mod
 
 	# extract labels
 	train_pairs = []
-	train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptpt-train.xml", need_labels=True))
-	train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptbr-train.xml", need_labels=True))
+	train_pairs.extend(read_xml(ROOT_PATH + "/datasets/assin/assin1/assin-ptpt-train.xml", need_labels=True))
+	train_pairs.extend(read_xml(ROOT_PATH + "/datasets/assin/assin1/assin-ptbr-train.xml", need_labels=True))
 
 	if system_mode == 2 or system_mode == 5:
-		train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptpt-test.xml", need_labels=True))
-		train_pairs.extend(read_xml("datasets/assin/assin1/assin-ptbr-test.xml", need_labels=True))
+		train_pairs.extend(read_xml(ROOT_PATH + "/datasets/assin/assin1/assin-ptpt-test.xml", need_labels=True))
+		train_pairs.extend(read_xml(ROOT_PATH + "/datasets/assin/assin1/assin-ptbr-test.xml", need_labels=True))
 	if system_mode == 4 or system_mode == 5:
-		train_pairs.extend(read_xml("datasets/assin/assin2/assin2-train-only.xml", need_labels=True))
+		train_pairs.extend(read_xml(ROOT_PATH + "/datasets/assin/assin2/assin2-train-only.xml", need_labels=True))
 
 	train_similarity_target = np.array([pair.similarity for pair in train_pairs])
 

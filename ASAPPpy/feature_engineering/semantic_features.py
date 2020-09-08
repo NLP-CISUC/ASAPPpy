@@ -7,6 +7,7 @@ import collections
 
 import pandas as pd
 
+from ASAPPpy import ROOT_PATH
 from ASAPPpy.scripts.tools import preprocessing
 
 def compute_ner(ners_corpus):
@@ -98,7 +99,7 @@ def semantic_relations_coefficient(sentence1, sentence2, dictionaries_list):
 def compute_semantic_relations(pipe_lemmas, number_of_sources=3):
 	""" Function used to compute the semantic relations coefficient between two sentences in the corpus """
 
-	relations_file_path = os.path.join('semantic_relations', 'triplos_10recs', 'triplos_todos_10recs_n.txt')
+	relations_file_path = os.path.join(ROOT_PATH, 'semantic_relations', 'triplos_10recs', 'triplos_todos_10recs_n.txt')
 
 	with open(relations_file_path) as relations_file:
 		relations_data = relations_file.read().splitlines()

@@ -254,17 +254,22 @@ def write_output_file(model_path, accuracies, classif_flag, fselect_flag, presel
 	else:
 		filename = '{}_classif_{}_fselect_{}_preselect_{}.txt'.format(model_path, classif_flag, fselect_flag, preselect_flag)
 
-	filename_path = 'computed_accuracies/{}'.format(filename)
+	folder_path = '{}/computed_accuracies'.format(ROOT_PATH)
+
+	if not os.path.exists(folder_path):
+		os.mkdir(folder_path)
+
+	filename_path = '{}/{}'.format(folder_path, filename)
 
 	if os.path.exists(filename_path):
 		tmp_filename = input("The designated file already exists. Please insert a new filename: ")
 
-		filename_path = 'computed_accuracies/{}.txt'.format(tmp_filename)
+		filename_path = '{}/{}.txt'.format(folder_path, tmp_filename)
 
 		while os.path.exists(filename_path):
 			tmp_filename = input("The designated file already exists. Please insert a new filename: ")
 
-			filename_path = 'computed_accuracies/{}.txt'.format(tmp_filename)
+			filename_path = '{}/{}.txt'.format(folder_path, tmp_filename)
 
 		with open(filename_path, 'w') as accuracies_file:
 			for item in accuracies:

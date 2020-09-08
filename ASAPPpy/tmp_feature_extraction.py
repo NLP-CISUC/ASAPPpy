@@ -23,19 +23,19 @@ from sklearn.ensemble import VotingRegressor
 from sklearn.model_selection import GridSearchCV
 from joblib import dump, load
 from NLPyPort.FullPipeline import new_full_pipe, load_congif_to_list
-from scripts.xml_reader import read_xml
-from scripts.xml_reader import read_xml_no_attributes
+from .scripts.xml_reader import read_xml
+from .scripts.xml_reader import read_xml_no_attributes
 
-import models.word2vec.word2vec as w2c
-import models.fastText.fasttext as ftt
-import models.ontoPT.ptlkb as ptlkb
-import load_embeddings as ld_emb
-import scripts.tools as tl
+from .models.word2vec.word2vec import word2vec_model
+from .models.fastText.fasttext import fasttext_model
+from .models.ontoPT.ptlkb import ptlkb_model
+from .load_embeddings import word_embeddings_model
+from .scripts.tools import preprocessing, compute_tfidf_matrix, read_corpus, write_features_to_csv
 
-from feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
-from feature_engineering.syntactic_features import compute_pos, dependency_parsing
-from feature_engineering.semantic_features import compute_ner, compute_semantic_relations
-from feature_selection.feature_selection import feature_selection
+from .feature_engineering.lexical_features import create_word_ngrams, create_multiple_word_ngrams, create_character_ngrams, create_multiple_character_ngrams, compute_jaccard, compute_dice, compute_overlap, NG
+from .feature_engineering.syntactic_features import compute_pos, dependency_parsing
+from .feature_engineering.semantic_features import compute_ner, compute_semantic_relations
+from .feature_selection.feature_selection import feature_selection
 
 config_list = load_congif_to_list()
 
@@ -48,9 +48,9 @@ def extract_features(corpus, preprocessed_corpus, word2vec_mdl=None, fasttext_md
 	pipeline_output = new_full_pipe(corpus, options={"string_or_array":True}, config_list=config_list)
 
 	# there's still a bug in the pipeline that makes it output two EOS tokens at the end of each run, reason why we read the output to the penultimate token.
-	tags = tl.build_sentences_from_tokens(pipeline_output.pos_tags)
-	lemmas = tl.build_sentences_from_tokens(pipeline_output.lemas)
-	entities = tl.build_sentences_from_tokens(pipeline_output.entities)
+	tags = build_sentences_from_tokens(pipeline_output.pos_tags)
+	lemmas = build_sentences_from_tokens(pipeline_output.lemas)
+	entities = build_sentences_from_tokens(pipeline_output.entities)
 
 	# print("Finished running the pipeline successfully")
 	# print("--- %s seconds ---" %(time.time() - start_time))
@@ -115,28 +115,28 @@ def extract_features(corpus, preprocessed_corpus, word2vec_mdl=None, fasttext_md
 	cn_overlap_4 = compute_overlap(character_ngrams_4)
 
 	if word2vec_mdl:
-		word2vec = w2c.word2vec_model(word2vec_mdl, corpus, 0, 1, 0)
+		word2vec = word2vec_model(word2vec_mdl, corpus, 0, 1, 0)
 
-		word2vec_tfidf = w2c.word2vec_model(word2vec_mdl, corpus, 1, 1, 0)
+		word2vec_tfidf = word2vec_model(word2vec_mdl, corpus, 1, 1, 0)
 
 	if fasttext_mdl:
-		fasttext = ftt.fasttext_model(fasttext_mdl, corpus, 0, 1, 0)
+		fasttext = fasttext_model(fasttext_mdl, corpus, 0, 1, 0)
 
-		fasttext_tfidf = ftt.fasttext_model(fasttext_mdl, corpus, 1, 1, 0)
+		fasttext_tfidf = fasttext_model(fasttext_mdl, corpus, 1, 1, 0)
 
 	if ptlkb64_mdl:
-		ptlkb_64 = ptlkb.ptlkb_model(ptlkb64_mdl, 0, 1, 0, lemmas)
+		ptlkb_64 = ptlkb_model(ptlkb64_mdl, 0, 1, 0, lemmas)
 
-		ptlkb_64_tfidf = ptlkb.ptlkb_model(ptlkb64_mdl, 1, 1, 0, lemmas)
+		ptlkb_64_tfidf = ptlkb_model(ptlkb64_mdl, 1, 1, 0, lemmas)
 
 	if glove300_mdl:
-		glove_300 = ld_emb.word_embeddings_model(glove300_mdl, corpus, 0, 1, 0)
+		glove_300 = word_embeddings_model(glove300_mdl, corpus, 0, 1, 0)
 
-		glove_300_tfidf = ld_emb.word_embeddings_model(glove300_mdl, corpus, 1, 1, 0)
+		glove_300_tfidf = word_embeddings_model(glove300_mdl, corpus, 1, 1, 0)
 
 	# compute tfidf matrix - padding was applied to vectors of different sizes by adding zeros to the smaller vector of the pair
-	tfidf_corpus = tl.preprocessing(corpus, 0, 0, 0, 1)
-	tfidf_matrix = tl.compute_tfidf_matrix(tfidf_corpus, 0, 0, 1)
+	tfidf_corpus = preprocessing(corpus, 0, 0, 0, 1)
+	tfidf_matrix = compute_tfidf_matrix(tfidf_corpus, 0, 0, 1)
 
 	# compute semantic relations coefficients
 	semantic_relations = compute_semantic_relations(lemmas)
@@ -163,9 +163,9 @@ def extract_features(corpus, preprocessed_corpus, word2vec_mdl=None, fasttext_md
 	cn_cosine_1_2_3 = NG(character_ngrams_1_2_3)
 
 	if numberbatch_mdl:
-		numberbatch = ld_emb.word_embeddings_model(numberbatch_mdl, corpus, 0, 1, 0)
+		numberbatch = word_embeddings_model(numberbatch_mdl, corpus, 0, 1, 0)
 
-		numberbatch_tfidf = ld_emb.word_embeddings_model(numberbatch_mdl, corpus, 1, 1, 0)
+		numberbatch_tfidf = word_embeddings_model(numberbatch_mdl, corpus, 1, 1, 0)
 
 	for pair in range(len(preprocessed_corpus)):
 		flag = 1
@@ -445,9 +445,9 @@ def load_features(f_selection, corpus, preprocessed_corpus, word2vec_mdl=None, f
 	pipeline_output = new_full_pipe(corpus, options={"string_or_array":True}, config_list=config_list)
 
 	# there's still a bug in the pipeline that makes it output two EOS tokens at the end of each run, reason why we read the output to the penultimate token.
-	tags = tl.build_sentences_from_tokens(pipeline_output.pos_tags)
-	lemmas = tl.build_sentences_from_tokens(pipeline_output.lemas)
-	entities = tl.build_sentences_from_tokens(pipeline_output.entities)
+	tags = build_sentences_from_tokens(pipeline_output.pos_tags)
+	lemmas = build_sentences_from_tokens(pipeline_output.lemas)
+	entities = build_sentences_from_tokens(pipeline_output.entities)
 
 	# print("Finished running the pipeline successfully")
 	# print("--- %s seconds ---" %(time.time() - start_time))
@@ -519,32 +519,32 @@ def load_features(f_selection, corpus, preprocessed_corpus, word2vec_mdl=None, f
 
 	if word2vec_mdl:
 		if f_selection[18]:
-			word2vec = w2c.word2vec_model(word2vec_mdl, corpus, 0, 1, 0)
+			word2vec = word2vec_model(word2vec_mdl, corpus, 0, 1, 0)
 		if f_selection[19]:
-			word2vec_tfidf = w2c.word2vec_model(word2vec_mdl, corpus, 1, 1, 0)
+			word2vec_tfidf = word2vec_model(word2vec_mdl, corpus, 1, 1, 0)
 
 	if fasttext_mdl:
 		if f_selection[20]:
-			fasttext = ftt.fasttext_model(fasttext_mdl, corpus, 0, 1, 0)
+			fasttext = fasttext_model(fasttext_mdl, corpus, 0, 1, 0)
 		if f_selection[21]:
-			fasttext_tfidf = ftt.fasttext_model(fasttext_mdl, corpus, 1, 1, 0)
+			fasttext_tfidf = fasttext_model(fasttext_mdl, corpus, 1, 1, 0)
 
 	if ptlkb64_mdl:
 		if f_selection[22]:
-			ptlkb_64 = ptlkb.ptlkb_model(ptlkb64_mdl, 0, 1, 0, lemmas)
+			ptlkb_64 = ptlkb_model(ptlkb64_mdl, 0, 1, 0, lemmas)
 		if f_selection[23]:
-			ptlkb_64_tfidf = ptlkb.ptlkb_model(ptlkb64_mdl, 1, 1, 0, lemmas)
+			ptlkb_64_tfidf = ptlkb_model(ptlkb64_mdl, 1, 1, 0, lemmas)
 
 	if glove300_mdl:
 		if f_selection[24]:
-			glove_300 = ld_emb.word_embeddings_model(glove300_mdl, corpus, 0, 1, 0)
+			glove_300 = word_embeddings_model(glove300_mdl, corpus, 0, 1, 0)
 		if f_selection[25]:
-			glove_300_tfidf = ld_emb.word_embeddings_model(glove300_mdl, corpus, 1, 1, 0)
+			glove_300_tfidf = word_embeddings_model(glove300_mdl, corpus, 1, 1, 0)
 
 	# compute tfidf matrix - padding was applied to vectors of different sizes by adding zeros to the smaller vector of the pair
 	if f_selection[26]:
-		tfidf_corpus = tl.preprocessing(corpus, 0, 0, 0, 1)
-		tfidf_matrix = tl.compute_tfidf_matrix(tfidf_corpus, 0, 0, 1)
+		tfidf_corpus = preprocessing(corpus, 0, 0, 0, 1)
+		tfidf_matrix = compute_tfidf_matrix(tfidf_corpus, 0, 0, 1)
 
 	# compute semantic relations coefficients
 	if 1 in f_selection[27:31]:
@@ -580,9 +580,9 @@ def load_features(f_selection, corpus, preprocessed_corpus, word2vec_mdl=None, f
 
 	if numberbatch_mdl:
 		if f_selection[64]:
-			numberbatch = ld_emb.word_embeddings_model(numberbatch_mdl, corpus, 0, 1, 0)
+			numberbatch = word_embeddings_model(numberbatch_mdl, corpus, 0, 1, 0)
 		if f_selection[65]:
-			numberbatch_tfidf = ld_emb.word_embeddings_model(numberbatch_mdl, corpus, 1, 1, 0)
+			numberbatch_tfidf = word_embeddings_model(numberbatch_mdl, corpus, 1, 1, 0)
 
 	for pair in range(len(preprocessed_corpus)):
 		if f_selection is not None:
@@ -818,25 +818,25 @@ def run_feature_extraction(word2vec_model=None, fasttext_model=None, ptlkb64_mod
 	train_similarity_target = np.array([pair.similarity for pair in train_pairs])
 
 	# extract training features
-	train_corpus = tl.read_corpus(train_pairs)
+	train_corpus = read_corpus(train_pairs)
 
 	# tl.write_data_to_file(train_corpus, "finetune.train.raw")
 	# print("Wrote training corpus")
 
 	# preprocessing(text, tokenization=0, rm_stopwords=0, numbers_to_text=0, to_tfidf=0)
-	preprocessed_train_corpus = tl.preprocessing(train_corpus, 0, 0, 0, 0)
+	preprocessed_train_corpus = preprocessing(train_corpus, 0, 0, 0, 0)
 	train_features, used_train_features = extract_features(train_corpus, preprocessed_train_corpus, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 	# write train features to a .csv file
 	if features_to_file_flag == 1:
-		tl.write_features_to_csv(train_pairs, train_features, "assin1-train-test-assin2-train-ftrain.csv")
+		write_features_to_csv(train_pairs, train_features, "assin1-train-test-assin2-train-ftrain.csv")
 
 	#############################################################
 	test_pairs_dev = read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=False)
 
-	test_corpus_dev = tl.read_corpus(test_pairs_dev)
+	test_corpus_dev = read_corpus(test_pairs_dev)
 	# preprocessing(text, tokenization=0, rm_stopwords=0, numbers_to_text=0, to_tfidf=0)
-	preprocessed_test_corpus_dev = tl.preprocessing(test_corpus_dev, 0, 0, 0, 0)
+	preprocessed_test_corpus_dev = preprocessing(test_corpus_dev, 0, 0, 0, 0)
 	test_features_dev, used_test_features_dev = extract_features(test_corpus_dev, preprocessed_test_corpus_dev, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 	test_pairs_selection = read_xml('datasets/assin/assin2/assin2-dev.xml', need_labels=True)
@@ -849,14 +849,14 @@ def run_feature_extraction(word2vec_model=None, fasttext_model=None, ptlkb64_mod
 	# uncomment next line and comment previous one to compute ASSIN 2 submission results
 	test_pairs = read_xml_no_attributes(args.test)
 
-	test_corpus = tl.read_corpus(test_pairs)
+	test_corpus = read_corpus(test_pairs)
 	# preprocessing(text, tokenization=0, rm_stopwords=0, numbers_to_text=0, to_tfidf=0)
-	preprocessed_test_corpus = tl.preprocessing(test_corpus, 0, 0, 0, 0)
+	preprocessed_test_corpus = preprocessing(test_corpus, 0, 0, 0, 0)
 	test_features, used_test_features = extract_features(test_corpus, preprocessed_test_corpus, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb64_mdl=ptlkb64_model, glove300_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
 	# write test features to a .csv file
 	if features_to_file_flag == 1:
-		tl.write_features_to_csv(test_pairs, test_features, "assin1-train-test-assin2-train-ftest.csv")
+		write_features_to_csv(test_pairs, test_features, "assin1-train-test-assin2-train-ftest.csv")
 
 	# extract test features for feature selection (labels needed in order to perform evaluation)
 	# test_pairs_selection = read_xml(args.test, need_labels=True)

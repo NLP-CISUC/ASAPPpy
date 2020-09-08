@@ -12,13 +12,14 @@ from random import randint
 from joblib import load
 from sklearn import metrics
 
-from resources.resources import read_faqs_variants, read_class_set, pre_selection, n_max_elements, n_max_elements_indexes, select_multiple_random_subtitles, write_output_file
+from ASAPPpy import ROOT_PATH
+from .resources.resources import read_faqs_variants, read_class_set, pre_selection, n_max_elements, n_max_elements_indexes, select_multiple_random_subtitles, write_output_file
 # from feature_extraction import extract_features
-from tmp_feature_extraction import extract_features, load_features
-from classifiers.svm import svm_classifier
-from classifiers.svm_restantes_classes import corre_para_testes_restantes
-from indexers.Whoosh.whoosh_make_query import query_indexer
-from ASAPPpy.sts_model import STSModel
+from .tmp_feature_extraction import extract_features, load_features
+from .classifiers.svm import svm_classifier
+from .classifiers.svm_restantes_classes import corre_para_testes_restantes
+from .indexers.Whoosh.whoosh_make_query import query_indexer
+from .sts_model import STSModel
 
 def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb128_model=None, glove100_model=None, glove300_model=None, numberbatch_model=None):
 	"""
@@ -36,7 +37,7 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 	generate_random_positions_file_flag = 0
 
 	# load the pre-trained STS model
-	model_name = 'model_1906_ablation_study_master'
+	model_name = 'model_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch'
 
 	model = STSModel()
 	model.load_model(model_name)
@@ -168,14 +169,14 @@ def chatbot(word2vec_model=None, fasttext_model=None, ptlkb64_model=None, ptlkb1
 					selected_aux_df = selected_aux_df.reset_index(drop=True)
 				else:
 					if pre_selection_flag == 2:
-						index_path = os.path.join('indexers', 'Whoosh', 'indexes', 'FAQs_stemming_analyser_charset_filter_AIA-BDE_v2.0_no_preprocessing')
+						index_path = os.path.join(ROOT_PATH, 'indexers', 'Whoosh', 'indexes', 'FAQs_no_analyser_AIA-BDE_v2.0')
 
 						query_response = query_indexer(element[i], index_path)
 						options_docnumbers = query_response[2]
 
 						if len(options_docnumbers) == 0:
 							continue
-						
+
 						aux_corpus_pairs = []
 
 						for pos, elem in enumerate(options_docnumbers):
