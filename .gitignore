@@ -2,6 +2,7 @@
 
 # Models
 *.joblib
+ASAPPpy/trained_models/*
 
 # Datasets
 ASAPPpy/datasets/SubtleCorpusPTEN/*
