@@ -1,0 +1,8 @@
+include ASAPPpy/classifiers/trained_models/*
+include ASAPPpy/classifiers/vectors/*
+include ASAPPpy/datasets/AIA-BDE_v2.0.txt
+include ASAPPpy/datasets/divididossopcomlegendas.txt
+include ASAPPpy/indexers/Whoosh/indexes/cobaia_chitchat_v1.5/*
+include ASAPPpy/indexers/Whoosh/indexes/FAQs_no_analyser_AIA-BDE_v2.0/*
+include ASAPPpy/semantic_relations/triplos_10recs *.txt
+include ASAPPpy/trained_models/model_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch/*

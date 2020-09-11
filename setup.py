@@ -54,7 +54,7 @@ setup(
         'requests',
         'slackclient == 2.1.0',
         'slackeventsapi == 2.1.0',
-        'nltk == 3.2.5',
+        'nltk == 3.4.5',
         'NLPyPort == 2.2.5',
         'spacy',
         'gensim',
