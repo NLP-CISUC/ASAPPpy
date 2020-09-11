@@ -291,7 +291,7 @@ Temporary Items
 
 
 # ------ VISUAL STUDIO CODE ------
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
