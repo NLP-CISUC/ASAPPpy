@@ -16,7 +16,8 @@ setup(
     description='Semantic Textual Similarity and Dialogue System package for Python',
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url='https://github.com/NLP-CISUC/ASAPPpy',
+    #url='https://github.com/NLP-CISUC/ASAPPpy',
+    source_code='https://github.com/NLP-CISUC/ASAPPpy',
     packages=find_packages(),
     include_package_data=True,
 

@@ -11,21 +11,21 @@ If you want to contribute to this project, please follow the [Google Python Styl
 ### Installation
 To install the latest version of ASAPPpy use the following command:
 ```bash
-    pip install ASAPPpy
+pip install ASAPPpy
 ```
 After finishing the installation, you might need to download the word embeddings models. Given that they were obtained from various sources, we collected them and they can be downloaded at once by running the Python interpreter in your terminal followed by these commands:
 ```python
-    import ASAPPpy
-    ASAPPpy.download()
+import ASAPPpy
+ASAPPpy.download()
 ```
 Finally, if you have never used [spaCy](https://spacy.io) before and you want to use the dependency parsing features, you will need to run the next command in the terminal:
 ```bash
-    python -m spacy download pt
+python -m spacy download pt
 ```
 
 Alternatively, you can check the latest version of ASAPPpy using this command:
 ```bash
-    git clone https://github.com/ZPedroP/ASAPPpy.git
+git clone https://github.com/ZPedroP/ASAPPpy.git
 ```
 
 ### Project History
