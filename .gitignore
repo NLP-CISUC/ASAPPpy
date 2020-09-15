@@ -9,8 +9,6 @@ ASAPPpy/datasets/SubtleCorpusPTEN/*
 
 # BERT Models
 ASAPPpy/bert_experiments/models/*
-ASAPPpy/dcwr/bert/models/*
-ASAPPpy/dcwr/elmo/models/*
 
 # Indexers
 ASAPPpy/indexers/PyLucene/indexes/*
@@ -29,9 +27,6 @@ ASAPPpy/models/word2vec/*
 !ASAPPpy/models/numberbatch/*.py
 !ASAPPpy/models/ontoPT/*.py
 !ASAPPpy/models/word2vec/*.py
-
-# NLPyPort
-ASAPPpy/NLPyPort/*
 
 
 # ------ PYTHON ------
