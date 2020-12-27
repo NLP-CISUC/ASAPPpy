@@ -9,10 +9,17 @@ If you want to contribute to this project, please follow the [Google Python Styl
 
 
 ### Installation
+Before getting started, verify that <b>pip >= 20.3.3</b>. If not, update it with this command:
+```bash
+pip install --upgrade pip
+```
+
 To install the latest version of ASAPPpy use the following command:
 ```bash
 pip install ASAPPpy
 ```
+Make sure that <b>scikit-learn == 0.22.2</b> and <b>imbalanced-learn == 0.7.0</b> versions are installed. Although pip states they are incompatible, the installation can be forced by manually installing <b>imbalanced-learn</b> followed by <b>scikit-learn</b>.
+
 After finishing the installation, you might need to download the word embeddings models. Given that they were obtained from various sources, we collected them and they can be downloaded at once by running the Python interpreter in your terminal followed by these commands:
 ```python
 import ASAPPpy

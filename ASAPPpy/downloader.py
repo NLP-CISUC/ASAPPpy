@@ -20,7 +20,7 @@ def get_confirm_token(response):
 
     return None
 
-def download(gid='1kR0hfuuaduTFixY0ZLgqkLRCw_ET5xRW', save_path=ROOT_PATH):
+def download(gid='1j64hhyEbbgHrh1atjiVdqxIjCyDEF0kw', save_path=ROOT_PATH):
     '''
     Parameters
     ----------
@@ -89,7 +89,7 @@ def download(gid='1kR0hfuuaduTFixY0ZLgqkLRCw_ET5xRW', save_path=ROOT_PATH):
 
 if __name__ == "__main__":
     # TAKE ID FROM SHAREABLE LINK
-    file_id = '1kR0hfuuaduTFixY0ZLgqkLRCw_ET5xRW'
+    file_id = '1j64hhyEbbgHrh1atjiVdqxIjCyDEF0kw'
     # DESTINATION FILE ON YOUR DISK
     destination = None
     download(file_id, destination)

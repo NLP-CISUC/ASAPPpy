@@ -53,7 +53,8 @@ setup(
     python_requires='>=3.6.1',
     install_requires=[
         'setuptools == 49.6.0',
-        'scikit-learn == 0.22.2',
+        'imbalanced-learn == 0.7.0',
+        'scikit-learn >= 0.22.2',
         'pandas >= 1.1.1',
         'requests',
         'slackclient == 2.1.0',
@@ -70,6 +71,5 @@ setup(
         'cufflinks',
         'matplotlib',
         'seaborn',
-        'imblearn',
     ],
 )
