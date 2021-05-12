@@ -144,8 +144,8 @@ def pre_selection(unselected_phrases, model, position_correct_match):
 	l_unselected_phrases = copy.deepcopy(unselected_phrases)
 
 	for pair in l_unselected_phrases:
-		temp_question = [model[word] for word in pair[0] if word in model.vocab]
-		temp_variant = [model[word] for word in pair[1] if word in model.vocab]
+		temp_question = [model[word] for word in pair[0] if word in model]
+		temp_variant = [model[word] for word in pair[1] if word in model]
 		mean_question = sum(temp_question)/len(temp_question)
 		mean_variant = sum(temp_variant)/len(temp_variant)
 

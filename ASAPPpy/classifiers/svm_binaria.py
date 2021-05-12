@@ -58,7 +58,7 @@ def escala(X,y):
 
 def treina(model_name):
 
-	df = pd.read_csv("divididobinario.txt",sep='§',header=0)
+	df = pd.read_csv("datasets/binary-train.txt",sep='§',header=0)
 	df.info()
 
 	max_len = 0
@@ -99,7 +99,7 @@ def treina(model_name):
 
 	vect = TfidfVectorizer().fit(X_train)
 
-	with open("vect_bin", 'wb') as fid:
+	with open("vectors/vect_binary_170121", 'wb') as fid:
 		pickle.dump(vect, fid)	
 
 	X_train_vectorized = vect.transform(X_train)
@@ -117,7 +117,6 @@ def treina(model_name):
 	print(score)
 
 	return vect
-
 
 def corre_para_frase_1(modelo,frase):
 	with open(modelo, 'rb') as fid:
@@ -142,11 +141,11 @@ def corre_para_frase_1(modelo,frase):
 			in_domain.append(frase)
 	return in_domain
 
-def corre_para_frase(frase):
-	with open("classifiers/trained_models/svm_binaria_v3.pickle", 'rb') as fid:
+def corre_para_frase_bin(frase):
+	with open("classifiers/trained_models/svm_binary_170121.pickle", 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("classifiers/vectors/vect_bin", 'rb') as fid:
+	with open("classifiers/vectors/vect_binary_170121", 'rb') as fid:
 		v = pickle.load(fid)
 	sentences = [frase]
 	print("Entrada recebida.")
@@ -176,7 +175,7 @@ def corre_para_testes(modelo,ficheiro):
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("vect_bin", 'rb') as fid:
+	with open("vectors/vect_binary_170121", 'rb') as fid:
 		v = pickle.load(fid)
 	sentences = []
 	true_results = []
@@ -215,7 +214,7 @@ def corre(modelo,v):
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("vect_bin", 'rb') as fid:
+	with open("vectors/vect_binary_170121", 'rb') as fid:
 		v = pickle.load(fid)
 	a = 0
 
@@ -233,17 +232,15 @@ def corre(modelo,v):
 		else:
 			print("OOD")
 
-
-
 if __name__ == '__main__':
 	#_lr_0.03
 	#modelo = "lstm_com_balanceamento_varias_camadas_500_lr_0.03.h5"
 	#modelo = "lstm_com_balanceamento_varias_camadas_200_lr_0.03.h5"
-	#vect = treina("modelos/svm_binaria.pickle")
+	vect = treina("trained_models/svm_binary_170121.pickle")
 	#corre("modelos/svm_binaria.pickle","")
 	#corre_para_testes("modelos/svm_binaria.pickle","inputs/out_vg1_legendas_original.txt")
-	print(corre_para_frase("modelos/svm_binaria.pickle","frase de teste"))
-	print(corre_para_frase("modelos/svm_binaria.pickle","akhjsd jkasndkjasnjdknaskj nda"))
+	# print(corre_para_frase("modelos/svm_binaria.pickle","frase de teste"))
+	# print(corre_para_frase("modelos/svm_binaria.pickle","akhjsd jkasndkjasnjdknaskj nda"))
 
 
 

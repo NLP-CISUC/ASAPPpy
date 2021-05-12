@@ -63,7 +63,7 @@ def escala(X,y):
 
 def treina(model_name):
 
-	df = pd.read_csv("input/multiclass_only_train.txt",sep='§',header=0)
+	df = pd.read_csv("datasets/multiclass-train.txt",sep='§',header=0)
 	df.info()
 
 	max_len = 0
@@ -104,7 +104,7 @@ def treina(model_name):
 
 	vect = TfidfVectorizer().fit(X_train)
 
-	with open("Models/vect_tresclasses", 'wb') as fid:
+	with open("vectors/vect_multiclass_020121", 'wb') as fid:
 		pickle.dump(vect, fid)	
 
 	X_train_vectorized = vect.transform(X_train)
@@ -127,7 +127,7 @@ def corre_para_testes_restantes(modelo,frases,tresh_hold):
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("Models/vect_tresclasses", 'rb') as fid:
+	with open("vectors/vect_tresclasses", 'rb') as fid:
 		v = pickle.load(fid)
 
 	sentences = []
@@ -180,11 +180,26 @@ def corre_para_testes_restantes(modelo,frases,tresh_hold):
 	#plt.show()
 	return preds
 
+def corre_para_frase_multi(frase):
+	with open("classifiers/trained_models/svm_multiclass_020121.pickle", 'rb') as fid:
+		clfrNB = pickle.load(fid)
+
+	with open("classifiers/vectors/vect_multiclass_020121", 'rb') as fid:
+		v = pickle.load(fid)
+
+	sentences = [frase]
+
+	print("Entrada recebida.")
+	transformada = v.transform(sentences)
+	preds = clfrNB.predict(transformada)
+
+	return preds[0]
+
 def corre_para_frase_restantes(modelo,frases,tresh_hold):
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("Models/vect", 'rb') as fid:
+	with open("vectors/vect", 'rb') as fid:
 		v = pickle.load(fid)
 
 	sentences = []
@@ -212,7 +227,7 @@ def corre(modelo,v):
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("Models/vect_tresclasses", 'rb') as fid:
+	with open("vectors/vect_tresclasses", 'rb') as fid:
 		v = pickle.load(fid)
 	a = 0
 
@@ -240,7 +255,7 @@ def corre_modelo_real(modelo,frases,tresh_hold):
 	with open(modelo, 'rb') as fid:
 		clfrNB = pickle.load(fid)
 
-	with open("Models/vect_tresclasses", 'rb') as fid:
+	with open("vectors/vect_tresclasses", 'rb') as fid:
 		v = pickle.load(fid)
 
 	sentences = frases
@@ -266,15 +281,11 @@ def corre_modelo_real(modelo,frases,tresh_hold):
 	return preds_probs
 	'''
 
-def corre_modelo_completo(modelo_binario,modelo_conjunto,frase,tresh_hold):
-	frases_validas = corre_para_frase(modelo_binario,frase)
-	return corre_modelo_real(modelo_conjunto,frases_validas,tresh_hold)
-
 if __name__ == '__main__':
 	##########
 	#Descomentar para treinar modelo multiclasses (1-4)
 	##########
-	#vect = treina("Models/svm_muticlass.pickle")
+	# vect = treina("trained_models/svm_multiclass_020121.pickle")
 
 	#########
 	#Coisas para testes
@@ -321,15 +332,6 @@ if __name__ == '__main__':
 			#print(line)
 	corre_para_testes_restantes("Models/svm_muticlass.pickle",frases,0.8)
 	'''
-
-	#########
-	#Correr binário seguido de normal
-	#########
-	tresh_hold = 0.9
-	for i in range(10000):
-		for elem in (corre_modelo_completo("Models/svm_binaria_v3.pickle","Models/svm_muticlass.pickle","frase de teste",tresh_hold)):
-			print(elem)
-
 
 
 	

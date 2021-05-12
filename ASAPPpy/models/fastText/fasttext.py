@@ -21,7 +21,7 @@ def apply_tfidf_model(sentence, embedding_model, tfidf_model):
 	updated_sentence = []
 
 	for word in sentence:
-		if word in embedding_model.vocab:
+		if word in embedding_model:
 			new_word = embedding_model[word] * tfidf_model[n_iterations][word]
 			updated_sentence.append(new_word)
 
@@ -46,8 +46,8 @@ def compute_models(model, embeddings_data, tfidf_data, use_tf_idf=0, rm_stopword
 		n_iterations = 0
 	else:
 		#convert words to vectors
-		embeddings_data['text'] = embeddings_data['text'].apply(lambda x: [model[word] for word in x if word in model.vocab])
-		embeddings_data['response'] = embeddings_data['response'].apply(lambda x: [model[word] for word in x if word in model.vocab])
+		embeddings_data['text'] = embeddings_data['text'].apply(lambda x: [model[word] for word in x if word in model])
+		embeddings_data['response'] = embeddings_data['response'].apply(lambda x: [model[word] for word in x if word in model])
 
 	#compute the mean of the sentence
 	embeddings_data['text'] = embeddings_data['text'].apply(lambda x: sum(x)/len(x) if len(x) != 0 else [0]*300)

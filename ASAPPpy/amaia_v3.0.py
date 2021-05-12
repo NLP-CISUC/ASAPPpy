@@ -15,8 +15,8 @@ from ASAPPpy import ROOT_PATH
 from ASAPPpy.resources.resources import read_class_set
 from ASAPPpy.feature_extraction import load_embeddings_models
 import ASAPPpy.indexers.Whoosh.whoosh_make_query as qwi
-from ASAPPpy.classifiers.svm_restantes_classes import corre_para_testes_restantes
-from ASAPPpy.classifiers.svm_binaria import corre_para_frase
+from ASAPPpy.classifiers.svm_restantes_classes import corre_para_frase_multi
+from ASAPPpy.classifiers.svm_binaria import corre_para_frase_bin
 from ASAPPpy.sts_model import STSModel
 
 # constants
@@ -34,13 +34,13 @@ word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model
 def pre_selection(unselected_phrases, model, position_correct_match):
 	""" Function used to perform pre-selection """
 	embeddings_unselected_phrases = []
-	similaritires = []
+	similarities = []
 	selected_phrases = []
 	l_unselected_phrases = copy.deepcopy(unselected_phrases)
 
 	for pair in l_unselected_phrases:
-		temp_question = [model[word] for word in pair[0] if word in model.vocab]
-		temp_variant = [model[word] for word in pair[1] if word in model.vocab]
+		temp_question = [model[word] for word in pair[0] if word in model]
+		temp_variant = [model[word] for word in pair[1] if word in model]
 		mean_question = sum(temp_question)/len(temp_question)
 		mean_variant = sum(temp_variant)/len(temp_variant)
 
@@ -48,10 +48,10 @@ def pre_selection(unselected_phrases, model, position_correct_match):
 
 	for i in range(0, len(embeddings_unselected_phrases)):
 		similarity = cosine_similarity([embeddings_unselected_phrases[i][0]], [embeddings_unselected_phrases[i][1]])
-		similaritires.append(similarity[0][0])
+		similarities.append(similarity[0][0])
 
 	# compute the index of the 30 questions with the higher similarity
-	selected_indexes = sorted(range(len(similaritires)), key=lambda x: similaritires[x])[-30:]
+	selected_indexes = sorted(range(len(similarities)), key=lambda x: similarities[x])[-30:]
 
 	# the correct match is added at the begining of the list
 	if position_correct_match not in selected_indexes:
@@ -107,7 +107,7 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 
 	# location of the STS model
 	model = STSModel()
-	model.load_model('model_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch')
+	model.load_model('model_0905_SVR_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch')
 
 	if classification_flag:
 		print("The classifier is being used.")
@@ -187,12 +187,12 @@ def chatbot_interface(interaction, word2vec_model, fasttext_model, ptlkb64_model
 	if classification_flag:
 		# apply the classifier before using the STS model
 		if binary_classifier_flag:
-			predicted_class = corre_para_frase(interaction)
+			predicted_class = corre_para_frase_bin(interaction)
 			print("Saí daqui")
 			if predicted_class == 0:
 				print("The provided interaction is out of domain!\n")
 		else:
-			predicted_class = corre_para_testes_restantes([interaction])
+			predicted_class = corre_para_frase_multi(interaction)
 
 			if predicted_class == 1:
 				print("The provided interaction belongs to class 1!\n")

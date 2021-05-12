@@ -42,7 +42,7 @@ def compute_pos(pipe_tags):
 def dependency_parsing(parse_corpus):
 	""" Function used to compute the syntactic dependencies between two sentences in the corpus """
 
-	spacy_nlp = spacy.load('pt')
+	spacy_nlp = spacy.load('pt_core_news_sm')
 
 	dependency_values = []
 

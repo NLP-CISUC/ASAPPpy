@@ -62,7 +62,7 @@ train_corpus = tl.read_corpus(train_pairs)
 
 word2vec_model, fasttext_model, ptlkb64_model, glove300_model, numberbatch_model = load_embeddings_models()
 
-model = STSModel(model_name='model_2206_RFR_R_pos_adv-depedency_parsing-word2vec-ptlkb-numberbatch')
+model = STSModel(model_name='model_0905_SVR_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch')
 
 test_lexical_features = 0
 test_syntactic_features = 0
@@ -89,7 +89,7 @@ if test_distributional_features:
 	print(model.distributional_features)
 
 if manual_feature_selection_flag:
-	selected_features = {'wn_jaccard_1': 1, 'wn_jaccard_2': 0, 'wn_jaccard_3': 0, 'wn_dice_1': 1, 'wn_dice_2': 1, 'wn_dice_3': 0, 'wn_overlap_1': 1, 'wn_overlap_2': 1, 'wn_overlap_3': 0, 'cn_jaccard_2': 1, 'cn_jaccard_3': 1, 'cn_jaccard_4': 1, 'cn_dice_2': 1, 'cn_dice_3': 1, 'cn_dice_4': 1, 'cn_overlap_2': 1, 'cn_overlap_3': 1, 'cn_overlap_4': 1, 'pos_adj': 0, 'pos_adv': 0, 'pos_art': 0, 'pos_conj-c': 1, 'pos_conj-s': 0, 'pos_intj': 1, 'pos_n': 0, 'pos_n-adj': 0, 'pos_num': 0, 'pos_pron-det': 0, 'pos_pron-indp': 0, 'pos_pron-pers': 0, 'pos_prop': 0, 'pos_prp': 0, 'pos_punc': 0, 'pos_v-fin': 0, 'pos_v-ger': 0, 'pos_v-inf': 0, 'pos_v-pcp': 0, 'dependency_parsing': 1, 'sr_antonyms': 1, 'sr_synonyms': 0, 'sr_hyperonyms': 0, 'sr_other': 0, 'all_ne': 0, 'ne_B-ABSTRACCAO': 0, 'ne_B-ACONTECIMENTO': 0, 'ne_B-COISA': 0, 'ne_B-LOCAL': 1, 'ne_B-OBRA': 0, 'ne_B-ORGANIZACAO': 0, 'ne_B-OUTRO': 0, 'ne_B-PESSOA': 0, 'ne_B-TEMPO': 0, 'ne_B-VALOR': 0, 'word2vec': 1, 'word2vec_tfidf': 1, 'fasttext': 1, 'fasttext_tfidf': 1, 'ptlkb': 0, 'ptlkb_tfidf': 0, 'glove': 1, 'glove_tfidf': 1, 'numberbatch': 0, 'numberbatch_tfidf': 0, 'tfidf': 1}
+	selected_features = {'wn_jaccard_1': 1, 'wn_jaccard_2': 0, 'wn_jaccard_3': 0, 'wn_dice_1': 1, 'wn_dice_2': 1, 'wn_dice_3': 0, 'wn_overlap_1': 1, 'wn_overlap_2': 1, 'wn_overlap_3': 0, 'cn_jaccard_2': 1, 'cn_jaccard_3': 1, 'cn_jaccard_4': 1, 'cn_dice_2': 1, 'cn_dice_3': 1, 'cn_dice_4': 1, 'cn_overlap_2': 1, 'cn_overlap_3': 1, 'cn_overlap_4': 1, 'pos_adj': 0, 'pos_adv': 0, 'pos_art': 0, 'pos_conj-c': 0, 'pos_conj-s': 0, 'pos_intj': 0, 'pos_n': 0, 'pos_n-adj': 0, 'pos_num': 0, 'pos_pron-det': 0, 'pos_pron-indp': 0, 'pos_pron-pers': 0, 'pos_prop': 0, 'pos_prp': 0, 'pos_punc': 0, 'pos_v-fin': 0, 'pos_v-ger': 0, 'pos_v-inf': 0, 'pos_v-pcp': 0, 'dependency_parsing': 0, 'sr_antonyms': 0, 'sr_synonyms': 0, 'sr_hyperonyms': 0, 'sr_other': 0, 'all_ne': 0, 'ne_B-ABSTRACCAO': 0, 'ne_B-ACONTECIMENTO': 0, 'ne_B-COISA': 0, 'ne_B-LOCAL': 0, 'ne_B-OBRA': 0, 'ne_B-ORGANIZACAO': 0, 'ne_B-OUTRO': 0, 'ne_B-PESSOA': 0, 'ne_B-TEMPO': 0, 'ne_B-VALOR': 0, 'word2vec': 0, 'word2vec_tfidf': 0, 'fasttext': 1, 'fasttext_tfidf': 1, 'ptlkb': 0, 'ptlkb_tfidf': 0, 'glove': 1, 'glove_tfidf': 1, 'numberbatch': 0, 'numberbatch_tfidf': 0, 'tfidf': 1}
 
 if test_all_features:
 	#if feature_selection_flag:
@@ -105,9 +105,9 @@ if test_all_features:
 
 		test_features = model.extract_multiple_features(test_corpus, 0, word2vec_mdl=word2vec_model, fasttext_mdl=fasttext_model, ptlkb_mdl=ptlkb64_model, glove_mdl=glove300_model, numberbatch_mdl=numberbatch_model)
 
-#regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
-#regressor = GradientBoostingRegressor()
-regressor = RandomForestRegressor(n_estimators=100)
+regressor = SVR(gamma='scale', C=10.0, kernel='rbf')
+# regressor = GradientBoostingRegressor()
+# regressor = RandomForestRegressor(n_estimators=100)
 
 if predict_similarity:
 	if feature_selection_flag:
