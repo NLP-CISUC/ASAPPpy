@@ -5,4 +5,4 @@ include ASAPPpy/datasets/divididossopcomlegendas.txt
 include ASAPPpy/indexers/Whoosh/indexes/cobaia_chitchat_v1.5/*
 include ASAPPpy/indexers/Whoosh/indexes/FAQs_no_analyser_AIA-BDE_v2.0/*
 include ASAPPpy/semantic_relations/triplos_10recs *.txt
-include ASAPPpy/trained_models/model_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch/*
+include ASAPPpy/trained_models/model_0905_SVR_R_pos_adv-dependency_parsing-word2vec-ptlkb-numberbatch/*
