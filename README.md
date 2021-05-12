@@ -18,8 +18,6 @@ To install the latest version of ASAPPpy use the following command:
 ```bash
 pip install ASAPPpy
 ```
-Make sure that <b>scikit-learn == 0.22.2</b> and <b>imbalanced-learn == 0.7.0</b> versions are installed. Although pip states they are incompatible, the installation can be forced by manually installing <b>imbalanced-learn</b> followed by <b>scikit-learn</b>.
-
 After finishing the installation, you might need to download the word embeddings models. Given that they were obtained from various sources, we collected them and they can be downloaded at once by running the Python interpreter in your terminal followed by these commands:
 ```python
 import ASAPPpy
@@ -27,7 +25,7 @@ ASAPPpy.download()
 ```
 Finally, if you have never used [spaCy](https://spacy.io) before and you want to use the dependency parsing features, you will need to run the next command in the terminal:
 ```bash
-python -m spacy download pt
+python -m spacy download pt_core_news_sm
 ```
 
 Alternatively, you can check the latest version of ASAPPpy using this command:
